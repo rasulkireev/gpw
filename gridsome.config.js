@@ -1,4 +1,4 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
@@ -27,12 +27,12 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
+        path: 'content/blog/**/*.md',
         typeName: 'Post',
       }
     },
   ],
-  
+
   css: {
     loaderOptions: {
         postcss: {
