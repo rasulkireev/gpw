@@ -15,8 +15,24 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require(
 
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: [],
+  siteName: 'Rasul Kireev | Personal Website',
+  siteUrl: 'https://rasulkireev.com',
+  siteDescription: 'This is all about me.',
+
+  templates: {
+    Post: '/:slug',
+  },
+
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'blog/**/*.md',
+        typeName: 'Post',
+      }
+    },
+  ],
+  
   css: {
     loaderOptions: {
         postcss: {
@@ -24,4 +40,16 @@ module.exports = {
         },
     },
   },
+
+  transformers: {
+    //Add markdown support to all file-system sources
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        '@gridsome/remark-prismjs'
+      ]
+    }
+  }
 }
