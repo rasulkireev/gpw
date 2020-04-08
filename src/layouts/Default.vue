@@ -18,15 +18,9 @@
             </button>
           </div>
             <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="flex-col items-start justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
-              <g-link to="/about" class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300">
-                About
-              </g-link>
-              <g-link to="/blog" class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300">
-                Blog
-              </g-link>
-              <a class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300" href="#">
-                Now
-              </a>
+              <g-link to="/about" class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300">About</g-link>
+              <g-link to="/blog" class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300">Blog</g-link>
+              <a class="flex items-center w-full p-2 m-0 text-lg leading-tight text-left text-blue-700 rounded sm:w-auto sm:text-center hover:bg-gray-300" href="#">Now</a>
             </nav>
           </div>
       </header>

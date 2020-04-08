@@ -25,24 +25,57 @@
         <p class="mb-2">
           Finally, consider signing up for my personal newsletter. I will update you on the latest articles and any interesting articles and resources I've encountered.
         </p>
-      
+
         <div class="mb-2">
           <form id="" class="flex flex-col md:flex-row" method="post" enctype="multipart/form-data" action="">
             <input type="email" name="user_email" maxlength="254"
-            class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64" 
+            class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64"
             required="" id="id_user_email">
 
             <button class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:ml-2 md:h-10 sm:w-32">
               Subscribe
             </button>
-          </form>      
+          </form>
         </div>
       </div>
 
     </div>
 
+    <div class="flex flex-row justify-between">
+        <section id="blog-posts">
+            <div class="flex mb-4 items-center">
+                <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Writings</h1>
+                <g-link to="/blog/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center">See All</g-link>
+                <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center" href="https://fd3.netlify.com">Stats</a>
+            </div>
+            <div v-for="post in $page.posts.edges" :key="post.id">
+                <g-link :to="post.node.path" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" href="{% url 'post' post.slug %}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                    <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" />
+                    <p class="text-sm md:text-lg">{{ post.node.title }}</p>
+                </g-link>
+            </div>
+        </section>
+    </div>
+
   </Layout>
 </template>
+
+<page-query>
+query Posts {
+  posts: allPost (limit: 5, sortBy: "date", order: DESC) {
+    edges {
+      node {
+        id
+        title
+        icon
+        date (format: "MMMM D, Y")
+        timeToRead
+        path
+      }
+    }
+  }
+}</page-query>
+
 
 <script>
 export default {
@@ -50,4 +83,4 @@ export default {
     title: 'Hello, world!'
   }
 }
-</script> 
+</script>
