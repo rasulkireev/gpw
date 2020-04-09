@@ -9,7 +9,11 @@
           <a class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600" href="{% url 'about' %}">Read More</a>
         </p>
         <p class="mb-4 text-xl">
-          Also, check out a <a class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600" href="{% url 'favourites' %}">list of my favourite things</a>. Currently only podcast episodes.
+          Also, check out a 
+          <g-link to="/favourites" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
+          list of my favourite things
+          </g-link>
+          . Currently only podcast episodes.
         </p>
       </div>
 
@@ -27,12 +31,11 @@
         </p>
 
         <div class="mb-2">
-          <form id="" class="flex flex-col md:flex-row" method="post" enctype="multipart/form-data" action="">
-            <input type="email" name="user_email" maxlength="254"
+          <form id="" @submit.prevent="subscribeEmail" class="flex flex-col md:flex-row" method="post" enctype="multipart/form-data" action="">
+            <input type="email" v-model="email" name="user_email"
             class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64"
             required="" id="id_user_email">
-
-            <button class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:ml-2 md:h-10 sm:w-32">
+            <button type="submit" name="button" class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:ml-2 md:h-10 sm:w-32">
               Subscribe
             </button>
           </form>
@@ -43,7 +46,7 @@
 
     <div class="flex flex-row justify-between">
         <section id="blog-posts">
-            <div class="flex mb-4 items-center">
+            <div class="flex items-center mb-4">
                 <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Writings</h1>
                 <g-link to="/blog/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center">See All</g-link>
                 <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center" href="https://fd3.netlify.com">Stats</a>
@@ -78,9 +81,39 @@ query Posts {
 
 
 <script>
+import axios from 'axios';
+
 export default {
   metaInfo: {
-    title: 'Hello, world!'
-  }
+    title: 'Home'
+  },
+  
+  data() {
+    return {
+      email: '',
+      show: false,
+    }
+  },
+  methods: {
+    subscribeEmail() {
+      console.log(this.email, process.env.GRIDSOME_EMAILOCTOPUS_API, process.env.GRIDSOME_OCTO_LIST_ID)
+      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`, 
+          {
+            "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
+            "email_address":  this.email,
+          },
+          {
+            headers: {
+              'Access-Control-Allow-Origin': '*',
+              'Content-type': 'application/x-www-form-urlencoded',
+            },
+          })
+            .then(function (response) {
+              console.log(response)
+              console.log(response.data)
+            })
+    },
+  },
 }
+
 </script>
