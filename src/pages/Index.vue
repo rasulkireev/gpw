@@ -6,7 +6,7 @@
         <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>
         <p class="mb-4 text-xl">
           Currently learning to build web apps, create beautiful visualizations and analyze large datasets. In constant beta mode. Trying to write about my learnings more often.
-          <a class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600" href="{% url 'about' %}">Read More</a>
+          <g-link to="/about" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">Read More</g-link>
         </p>
         <p class="mb-4 text-xl">
           Also, check out a 
@@ -52,7 +52,7 @@
                 <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center" href="https://fd3.netlify.com">Stats</a>
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">
-                <g-link :to="post.node.path" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" href="{% url 'post' post.slug %}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <g-link :to="post.node.path" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" />
                     <p class="text-sm md:text-lg">{{ post.node.title }}</p>
                 </g-link>
