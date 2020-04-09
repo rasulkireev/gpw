@@ -93,13 +93,14 @@ export default {
       email: '',
       show: false,
     }
+
   },
   methods: {
     subscribeEmail() {
-      console.log(this.email, process.env.GRIDSOME_EMAILOCTOPUS_API, process.env.GRIDSOME_OCTO_LIST_ID)
-      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`, 
+      console.log(this.email, process.env.EMAILOCTOPUS_API, process.env.OCTO_LIST_ID)
+      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.OCTO_LIST_ID}/contacts`, 
           {
-            "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
+            "api_key": process.env.EMAILOCTOPUS_API,
             "email_address":  this.email,
           },
           {
