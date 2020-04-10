@@ -11,9 +11,8 @@
         <p class="mb-4 text-xl">
           Also, check out a 
           <g-link to="/favourites" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
-          list of my favourite things
+          list of my favourite things.
           </g-link>
-          . Currently only podcast episodes.
         </p>
       </div>
 
@@ -106,7 +105,7 @@ export default {
           {
             headers: {
               'Access-Control-Allow-Origin': '*',
-              'Content-type': 'application/x-www-form-urlencoded',
+              'Content-type': 'application/json',
             },
           })
             .then(function (response) {

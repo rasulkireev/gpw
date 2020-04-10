@@ -7,7 +7,7 @@
                 <a class="mx-1 text-sm font-normal text-blue-500" href="#">JSON</a>
             </h1>
 
-            <div v-for="post in $page.posts.edges" :key="post.id" class="mb-1">
+          <div v-for="post in $page.posts.edges" :key="post.id" class="mb-1">
                 <g-link :to="post.node.path" class="flex flex-row items-center p-1 text-xl text-gray-900 rounded-lg hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <g-image :src="post.node.icon" class="inline w-16 h-16 p-2 mr-4 align-middle" />
                     <div class="">
