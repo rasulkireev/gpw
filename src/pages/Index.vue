@@ -95,9 +95,8 @@ export default {
 
   },
   methods: {
-    subscribeEmail() {
-      console.log(this.email, process.env.GRIDSOME_EMAILOCTOPUS_API, process.env.GRIDSOME_OCTO_LIST_ID)
-      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
+    async subscribeEmail() {
+      await axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
           {
             "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
             "email_address":  this.email,
