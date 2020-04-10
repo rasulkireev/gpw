@@ -9,7 +9,7 @@
           <g-link to="/about" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">Read More</g-link>
         </p>
         <p class="mb-4 text-xl">
-          Also, check out a 
+          Also, check out a
           <g-link to="/favourites" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
           list of my favourite things.
           </g-link>
@@ -86,7 +86,7 @@ export default {
   metaInfo: {
     title: 'Home'
   },
-  
+
   data() {
     return {
       email: '',
@@ -97,7 +97,7 @@ export default {
   methods: {
     subscribeEmail() {
       console.log(this.email, process.env.GRIDSOME_EMAILOCTOPUS_API, process.env.GRIDSOME_OCTO_LIST_ID)
-      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`, 
+      axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
           {
             "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
             "email_address":  this.email,
