@@ -95,22 +95,25 @@ export default {
 
   },
   methods: {
-    async subscribeEmail() {
-      await axios.post(`https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
-          {
-            "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
-            "email_address":  this.email,
-          },
-          {
-            headers: {
-              'Access-Control-Allow-Origin': '*',
-              'Content-type': 'application/json',
+    subscribeEmail() {
+        axios({
+            method: 'post',
+            url: `https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
+            data: {
+                "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
+                "email_address":  this.email,
             },
-          })
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Content-type': 'application/json',
+            }
+        })
             .then(function (response) {
               console.log(response)
-              console.log(response.data)
             })
+            .catch(function (error) {
+                console.log(error);
+            });
     },
   },
 }
