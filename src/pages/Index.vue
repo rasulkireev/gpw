@@ -94,7 +94,7 @@ export default {
     subscribeEmail() {
         axios({
             method: 'POST',
-            url: `https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
+            url: `https://cors-anywhere.herokuapp.com/https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
             data: {
                 "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
                 "email_address":  this.email,
