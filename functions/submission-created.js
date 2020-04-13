@@ -3,7 +3,7 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     console.log(event.body)
-    const email = JSON.parse(event.body).payload.userEmail
+    const email = JSON.parse(event.body.payload.data.user_email)
     console.log(email)
 
     await axios({

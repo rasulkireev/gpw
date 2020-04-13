@@ -35,22 +35,19 @@ export default {
         encode(data) {
             const formData = new FormData();
             
-            // return Object.keys(data)
-            // .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-            // .join('&')
-            for (const key of Object.keys(data)) {
-                formData.append(key, data[key])
+            for (const key of Object.keys(data)) { 
+                formData.append(encodeURIComponent(key), encodeURIComponent(data[key]))
             }
-            
+
             return formData;
         },
 
-        async handleFormSubmit({ formData }) {
+        async handleFormSubmit() {
             await axios.post(
                 location.href, 
                 this.encode({
                     'form-name': "add-subscriber",
-                    ...formData,
+                    ...this.formData,
                 }),
                 {
                     header: { 'Content-Type': 'application/x-www-form-urlencoded' }
