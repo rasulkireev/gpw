@@ -33,9 +33,14 @@ export default {
 
     methods: {
         async handleFormSubmit(e) {
-            await axios.post('/.netlify/functions/emailNewsletter', { userEmail })
-            .then(() => this.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`)
-            .catch(error => alert(error))
+            await axios.post('/.netlify/functions/emailNewsletter', {
+                body: {
+                    email: this.userEmail
+                }
+            })
+            .then(document.getElementById("myForm").innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
         }
     }
 }

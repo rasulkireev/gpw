@@ -4,10 +4,10 @@ exports.handler = async function(event) {
 
     console.log(event.body)
     const data = JSON.parse(event.body)
-    const email = data.userEmail
+    const email = data.email
     console.log(`Recieved a submission: ${email}`)
 
-    axios({
+    await axios({
         method: 'POST',
         url: `https://emailoctopus.com/api/1.5/lists/${process.env.OCTO_LIST_ID}/contacts`,
         data: {
