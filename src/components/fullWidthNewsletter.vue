@@ -33,9 +33,16 @@ export default {
 
     methods: {
         encode(data) {
-            return Object.keys(data)
-            .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-            .join('&')
+            const formData = new FormData();
+            
+            // return Object.keys(data)
+            // .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+            // .join('&')
+            for (const key of Object.keys(data)) {
+                formData.append(key, data[key])
+            }
+            
+            return formData;
         },
 
         async handleFormSubmit({ formData }) {
@@ -51,7 +58,7 @@ export default {
             )
         .then(data => console.log(data))
         .catch(error => console.log(error))
-        // .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-200 border border-green-600 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+        // .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
         }
     }
 }
