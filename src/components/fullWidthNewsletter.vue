@@ -53,9 +53,9 @@ export default {
                     header: { 'Content-Type': 'application/x-www-form-urlencoded' }
                 }                
             )
-        .then(data => console.log(data))
-        .catch(error => console.log(error))
-        // .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
+            // .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
         }
     }
 }
