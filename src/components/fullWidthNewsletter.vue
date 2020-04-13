@@ -10,7 +10,6 @@
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          @submit.prevent="subscribeEmail"
           class="flex flex-col md:flex-row"
           enctype="multipart/form-data"
           action="">
