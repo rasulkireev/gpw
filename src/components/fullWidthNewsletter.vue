@@ -27,7 +27,9 @@ import axios from "axios";
 export default {
     data() {
         return {
-            formData: {},
+            form: {
+                userEmail: "",
+            },
         }
     },
     
@@ -44,10 +46,7 @@ export default {
                 this.encode({
                     'form-name': e.target.getAttribute("name"),
                     ...this.formData,
-                }),
-                {
-                    header: { 'Content-Type': 'application/x-www-form-urlencoded' }
-                }                
+                }),    
             )
             .then(data => console.log(data))
             .catch(error => console.log(error))
