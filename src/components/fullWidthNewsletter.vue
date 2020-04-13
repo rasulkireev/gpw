@@ -6,11 +6,12 @@
 
         <div class="mb-2">
           <form
-          name= "add-subscriber"
+          name="add-subscriber"
           id="myForm"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
+          @submit.prevent="handleEmailForm"
           class="flex flex-col md:flex-row">
             <input type="hidden" name="form-name" value="add-subscriber" />
             <input type="email" v-model="userEmail" name="user_email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64" required="" id="id_user_email">
@@ -31,8 +32,7 @@ export default {
     },
 
     methods: {
-        handleFormSubmit(e) {
-            console.log(e)
+        handleFormSubmit() {
             document.getElementById("myForm").innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`
             // await axios.post('/.netlify/functions/emailNewsletter', {
             //     body: {
