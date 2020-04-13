@@ -7,14 +7,14 @@
         <div class="mb-2">
           <form
           name= "add-subscriber"
+          id="myForm"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           class="flex flex-col md:flex-row"
-          enctype="multipart/form-data"
-          action="">
+          @submit="handleFormSubmit">
             <input type="hidden" name="form-name" value="add-subscriber" />
-            <input type="email" v-model="userEmail" name="user_email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64" required="" id="id_user_email">
+            <input type="email" v-model="formData.userEmail" name="user_email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64" required="" id="id_user_email">
             <button type="submit" name="button" class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:ml-2 md:h-10 sm:w-32">Subscribe</button>
           </form>
         </div>
@@ -22,6 +22,39 @@
 </template>
 
 <script>
+import axios from "axios";
+
+export default {
+    data() {
+        return {
+            formData: {},
+            }
+        },
+
+    methods: {
+        encode(data) {
+            return Object.keys(data)
+            .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+            .join('&')
+        },
+
+        handleFormSubmit(e) {
+            document.getElementById("myForm").innerHTML = '<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>'
+            // axios('/', {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            //     body: this.encode({
+            //         'form-name': e.target.getAttribute('name'),
+            //         ...this.formData,
+            //     }),
+            // })
+            // .then(() => this.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+            // .catch(error => alert(error))
+        }
+    }
+}
+
+
 
 </script>
 

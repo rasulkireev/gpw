@@ -65,7 +65,6 @@ query Posts {
 
 
 <script>
-import axios from 'axios';
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 
 export default {
