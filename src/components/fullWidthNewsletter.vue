@@ -32,15 +32,15 @@ export default {
     },
 
     methods: {
-        handleFormSubmit() {
-            document.getElementById("myForm").innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`
-            // await axios.post('/.netlify/functions/emailNewsletter', {
-            //     body: {
-            //         email: this.userEmail
-            //     }
-            // })
-            // .then(data => console.log(data))
-            // .catch(error => console.log(error))
+        async handleFormSubmit() {
+            await axios.post(location.href, {
+                body: {
+                    email: this.userEmail
+                }
+            })
+            .then(data => console.log(data))
+            .catch(error => console.log(error))
+            .then(document.getElementById("myForm").innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`)
         }
     }
 }
