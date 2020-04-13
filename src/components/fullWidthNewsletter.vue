@@ -39,11 +39,11 @@ export default {
                 .join("&");
             },
 
-        handleFormSubmit() {
+        handleFormSubmit(e) {
             axios.post(
                 location.href, 
                 this.encode({
-                    'form-name': "add-subscriber",
+                    'form-name': e.target.getAttribute("name"),
                     ...this.formData,
                 }),
                 {
