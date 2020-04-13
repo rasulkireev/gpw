@@ -33,17 +33,14 @@ export default {
 
     methods: {
         encode(data) {
-            const formData = new FormData();
             
-            for (const key of Object.keys(data)) { 
-                formData.append(encodeURIComponent(key), encodeURIComponent(data[key]))
-            }
+            return Object.keys(data)
+                .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+                .join("&");
+            },
 
-            return formData;
-        },
-
-        async handleFormSubmit() {
-            await axios.post(
+        handleFormSubmit() {
+            axios.post(
                 location.href, 
                 this.encode({
                     'form-name': "add-subscriber",
@@ -55,7 +52,7 @@ export default {
             )
             .then(data => console.log(data))
             .catch(error => console.log(error))
-            // .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+            .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
         }
     }
 }
