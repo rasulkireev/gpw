@@ -38,12 +38,12 @@ export default {
             .join('&')
         },
 
-        async handleFormSubmit() {
+        async handleFormSubmit({ formData }) {
             await axios.post(
                 location.href, 
                 this.encode({
                     'form-name': "add-subscriber",
-                    ...this.formData
+                    ...formData,
                 }),
                 {
                     header: { 'Content-Type': 'application/x-www-form-urlencoded' }
