@@ -5,14 +5,14 @@
         </p>
 
         <div class="mb-2">
-          <form 
+          <form
           name= "add-subscriber"
           method="post"
           data-netlify="true"
-          data-netlify-honeypot="bot-field" 
-          @submit.prevent="subscribeEmail" 
-          class="flex flex-col md:flex-row" 
-          enctype="multipart/form-data" 
+          data-netlify-honeypot="bot-field"
+          @submit.prevent="subscribeEmail"
+          class="flex flex-col md:flex-row"
+          enctype="multipart/form-data"
           action="">
             <input type="hidden" name="form-name" value="add-subscriber" />
             <input type="email" v-model="userEmail" name="user_email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64" required="" id="id_user_email">
@@ -30,8 +30,7 @@ export default {
 
     data() {
         return {
-            email: '',
-            show: false,
+            userEmail: '',
         }
     },
 
