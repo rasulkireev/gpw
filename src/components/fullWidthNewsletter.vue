@@ -22,36 +22,7 @@
 </template>
 
 <script>
-import axios from 'axios';
 
-export default {
-    name: "emailSubscriberForm",
-
-    data() {
-        return {
-            userEmail: '',
-        }
-    },
-
-    methods: {
-        subscribeEmail() {
-            axios({
-                method: 'POST',
-                url: `https://cors-anywhere.herokuapp.com/https://emailoctopus.com/api/1.5/lists/${process.env.GRIDSOME_OCTO_LIST_ID}/contacts`,
-                data: {
-                    "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
-                    "email_address":  this.userEmail,
-                },
-            })
-            .then(function (response) {
-                alert("Success")
-            })
-            .catch(function (error) {
-                alert("Error")
-            });
-        },
-    },
-}
 </script>
 
 <style>
