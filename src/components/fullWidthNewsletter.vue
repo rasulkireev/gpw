@@ -22,8 +22,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
     data() {
         return {
@@ -33,11 +31,7 @@ export default {
 
     methods: {
         async handleFormSubmit(e) {
-            await axios('/.netlify/functions/submission-created', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: this.userEmail,
-            })
+            await axios.post('/.netlify/functions/emailNewsletter', { userEmail })
             .then(() => this.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`)
             .catch(error => alert(error))
         }

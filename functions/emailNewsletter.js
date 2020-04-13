@@ -1,8 +1,11 @@
+require('dotenv').config()
+const axios = require("axios")
+
 exports.handler = async function(event) {
-    import axios from "axios";
 
     console.log(event.body)
-    const email = JSON.parse(event.body).payload.userEmail
+    const data = JSON.parse(event.body)
+    const email = data.userEmail
     console.log(`Recieved a submission: ${email}`)
 
     axios({
