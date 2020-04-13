@@ -44,6 +44,7 @@ export default {
                     "api_key": process.env.GRIDSOME_EMAILOCTOPUS_API,
                     "email_address":  this.userEmail,
                 },
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
             })
             .then(function (response) {
                 alert("Success")
