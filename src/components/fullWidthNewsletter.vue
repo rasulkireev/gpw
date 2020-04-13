@@ -45,7 +45,7 @@ export default {
                 location.href, 
                 this.encode({
                     'form-name': e.target.getAttribute("name"),
-                    ...this.formData,
+                    ...this.userEmail,
                 }),    
             )
             .then(data => console.log(data))
