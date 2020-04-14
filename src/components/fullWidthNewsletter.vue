@@ -1,5 +1,5 @@
 <template>
-    <div id="emailFormDiv" class="p-4 mb-6 border-2 border-green-300 rounded">
+    <div class="p-4 mb-6 border-2 border-green-300 rounded">
         <p class="mb-2">
           Finally, consider signing up for my personal newsletter. I will update you on the latest articles and any interesting articles and resources I've encountered.
         </p>
@@ -11,10 +11,11 @@
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
+          enctype="application/x-www-form-urlencoded"
           @submit.prevent="handleFormSubmit"
           class="flex flex-col md:flex-row">
             <input type="hidden" name="form-name" value="add-subscriber" />
-            <input type="email" name="email" v-model="userEmail" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64">
+            <input type="email" name="email" v-model="formData.userEmail" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 focus:outline-none focus:bg-white md:w-64">
             <button type="submit" name="button" class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:ml-2 md:h-10 sm:w-32">Subscribe</button>
           </form>
         </div>
@@ -27,16 +28,20 @@ import axios from "axios";
 export default {
     data() {
         return {
-            userEmail: "",
+            formData: {},
         }
     },
     
     methods: {
         encode(data) {  
-            return Object.keys(data)
-                .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
-                .join("&");
-            },
+            const formData = new FormData();
+            
+            for (const key of Object.keys(data)) {
+                formData.append(key, data[key]);
+            }
+            
+            return formData;
+        },
 
         handleFormSubmit(e) {
             const axiosConfig = {
@@ -47,7 +52,7 @@ export default {
                 location.href, 
                 this.encode({
                     'form-name': e.target.getAttribute("name"),
-                    ...this.userEmail,
+                    ...this.formData,
                 }),
                 axiosConfig
             )
