@@ -3,6 +3,7 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     const email = JSON.parse(event.body).payload.email
+    console.log(`Recieved a submission: ${email}`)
 
     await axios({
         method: 'POST',
@@ -11,12 +12,10 @@ exports.handler = async function(event, context) {
             "api_key": process.env.EMAILOCTOPUS_API,
             "email_address":  email,
         },
+        headers: {
+            'Content-Type': 'application/json',
+        },
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log(`Submitted to EmailOctopus:\n ${data}`)
-    })
-    .catch(function (error) {
-        error => ({ statusCode: 422, body: String(error) })
-    });
+    .then(response => console.log(response))
+    .catch(error => console.log(error))
 }
