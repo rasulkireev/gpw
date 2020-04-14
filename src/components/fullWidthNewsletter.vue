@@ -28,7 +28,9 @@ import axios from "axios";
 export default {
     data() {
         return {
-            formData: {},
+            formData: {
+                userEmail: null,
+            },
         }
     },
     
