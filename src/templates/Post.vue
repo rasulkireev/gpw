@@ -15,6 +15,8 @@
       <div class="markdown-body" v-html="$page.post.content" />
     </div>
 
+    <fullWidthNewsletter />
+
   </Layout>
 </template>
 
@@ -29,8 +31,12 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
-export default {
+import fullWidthNewsletter from "../components/fullWidthNewsletter"
 
+export default {
+  components: {
+    fullWidthNewsletter
+  },
 }
 </script>
 
