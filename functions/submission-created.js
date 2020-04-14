@@ -12,9 +12,6 @@ exports.handler = async function(event, context) {
             "api_key": process.env.EMAILOCTOPUS_API,
             "email_address":  email,
         },
-        headers: {
-            'Content-Type': 'application/json',
-        },
     })
     .then(response => console.log(response))
     .catch(error => console.log(error))
