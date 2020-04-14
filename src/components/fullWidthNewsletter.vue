@@ -27,10 +27,8 @@ import axios from "axios";
 export default {
     data() {
         return {
-            form: {
-                userEmail: "",
-            },
-        }
+            userEmail: "",
+        },
     },
     
     methods: {
