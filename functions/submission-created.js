@@ -1,12 +1,8 @@
 var axios = require("axios")
-var querystring = require("querystring")
 
 exports.handler = async function(event, context) {
 
-    const parsed = querystring.parse(event.body)
-    console.log(parsed)
-
-    const email = parsed.pa
+    const email = JSON.parse(event.body).payload.email
 
     await axios({
         method: 'POST',
