@@ -4,7 +4,7 @@
           Finally, consider signing up for my personal newsletter. I will update you on the latest articles and any interesting articles and resources I've encountered.
         </p>
 
-        <div class="mb-2">
+        <div>
           <form
           name="add-subscriber"
           id="myForm"
@@ -60,7 +60,11 @@ export default {
             )
             .then(data => console.log(data))
             .catch(error => console.log(error))
-            .then(document.getElementById("myForm").innerHTML = `<div class="block px-1 bg-green-100 border border-green-700 rounded">Almost there! Check your inbox for a confirmation e-mail.</div>`)
+            .then(document.getElementById("myForm").innerHTML = `
+            <div class="w-full p-2 text-lg text-gray-700 bg-green-100 border border-green-700 rounded">
+                Thank you! I received your submission.
+            </div>
+            `)
         }
     }
 }
