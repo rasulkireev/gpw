@@ -15,7 +15,8 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-remark-shiki": "^0.3.1",
     "gridsome-plugin-remark-twitter": "^0.2.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "vue-social-sharing": "^2.4.7"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0"

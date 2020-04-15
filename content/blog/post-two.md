@@ -4,6 +4,8 @@ date: 2019-01-08
 published: true
 slug: /post-two
 icon: "./images/4b4b3e40f22f458dbe3bbdf7b5eb6dc4.jpg"
+main-image: "./images/4b4b3e40f22f458dbe3bbdf7b5eb6dc4.jpg"
+category: "Test"
 tags: ['Markdown', 'Cover Image']
 description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions."
 ---

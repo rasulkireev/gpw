@@ -36,7 +36,7 @@
                 <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center" href="https://fd3.netlify.com">Stats</a>
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">
-                <g-link :to="post.node.path" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <g-link :to="post.node.slug" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" />
                     <p class="text-sm md:text-lg">{{ post.node.title }}</p>
                 </g-link>
@@ -57,7 +57,7 @@ query Posts {
         icon
         date (format: "MMMM D, Y")
         timeToRead
-        path
+        slug
       }
     }
   }
