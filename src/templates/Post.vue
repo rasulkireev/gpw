@@ -13,13 +13,13 @@
       <div class="markdown-body" v-html="$page.post.content" />
     </div>
 
-    <socialShareButtons 
+    <socialShareButtons
       :title=$page.post.title
       :url='baseURL + $page.post.path'
       :text=$page.post.description
       :tags=tagsToHashTags
 
-      class="lg:top-0 lg:left-0 lg:m-0 lg:mt-64 lg:fixed">
+      class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
 
 
@@ -58,7 +58,7 @@ export default {
       return this.$page.post.tags.map(x => "%23" + x).join(" ");
     }
   },
-  
+
   components: {
     socialShareButtons,
     fullWidthNewsletter,
