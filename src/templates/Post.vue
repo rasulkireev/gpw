@@ -1,17 +1,32 @@
 <template>
   <Layout>
-    <p class="mb-2 text-blue-700">← <g-link to="/blog/">back to posts</g-link></p>
+    <p class="mb-10 text-blue-700">← <g-link to="/blog/">back to posts</g-link></p>
 
+    <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+      
+      <!-- Author description -->
+      <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+          <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
+      </div>
+     
+      <div class="mb-4 border-b border-gray-200 border-solid">
+        <div id="title" class="flex flex-col md:flex-row md:justify-between">
+          <g-image class="w-16 md:order-last" :src="$page.post.icon" />
+          <div>
+            <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="name">{{ $page.post.title }}</h1>
+            <p id="meta" class="m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.post.date">{{$page.post.date}}</time></p>
+          </div>
+        </div>
 
-    <div class="">
-      <h1 class="">
-        {{ $page.post.title }}
-      </h1>
-    </div>
+        <a class="hidden u-url" :href='baseURL + $page.post.path' itemprop="url"></a>
+        <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
+        <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
+        
+      </div>
 
-    <div>
-      <div class="markdown-body" v-html="$page.post.content" />
-    </div>
+        <div class="markdown-body" v-html="$page.post.content" />
+    </article>
 
     <socialShareButtons
       :title=$page.post.title
@@ -33,9 +48,11 @@ query Post ($slug: String!) {
   post: post (path: $slug) {
     title
     description
+    category
     date (format: "MMMM D, Y")
     content
     tags
+    icon
     path
     slug
   }

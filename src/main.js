@@ -3,7 +3,7 @@
 
 // Import global styles
 require('~/css/tailwind.css')
-
+import 'prismjs/themes/prism.css'
 import DefaultLayout from '~/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
@@ -13,5 +13,11 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: "stylesheet",
     href: "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+  }),
+
+  head.meta.push({
+    name: 'viewport',
+    content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
   })
 }
+

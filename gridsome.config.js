@@ -13,6 +13,7 @@ const postcssPlugins = [
 
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
+
 module.exports = {
   siteName: 'Rasul Kireev | Personal Website',
   siteUrl: 'https://rasulkireev.com',
@@ -28,6 +29,14 @@ module.exports = {
       options: {
         path: 'content/blog/*.md',
         typeName: 'Post',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs',
+          [ '@noxify/gridsome-plugin-remark-embed', {
+              'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+            }]
+          ]
+        }
       }
     },
     {
@@ -46,16 +55,4 @@ module.exports = {
         },
     },
   },
-
-  transformers: {
-    //Add markdown support to all file-system sources
-    remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        '@gridsome/remark-prismjs'
-      ]
-    }
-  }
 }

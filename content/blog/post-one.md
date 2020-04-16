@@ -3,6 +3,7 @@ title: "A post with a cover image"
 description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions."
 date: 2019-01-07
 category: "Test"
+
 main-image: "./images/4b4b3e40f22f458dbe3bbdf7b5eb6dc4.jpg"
 slug: "/post-one"
 icon: "./images/4b4b3e40f22f458dbe3bbdf7b5eb6dc4.jpg"

@@ -26,6 +26,8 @@ print(a)
 
 ```
 
+https://twitter.com/david_perell/status/1091398258801500161
+
 > Stripe also looked like shit when it started. No shine or polish, no developer website based developer experience to speak of, no world-leading 60fps animations, no fantastically versioned docs, nothing.
 
 **Build** something people want / something that __solves a hard__ problem and makes people powerful and more enabled. Companies that do this can afford to build fantastic developer experiences after 10 years of doing it, but companies that try hard to build excellent _developer_ experiences will not necessarily be successful.
