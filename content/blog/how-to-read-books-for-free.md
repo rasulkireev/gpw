@@ -48,5 +48,5 @@ _Note: There you can see PDFs, EPUBs, MOBI, AZW3. You will most likely need a PD
 
 That’s it. Now you a have a book file on your computer (or phone) and you can read it. For free! Just don’t forget to buy the book if you liked it. Chances are you’ll want to read it again.
 
-If there is something you don’t understand, just shoot me an [email](mailto:kireevr1996@gmail.com) 
+If there is something you don’t understand, just shoot me an [email](mailto:kireevr1996@gmail.com)
  and I’ll try to give you some more information.
