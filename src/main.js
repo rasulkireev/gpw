@@ -18,6 +18,17 @@ export default function (Vue, { router, head, isClient }) {
   head.meta.push({
     name: 'viewport',
     content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
-  })
+  }),
+
+  head.link.push({
+    rel: "webmention",
+    href: "https://webmention.io/username/webmention"
+  }),
+
+  head.link.push({
+    rel: "pingback",
+    href: "https://webmention.io/username/xmlrpc"
+  }),
+  
 }
 
