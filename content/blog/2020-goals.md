@@ -3,11 +3,11 @@ title: 2020 Goals
 date: 2019-12-31
 published: true
 slug: /2020-goals
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [2020, goals, habits, review]
-category: "Personal"
-description: "It is important to set some goals for the future year too. This is my attmept to capture my goals."
+icon: ./icons/2020.svg
+unsplashImageID: aQfhbxailCs
+keywords: [2020, goals, habits, review]
+category: Personal
+description: It is important to set some goals for the future year too. This is my attmept to capture my goals.
 ---
 
 I have seen a few "2019 Year in Review" posts on Twitter and that it would be cool to write one too.

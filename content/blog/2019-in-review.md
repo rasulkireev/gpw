@@ -3,11 +3,11 @@ title: 2019 in Review
 date: 2019-12-30
 published: true
 slug: /2019-in-review
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [2019, journal, review]
-category: "Personal"
-description: "This is my attempt to review everything that I made happen, and that happened to me in 2019. It is crucial to remind yourself of the things you regularly did. Writing this post was very gratifying."
+icon: ./icons/2019_year.svg
+unsplashImageID: BFBAmGePnpU
+keywords: [2019, journal, review]
+category: Personal
+description: This is my attempt to review everything that I made happen, and that happened to me in 2019. It is crucial to remind yourself of the things you regularly did. Writing this post was very gratifying.
 ---
 
 I have seen a few "2019 Year in Review" posts on Twitter and that it would be cool to write one too.

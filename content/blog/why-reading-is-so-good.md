@@ -3,11 +3,11 @@ title: Why Reading is so Good
 date: 2019-07-18
 published: true
 slug: /reading-is-good
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [reading]
-category: "Reading"
-description: "Couple of thought about reading and its benefits."
+icon: ./icons/reading.svg
+unsplashImageID: XqXJJhK-c08
+keywords: [reading]
+category: Reading
+description: Couple of thought about reading and its benefits.
 ---
 
 I stumbled upon [this article](https://andymatuschak.org/books/) recently and am still reading it. Even though I am still reading, I wanted to share a thought that came to my mind after reading the first sentence.

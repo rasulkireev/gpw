@@ -3,11 +3,11 @@ title: First Javascript Experience
 date: 2019-08-28
 published: true
 slug: /first-javascript-experience
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [webapp, javascript, html]
-category: "Javascript"
-description: "Sharing my first epxerience with Javascript. Had to add some action to my new web app."
+icon: ./icons/js.png
+unsplashImageID: O99bWwDMBa8
+keywords: [webapp, javascript, html]
+category: Javascript
+description: Sharing my first epxerience with Javascript. Had to add some action to my new web app.
 ---
 
 I have been reading a [JavaScript book](https://amzn.to/2KPIsoQ) for a couple of months now... I didn't learn much, unfortunately. I know this is becasue all reading need to be supplemented with some sorts of exercise, preferrably real world projects. Luckily, I have an idea for a project that will require some JavaSript.

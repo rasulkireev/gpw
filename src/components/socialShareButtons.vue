@@ -7,7 +7,7 @@
 
   <!-- Sharingbutton Twitter -->
   <div class="inline-block p-1 mr-1 bg-blue-400">
-    <a :href='"https://twitter.com/intent/tweet/?text=" + title + " " + tags + ";url=" + url' target="_blank" rel="noopener" aria-label="">
+    <a :href='"https://twitter.com/intent/tweet/?text=" + title + ";url=" + url' target="_blank" rel="noopener" aria-label="">
         <i class="text-white lab la-twitter"></i>
     </a>
   </div>
@@ -28,7 +28,7 @@
   
   <!-- Sharingbutton LinkedIn -->
   <div class="inline-block p-1 mr-1 bg-blue-700">
-    <a :href='"https://www.linkedin.com/shareArticle?mini=True&amp;url=" + url + "&title=" + title + "&amp;summary=" + text + " " + tags' target="_blank" rel="noopener" aria-label="">
+    <a :href='"https://www.linkedin.com/shareArticle?mini=True&amp;url=" + url + "&title=" + title + "&amp;summary=" + text' target="_blank" rel="noopener" aria-label="">
         <i class="text-white lab la-linkedin-in"></i>
     </a>
   </div>
@@ -55,9 +55,8 @@ export default {
   props: {
     title: String,
     url: String,
-    text: String,
-    tags: String,
-    }
+    text: String
+  }
 }
 </script>
 

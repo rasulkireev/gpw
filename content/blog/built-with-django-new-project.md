@@ -1,13 +1,13 @@
 ---
-title: "New Project 'Built with Django'!"
+title: New Project 'Built with Django'!
 date: 2019-12-12
 published: true
 slug: /builtwithdjango
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [webapp, ryankulp, microacquisitions, django]
-category: "Projects"
-description: "Launching a new hobby project. I am making a curated list of products built with Django."
+icon: ./icons/new-red.svg
+unsplashImageID: gcsNOsPEXfs
+keywords: [webapp, ryankulp, microacquisitions, django]
+category: Projects
+description: Launching a new hobby project. I am making a curated list of products built with Django.
 ---
 
 Last week, I purchased [Ryan Kulp](https://www.ryanckulp.com/)'s course on buying, improving, and selling microbusinesses [(affiliate link)](https://www.microacquisitions.com/how-to-buy-small-companies/8ayt5). One of the reasons I bought this course was to learn another skill (bseides, data analysis and web developemnt) that could potentially become financially stable. The other reason is that I desperately wanted to see how one would purchase a business without having a ton of cash upfront. Finally, I have been following Ryan for a while now, and he is just a cool dude, with [a lot to share](https://www.ryanckulp.com/projects/).

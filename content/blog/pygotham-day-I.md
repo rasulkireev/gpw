@@ -2,12 +2,12 @@
 title: "PyGotham 2019: Day 1"
 date: 2019-10-05
 published: true
-slug: /pygotham-day-I
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [conference, networking, pygotham, talks]
-category: "Conferences"
-description: "First Day of my first conference. I tried to make good notes during the talks I attended."
+slug: /pygotham-day-one
+icon: ./icons/pygotham.png
+unsplashImageID: uf2nnANWa8Q
+keywords: [conference, networking, pygotham, talks]
+category: Conferences
+description: First Day of my first conference. I tried to make good notes during the talks I attended.
 ---
 
 This is a first conference I have ever attended. If I had to describe it in one word, it would be 'great'. Here is why:

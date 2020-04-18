@@ -3,11 +3,11 @@ title: Naruto's Influence on my Life
 date: 2019-07-19
 published: true
 slug: /naruto-influence
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [anime, naruto]
-category: "Personal"
-description: "A few thoughts about my favorite anime and pieces of artwork in general. Mainly, how it impacted my life."
+icon: ./icons/naruto_sign.svg
+unsplashImageID: lYHdizx3Aww
+keywords: [anime, naruto]
+category: Personal
+description: A few thoughts about my favorite anime and pieces of artwork in general. Mainly, how it impacted my life.
 ---
 
 Iruka taught me not to judge people by their reputations, but their personalities.

@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <a class="hidden u-url" :href='baseURL + $page.post.path' itemprop="url"></a>
+        <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
         <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
         <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
         
@@ -30,10 +30,8 @@
 
     <socialShareButtons
       :title=$page.post.title
-      :url='baseURL + $page.post.path'
+      :url='$static.metadata.siteUrl + $page.post.path'
       :text=$page.post.description
-      :tags=tagsToHashTags
-
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
 
@@ -50,30 +48,94 @@ query Post ($slug: String!) {
     description
     category
     date (format: "MMMM D, Y")
+    unsplashImageID
     content
-    tags
     icon
     path
-    slug
   }
 }
 </page-query>
+
+<static-query>
+  query { 
+    metadata { 
+      siteName 
+      siteDescription 
+      siteUrl
+      author
+      twitter
+    }
+  }
+</static-query>
+
 
 <script>
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 
 export default {
-  data() {
+  metaInfo() {
     return {
-      baseURL: `https://rasulkireev.com`
+      title: this.$page.post.title,
+      meta: [
+        {
+          key: "description",
+          name: 'description',
+          content: this.$page.post.description
+        },
+        
+        // open-graph tags
+        {
+          key: "og-title",
+          property: 'og:title',
+          content: this.$page.post.title
+        },
+        {
+          key: 'og-description',
+          property: 'og:description',
+          content: this.$page.post.description
+        },
+        {
+          key: 'og-image',
+          property: 'og:image',
+          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+
+        },
+        {
+          key: "og-url",
+          property: 'og:url',
+          content: this.$static.metadata.siteUrl + this.$page.post.path
+        },
+        
+        // twitter card
+        {
+          key: "twitter-card",
+          name: 'twitter:card',
+          content:'summary_large_image'
+        },
+        { 
+          key: "twitter-title",
+          name: 'twitter:title', 
+          content: this.$page.post.title 
+        },
+        { 
+          key: "twitter-description",
+          name: 'twitter:description', 
+          content: this.$page.post.description 
+        },
+        {
+          key: "twitter-image",
+          name: "twitter:image",
+          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+        },
+      ],
     }
   },
 
   computed: {
-    tagsToHashTags() {
-      return this.$page.post.tags.map(x => "%23" + x).join(" ");
-    }
+    // keywordsToHashTags() {
+    //   return this.$page.post.keywords.map(x => "%23" + x).join(" ");
+    // }
   },
 
   components: {

@@ -3,11 +3,11 @@ title: Designing your first personal website
 date: 2020-03-18
 published: true
 slug: /designing-first-site
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [personalwebsite, webdesign, css, html]
-category: "Design"
-description: "When I started developing my personal website I've had some difficulties. In this post I try to share what you should do to avoid those."
+icon: ./icons/web_design.svg
+unsplashImageID: DtDlVpy-vvQ
+keywords: [personalwebsite, webdesign, css, html]
+category: Design
+description: When I started developing my personal website I\'ve had some difficulties. In this post I try to share what you should do to avoid those.
 ---
 
 Ever since I decided to make my own personal website, I have been struggling with the design a lot.

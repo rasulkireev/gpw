@@ -4,9 +4,9 @@ date: 2019-07-17
 published: true
 slug: /how-to-read-books-for-free
 icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [books, free, reading]
-category: "Reading"
+unsplashImageID: ./images/reading-on-kindle.jpg
+keywords: [books, free, reading]
+category: Reading
 description: "I'm sharing a couple ways to find reading material online"
 ---
 

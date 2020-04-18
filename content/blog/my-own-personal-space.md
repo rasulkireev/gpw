@@ -3,11 +3,11 @@ title: My Own Personal Space
 date: 2019-08-07
 published: true
 slug: /personal-space
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [personalspace, website, blog]
+icon: ./icons/rocket_take_off.svg
+unsplashImageID: tH7eYi6p23s
+keywords: [personalspace, website, blog]
 category: "Personal"
-description: "My Own Personal Space. So Cool."
+description: My Own Personal Space. So Cool.
 ---
 
 That is so cool! I just published a short post about [Fear and Blogging](https://www.rasulkireev.com/writings/fear-and-blogging) and checked it out straight away. It feels unreal. I just posted something for the entire world to look at. The best thing is that it is my personal space, I can write anything I want and no one will be able to tell me to take it down, no matter what.

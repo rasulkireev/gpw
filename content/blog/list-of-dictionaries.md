@@ -3,11 +3,11 @@ title: Adding a dictionary to a list of dictionaries in Python
 date: 2020-02-13
 published: true
 slug: /list-of-dicts
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [webscraping, dictionaries, python, webscraping]
-category: "Python"
-description: "I have encountered a problem where I was not able to append a dictionary to a list. In this post, I will explore this issue and show how to bypass that."
+icon: ./icons/python.svg
+unsplashImageID: ./images/reading-on-kindle.jpg
+keywords: [webscraping, dictionaries, python, webscraping]
+category: Python
+description: I have encountered a problem where I was not able to append a dictionary to a list. In this post, I will explore this issue and show how to bypass that.
 ---
 
 In my most recent project, I have encountered a problem where I was not able to append a dictionary to a list using `list_data.append(data_dict).` The result was a list of the same dictionaries.

@@ -1,13 +1,13 @@
 ---
 title: Getting data to home page with Django
-date: 2019-02-20
+date: 2020-02-20
 published: true
 slug: /django-get-context-data
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [django, context, tutorial]
-category: "Django"
-description: "In this post I show how to use get_context_data(). You might need it to display "latest posts" on your "home page"."
+icon: ./icons/dj.png
+unsplashImageID: Q1p7bh3SHj8
+keywords: [django, context, tutorial]
+category: Django
+description: In this post I show how to use get_context_data(). You might need it to display 'latest posts' on your 'home page'.
 ---
 
 When I was first learning Django, I decided to build a personal website first. I took [sivers.org](https://sivers.org) as an example. I loved its simplicity and directness.

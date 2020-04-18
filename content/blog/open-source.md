@@ -3,11 +3,11 @@ title: Open Source
 date: 2019-08-16
 published: true
 slug: /open-source
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [opensource]
-category: "Open Source"
-description: "My thoughts on the Open Source community and the culture behind it."
+icon: ./icons/open_source.svg
+unsplashImageID: R-HXWCbCBGU
+keywords: [opensource]
+category: Open Source
+description: My thoughts on the Open Source community and the culture behind it.
 ---
 
 I have discovered the Open Source community very recently and I am in love with, not as much as I am in love with my wife though!

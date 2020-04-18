@@ -1,11 +1,11 @@
 ---
-title: My Pocket Workflow
-date: 2020-03-22
+title: "My Pocket Workflow"
+date: "2020-03-22"
 published: true
-slug: /my-pocket-workflow
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [joplin, pocket, productivity, reading]
+slug: "/my-pocket-workflow"
+icon: "./icons/pocket.svg"
+unsplashImageID: "zMRLZh40kms"
+keywords: [joplin, productivity]
 category: "Productivity"
 description: "I wanted to discuss how I use Pocket and how it integrates into the BASB flow."
 ---
@@ -17,6 +17,7 @@ This time around, I have [Tiago Forte](https://fortelabs.co/) and [David Perell]
 Today, I wanted to discuss how I use Pocket and how it integrates into the BASB flow.
 
 ## Method
+
 
 It is actually pretty simple. After I finish the article, I assign it a tag, "read." This allows me to see all the articles that I have finished.
 

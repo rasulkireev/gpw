@@ -1,13 +1,13 @@
 ---
-title: "Analyzing FIFA 19 data (II). Data Exploration and Visualization"
+title: Analyzing FIFA 19 data (II). Data Exploration and Visualization
 date: 2019-09-26
 published: true
 slug: /fifa-data-exploration
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [opensource, plotly, pandas]
-category: "Data Visualization"
-description: "My thoughts on the Open Source community and the culture behind it."
+icon: ./icons/plotly.png
+unsplashImageID: mcSDtbWXUZU
+keywords: [opensource, plotly, pandas]
+category: Data Visualization
+description: My thoughts on the Open Source community and the culture behind it.
 ---
 
 You can find all the code to this project [here](https://github.com/rasulkireev/fifa19-data-analysis). You can review the code in this post in [2.0-plotting-and-exploration.ipynb](https://github.com/rasulkireev/fifa19-data-analysis/blob/master/2.0-plotting-and-exploration.ipynb).

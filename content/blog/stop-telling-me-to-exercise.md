@@ -1,12 +1,12 @@
 ---
 title: "Stop telling me to exercise: dealing with a mild short-term depression"
-date: 2019-03-10
+date: 2020-03-10
 published: true
 slug: /dealing-with-mild-depression
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [depression, psychology, selfhelp]
-category: "Personal"
+icon: ./icons/straitjacket.svg
+unsplashImageID: Pv5WeEyxMWU
+keywords: [depression, psychology, selfhelp]
+category: Personal
 description: "In this post, I wanted to share some of my reflections on the depressive state that I went through. I'd like to share some of my thoughts that were running through my head and what helped me get over."
 ---
 

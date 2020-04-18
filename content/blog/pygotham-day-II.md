@@ -2,12 +2,12 @@
 title: "PyGotham 2019: Day 2"
 date: 2019-10-15
 published: true
-slug: /pygotham-day-II
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [conference, networking, pygotham, talks]
-category: "Conferences"
-description: "Second Day of my first conference ever. I tried to make good notes during the talks I attended."
+slug: /pygotham-day-two
+icon: ./icons/pygotham.png
+unsplashImageID: uf2nnANWa8Q
+keywords: [conference, networking, pygotham, talks]
+category: Conferences
+description: Second Day of my first conference ever. I tried to make good notes during the talks I attended.
 ---
 
 Day 2 of the PyGotham conference was on Saturday. I expected there to be way more people, but surprisingly, the opposite has happened. Day 2 count was twice as small, or at least that is how it felt. Below are the note from Day 2.

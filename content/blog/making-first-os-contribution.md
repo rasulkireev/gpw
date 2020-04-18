@@ -3,11 +3,11 @@ title: Making your first Open Source Contribution
 date: 2019-08-19
 published: true
 slug: /open-source-contributions
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [opensource, contribution, github, git]
-category: "Open Source"
-description: "Making your first open source contribution. There is nothing to be scared about! We'll got through this together."
+icon: ./icons/open_source.svg
+unsplashImageID: R-HXWCbCBGU
+keywords: [opensource, contribution, github, git]
+category: Open Source
+description: Making your first open source contribution. There is nothing to be scared about! We'll got through this together.
 ---
 
 I have been working with Git and GitHub for a while now, mostly to push (a.k.a "upload") my projects to my repository, then pull (a.k.a "download") on the Virtual Private Server. Basically I am using GitHub like Dropbox or Google Drive. I am ashamed to say that I have not done any contribution to the open-source projects, mainly because I am scared of screwing the project up (even though I know that the Git Workflow makes it impossible to do). Additionally, learning new terminology like "Fork" and "Checkout".

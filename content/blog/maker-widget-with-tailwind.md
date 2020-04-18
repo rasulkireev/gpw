@@ -3,11 +3,11 @@ title: Creating a Maker Widget with TailwindCSS
 date: 2019-12-17
 published: true
 slug: /tailwindcss-maker-widget
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [builtwithdjango, tailwindcss, html, css, design]
-category: "Design"
-description: "In this post we are making a simple Maker Widget with TailwindCSS."
+icon: ./icons/tailwindcss.jpg
+unsplashImageID: U-Z4P2H3KFE
+keywords: [builtwithdjango, tailwindcss, html, css, design]
+category: Design
+description: In this post we are making a simple Maker Widget with TailwindCSS.
 ---
 
 I recently built a [Built with Django](https://builtwithdjango.com) website to highlight projects that were built with Django. [Made with Vue](https://madewithvuejs.com/) has been a great inspiration for me. One of the cool features on this website is the Maker widget. You can see that [Armin](https://twitter.com/arminulrich) and [Melanie](https://twitter.com/_feloidea) built this website.

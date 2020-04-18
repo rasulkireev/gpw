@@ -2,9 +2,9 @@
     <Layout>
         <section id="blog-posts" >
 
-            <h1 class="mb-4 text-2xl font-semibold">
+            <h1 class="mb-4 text-2xl font-semibold border-b-2 border-gray-200">
                 Writings
-                <a class="mx-1 text-sm font-normal text-blue-500" href="#">JSON</a>
+                <!-- <a class="mx-1 text-sm font-normal text-blue-500" href="#">JSON</a> -->
             </h1>
 
           <div v-for="post in $page.posts.edges" :key="post.id" class="mb-1">
@@ -34,6 +34,7 @@ query Posts {
         id
         title
         icon
+ 
         date (format: "MMMM D, Y")
         timeToRead
         slug

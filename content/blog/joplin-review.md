@@ -1,13 +1,13 @@
 ---
 title: "Joplin: open-source note-taking at its best"
-date: 2019-02-05
+date: 2020-02-05
 published: true
 slug: /joplin
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [joplin, notetaking, opensource, productivity]
-category: "Productivity"
-description: "I use Joplin to take note. I use it for my personal life and for my projects. This post explains why you should use it too."
+icon: ./icons/joplin.jpg
+unsplashImageID: gVtJgTyi2iI
+keywords: [joplin, notetaking, opensource, productivity]
+category: Productivity
+description: I use Joplin to take note. I use it for my personal life and for my projects. This post explains why you should use it too.
 ---
 
 Note taking apps are everywhere. Just to seem more credible I have to list a few:

@@ -3,11 +3,11 @@ title: Using Virtual Environment with Jupyter Notebook
 date: 2019-08-26
 published: true
 slug: /jupyter-venv
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [virtualenvironment, jupyter]
-category: "Python"
-description: "If you are using a virtual environment, you might have ome issues with Jupyter Notebook. In this post we go through proper Jupyter Setup with venv."
+icon: ./icons/jupyter.jpg
+unsplashImageID: fDV3geJ2HwM
+keywords: [virtualenvironment, jupyter]
+category: Python
+description: If you are using a virtual environment, you might have ome issues with Jupyter Notebook. In this post we go through proper Jupyter Setup with venv.
 ---
 
 I decided to try replacing the [Anaconda distribution](https://www.anaconda.com/distribution/) with a custom virtual environemnt, just for the purposes of learning, keeping the environemnts more lightweight and removing the unnecessary libraries.

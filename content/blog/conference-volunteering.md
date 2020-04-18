@@ -1,13 +1,13 @@
 ---
 title: Conference Volunteering
-date: 2019-12-30
+date: 2020-01-09
 published: true
 slug: /conference-volunteering
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [2019, journal, review]
-category: "Conferences"
-description: "This is a reflection on my first volunteering experience at PyData 2019."
+icon: ./icons/global-volunteering.svg
+unsplashImageID: bzdhc5b3Bxs
+keywords: [2019, journal, review]
+category: Conferences
+description: This is a reflection on my first volunteering experience at PyData 2019.
 ---
 
 Recently, I have attended the PyData 2019 conference in NYC. When I visited the website, all the tickets were sold, so I applied for the waitlist. A couple of hours later, as I was thinking about my PyGotham experience from a month earlier. I remembered one of the talkers mentioning that they desperately need more volunteers. I decided to apply for a volunteeriship to help the community, and as a bonus, get a free ticket. This was a big bonus. A couple days later, I received the email notifying me that I got the part! Usually, I don't get "You are accepted" type of email, which, come to think of it, makes me a little sad. That felt good.

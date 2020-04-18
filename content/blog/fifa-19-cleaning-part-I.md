@@ -1,13 +1,13 @@
 ---
-title: "Analyzing FIFA 19 data (I). Data Cleaning with Pandas and Numpy"
+title: Analyzing FIFA 19 data (I). Data Cleaning with Pandas and Numpy
 date: 2019-08-19
 published: true
 slug: /fifa-data-cleaning
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [jupyter, pandas, numpy]
-category: "Data Analysis"
-description: "My first start-to-end Data Science project. I am going to be looking at FIFA 19 player database. In this part I talk about Data Cleaning."
+icon: ./icons/football.svg
+unsplashImageID: eCktzGjC-iU
+keywords: [jupyter, pandas, numpy]
+category: Data Analysis
+description: My first start-to-end Data Science project. I am going to be looking at FIFA 19 player database. In this part I talk about Data Cleaning.
 ---
 
 You can find all the code to this project [here](https://github.com/rasulkireev/fifa19-data-analysis). You can review the code in this post in [1.0-preparing-data-for-ml.ipynb](https://github.com/rasulkireev/fifa19-data-analysis/blob/master/1.0-preparing-data-for-ml.ipynb).

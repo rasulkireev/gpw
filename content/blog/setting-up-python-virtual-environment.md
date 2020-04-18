@@ -3,11 +3,11 @@ title: Setting up Python virtual environment (for a Django Project)
 date: 2019-08-29
 published: true
 slug: /django-venv
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [virtualenvironment, python, django, project, venv]
-category: "Python"
-description: "How to set up a virtual environment for your Django Project, or any other Python project, for that matter."
+icon: ./icons/python.svg
+unsplashImageID: TkEPQPWr2sY
+keywords: [virtualenvironment, python, django, project, venv]
+category: Python
+description: How to set up a virtual environment for your Django Project, or any other Python project, for that matter.
 ---
 
 For this tutorial I will assume you have a little experience working with the command line tools like "Terminal". If you don't I promise to make a post or two about that, meanwhile you can check those two out:

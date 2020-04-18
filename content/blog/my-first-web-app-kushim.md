@@ -1,13 +1,13 @@
 ---
-title: "Just launched my first Web App!"
+title: Just launched my first Web App!
 date: 2019-10-29
 published: true
 slug: /first-web-app
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [webapp, django, saas]
-category: "Projects"
-description: "Finally launched my first Web App. Kushim is my first Django project which was built from scratch."
+icon: ./icons/kushim.png
+unsplashImageID: woWf_VJ7dNs
+keywords: [webapp, django, saas]
+category: Projects
+description: Finally launched my first Web App. Kushim is my first Django project which was built from scratch.
 ---
 
 This is a big thing for me. I have been learning Django for several months now (around 4). I built a website with it, thanks to all the great tutorials out there. Building a Web App is a whole different thing though.

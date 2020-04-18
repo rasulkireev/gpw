@@ -3,11 +3,11 @@ title: Fear and Blogging
 date: 2019-08-06
 published: true
 slug: /fear-and-blogging
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [blogging, fear]
-category: "Personal"
-description: "Few thoughts on fears of sharing."
+icon: ./icons/scream.svg
+unsplashImageID: Pe4gh8a8mBY
+keywords: [blogging, fear]
+category: Personal
+description: Few thoughts on fears of sharing.
 ---
 
 Fear. I hate it so much! I think I have spent a better part of my life in a constant fear of something. When I was a kid a fear was something more real, like being screamed at by parents or spiders, something that is entirely possible. As an adult, I am scared of such stupid things that I am now embarrassed to talk about them, but here I am.

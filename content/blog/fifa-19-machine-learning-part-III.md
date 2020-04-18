@@ -1,13 +1,13 @@
 ---
-title: "Analyzing FIFA 19 data (III). Machine Learning and Prediction"
+title: Analyzing FIFA 19 data (III). Machine Learning and Prediction
 date: 2019-12-06
 published: true
 slug: /fifa-machine-learning
-icon: ./icons/book.svg
-main-image: ./images/reading-on-kindle.jpg
-tags: [datascience, machinelearning, fifa, numpy, pandas, python, scikitlearn]
-category: "Data Science"
-description: "In this post we are going to apply some basic machine learning on our clean dataset. We are going to focus on using Scikit Learn"
+icon: ./icons/ai_ml.svg
+unsplashImageID: n6B49lTx7NM
+keywords: [datascience, machinelearning, fifa, numpy, pandas, python, scikitlearn]
+category: Data Science
+description: In this post we are going to apply some basic machine learning on our clean dataset. We are going to focus on using Scikit Learn
 ---
 
 ## Source code
