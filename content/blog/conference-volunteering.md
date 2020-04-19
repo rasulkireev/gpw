@@ -2,7 +2,7 @@
 title: Conference Volunteering
 date: 2020-01-09
 published: true
-slug: /conference-volunteering
+slug: conference-volunteering
 icon: ./icons/global-volunteering.svg
 unsplashImageID: bzdhc5b3Bxs
 keywords: [2019, journal, review]

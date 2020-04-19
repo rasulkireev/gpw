@@ -2,7 +2,7 @@
 title: How to Read Books for Free
 date: 2019-07-17
 published: true
-slug: /how-to-read-books-for-free
+slug: how-to-read-books-for-free
 icon: ./icons/book.svg
 unsplashImageID: ./images/reading-on-kindle.jpg
 keywords: [books, free, reading]

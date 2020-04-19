@@ -2,7 +2,7 @@
 title: Analyzing FIFA 19 data (II). Data Exploration and Visualization
 date: 2019-09-26
 published: true
-slug: /fifa-data-exploration
+slug: fifa-data-exploration
 icon: ./icons/plotly.png
 unsplashImageID: mcSDtbWXUZU
 keywords: [opensource, plotly, pandas]

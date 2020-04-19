@@ -2,7 +2,7 @@
 title: My Own Personal Space
 date: 2019-08-07
 published: true
-slug: /personal-space
+slug: personal-space
 icon: ./icons/rocket_take_off.svg
 unsplashImageID: tH7eYi6p23s
 keywords: [personalspace, website, blog]

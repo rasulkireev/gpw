@@ -2,7 +2,7 @@
 title: Analyzing FIFA 19 data (I). Data Cleaning with Pandas and Numpy
 date: 2019-08-19
 published: true
-slug: /fifa-data-cleaning
+slug: fifa-data-cleaning
 icon: ./icons/football.svg
 unsplashImageID: eCktzGjC-iU
 keywords: [jupyter, pandas, numpy]

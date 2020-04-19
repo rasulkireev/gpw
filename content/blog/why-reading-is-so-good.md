@@ -2,7 +2,7 @@
 title: Why Reading is so Good
 date: 2019-07-18
 published: true
-slug: /reading-is-good
+slug: reading-is-good
 icon: ./icons/reading.svg
 unsplashImageID: XqXJJhK-c08
 keywords: [reading]

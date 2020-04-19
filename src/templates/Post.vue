@@ -30,7 +30,7 @@
 
     <socialShareButtons
       :title=$page.post.title
-      :url='$static.metadata.siteUrl + $page.post.path'
+      :url='$static.metadata.siteUrl + $page.post.slug'
       :text=$page.post.description
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
@@ -42,8 +42,8 @@
 </template>
 
 <page-query>
-query Post ($slug: String!) {
-  post: post (path: $slug) {
+query Post ($path: String!) {
+  post: post (path: $path) {
     title
     description
     category
@@ -52,6 +52,7 @@ query Post ($slug: String!) {
     content
     icon
     path
+    slug
   }
 }
 </page-query>

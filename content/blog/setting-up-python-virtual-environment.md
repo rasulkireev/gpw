@@ -2,7 +2,7 @@
 title: Setting up Python virtual environment (for a Django Project)
 date: 2019-08-29
 published: true
-slug: /django-venv
+slug: django-venv
 icon: ./icons/python.svg
 unsplashImageID: TkEPQPWr2sY
 keywords: [virtualenvironment, python, django, project, venv]

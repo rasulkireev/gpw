@@ -2,7 +2,7 @@
 title: Using Virtual Environment with Jupyter Notebook
 date: 2019-08-26
 published: true
-slug: /jupyter-venv
+slug: jupyter-venv
 icon: ./icons/jupyter.jpg
 unsplashImageID: fDV3geJ2HwM
 keywords: [virtualenvironment, jupyter]

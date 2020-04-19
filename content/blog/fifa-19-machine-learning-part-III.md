@@ -2,7 +2,7 @@
 title: Analyzing FIFA 19 data (III). Machine Learning and Prediction
 date: 2019-12-06
 published: true
-slug: /fifa-machine-learning
+slug: fifa-machine-learning
 icon: ./icons/ai_ml.svg
 unsplashImageID: n6B49lTx7NM
 keywords: [datascience, machinelearning, fifa, numpy, pandas, python, scikitlearn]

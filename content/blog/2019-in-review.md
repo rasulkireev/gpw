@@ -2,7 +2,7 @@
 title: 2019 in Review
 date: 2019-12-30
 published: true
-slug: /2019-in-review
+slug: 2019-in-review
 icon: ./icons/2019_year.svg
 unsplashImageID: BFBAmGePnpU
 keywords: [2019, journal, review]

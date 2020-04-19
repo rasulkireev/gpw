@@ -2,7 +2,7 @@
 title: First Javascript Experience
 date: 2019-08-28
 published: true
-slug: /first-javascript-experience
+slug: first-javascript-experience
 icon: ./icons/js.png
 unsplashImageID: O99bWwDMBa8
 keywords: [webapp, javascript, html]

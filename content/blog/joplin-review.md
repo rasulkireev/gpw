@@ -2,7 +2,7 @@
 title: "Joplin: open-source note-taking at its best"
 date: 2020-02-05
 published: true
-slug: /joplin
+slug: joplin
 icon: ./icons/joplin.jpg
 unsplashImageID: gVtJgTyi2iI
 keywords: [joplin, notetaking, opensource, productivity]

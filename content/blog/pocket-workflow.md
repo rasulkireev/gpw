@@ -2,7 +2,7 @@
 title: "My Pocket Workflow"
 date: "2020-03-22"
 published: true
-slug: "/my-pocket-workflow"
+slug: "my-pocket-workflow"
 icon: "./icons/pocket.svg"
 unsplashImageID: "zMRLZh40kms"
 keywords: [joplin, productivity]

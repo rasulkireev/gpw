@@ -2,7 +2,7 @@
 title: Creating a Maker Widget with TailwindCSS
 date: 2019-12-17
 published: true
-slug: /tailwindcss-maker-widget
+slug: tailwindcss-maker-widget
 icon: ./icons/tailwindcss.jpg
 unsplashImageID: U-Z4P2H3KFE
 keywords: [builtwithdjango, tailwindcss, html, css, design]

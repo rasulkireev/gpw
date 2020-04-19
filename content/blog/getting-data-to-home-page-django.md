@@ -2,7 +2,7 @@
 title: Getting data to home page with Django
 date: 2020-02-20
 published: true
-slug: /django-get-context-data
+slug: django-get-context-data
 icon: ./icons/dj.png
 unsplashImageID: Q1p7bh3SHj8
 keywords: [django, context, tutorial]

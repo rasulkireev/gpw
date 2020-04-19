@@ -2,7 +2,7 @@
 title: "PyGotham 2019: Day 2"
 date: 2019-10-15
 published: true
-slug: /pygotham-day-two
+slug: pygotham-day-two
 icon: ./icons/pygotham.png
 unsplashImageID: uf2nnANWa8Q
 keywords: [conference, networking, pygotham, talks]

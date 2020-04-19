@@ -2,7 +2,7 @@
 title: Naruto's Influence on my Life
 date: 2019-07-19
 published: true
-slug: /naruto-influence
+slug: naruto-influence
 icon: ./icons/naruto_sign.svg
 unsplashImageID: lYHdizx3Aww
 keywords: [anime, naruto]

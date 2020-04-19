@@ -2,7 +2,7 @@
 title: "Stop telling me to exercise: dealing with a mild short-term depression"
 date: 2020-03-10
 published: true
-slug: /dealing-with-mild-depression
+slug: dealing-with-mild-depression
 icon: ./icons/straitjacket.svg
 unsplashImageID: Pv5WeEyxMWU
 keywords: [depression, psychology, selfhelp]

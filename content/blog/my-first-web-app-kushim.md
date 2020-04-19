@@ -2,7 +2,7 @@
 title: Just launched my first Web App!
 date: 2019-10-29
 published: true
-slug: /first-web-app
+slug: first-web-app
 icon: ./icons/kushim.png
 unsplashImageID: woWf_VJ7dNs
 keywords: [webapp, django, saas]

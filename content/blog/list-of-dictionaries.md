@@ -2,7 +2,7 @@
 title: Adding a dictionary to a list of dictionaries in Python
 date: 2020-02-13
 published: true
-slug: /list-of-dicts
+slug: list-of-dicts
 icon: ./icons/python.svg
 unsplashImageID: ./images/reading-on-kindle.jpg
 keywords: [webscraping, dictionaries, python, webscraping]

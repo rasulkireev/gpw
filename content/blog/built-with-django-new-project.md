@@ -2,7 +2,7 @@
 title: New Project 'Built with Django'!
 date: 2019-12-12
 published: true
-slug: /builtwithdjango
+slug: builtwithdjango
 icon: ./icons/new-red.svg
 unsplashImageID: gcsNOsPEXfs
 keywords: [webapp, ryankulp, microacquisitions, django]

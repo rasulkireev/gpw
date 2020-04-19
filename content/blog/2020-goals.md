@@ -2,7 +2,7 @@
 title: 2020 Goals
 date: 2019-12-31
 published: true
-slug: /2020-goals
+slug: 2020-goals
 icon: ./icons/2020.svg
 unsplashImageID: aQfhbxailCs
 keywords: [2020, goals, habits, review]

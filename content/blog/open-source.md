@@ -2,7 +2,7 @@
 title: Open Source
 date: 2019-08-16
 published: true
-slug: /open-source
+slug: open-source
 icon: ./icons/open_source.svg
 unsplashImageID: R-HXWCbCBGU
 keywords: [opensource]

@@ -2,7 +2,7 @@
 title: Designing your first personal website
 date: 2020-03-18
 published: true
-slug: /designing-first-site
+slug: designing-first-site
 icon: ./icons/web_design.svg
 unsplashImageID: DtDlVpy-vvQ
 keywords: [personalwebsite, webdesign, css, html]

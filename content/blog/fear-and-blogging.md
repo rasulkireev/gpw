@@ -2,7 +2,7 @@
 title: Fear and Blogging
 date: 2019-08-06
 published: true
-slug: /fear-and-blogging
+slug: fear-and-blogging
 icon: ./icons/scream.svg
 unsplashImageID: Pe4gh8a8mBY
 keywords: [blogging, fear]
