@@ -7,7 +7,9 @@
 
   <!-- Sharingbutton Twitter -->
   <div class="inline-block p-1 mr-1 bg-blue-400">
-    <a :href='"https://twitter.com/intent/tweet/?text=" + title + ";url=" + url' target="_blank" rel="noopener" aria-label="">
+    <a :href='"https://twitter.com/intent/tweet/?text=" + title 
+    
+    + ";url=" + url' target="_blank" rel="noopener" aria-label="">
         <i class="text-white lab la-twitter"></i>
     </a>
   </div>

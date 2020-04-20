@@ -31,7 +31,7 @@
 
       <footer class="flex flex-col items-center justify-between w-full h-16 md:flex-row md:h-20 pin-b">
         <div class="flex flex-row">
-          <a class="flex items-center pr-2 m-0 leading-tight text-center text-gray-600" href="https://rasulkireev.com/feed.xml">RSS</a>
+          <a class="flex items-center pr-2 m-0 leading-tight text-center text-gray-600" href="https://rasulkireev.com/rss.xml">RSS</a>
         </div>
         <div class="">
           <a class="text-blue-700" href="https://xn--sr8hvo.ws/%E2%9E%B0%F0%9F%8D%8A%E2%8F%AD/previous">←</a>
