@@ -75,6 +75,28 @@ module.exports = {
       }
     },
 
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        feedOptions: {
+          title: 'Rasul Kireev | Blog',
+          feed_url: 'https://rasulkireev.com/rss.xml',
+          site_url: 'https://rasulkireev.com'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          date: node.date,
+          description: node.description,
+          url: 'https://rasulkireev.com/' + node.slug,
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
+    }
+
   ],
 
   css: {
