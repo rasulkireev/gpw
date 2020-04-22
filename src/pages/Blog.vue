@@ -34,7 +34,7 @@ query Posts {
         id
         title
         icon
- 
+
         date (format: "MMMM D, Y")
         timeToRead
         slug

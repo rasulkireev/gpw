@@ -12,7 +12,8 @@ const { GRIDSOME_WEBMENTIONS_TOKEN } = process.env;
 
 
 module.exports = function (api) {
-  api.loadSource(async store => {
+
+    api.loadSource(async store => {
     const { data } = await axios.get(API_ORIGIN, {
       params: { token: GRIDSOME_WEBMENTIONS_TOKEN }
     });
@@ -30,6 +31,24 @@ module.exports = function (api) {
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  })
+
+  api.loadSource(({ addSchemaTypes, schema }) => {
+    addSchemaTypes(`
+        type Post implements Node @infer {
+            wordCount: Int
+        }
+    `)
+  })
+
+  api.loadSource(({ addSchemaResolvers }) => {
+    addSchemaResolvers({
+        Post: {
+            wordCount: (obj, args, context, info) => {
+                return obj.content.split(' ').length;
+            }
+        }
+    })
   })
 
 }
