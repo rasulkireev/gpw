@@ -71,7 +71,7 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 export default {
   metaInfo: {
     title: 'Home',
-    description: "Home Page",
+    description: "This is my home page. I try to highlight all the necessary info here.",
   },
   components: {
     fullWidthNewsletter

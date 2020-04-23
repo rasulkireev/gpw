@@ -68,7 +68,7 @@ const nowUrl = "https://rasulkireev.com/now/"
 export default {
 
   metaInfo: {
-    title: nowTitle,
+    title: `Now - ${nowTitle}`,
     meta: [
       {
         key: "description",

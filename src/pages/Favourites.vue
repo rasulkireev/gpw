@@ -24,6 +24,11 @@
 import { podcastEpisodes } from "../data/favourites.js"
 
 export default {
+    metaInfo: {
+        title: 'Favourites',
+        description: "List of my favourite things.",
+    },
+
     data () {
         return {
             episodes: podcastEpisodes,

@@ -47,7 +47,10 @@ query Posts {
 
 <script>
 export default {
-
+  metaInfo: {
+    title: 'Blog Posts',
+    description: "List of blog posts I have written.",
+  },
 }
 </script>
 
