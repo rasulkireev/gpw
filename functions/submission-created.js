@@ -9,7 +9,7 @@ exports.handler = async function(event, context) {
         method: 'POST',
         url: 'https://api.buttondown.email/v1/subscribers',
         headers: {
-            Authorization: `Token ${BUTTONDOWN_API}`
+            Authorization: `Token ${process.env.BUTTONDOWN_API}`
         },
         data: {
             body: JSON.stringify({ email }),
