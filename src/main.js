@@ -26,12 +26,12 @@ export default function (Vue, { router, head, isClient }) {
 
   head.link.push({
     rel: "webmention",
-    href: "https://webmention.io/username/webmention"
+    href: "https://webmention.io/rasulkireev.com/webmention"
   })
 
   head.link.push({
     rel: "pingback",
-    href: "https://webmention.io/username/xmlrpc"
+    href: "https://webmention.io/rasulkireev.com/xmlrpc"
   })
 
   head.meta.push({
@@ -114,5 +114,5 @@ export default function (Vue, { router, head, isClient }) {
     key: "twitter-image",
     property: "twitter:image",
     content: "https://avatars.githubusercontent.com/u/8257474"
-  }) 
+  })
 }
