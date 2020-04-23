@@ -56,6 +56,10 @@ module.exports = {
     },
 
     {
+      use: 'gridsome-plugin-plausible'
+    },
+
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-143847424-1'
@@ -80,6 +84,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         latest: true,
+
         feedOptions: {
           title: 'Rasul Kireev | Blog',
           feed_url: 'https://rasulkireev.com/rss.xml',
