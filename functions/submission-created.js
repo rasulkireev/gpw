@@ -12,7 +12,7 @@ exports.handler = async function(event, context) {
             Authorization: `Token ${process.env.BUTTONDOWN_API}`
         },
         data: {
-            body: JSON.stringify({ email }),
+            'email': JSON.stringify({ email }),
         },
     })
     .then(response => console.log(response))
