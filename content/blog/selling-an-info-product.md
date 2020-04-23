@@ -184,3 +184,5 @@ Works well with video courses.
 * [Nailing Your First Launch - MicroConf Presentation](https://www.youtube.com/watch?v=ajrDxZRpP9M)
 * [The Book Launch that let me quit my job - Adam's Post](https://adamwathan.me/the-book-launch-that-let-me-quit-my-job/)
 * [Tools for selling your product online - Adam's List](https://gist.github.com/adamwathan/30dc4230ac575cfa3425b39ca11ea859)
+
+If you have any comments or feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1253306975762472961). Thanks for reading, and have a wonderful day!
