@@ -7,10 +7,12 @@ exports.handler = async function(event, context) {
 
     return await axios({
         method: 'POST',
-        url: `https://emailoctopus.com/api/1.5/lists/${process.env.OCTO_LIST_ID}/contacts`,
+        url: 'https://api.buttondown.email/v1/subscribers',
+        headers: {
+            Authorization: `Token ${BUTTONDOWN_API}`
+        },
         data: {
-            "api_key": process.env.EMAILOCTOPUS_API,
-            "email_address":  email,
+            body: JSON.stringify({ email }),
         },
     })
     .then(response => console.log(response))
