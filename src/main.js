@@ -3,6 +3,7 @@
 
 // Import global styles
 require('~/css/tailwind.css')
+require('~/css/pattern.min.css')
 import 'prismjs/themes/prism.css'
 import DefaultLayout from '~/layouts/Default.vue'
 
