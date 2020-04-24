@@ -1,5 +1,5 @@
 ---
-title: How to sell an Info Product
+title: How to Sell Info Products
 date: "2020-04-23"
 published: true
 slug: selling-info-products
