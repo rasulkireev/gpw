@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"
+  command = "gridsome build"
+  
+[[redirects]]
+  from = "/writings/joplin"
+  to = "/joplin"
