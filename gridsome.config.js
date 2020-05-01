@@ -26,6 +26,7 @@ module.exports = {
 
   templates: {
     Post: '/:slug',
+
   },
 
   plugins: [
@@ -35,16 +36,6 @@ module.exports = {
         path: 'content/blog/*.md',
         typeName: 'Post',
       },
-      remark: {
-        plugins: [
-          '@gridsome/remark-prismjs',
-          [
-            '@noxify/gridsome-plugin-remark-embed', {
-              'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
-            }
-          ]
-        ]
-      }
     },
     
     {
@@ -97,6 +88,18 @@ module.exports = {
     },
 
   ],
+
+  transformers: {
+    remark: {
+      plugins: [
+        '@gridsome/remark-prismjs',
+        ['@noxify/gridsome-plugin-remark-embed', {
+            'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+          }]
+      ],
+      externalLinksRel: [],
+    }
+  },
 
   css: {
     loaderOptions: {

@@ -17,11 +17,11 @@
       </div>
 
       <div class="mb-4">
-        <a rel="me" href="https://twitter.com/rasulkireev"><i class="text-3xl lab la-twitter"></i></a>
-        <a rel="me" href="https://github.com/rasulkireev"><i class="text-3xl lab la-github"></i></a>
-        <a rel="me" href="https://www.linkedin.com/in/rasul-kireev/"><i class="text-3xl lab la-linkedin-in"></i></a>
-        <a rel="me" href="https://keybase.io/rasulkireev"><i class="text-3xl lab la-keybase"></i></a>
-        <a rel="me" class="u-email" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
+        <a class="social-icon" rel="me" href="https://twitter.com/rasulkireev"><i class="text-3xl lab la-twitter"></i></a>
+        <a class="social-icon" rel="me" href="https://github.com/rasulkireev"><i class="text-3xl lab la-github"></i></a>
+        <a class="social-icon" rel="me" href="https://www.linkedin.com/in/rasul-kireev/"><i class="text-3xl lab la-linkedin-in"></i></a>
+        <a class="social-icon" rel="me" href="https://keybase.io/rasulkireev"><i class="text-3xl lab la-keybase"></i></a>
+        <a class="social-icon u-email" rel="me" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
       </div>
 
       <fullWidthNewsletter />
@@ -32,13 +32,13 @@
         <section id="blog-posts">
             <div class="flex items-center mb-4">
                 <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Writings</h1>
-                <g-link to="/blog/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center">See All</g-link>
-                <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 rounded center" href="https://fd3.netlify.com">Stats</a>
+                <g-link to="/blog/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
+                <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center" href="https://fd3.netlify.com">Stats</a>
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">
-                <g-link :to="post.node.slug" class="flex flex-row items-center block p-1 mb-1 text-xl text-gray-600 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <g-link :to="post.node.slug" class="flex flex-row items-center block p-1 mb-1 text-xl border-0 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" />
-                    <p class="text-sm md:text-lg">{{ post.node.title }}</p>
+                    <p class="text-sm font-normal md:text-lg">{{ post.node.title }}</p>
                 </g-link>
             </div>
         </section>
