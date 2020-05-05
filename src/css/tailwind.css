@@ -27,7 +27,3 @@ a:hover {
 h1, h2, h3, h4, ul, li, p {
     @apply text-copy-primary
 }
-
-.social-icon {
-    @apply font-normal border-0 text-copy-primary;
-}
