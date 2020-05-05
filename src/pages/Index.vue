@@ -79,3 +79,9 @@ export default {
 }
 
 </script>
+
+<style lang="stylus" scoped>
+.social-icon {
+    @apply font-normal border-0 text-copy-primary;
+}
+</style>
