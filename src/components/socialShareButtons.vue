@@ -66,4 +66,14 @@ export default {
 i {
   font-size: 2.5rem;
 }
+
+a {
+  border: 0;
+}
+
+a:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 </style>
