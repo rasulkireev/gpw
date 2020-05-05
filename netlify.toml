@@ -5,3 +5,7 @@
 [[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
+
+[[redirects]]
+  from = "writings/dealing-with-mild-depression"
+  to = "/dealing-with-mild-depression"
