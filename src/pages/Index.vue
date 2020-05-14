@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <div class="p-1 m-1 text-lg text-center text-red-900 bg-red-400 rounded-lg shadow">The site is still in progress, please judge lightly.</div>
 
     <div class="mx-auto mb-10 text-xl">
       <div>
@@ -29,10 +30,10 @@
     </div>
 
     <div class="flex flex-row justify-between">
-        <section id="blog-posts">
+        <section>
             <div class="flex items-center mb-4">
                 <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Writings</h1>
-                <g-link to="/blog/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
+                <g-link to="/articles" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
                 <!-- <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center" href="https://fd3.netlify.com">Stats</a> -->
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">

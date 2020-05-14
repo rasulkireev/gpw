@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <p class="mb-10 text-blue-700">← <g-link to="/blog/">back to posts</g-link></p>
+    <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
     <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
       
@@ -15,7 +15,7 @@
           <g-image class="w-16 md:order-last" :src="$page.post.icon" />
           <div>
             <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="name">{{ $page.post.title }}</h1>
-            <p id="meta" class="m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.post.date">{{$page.post.date}}</time></p>
+            <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.post.date">{{$page.post.date}}</time></p>
           </div>
         </div>
 
