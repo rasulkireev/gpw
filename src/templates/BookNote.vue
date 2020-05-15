@@ -3,13 +3,13 @@
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
     <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-      
+
       <!-- Author description -->
       <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
           <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
       </div>
-     
+
       <div class="mb-4 border-b border-gray-200 border-solid">
         <div id="title" class="flex flex-col md:flex-row md:justify-between">
           <g-image class="w-16 md:order-last" :src="$page.bookNote.cover" />
@@ -22,7 +22,7 @@
         <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.bookNote.path' itemprop="url"></a>
         <p class="hidden p-category" itemprop="about">{{ $page.bookNote.category }}</p>
         <p class="hidden p-summary" itemprop="abstract">{{ $page.bookNote.description }}</p>
-        
+
       </div>
 
         <div class="markdown-body" v-html="$page.bookNote.content" />
@@ -55,10 +55,10 @@ query BookNote ($path: String!) {
 </page-query>
 
 <static-query>
-  query { 
-    metadata { 
-      siteName 
-      siteDescription 
+  query {
+    metadata {
+      siteName
+      siteDescription
       siteUrl
       author
       twitter
@@ -75,58 +75,6 @@ export default {
   metaInfo() {
     return {
       title: this.$page.note.title,
-      // meta: [
-      //   {
-      //     key: "description",
-      //     name: 'description',
-      //     content: this.$page.note.description
-      //   },
-        
-      //   // open-graph tags
-      //   {
-      //     key: "og-title",
-      //     property: 'og:title',
-      //     content: this.$page.note.title
-      //   },
-      //   {
-      //     key: 'og-description',
-      //     property: 'og:description',
-      //     content: this.$page.note.description
-      //   },
-      //   {
-      //     key: 'og-image',
-      //     property: 'og:image',
-      //     content: 'https://ogi.sh?title=' + this.$page.note.title + '&unsplashId=' + this.$page.note.unsplashImageID,
-
-      //   },
-      //   {
-      //     key: "og-url",
-      //     property: 'og:url',
-      //     content: this.$static.metadata.siteUrl + this.$page.note.path
-      //   },
-        
-      //   // twitter card
-      //   {
-      //     key: "twitter-card",
-      //     name: 'twitter:card',
-      //     content:'summary_large_image'
-      //   },
-      //   { 
-      //     key: "twitter-title",
-      //     name: 'twitter:title', 
-      //     content: this.$page.note.title 
-      //   },
-      //   { 
-      //     key: "twitter-description",
-      //     name: 'twitter:description', 
-      //     content: this.$page.note.description 
-      //   },
-      //   {
-      //     key: "twitter-image",
-      //     name: "twitter:image",
-      //     content: 'https://ogi.sh?title=' + this.$page.note.title + '&unsplashId=' + this.$page.note.unsplashImageID,
-      //   },
-      // ],
     }
   },
 

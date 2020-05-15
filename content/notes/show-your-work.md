@@ -1,5 +1,5 @@
 ---
-title: "Show Your Work"
+bookTitle: "Show Your Work"
 author: "Austin Kleon"
 description: "Great Book"
 slug: "show-your-work"
