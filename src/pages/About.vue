@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    
+
       <section class="mb-4">
         <h1 class="mb-4 text-2xl font-semibold border-b-2 border-gray-200">About</h1>
         <p class="mb-3 text-xl">I started this website as a place to document everything I learn while on my path to become a Data Scientist and an Indie maker and generally a good person. I am trying to make a habit of writing about everything I learn.</p>
@@ -14,6 +14,7 @@
 
 <script>
 export default {
+  name: 'About',
   metaInfo: {
     title: 'About'
   }
