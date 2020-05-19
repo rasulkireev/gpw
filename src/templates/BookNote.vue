@@ -74,7 +74,7 @@ import socialShareButtons from "../components/socialShareButtons"
 export default {
   metaInfo() {
     return {
-      title: this.$page.note.title,
+      title: this.$page.bookNote.title,
     }
   },
 
