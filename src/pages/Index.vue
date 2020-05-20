@@ -73,6 +73,9 @@ export default {
   metaInfo: {
     title: "Home",
     description: "This is my home page. I try to highlight all the necessary info here.",
+    link: [
+        { rel: "canonical", href:  `https://rasulkireev.com` },
+    ],
   },
   components: {
     fullWidthNewsletter

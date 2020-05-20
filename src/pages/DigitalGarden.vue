@@ -1,35 +1,39 @@
 <template>
   <Layout>
     <div class="flex flex-row flex-wrap justify-between">
-      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md w-30p">
-        <h1 class="mb-1 text-lg font-semibold">
-          <g-link to="/articles">Articles</g-link>
-        </h1>
-        <p class="text-sm">I try to write more. This is a small collection of my learnings & thoughts.</p>
+      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md hover:shadow-xl w-30p">
+        <g-link to="/articles">
+          <h2 class="mb-1 text-lg font-semibold">Articles</h2>
+          <p class="text-sm font-normal">Collection of my thoughts, learning and anything else.</p>
+        </g-link>
       </div>
-      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md w-30p">
-        <h1 class="mb-1 text-lg font-semibold">
-          <g-link to="">Newsletter</g-link>
-        </h1>
-        <p class="text-sm">Collection of the personal letters I sent to my subscribers.</p>
+      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md hover:shadow-xl w-30p">
+        <g-link to="">
+          <h2 class="mb-1 text-lg font-semibold text-gray-600">Newsletter</h2>
+          <p class="text-sm font-normal text-gray-600">Collection of the personal letters I sent to my subscribers.</p>
+        </g-link>
       </div>
-      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md w-30p">
-        <h1 class="mb-1 text-lg font-semibold">
-          <g-link to="/book-notes">Book Notes</g-link>
-        </h1>
-        <p class="text-sm">Hello</p>
+      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md hover:shadow-xl w-30p">
+        <g-link to="/book-notes">
+          <h2 class="mb-1 text-lg font-semibold">Book Notes</h2>
+          <p class="text-sm font-normal">Collection of notes from the books I read.</p>
+        </g-link>
       </div>
-      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md w-30p">
-        <h1 class="mb-1 text-lg font-semibold">
-          <g-link to="/journal">Journal</g-link>
-        </h1>
-        <p class="text-sm">Hello</p>
+      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md hover:shadow-xl w-30p">
+        <g-link to="">
+          <h2 class="mb-1 text-lg font-semibold text-gray-600">Journal</h2>
+          <p class="text-sm font-normal text-gray-600">Selected snippets from my daily journal</p>
+        </g-link>
       </div>
-      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md w-30p">
-        <h1 class="mb-1 text-lg font-semibold">
-          <g-link to="/resources">Resources</g-link>
-        </h1>
-        <p class="text-sm">Hello</p>
+      <div class="p-4 m-2 border border-gray-300 rounded-lg shadow-md hover:shadow-xl w-30p">
+        <g-link to="">
+          <h2 class="mb-1 text-lg font-semibold text-gray-600">Resources</h2>
+          <p class="text-sm font-normal text-gray-600">Curated selection of notes from my
+            <a class="font-normal text-blue-700 hover:text-blue-600" href="https://www.buildingasecondbrain.com/">
+            Second Brain.
+            </a>
+          </p>
+        </g-link>
       </div>
     </div>
 
@@ -58,7 +62,7 @@ export default {
             },
         ],
         link: [
-            { rel: 'canonical', href: "https://rasulkireev.com/digital-garden" },
+            { rel: 'canonical', href: `https://rasulkireev.com/digital-garden` },
         ]
     }
 }

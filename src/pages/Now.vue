@@ -100,7 +100,10 @@ export default {
         name: 'twitter:description', 
         content: nowDescription
       },
-    ]
+    ],
+    link: [
+        { rel: "canonical", href:  `https://rasulkireev.com/now` },
+    ],
   },
 }
 </script>

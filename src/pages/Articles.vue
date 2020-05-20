@@ -42,6 +42,9 @@ export default {
   metaInfo: {
     title: 'Digital Garden',
     description: "List of articles I have written.",
+    link: [
+        { rel: "canonical", href:  `https://rasulkireev.com/articles` },
+    ],
   },
 }
 </script>

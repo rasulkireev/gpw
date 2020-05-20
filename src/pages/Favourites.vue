@@ -27,6 +27,9 @@ export default {
     metaInfo: {
         title: 'Favourites',
         description: "List of my favourite things.",
+        link: [
+            { rel: "canonical", href:  `https://rasulkireev.com/favourites` },
+        ],
     },
 
     data () {

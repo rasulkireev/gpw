@@ -30,7 +30,7 @@
 
     <socialShareButtons
       :title=$page.post.title
-      :url='$static.metadata.siteUrl + $page.post.slug'
+      :url='$static.metadata.siteUrl + $page.post.path'
       :text=$page.post.description
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
@@ -75,65 +75,63 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 
 export default {
-  metaInfo() {
-    return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          key: "description",
-          name: 'description',
-          content: this.$page.post.description
-        },
+  metaInfo: {
+    title: this.$page.post.title,
+    meta: [
+      {
+        key: "description",
+        name: 'description',
+        content: this.$page.post.description
+      },
 
-        // open-graph tags
-        {
-          key: "og-title",
-          property: 'og:title',
-          content: this.$page.post.title
-        },
-        {
-          key: 'og-description',
-          property: 'og:description',
-          content: this.$page.post.description
-        },
-        {
-          key: 'og-image',
-          property: 'og:image',
-          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+      // open-graph tags
+      {
+        key: "og-title",
+        property: 'og:title',
+        content: this.$page.post.title
+      },
+      {
+        key: 'og-description',
+        property: 'og:description',
+        content: this.$page.post.description
+      },
+      {
+        key: 'og-image',
+        property: 'og:image',
+        content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
 
-        },
-        {
-          key: "og-url",
-          property: 'og:url',
-          content: this.$static.metadata.siteUrl + this.$page.post.path
-        },
+      },
+      {
+        key: "og-url",
+        property: 'og:url',
+        content: this.$static.metadata.siteUrl + this.$page.post.path
+      },
 
-        // twitter card
-        {
-          key: "twitter-card",
-          name: 'twitter:card',
-          content:'summary_large_image'
-        },
-        {
-          key: "twitter-title",
-          name: 'twitter:title',
-          content: this.$page.post.title
-        },
-        {
-          key: "twitter-description",
-          name: 'twitter:description',
-          content: this.$page.post.description
-        },
-        {
-          key: "twitter-image",
-          name: "twitter:image",
-          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
-        },
-      ],
-    //   link: [
-    //       { rel: "canonical", href: this.$static.metadata.siteUrl + this.$page.post.path },
-    //   ],
-    }
+      // twitter card
+      {
+        key: "twitter-card",
+        name: 'twitter:card',
+        content:'summary_large_image'
+      },
+      {
+        key: "twitter-title",
+        name: 'twitter:title',
+        content: this.$page.post.title
+      },
+      {
+        key: "twitter-description",
+        name: 'twitter:description',
+        content: this.$page.post.description
+      },
+      {
+        key: "twitter-image",
+        name: "twitter:image",
+        content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+      },
+    ],
+    link: [
+        { rel: "canonical", href:  `https://rasulkireev.com${this.$page.post.path}` },
+    ],
   },
 
   computed: {

@@ -72,10 +72,11 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 
 export default {
-  metaInfo() {
-    return {
+  metaInfo: {
       title: this.$page.bookNote.title,
-    }
+      link: [
+          { rel: "canonical", href: `https://rasulkireev.com${this.$page.bookNote.path}` },
+      ],
   },
 
   computed: {

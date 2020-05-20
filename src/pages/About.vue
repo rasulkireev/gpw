@@ -16,7 +16,10 @@
 export default {
   name: 'About',
   metaInfo: {
-    title: 'About'
+    title: 'About',
+    link: [
+          { rel: "canonical", href:  `https://rasulkireev.com/about` },
+    ],
   }
 }
 </script>

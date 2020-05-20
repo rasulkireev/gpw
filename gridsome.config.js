@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require(
 module.exports = {
   siteName: 'Rasul Kireev',
   siteDescription: 'This my personal Digital Garden. Collection of thoughts, notes and a bunch of other things. Whatever I want in fact.',
-  siteUrl: 'https://rasulkireev.com/',
+  siteUrl: 'https://rasulkireev.com',
   metadata: {
     author: 'Rasul Kireev',
     twitter: '@rasulkireev',
