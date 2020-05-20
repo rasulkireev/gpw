@@ -14,7 +14,12 @@
         <div id="title" class="flex flex-col md:flex-row md:justify-between">
           <g-image class="w-16 md:order-last" :src="$page.bookNote.cover" />
           <div>
-            <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="name">{{ $page.bookNote.title }}</h1>
+            <div>
+              <h1 class="my-3 text-3xl font-semibold leading-8">
+                <span class="p-name" itemprop="name">{{ $page.bookNote.title }}</span> 
+                by 
+                <span>{{ $page.bookNote.author }}</span></h1>
+            </div>
             <p id="meta" class="m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.bookNote.date">{{$page.bookNote.date}}</time></p>
           </div>
         </div>
@@ -30,7 +35,7 @@
 
     <socialShareButtons
       :title=$page.bookNote.title
-      :url='$static.metadata.siteUrl + $page.bookNote.slug'
+      :url='$static.metadata.siteUrl + $page.bookNote.path'
       :text=$page.bookNote.description
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
@@ -49,7 +54,6 @@ query BookNote ($path: String!) {
     path
     content
     cover
-    path
   }
 }
 </page-query>
@@ -72,17 +76,13 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 
 export default {
-  metaInfo: {
-      title: this.$page.bookNote.title,
-      link: [
-          { rel: "canonical", href: `https://rasulkireev.com${this.$page.bookNote.path}` },
-      ],
-  },
-
-  computed: {
-    // keywordsToHashTags() {
-    //   return this.$page.post.keywords.map(x => "%23" + x).join(" ");
-    // }
+  metaInfo() {
+      return {  
+          title: this.$page.bookNote.title,
+          link: [
+              { rel: "canonical", href: `https://rasulkireev.com${this.$page.bookNote.path}` },
+          ],
+        }
   },
 
   components: {

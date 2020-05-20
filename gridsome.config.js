@@ -24,8 +24,20 @@ module.exports = {
   },
 
   templates: {
-    Post: '/:slug',
-
+    Post: [
+      {
+        path: (node) => {
+          return `/${node.slug}`
+        }
+      }
+    ],
+    BookNote: [
+      {
+        path: (node) => {
+          return `/${node.bookSlug}`
+        }
+      }
+    ],
   },
 
   plugins: [

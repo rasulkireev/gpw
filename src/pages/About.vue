@@ -18,7 +18,7 @@ export default {
   metaInfo: {
     title: 'About',
     link: [
-          { rel: "canonical", href:  `https://rasulkireev.com/about` },
+        { rel: "canonical", href:  `https://rasulkireev.com/about` },
     ],
   }
 }
