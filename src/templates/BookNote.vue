@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
+    <p class="mb-10 text-blue-700">← <g-link to="/book-notes/">back to posts</g-link></p>
 
     <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 

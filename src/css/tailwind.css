@@ -3,31 +3,3 @@
 @tailwind components;
 
 @tailwind utilities;
-
-.light-mode {
-    --bg-background-primary: #fff;
-    --text-copy-primary: #111;
-    --text-copy-link: #5183f5; 
-}
-
-.dark-mode {
-    --bg-background-primary:#111;
-    --text-copy-primary: #fff;
-    --text-copy-link: #6ab0f3; 
-}
-
-a {
-    @apply font-semibold border-b-2 border-blue-200 --text-copy-link;
-}
-
-a:hover {
-    @apply bg-blue-200 border-blue-600;
-}
-
-h1, h2, h3, h4, ul, li, p {
-    @apply text-copy-primary
-}
-
-.social-icon {
-    @apply text-copy-primary;
-}

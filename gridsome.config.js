@@ -13,7 +13,6 @@ const postcssPlugins = [
 
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
-
 module.exports = {
   siteName: 'Rasul Kireev',
   siteDescription: 'This my personal Digital Garden. Collection of thoughts, notes and a bunch of other things. Whatever I want in fact.',
@@ -30,6 +29,7 @@ module.exports = {
           return `/${node.slug}`
         }
       }
+
     ],
     BookNote: [
       {
@@ -38,6 +38,13 @@ module.exports = {
         }
       }
     ],
+  //   ResourceNote: [
+  //     {
+  //       path: (node) => {
+  //         return `/${node.category}/${node.slug}`
+  //       }
+  //     }
+  //   ],
   },
 
   plugins: [
@@ -56,7 +63,16 @@ module.exports = {
         typeName: 'BookNote',
       },
     },
-    
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/journal/**/*.md',
+        typeName: 'ResourceNote',
+      },
+    },
+
+
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -116,15 +132,14 @@ module.exports = {
             'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
           }]
       ],
+      css: {
+        loaderOptions: {
+            postcss: {
+                plugins: postcssPlugins,
+            },
+        },
+      },
       externalLinksRel: [],
     }
-  },
-
-  css: {
-    loaderOptions: {
-        postcss: {
-            plugins: postcssPlugins,
-        },
-    },
   },
 }

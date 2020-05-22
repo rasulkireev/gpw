@@ -1,7 +1,5 @@
 <template>
   <Layout>
-    <div class="p-1 m-1 text-lg text-center text-red-900 bg-red-400 rounded-lg shadow">The site is still in progress, please judge lightly.</div>
-
     <div class="mx-auto mb-10 text-xl">
       <div>
         <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>

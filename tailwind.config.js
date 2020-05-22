@@ -9,25 +9,6 @@ module.exports = {
       width: {
         '30p': '30%',
       },
-      colors: {
-        background: {
-          primary: 'var(--bg-background-primary)',
-       
-          form: 'var(--bg-background-form)',
-        },
-
-        copy: {
-          primary: 'var(--text-copy-primary)',
-          secondary: 'var(--text-copy-hover)',
-          link: 'var(--text-copy-link)',
-        },
-
-        'border-color': {
-          primary: 'var(--border-border-color-primary)',
-        },
-
-        transparent: 'transparent',
-      },
     },
   },
   variants: {},
