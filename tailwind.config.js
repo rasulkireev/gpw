@@ -1,4 +1,22 @@
 module.exports = {
+  purge: {
+    content: [
+      './src/**/*.html',
+      './src/**/*.vue',
+      './src/**/*.js',
+    ],
+    whitelist: [
+      'body',
+      'html',
+      'img',
+      'a',
+      'g-image',
+      'g-image--lazy',
+      'g-image--loaded',
+    ],
+    defaultExtractor: content => content.match(/[A-z0-9-:\\/]+/g) || ['vue', 'js', 'html'],
+
+  },
   theme: {
     extend: {
       inset: {
