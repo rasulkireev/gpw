@@ -1,11 +1,11 @@
 <template>
-<div id="app" class="min-h-screen light-mode bg-background-primary">
+<div id="app" class="min-h-screen light-mode bg-white">
   <div class="flex flex-col max-w-4xl px-5 mx-auto leading-relaxed">
-    <header class="fixed top-0 left-0 z-10 w-full bg-background-primary h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <header class="fixed top-0 left-0 z-10 w-full bg-white h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <div class="flex flex-col justify-between max-w-4xl px-6 m-auto sm:flex-row md:h-24">
           <div class="flex flex-row items-center justify-between w-full h-16 md:h-24">
             <div class="brand">
-              <g-link to="/" class="flex flex-row items-center border-0 hover:bg-transparent text-copy-primary u-url">
+              <g-link to="/" class="flex flex-row items-center border-0 hover:bg-transparent u-url">
                 <img class="w-8 h-8 mx-auto mr-2 rounded-lg shadow u-photo" src="https://avatars.githubusercontent.com/u/8257474">
                 <span class="block text-xl font-semibold no-underline p-name u-url">Rasul Kireev</span>
               </g-link>
@@ -19,9 +19,9 @@
             </button>
           </div>
             <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="flex-col items-start justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
-              <g-link to="/about" class="flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link>
-              <g-link to="/digital-garden" class="flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link>
-              <g-link to="/now" class="flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link>
+              <g-link to="/about" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link>
+              <g-link to="/digital-garden" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link>
+              <g-link to="/now" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link>
             </nav>
           </div>
       </header>
