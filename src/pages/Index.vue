@@ -23,7 +23,7 @@
         <a class="font-normal bg-transparent border-0 border-transparent social-icon u-email" rel="me" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
       </div>
 
-      <fullWidthNewsletter />
+    <fullWidthNewsletter />
 
     </div>
 

@@ -27,7 +27,6 @@
       </header>
 
     <div class="mt-24 mb-10">
-      <div class="p-1 m-1 text-lg text-center text-red-900 bg-red-400 rounded-lg shadow">The site is still in progress, please judge lightly.</div>
       <slot/>
     </div>
 

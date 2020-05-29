@@ -1,5 +1,4 @@
 export const newsletterLetters = [
-    
     {
         id: 1,
         url: 'https://buttondown.email/rasulkireev/archive/letter-1-fresh-start-correction/',
@@ -11,5 +10,11 @@ export const newsletterLetters = [
         url: 'https://buttondown.email/rasulkireev/archive/weekly-letter-2-built-with-django-newline-course/',
         title: "Weekly Letter #2 - Built with Django, Newline Course, Paid Newsletters",
         date: '2020/05/20',
+    },
+    {
+        id: 3,
+        url: 'https://buttondown.email/rasulkireev/archive/20200526-tuesday-letter-3/',
+        title: "Tuesday Letter #3",
+        date: '2020/05/26',
     },
 ]
