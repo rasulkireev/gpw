@@ -1,6 +1,6 @@
 ---
 title: "My Pocket Workflow"
-date: "2020-03-22"
+date: 2020-03-22
 published: true
 slug: "my-pocket-workflow"
 icon: "./icons/pocket.svg"

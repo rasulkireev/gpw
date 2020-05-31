@@ -1,7 +1,8 @@
 <template>
     <div class="p-4 mb-6 border-2 border-green-300 rounded">
+        <h2 class="text-2xl font-semibold">{{ title }}</h2>
         <p class="mb-2 text-xl">
-          Finally, consider signing up for my personal newsletter. I will update you on the latest articles and any interesting articles and resources I've encountered.
+          {{ description }}
         </p>
 
         <div>
@@ -26,6 +27,8 @@
 import axios from "axios";
 
 export default {
+    props: ['title', 'description'],
+    
     data() {
         return {
             formData: {
@@ -33,7 +36,7 @@ export default {
             },
         }
     },
-    
+
     methods: {
         encode(data) {  
             const formData = new FormData();

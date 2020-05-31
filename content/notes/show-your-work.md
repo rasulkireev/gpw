@@ -4,7 +4,7 @@ author: "Austin Kleon"
 description: "Great Book"
 bookSlug: "show-your-work"
 cover: "./images/show-your-work.jpg"
-date: "2020-05-14"
+date: 2020-05-14
 category: "Creativity"
 ---
 

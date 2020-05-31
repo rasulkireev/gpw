@@ -1,6 +1,10 @@
 <template>
     <Layout>
-        <fullWidthNewsletter />
+        <fullWidthNewsletter
+            title="Tuesday Letter"
+            description="In this newsletter I will share the most interesting articles and resources I've encountered during the week. 
+            Additionally you might here small updated on my projects.">
+        </fullWidthNewsletter>
 
         <div class="mb-4">
             <h1 class="text-4xl">Past Newsletter Issues</h1>

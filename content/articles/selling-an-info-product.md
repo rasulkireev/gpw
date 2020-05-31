@@ -1,6 +1,6 @@
 ---
 title: How to Sell Info Products
-date: "2020-04-23"
+date: 2020-04-23
 published: true
 slug: selling-info-products
 icon: ./icons/workspace.svg

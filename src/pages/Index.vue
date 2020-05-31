@@ -23,7 +23,9 @@
         <a class="font-normal bg-transparent border-0 border-transparent social-icon u-email" rel="me" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
       </div>
 
-    <fullWidthNewsletter />
+    <fullWidthNewsletter
+    description="Finally, consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week.">
+    </fullWidthNewsletter>
 
     </div>
 
@@ -68,15 +70,16 @@ query Posts {
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 
 export default {
+  components: {
+    fullWidthNewsletter
+  },
+  
   metaInfo: {
     title: "Home",
     description: "This is my home page. I try to highlight all the necessary info here.",
     link: [
         { rel: "canonical", href:  `https://rasulkireev.com` },
     ],
-  },
-  components: {
-    fullWidthNewsletter
   },
 }
 
