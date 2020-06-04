@@ -17,4 +17,10 @@ export const newsletterLetters = [
         title: "Tuesday Letter #3",
         date: '2020/05/26',
     },
+    {
+        id: 4,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-4-dalio-wisdom-the-art-of-deal/',
+        title: "Tuesday Letter #4 - Dalio Wisdom, The Art of Deal Making, and Learning in Public",
+        date: '2020/06/02',
+    },
 ]
