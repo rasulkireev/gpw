@@ -3,8 +3,8 @@ title: Adding Scripts to Specific Pages with Gridsome / Vue
 date: 2020-06-05
 published: true
 slug: gridsome-page-scripts
-icon: ./icons/2019_year.svg
-unsplashImageID: BFBAmGePnpU
+icon: ./icons/source_code.svg
+unsplashImageID: YOqOgFI5fKI
 keywords: [scripts, gridsome, vue]
 category: Javascript
 description: How do I add script tag to specific pages only? In this post I show how I integrated hypothes.is only on my article pages.
@@ -16,6 +16,7 @@ Let's say you want to add an external library to your Gridsome website. In my ca
 
 **TL;DR**
 Add script tags to your site via the `mounted` function.
+
 ```
 export default {
   mounted() {
@@ -25,18 +26,19 @@ export default {
   },
 ...
 }
-`"
+```
 
 I can add hypothes.is to my site by adding the following script tag to my index.html, right above the closing body tag.
 
 ```
 <script src="https://hypothes.is/embed.js" async></script>
-`"
+```
+
 This will add the hypothesis sidebar to all my pages. This can be a good enough solution. However, I don't want to crowd each page on my site with this sidebar. Well then, how can I add it to specific Pages only?
 
 Given Gridsome's structure, it is very easy to isolate specific pages. For example, we could target `Post.vue` if I only want this script in articles. Or I could target `About.vue` if I wanted to add to about page only.
 
-`"
+```
 ├── content
 |  ├── articles
 |  ├── notes
@@ -58,7 +60,7 @@ Given Gridsome's structure, it is very easy to isolate specific pages. For examp
 |  └── templates
 |     ├── BookNote.vue
 |     └── Post.vue
-`"
+```
 
 Now the question is: "How do I add the script tag?". If you added in the templates, it will show up and load in the middle of the page, which is not ideal. We want this script to be right inserted right before the closing body tag.
 
@@ -73,7 +75,7 @@ export default {
   },
 ...
 }
-`"
+```
 
 Let's review.
 

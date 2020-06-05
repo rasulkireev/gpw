@@ -41,7 +41,10 @@
     </socialShareButtons>
 
 
-    <fullWidthNewsletter class="my-4"></fullWidthNewsletter>
+    <fullWidthNewsletter 
+      class="my-4"
+      description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found arounf the internet.">
+    </fullWidthNewsletter>
 
   </Layout>
 </template>
