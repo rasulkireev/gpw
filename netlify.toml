@@ -1,7 +1,7 @@
 [build]
   publish = "dist"
   command = "gridsome build"
-  
+
 [[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
@@ -9,3 +9,7 @@
 [[redirects]]
   from = "writings/dealing-with-mild-depression"
   to = "/dealing-with-mild-depression"
+
+[[redirects]]
+  from = "writings/designing-first-site"
+  to = "/designing-first-site"
