@@ -28,4 +28,4 @@ Do not worry, though, there is an insultingly easy solution for this. [Publish t
 
 Now you have a nice centralized location for all the written words you consume during the day!
 
-If you have any comments or feednack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1268912329263022082).
+If you have any comments or feednack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1268912329263022082) or [on HackerNews](https://news.ycombinator.com/item?id=23428962).
