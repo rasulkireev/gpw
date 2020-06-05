@@ -86,3 +86,5 @@ Let's review.
 
 
 Now you have your desired external library only on pages you want.
+
+If you have any feed back please leave it [on Twitter](https://twitter.com/rasulkireev/status/1268986330006073345), [on HackerNews](https://news.ycombinator.com/item?id=23432720) or via [Hypothes.is](https://web.hypothes.is/) on the top right of this page. Thanks a ton in advance!
