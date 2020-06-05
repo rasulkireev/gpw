@@ -15,6 +15,7 @@ Let's say you want to add an external library to your Gridsome website. In my ca
 > Hypothes.is tries to enable a conversation over the world's knowledge. In Layman's terms, it allows users to comment, highlight, and annotate content on any site. Adding it to my site, I will help people explore this tool and will hopefully drive more conversation about my posts.
 
 **TL;DR**
+
 Add script tags to your site via the `mounted` function.
 
 ```javascript
