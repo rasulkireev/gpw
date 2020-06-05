@@ -78,7 +78,7 @@ export default {
   mounted() {
         let hypothesisScript = document.createElement("script")
         hypothesisScript.setAttribute('src', 'https://hypothes.is/embed.js')
-        document.head.appendChild(hypothesisScript)
+        document.body.appendChild(hypothesisScript)
   },
   metaInfo() {
     return {
