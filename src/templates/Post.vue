@@ -75,6 +75,11 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 
 export default {
+  mounted() {
+        let hypothesisScript = document.createElement("script")
+        hypothesisScript.setAttribute('src', 'https://hypothes.is/embed.js')
+        document.head.appendChild(hypothesisScript)
+  },
   metaInfo() {
     return {
       title: this.$page.post.title,
