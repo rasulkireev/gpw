@@ -17,7 +17,7 @@ Let's say you want to add an external library to your Gridsome website. In my ca
 **TL;DR**
 Add script tags to your site via the `mounted` function.
 
-```
+```javascript
 export default {
   mounted() {
         let hypothesisScript = document.createElement("script")
@@ -30,7 +30,7 @@ export default {
 
 I can add hypothes.is to my site by adding the following script tag to my index.html, right above the closing body tag.
 
-```
+```html
 <script src="https://hypothes.is/embed.js" async></script>
 ```
 
@@ -66,7 +66,7 @@ Now the question is: "How do I add the script tag?". If you added in the templat
 
 Well, we can do this with a `mounted` function:
 
-```
+```javascript
 export default {
   mounted() {
         let hypothesisScript = document.createElement("script")
