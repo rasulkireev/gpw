@@ -15,23 +15,22 @@ Let's say you want to add an external library to your Gridsome website. In my ca
 > Hypothes.is tries to enable a conversation over the world's knowledge. In Layman's terms, it allows users to comment, highlight, and annotate content on any site. Adding it to my site, I will help people explore this tool and will hopefully drive more conversation about my posts.
 
 **TL;DR**
-
-Add script tags to your site via the `mounted` function.
+Add script tags to your site via the [Vue Meta](https://vue-meta.nuxtjs.org/) extension.
 
 ```javascript
 export default {
-  mounted() {
-        let hypothesisScript = document.createElement("script")
-        hypothesisScript.setAttribute('src', 'https://hypothes.is/embed.js')
-        document.body.appendChild(hypothesisScript)
-  },
+  metaInfo: {
+    script: [
+      { src: 'https://hypothes.is/embed.js', body: true }
+    ]
+  }
 ...
 }
 ```
 
 I can add hypothes.is to my site by adding the following script tag to my index.html, right above the closing body tag.
 
-```html
+```javascript
 <script src="https://hypothes.is/embed.js" async></script>
 ```
 
@@ -63,29 +62,30 @@ Given Gridsome's structure, it is very easy to isolate specific pages. For examp
 |     └── Post.vue
 ```
 
-Now the question is: "How do I add the script tag?". If you added in the templates, it will show up and load in the middle of the page, which is not ideal. We want this script to be right inserted right before the closing body tag.
-
-Well, we can do this with a `mounted` function:
+Now the question is: "How do I add the script tag?". Well, the answer is simple. You can leverage metaInfo in your script. If you followed Gridsome instructions to add Meta info to your site then you would know that you just need to add metaInfo object (or function, if using GraphQL queries) to your export default function. This is exactly what you would use to add a script tag.
 
 ```javascript
 export default {
-  mounted() {
-        let hypothesisScript = document.createElement("script")
-        hypothesisScript.setAttribute('src', 'https://hypothes.is/embed.js')
-        document.body.appendChild(hypothesisScript)
-  },
+  metaInfo: {
+    script: [
+      { src: 'https://hypothes.is/embed.js', body: true }
+    ]
+  }
 ...
 }
 ```
 
-Let's review.
+or
 
-1. Create a variable/element called `script`
-2. Set the src attribute to the library URL
-    * Note: when you add a script via a script (very meta) async tag is added automatically, so no need to worry about it
-3. `Mount` the element to the body
-
+```javascript
+export default {
+  metaInfo() {
+    script: [
+      { src: 'https://hypothes.is/embed.js', body: true }
+    ]
+  }
+...
+}
+```
 
 Now you have your desired external library only on pages you want.
-
-If you have any feed back please leave it [on Twitter](https://twitter.com/rasulkireev/status/1268986330006073345), [on HackerNews](https://news.ycombinator.com/item?id=23432720) or via [Hypothes.is](https://web.hypothes.is/) on the top right of this page. Thanks a ton in advance!
