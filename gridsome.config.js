@@ -76,10 +76,12 @@ module.exports = {
             }
         },
 
+        // Plausible
         {
             use: 'gridsome-plugin-plausible'
         },
 
+        // Sitemap
         {
             use: '@gridsome/plugin-sitemap',
             options: {
@@ -93,6 +95,7 @@ module.exports = {
             }
         },
 
+        // General RSS
         {
             use: 'gridsome-plugin-rss',
             options: {
@@ -107,11 +110,35 @@ module.exports = {
                     title: node.title,
                     date: node.date,
                     description: node.description,
-                    url: 'https://rasulkireev.com/' + node.slug,
+                    url: 'https://rasulkireev.com/' + node.path,
                 }),
                 output: {
                     dir: './static',
                     name: 'rss.xml'
+                }
+            }
+        },
+        
+        // Django RSS, need to add filter
+        {
+            use: 'gridsome-plugin-rss',
+            options: {
+                contentTypeName: 'Post',
+                latest: true,
+                feedOptions: {
+                    title: 'Rasul Kireev',
+                    feed_url: 'https://rasulkireev.com/django.xml',
+                    site_url: 'https://rasulkireev.com'
+                },
+                feedItemOptions: node => ({
+                    title: node.title,
+                    date: node.date,
+                    description: node.description,
+                    url: 'https://rasulkireev.com/' + node.path,
+                }),
+                output: {
+                    dir: './static',
+                    name: 'django.xml'
                 }
             }
         },

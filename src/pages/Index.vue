@@ -38,8 +38,13 @@
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">
                 <g-link :to="post.node.slug" class="flex flex-row items-center block p-1 mb-1 text-xl border-0 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                    <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" />
-                    <p class="text-sm font-normal md:text-lg">{{ post.node.title }}</p>
+                    <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" itemprop="image" />
+                    <p class="text-sm font-normal md:text-lg" itemprop="headline">{{ post.node.title }}</p>
+                    <div id="blog-post-info" class="hidden">
+                      <time class="dt-published" itemprop="datePublished" :datetime="post.node.date">{{post.node.date}}</time>
+                      <span itemprop="author">Rasul Kireev</span>
+                      <a href="https://rasulkireev.com" itemprop="publisher">https://rasulkireev.com</a>
+                    </div> 
                 </g-link>
             </div>
         </section>
