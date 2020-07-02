@@ -69,7 +69,7 @@ So, without further ado, here are the notes I've taken during the first day of t
 # Recreating "The Clock" with Machine Learning and Web Scraping
 ## [Kirk Kaiser](https://www.linkedin.com/in/k-p-kaiser-94500124/) @[datadog](https://www.datadoghq.com/product/)
 * [Tate modern - the clock](https://www.tate.org.uk/whats-on/tate-modern/exhibition/christian-marclay-clock)
-* To start, simplify: try kubernetes locally - Ubuntu + Nvidia, [ngc.nvidia.com](ngc.nvidia.com)
+* To start, simplify: try kubernetes locally - Ubuntu + Nvidia, [ngc.nvidia.com](https://ngc.nvidia.com)
 * [Dab & t-pose controlling light](https://github.com/burningion/dab-and-tpose-controlled-lights)
 * [Jetson nano gpu accelerated machine 99$](https://amzn.to/2oyUSsS)
 * Datadog is hiring
@@ -85,10 +85,9 @@ So, without further ado, here are the notes I've taken during the first day of t
 ## Shioulin Sam @cloudera
 * Very clear and great presenter
 * **Active learning** has been here for a while, but only now got integrated with ...
-![](:/52b94e63a3644bd5a9c48a46dc9d5a3f)
 * Random sample data points to label (good, but not optimal)
 * [Margin Sampling](https://link.springer.com/chapter/10.1007/978-3-662-45646-0_13)
-* [activelearner.fastforwardlabs.com](activelearner.fastforwardlabs.com)
+* [activelearner.fastforwardlabs.com](https://activelearner.fastforwardlabs.com)
 * [Twiml and Ai podcast](https://twimlai.com/)
 
 ***

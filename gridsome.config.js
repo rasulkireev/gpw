@@ -17,17 +17,10 @@ module.exports = {
     },
 
     templates: {
-        Post: [
+        ResourceNote: [
             {
                 path: (node) => {
-                    return `/${node.slug}`
-                }
-            }
-        ],
-        BookNote: [
-            {
-                path: (node) => {
-                    return `/${node.bookSlug}`
+                    return `/resources/${node.path}`
                 }
             }
         ],
@@ -35,24 +28,41 @@ module.exports = {
 
     plugins: [
         {
-            use: '@gridsome/source-filesystem',
+            use: '@gridsome/vue-remark',
             options: {
-                path: 'content/articles/*.md',
                 typeName: 'Post',
+                path: 'content/articles/*.md',
+                baseDir: './content/articles',
+                route: '/:slug',
+                template: './src/templates/Post.vue',
+                plugins: [
+                    '@gridsome/remark-prismjs',
+                    ['@noxify/gridsome-plugin-remark-embed', {
+                        'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+                    }]
+                ],
             },
         },
         {
-            use: '@gridsome/source-filesystem',
+            use: '@gridsome/vue-remark',
             options: {
-                path: 'content/notes/*.md',
                 typeName: 'BookNote',
+                path: 'content/notes/*.md',
+                baseDir: './content/notes',
+                route: 'book/:slug',
+                template: './src/templates/BookNote.vue',
+                plugins: [
+                    '@gridsome/remark-prismjs',
+                    ['@noxify/gridsome-plugin-remark-embed', {
+                        'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+                    }]
+                ],
             },
         },
-
         {
             use: '@gridsome/source-filesystem',
             options: {
-                path: 'content/journal/**/*.md',
+                path: 'content/resources/**/*.md',
                 typeName: 'ResourceNote',
             },
         },

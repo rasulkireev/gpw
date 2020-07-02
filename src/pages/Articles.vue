@@ -28,7 +28,6 @@ query Posts {
         icon
         description
         date (format: "MMMM D, Y")
-        timeToRead
         slug
       }
     }

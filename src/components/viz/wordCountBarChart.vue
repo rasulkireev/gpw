@@ -1,6 +1,8 @@
 <template>
     <div>
-        Hello
+       <svg width="500" height="500">
+            <circle cx="60" cy="60" r="50" fill="red" />
+       </svg>
     </div>
 </template>
 
@@ -11,7 +13,6 @@ query {
         edges {
             node {
                 date (format: "MMMM D, Y")
-                timeToRead
                 wordCount
             }
         }
@@ -20,38 +21,53 @@ query {
 </static-query>
 
 <script>
-import * as d3 from "d3"
+import * as d3 from 'd3'
 
 export default {
+    props: {
+        data: {
+            type: Array
+        },
+    },
+    data() {
+        return {
+            dataset: Array,
+        }
+    },
     computed: {
-        loadAndTransform() {
+        load() {
             const origData = this.$static.allPost.edges
+
             let dataset = []
             origData.forEach(function (item) {
                 dataset.push({
                     "date": item.node.date,
                     "wordCount": item.node.wordCount,
-                    "timeToRead": item.node.timeToRead,
                 });
             });
-            console.log(dataset)
 
-            // // Parse Python Datetime string to JS date object
-            // dateParser = d3.utcParse("%Y-%m-%dT%H:%M:%S%Z")
-            // formatMonth = d3.timeFormat("%B %Y")
-            
-            // // Grouping data by month
-            // wordsByMonth = Array.from(
-            //     d3.rollup(
-            //         dataset, 
-            //         v => d3.sum(v, d => d.word_count),  
-            //         d => formatMonth(dateParser(d.date))
-            //         )
-            //     )
-            
-            // return wordsByMonth;
-        }
-    },
+            this.dataset = dataset
+        },
+    }
+    //     transform() {
+    //         dateParser = d3.utcParse("%B %d, %Y")
+    //         formatMonth = d3.timeFormat("%B %Y")
+    //         console.log(dateParser)
+    //         console.log(formatMonth)
+
+    //         // Grouping data by month
+    //         wordsByMonth = Array.from(
+    //             d3.rollup(
+    //                 dataset,
+    //                 v => d3.sum(v, d => d.word_count),
+    //                 d => formatMonth(dateParser(d.date))
+    //             )
+    //         )
+    //         console.log(wordsByMonth)
+
+    //         return wordsByMonth
+    //     },
+    // },
 }
 </script>
 

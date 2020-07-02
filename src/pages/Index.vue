@@ -57,7 +57,6 @@ query Posts {
         title
         icon
         date (format: "MMMM D, Y")
-        timeToRead
         slug
       }
     }
@@ -73,7 +72,7 @@ export default {
   components: {
     fullWidthNewsletter
   },
-  
+
   metaInfo: {
     title: "Home",
     description: "This is my home page. I try to highlight all the necessary info here.",

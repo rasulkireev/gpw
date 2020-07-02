@@ -22,13 +22,11 @@ _Please note: I took some pictures, but am not able to upload that as of this se
 * For loop vs vectorization
 * Vectorization working with array or series without for loops, rather all at once.
   * You are probably already doing that to some degree
-![](:/b23a07d5afaf400ba0fd737f5d3635d9)
 * To perform conditional vectorization do: **numpy.where()**
 * Numpy.vectorize()
 * Numpy.select() for multiple ifs / elifs
 * Pd.shift() to create anoer plumn with values shofted
 * talked about Dask
-![](:/03c78c4c72d2410580e3d76971dbe31b)
 * Kubernetes shirt
 
 ***
@@ -87,15 +85,11 @@ _Please note: I took some pictures, but am not able to upload that as of this se
 ## [Lisa Tagliaferri](https://lisatagliaferri.org) - wrote tutorials for Digital Ocean
 * Research on how women men are described in certain ages.
 * Text from Gutenberg projects were analyzed
-![](:/bf1b9b19636b4093b3cee8581abb9675)
-![](:/d49648d23fae4ef7bb43287f268300c2)
 * Very interesting
 * Text analysis might not be that scary after all. It never was , bit now it is certainly interesting enough to give it a try
 * Gender novels project
 * [Caterina.io](https://Caterina.io)
 * [Hacktober fest](https://hacktoberfest.digitalocean.com/)
-![](:/e4f283ac93024fd7905b719db3445646)
-![](:/2002af42ab4d4562a092fb0005dcd8d4)
 
 ***
 # Serverless Deep Learning with Python

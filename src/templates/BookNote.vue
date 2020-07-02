@@ -16,8 +16,8 @@
           <div>
             <div>
               <h1 class="my-3 text-3xl font-semibold leading-8">
-                <span class="p-name" itemprop="name">{{ $page.bookNote.title }}</span> 
-                by 
+                <span class="p-name" itemprop="name">{{ $page.bookNote.title }}</span>
+                by
                 <span>{{ $page.bookNote.author }}</span></h1>
             </div>
             <p id="meta" class="m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.bookNote.date">{{$page.bookNote.date}}</time></p>
@@ -30,7 +30,7 @@
 
       </div>
 
-        <div class="markdown-body" v-html="$page.bookNote.content" />
+        <VueRemarkContent class="markdown-body"></VueRemarkContent>
     </article>
 
     <socialShareButtons
@@ -41,7 +41,7 @@
     </socialShareButtons>
 
 
-    <fullWidthNewsletter 
+    <fullWidthNewsletter
       class="my-4"
       description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found arounf the internet.">
     </fullWidthNewsletter>
@@ -80,7 +80,7 @@ import socialShareButtons from "../components/socialShareButtons"
 
 export default {
   metaInfo() {
-      return {  
+      return {
           title: this.$page.bookNote.title,
           link: [
               { rel: "canonical", href: `https://rasulkireev.com${this.$page.bookNote.path}` },
