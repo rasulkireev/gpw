@@ -7,21 +7,24 @@
       <!-- Author description -->
       <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+          <span itemprop="name">Rasul Kireev</span>
           <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
       </div>
 
+
       <div class="mb-4 border-b border-gray-200 border-solid">
         <div id="title" class="flex flex-col md:flex-row md:justify-between">
-          <g-image class="w-16 md:order-last" :src="$page.post.icon" />
+          <g-image class="w-16 md:order-last" :src="$page.post.icon" itemprop="image" />
           <div>
-            <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="name">{{ $page.post.title }}</h1>
-            <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.post.date">{{$page.post.date}}</time></p>
+            <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="headline">{{ $page.post.title }}</h1>
+            <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
           </div>
         </div>
 
         <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
         <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
         <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
+        <p class="hidden" itemprop="publisher">Rasul Kireev</p>
 
       </div>
 
@@ -56,7 +59,6 @@ query Post ($path: String!) {
     content
     icon
     path
-    slug
   }
 }
 </page-query>
