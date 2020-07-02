@@ -18,10 +18,12 @@
               </svg>
             </button>
           </div>
-            <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="flex-col items-start justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
-              <g-link to="/about" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link>
-              <g-link to="/digital-garden" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link>
-              <g-link to="/now" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link>
+            <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
+              <ul class="flex flex-col md:flex-row ">
+                <li><g-link to="/about" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link></li>
+                <li><g-link to="/digital-garden" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link></li>
+                <li><g-link to="/now" class="font-semibold text-blue-500 flex items-center w-full p-2 m-0 text-lg font-normal leading-tight text-left border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link></li>
+              </ul>
             </nav>
           </div>
       </header>

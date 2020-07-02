@@ -49,7 +49,7 @@ module.exports = {
                 typeName: 'BookNote',
                 path: 'content/notes/*.md',
                 baseDir: './content/notes',
-                route: 'book/:slug',
+                route: '/book/:bookSlug',
                 template: './src/templates/BookNote.vue',
                 plugins: [
                     '@gridsome/remark-prismjs',
