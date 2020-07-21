@@ -134,7 +134,7 @@ module.exports = {
                     output: '/django.xml'
                 },      
                 filterNodes: (node) => (
-                    node.category == "Django"
+                    node.category == "Django" && node.published == true
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
