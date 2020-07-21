@@ -13,7 +13,7 @@
         <section id="letters">
             <ul v-for="letter in newsletter.reverse()" :key="letter.id" class="list-outside">
                 <li class="mb-2 text-lg">
-                    <a class="text-blue-700" :href="letter.url" target="_blank">{{ letter.title }}</a>
+                    <a class="text-blue-700 hover:text-blue-500 border-b-2 hover:border-blue-500" :href="letter.url" target="_blank">{{ letter.title }}</a>
                 </li>
             </ul>
         </section>
