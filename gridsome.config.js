@@ -97,28 +97,29 @@ module.exports = {
 
         // General RSS
         {
-            use: 'gridsome-plugin-rss',
+            use: '@microflash/gridsome-plugin-feed',
             options: {
-                contentTypeName: 'Post',
-                latest: true,
+                contentTypes: ['Post'],
                 feedOptions: {
                     title: 'Rasul Kireev',
                     feed_url: 'https://rasulkireev.com/rss.xml',
                     site_url: 'https://rasulkireev.com'
                 },
-                feedItemOptions: node => ({
+                rss: {
+                    enabled: true,
+                    output: '/rss.xml'
+                },      
+                filterNodes: (node) => (
+                    node.published == True
+                ),
+                nodeToFeedItem: (node) => ({
                     title: node.title,
                     date: node.date,
                     description: node.description,
-                    url: 'https://rasulkireev.com/' + node.path,
-                }),
-                output: {
-                    dir: './static',
-                    name: 'rss.xml'
-                }
+                    link: 'https://rasulkireev.com/' + node.path,
+                })
             }
-        },
-        
+        },        
         // Django RSS, need to add filter
         {
             use: '@microflash/gridsome-plugin-feed',
@@ -133,7 +134,8 @@ module.exports = {
                     output: '/django.xml'
                 },      
                 filterNodes: (node) => (
-                    node.category == "Django"
+                    node.category == "Django",
+                    node.published == True
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
