@@ -11,7 +11,7 @@
         </div>
 
         <section id="letters">
-            <ul v-for="letter in newsletter" :key="letter.id" class="list-outside">
+            <ul v-for="letter in newsletter.reverse()" :key="letter.id" class="list-outside">
                 <li class="mb-2 text-lg">
                     <a class="text-blue-700" :href="letter.url" target="_blank">{{ letter.title }}</a>
                 </li>

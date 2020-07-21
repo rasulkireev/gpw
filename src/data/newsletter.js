@@ -14,7 +14,7 @@ export const newsletterLetters = [
     {
         id: 3,
         url: 'https://buttondown.email/rasulkireev/archive/20200526-tuesday-letter-3/',
-        title: "Tuesday Letter #3",
+        title: "Tuesday Letter #3 - Stoicism, Rediscovering Games, and Charlie Munger Speech",
         date: '2020/05/26',
     },
     {
