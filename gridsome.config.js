@@ -110,7 +110,7 @@ module.exports = {
                     output: '/rss.xml'
                 },      
                 filterNodes: (node) => (
-                    node.published == True
+                    node.published == 'true'
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
@@ -135,7 +135,7 @@ module.exports = {
                 },      
                 filterNodes: (node) => (
                     node.category == "Django",
-                    node.published == True
+                    node.published == 'true'
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
