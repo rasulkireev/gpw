@@ -15,17 +15,6 @@ module.exports = {
         author: 'Rasul Kireev',
         twitter: '@rasulkireev',
     },
-
-    templates: {
-        ResourceNote: [
-            {
-                path: (node) => {
-                    return `/resources/${node.path}`
-                }
-            }
-        ],
-    },
-
     plugins: [
         {
             use: '@gridsome/vue-remark',
@@ -60,14 +49,21 @@ module.exports = {
             },
         },
         {
-            use: '@gridsome/source-filesystem',
+            use: '@gridsome/vue-remark',
             options: {
-                path: 'content/resources/**/*.md',
                 typeName: 'ResourceNote',
+                path: 'content/resources/**/*.md',
+                baseDir: './content/resources',
+                route: '/resource/:category/:title',
+                template: './src/templates/ResourceNote.vue',
+                plugins: [
+                    '@gridsome/remark-prismjs',
+                    ['@noxify/gridsome-plugin-remark-embed', {
+                        'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+                    }]
+                ],
             },
         },
-
-
         {
             use: '@gridsome/source-filesystem',
             options: {

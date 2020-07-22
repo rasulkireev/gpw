@@ -1,8 +1,9 @@
 ---
-title: The Indie Hacker Guide to building a Twitter Audience
-slug: ih-twitter-guide
+title: "The Indie Hacker Guide to building a Twitter Audience"
 category: Bootstrapping
-date: 18/05/2020
+id: a5684b6952fe4ad3bc00452f40bb0eb0
+parent_id: 818f455d45934c9a832810634b8b137a
+created_at: 1589845324034
 ---
 
 The Indie Hacker Guide to building a Twitter Audience
@@ -44,3 +45,4 @@ Don’t be blown away but you should be commenting about 10x - 15x a day on othe
 Talk about your users. Show people interesting angles not directly related to your project. Don’t show screenshots from your product. Show something a user did or create a (small) case study.
 
 Share your ups and downs but always inspire. That means you can have a shitty day or a tweet that talks shit but people are more likely to engage if something is inspiring about it.
+                
