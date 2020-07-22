@@ -11,6 +11,12 @@
         <VueRemarkContent class="markdown-body"></VueRemarkContent>
     </article>
 
+    <fullWidthNewsletter
+      class="my-4"
+      description="If you found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time.">
+    </fullWidthNewsletter>
+
+
   </Layout>
 </template>
 
@@ -18,6 +24,15 @@
 </page-query>
 
 <static-query>
+  query {
+    metadata {
+      siteName
+      siteDescription
+      siteUrl
+      author
+      twitter
+    }
+  }
 </static-query>
 
 
