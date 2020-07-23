@@ -12,7 +12,7 @@ description: Ever wonder how include multiple queries on the same page, when usi
 
 Let's say you have the following queries:
 
-```
+```javascript
 // query details about the current blog post 
 query Post ($path: String!) {
   post: post (path: $path) {
@@ -24,7 +24,7 @@ query Post ($path: String!) {
 ```
 and
 
-```
+```javascript
 // query to pull all the webmentions on a specific post
 query($path: String!) {
     mentions: allWebMention(filter: { wmTarget: { regex: $path } }) {
@@ -48,7 +48,7 @@ The question is: How do you get both of those queries in your `Post.vue` templat
 
 I was going to give you all the options that I tried before making this work, but that would be the waste of your time. So here is he working version:
 
-```graphql
+```javascript
 <page-query>
 query Post ($path: String!) {
   post: post (path: $path) {
@@ -82,7 +82,7 @@ Then you can access these queries like this:
 <div>{{ $page.post.title }}</div>
 
 <div 
-v-for="mention in wmArray.edges"
+v-for="mention in $page.mentions.edges"
 :key="mention.node.wmId"
 >
 	<p>{{ mention.node.wmProperty }}</p>
