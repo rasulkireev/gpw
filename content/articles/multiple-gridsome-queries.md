@@ -1,5 +1,5 @@
 ---
-title: Multiple Graphql Queries on the Pame Page with Gridsome
+title: Multiple Graphql Queries on a Single Page with Gridsome
 date: 2020-07-23
 published: true
 slug: multiple-gridsome-queries
