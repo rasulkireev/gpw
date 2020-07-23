@@ -2,7 +2,7 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
-    <article class="mb-4 h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="mb-6 h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <!-- Author description -->
       <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -14,7 +14,7 @@
 
       <div class="mb-4 border-b border-gray-200 border-solid">
         <div id="title" class="flex flex-col md:flex-row md:justify-between">
-          <g-image class="w-16 md:order-last" :src="$page.post.icon" itemprop="image" />
+          <g-image class="w-auto h-16 md:order-last" :src="$page.post.icon" itemprop="image" />
           <div>
             <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="headline">{{ $page.post.title }}</h1>
             <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
