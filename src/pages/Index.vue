@@ -32,12 +32,12 @@
     <div class="flex flex-row justify-between">
         <section>
             <div class="flex items-center mb-4">
-                <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Writings</h1>
+                <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Posts</h1>
                 <g-link to="/articles" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
                 <!-- <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center" href="https://fd3.netlify.com">Stats</a> -->
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">
-                <g-link :to="post.node.slug" class="flex flex-row items-center block p-1 mb-1 text-xl border-0 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <g-link :to="post.node.slug" class="flex flex-row items-center p-1 mb-1 text-xl border-0 rounded hover:text-gray-900 hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <g-image :src="post.node.icon" class="inline w-8 h-8 p-1 mr-4 align-middle" itemprop="image" />
                     <p class="text-sm font-normal md:text-lg" itemprop="headline">{{ post.node.title }}</p>
                     <div id="blog-post-info" class="hidden">
