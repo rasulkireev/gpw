@@ -15,12 +15,16 @@
       class="my-4"
       description="If you found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time.">
     </fullWidthNewsletter>
-
-
   </Layout>
 </template>
 
 <page-query>
+query ResourceNote ($path: String!) {
+  resourceNote: resourceNote (path: $path) {
+    title
+    path
+  }
+}
 </page-query>
 
 <static-query>
@@ -37,6 +41,18 @@
 
 
 <script>
+import fullWidthNewsletter from "../components/fullWidthNewsletter"
+
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.resourceNote.title,
+    }
+  },
+  components: {
+    fullWidthNewsletter,
+  }
+}
 </script>
 
 <style src="../css/github-markdown.css" />

@@ -16,6 +16,7 @@
     "@gridsome/vue-remark": "^0.2.1",
     "@microflash/gridsome-plugin-feed": "^1.0.7",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
+    "@zefman/gridsome-source-webmention": "^0.1.4",
     "axios": "^0.19.2",
     "d3": "^5.16.0",
     "d3-array": "^2.4.0",

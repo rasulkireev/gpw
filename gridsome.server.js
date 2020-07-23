@@ -13,7 +13,7 @@ const { GRIDSOME_WEBMENTIONS_TOKEN } = process.env;
 
 module.exports = function (api) {
 
-    api.loadSource(async store => {
+  api.loadSource(async store => {
     const { data } = await axios.get(API_ORIGIN, {
       params: { token: GRIDSOME_WEBMENTIONS_TOKEN }
     });

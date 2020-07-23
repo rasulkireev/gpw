@@ -32,13 +32,16 @@
         <VueRemarkContent class="markdown-body"></VueRemarkContent>
     </article>
 
+    <div class="border rounded border-gray-500 mt-2 md:mt-10"></div>
+
+    <webMentions :wmArray=$page.mentions />
+
     <socialShareButtons
       :title=$page.post.title
       :url='$static.metadata.siteUrl + $page.post.path'
       :text=$page.post.description
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
-
 
     <fullWidthNewsletter
       class="my-4"
@@ -60,6 +63,25 @@ query Post ($path: String!) {
     icon
     path
   }
+  mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
+    totalCount
+    edges {
+      node {
+        wmId
+        url
+        wmProperty
+        wmSource
+        content {
+          text
+        }
+        author {
+          name
+          photo
+          url
+        }
+      }
+    }
+  }
 }
 </page-query>
 
@@ -79,6 +101,7 @@ query Post ($path: String!) {
 <script>
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
+import webMentions from "../components/webMentions"
 
 export default {
   mounted() {
@@ -146,10 +169,10 @@ export default {
       ],
     }
   },
-
   components: {
     socialShareButtons,
     fullWidthNewsletter,
+    webMentions,
   },
 }
 </script>

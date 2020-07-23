@@ -6,6 +6,7 @@
 
 const tailwind = require('tailwindcss');
 
+const { GRIDSOME_WEBMENTIONS_TOKEN } = process.env;
 
 module.exports = {
     siteName: 'Rasul Kireev',
@@ -139,7 +140,14 @@ module.exports = {
                     link: 'https://rasulkireev.com/' + node.path,
                 })
             }
-        }      
+        },
+        {
+            use: '@zefman/gridsome-source-webmention',
+            options: {
+              domain: 'rasulkireev.com', // Your webmention domain
+              token: GRIDSOME_WEBMENTIONS_TOKEN, // Your secret webmention token
+            },
+        }
     ],
     css: {
         loaderOptions: {

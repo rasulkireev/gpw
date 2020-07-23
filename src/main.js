@@ -17,9 +17,14 @@ export default function (Vue, { router, head, isClient }) {
   const siteTitle = "Rasul Kireev | Personal Website"
 
   head.link.push({
+    rel: 'me',
+    href: 'https://twitter.com/rasulkireev',
+  });
+  
+  head.link.push({
     rel: "stylesheet",
     href: "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-  })
+  });
 
   head.meta.push({
     name: 'viewport',
@@ -29,7 +34,7 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: "webmention",
     href: "https://webmention.io/rasulkireev.com/webmention"
-  })
+  });
 
   head.link.push({
     rel: "pingback",
