@@ -159,13 +159,8 @@ Works well with video courses.
 * Can be extremely stressful
 
 ## Resources
-* [Nailing Your First Launch - MicroConf Presentation](https://www.youtube.com/watch?v=ajrDxZRpP9M)
-* [The Book Launch that let me quit my job - Adam's Post](https://adamwathan.me/the-book-launch-that-let-me-quit-my-job/)
-* [Tools for selling your product online - Adam's List](https://gist.github.com/adamwathan/30dc4230ac575cfa3425b39ca11ea859)
+[Nailing Your First Launch - MicroConf Presentation](https://www.youtube.com/watch?v=ajrDxZRpP9M)
+*[The Book Launch that let me quit my job - Adam's Post](https://adamwathan.me/the-book-launch-that-let-me-quit-my-job/)
 
 ### Notes:
 * Adam uses Vimeo for video hosting.
-
-
-**strong text**
-                
