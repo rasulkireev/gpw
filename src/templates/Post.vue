@@ -2,7 +2,7 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
-    <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="mb-4 h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
       <!-- Author description -->
       <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -32,9 +32,6 @@
         <VueRemarkContent class="markdown-body"></VueRemarkContent>
     </article>
 
-    <div class="border rounded border-gray-500 mt-2 md:mt-10"></div>
-
-    <webMentions :wmArray=$page.mentions />
 
     <socialShareButtons
       :title=$page.post.title
@@ -47,6 +44,9 @@
       class="my-4"
       description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time.">
     </fullWidthNewsletter>
+
+    <webMentions :wmArray=$page.mentions />
+
 
   </Layout>
 </template>

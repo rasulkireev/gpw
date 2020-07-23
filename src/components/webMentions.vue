@@ -1,56 +1,73 @@
 <template>
-    <div class="my-2 md:my-10">
-        <p class="mb-3 md:mb-6 text-xl md:text-3xl font-semibold">{{ wmArray.totalCount }} Responses</p>
+    <div class="my-2 font-mono md:my-10">
+        <div class="pb-4 mb-6 border-b-2 border-gray-400">
+            <p class="text-xl font-bold md:mb-2">
+                {{ wmArray.totalCount }} Responses
+            </p>
+            <p class="">
+                Want to respond? Reply, like, reply or bookmark on Twitter :)
+            </p>
+        </div>
         
-        <div v-if="wmReduce('like-of').length > 0" class="mb-10">
-            <p class="text-xl">{{ wmReduce("like-of").length }} Likes</p>
-            <div class="my-2">
-                <g-image
-                    v-for="mention in wmArray.edges"
-                    :key="mention.node.wmId"
-                    v-if="mention.node.wmProperty=='like-of'"
-                    :src="mention.node.author.photo" 
-                    class="w-10 rounded-full inline" 
-                />
+        <div v-if="wmReduce('like-of').length > 0" class="mb-6">
+            <p class="font-semibold">{{ wmReduce("like-of").length }} Likes</p>
+            <div class="flex items-center my-2">
+                <a 
+                :href="mention.node.author.url"
+                v-for="mention in wmArray.edges"
+                :key="mention.node.wmId"
+                v-if="mention.node.wmProperty=='like-of'"
+                class="mr-1"
+                >
+                    <g-image
+                        :src="mention.node.author.photo" 
+                        class="inline w-10 rounded-full" 
+                    />
+                </a>
             </div>
         </div>
 
-        <div v-if="wmReduce('repost-of').length > 0" class="mb-10">
-            <p class="text-xl">{{ wmReduce("repost-of").length }} Reposts</p>
-            <div class="my-2">
-                <g-image
-                    v-for="mention in wmArray.edges"
-                    :key="mention.node.wmId"
-                    v-if="mention.node.wmProperty=='repost-of'"
-                    :src="mention.node.author.photo" 
-                    class="w-10 rounded-full inline" 
-                />
+        <div v-if="wmReduce('repost-of').length > 0" class="mb-6">
+            <p class="font-semibold">{{ wmReduce("repost-of").length }} Reposts</p>
+            <div class="flex items-center my-2">
+                <a
+                :href="mention.node.author.url"
+                v-for="mention in wmArray.edges"
+                :key="mention.node.wmId"
+                v-if="mention.node.wmProperty=='repost-of'"
+                class="mr-1"
+                >
+                    <g-image
+                        :src="mention.node.author.photo" 
+                        class="inline w-10 rounded-full" 
+                    />
+                </a>
             </div>
         </div>
 
-        <div v-if="wmReduce('bookmark-of').length > 0" class="mb-10">
-            <p class="text-xl">{{ wmReduce("bookmark-of").length }} Bookmarks</p>
+        <div v-if="wmReduce('bookmark-of').length > 0" class="mb-6">
+            <p class="font-semibold">{{ wmReduce("bookmark-of").length }} Bookmarks</p>
             <div class="my-2">
                 <g-image
                     v-for="mention in wmArray.edges"
                     :key="mention.node.wmId"
                     v-if="mention.node.wmProperty=='bookmark-of'"
                     :src="mention.node.author.photo" 
-                    class="w-10 rounded-full inline" 
+                    class="inline w-10 rounded-full" 
                 />
             </div>
         </div>
 
-        <div v-if="wmReduce('in-reply-to').length > 0" class="mb-10">
-            <p class="text-xl">{{ wmReduce("in-reply-to").length }} Replies</p>
+        <div v-if="wmReduce('in-reply-to').length > 0" class="mb-6">
+            <p class="font-semibold">{{ wmReduce("in-reply-to").length }} Replies</p>
             <div 
-            class="p-4 bg-gray-200 rounded flex items-center my-2" 
+            class="flex items-center p-4 my-2 bg-gray-200 rounded" 
             v-for="mention in wmArray.edges"
             v-if="mention.node.wmProperty=='in-reply-to'"
             >
                 <g-image
                     :src="mention.node.author.photo" 
-                    class="w-10 rounded-full inline" 
+                    class="inline w-10 rounded-full" 
                 />
                 <div class="px-4">
                     <a 
