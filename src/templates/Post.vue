@@ -45,7 +45,11 @@
       description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time.">
     </fullWidthNewsletter>
 
-    <webMentions :wmArray=$page.mentions />
+    <webMentions
+      :wmArray=$page.mentions
+      :title=$page.post.title
+      :url='$static.metadata.siteUrl + $page.post.path' 
+    />
 
 
   </Layout>

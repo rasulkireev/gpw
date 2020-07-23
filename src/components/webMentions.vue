@@ -5,7 +5,13 @@
                 {{ wmArray.totalCount }} Responses
             </p>
             <p class="">
-                Want to respond? Reply, like, reply or bookmark on Twitter :)
+                Want to respond? Reply, like, reply or bookmark on <!-- Sharingbutton Twitter -->
+                <a 
+                class="text-blue-600 border-b-2 border-blue-600 hover:border-blue-500 hover:text-blue-500" 
+                :href='"https://twitter.com/intent/tweet/?text=" + title + "&amp;url="+url' target="_blank" rel="noopener" aria-label="Twitter">
+                Twitter
+                </a>
+                :)
             </p>
         </div>
         
@@ -86,7 +92,7 @@
 
 <script>
 export default {
-    props: ['wmArray'],
+    props: ['wmArray','title','url'],
     methods: {
         wmReduce: function (wmPropertyName) {
             let reducedArray = this.wmArray.edges.filter(

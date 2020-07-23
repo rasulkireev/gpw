@@ -89,3 +89,5 @@ v-for="mention in wmArray.edges"
 	<p>{{ mention.node.content.text }}</p>
 </div>
 ```
+
+If you have any thougths, comments or questions please let me know on [Twitter](https://twitter.com/rasulkireev/status/1286433227960463360).
