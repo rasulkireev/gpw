@@ -86,6 +86,25 @@
             </div>
         </div>
 
+        <div v-if="wmReduce('mention-of').length > 0" class="mb-6">
+            <p class="font-semibold">{{ wmReduce("mention-of").length }} Mentions</p>
+            <div 
+            class="flex items-center p-4 my-2 bg-gray-200 rounded" 
+            v-for="mention in wmArray.edges"
+            v-if="mention.node.wmProperty=='mention-of'"
+            >
+                <div class="px-4">
+                    <a 
+                    :href="mention.node.url" 
+                    class="text-blue-700 hover:text-blue-500"
+                    target="_blank">
+                        {{ mention.node.url }}
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 </template>
