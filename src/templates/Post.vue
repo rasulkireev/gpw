@@ -14,7 +14,7 @@
 
       <div class="mb-4 border-b border-gray-200 border-solid">
         <div id="title" class="flex flex-col md:flex-row md:justify-between">
-          <g-image class="w-auto h-16 md:order-last" :src="$page.post.icon" itemprop="image" />
+          <g-image class="w-16 h-auto md:w-auto md:h-16 md:order-last" :src="$page.post.icon" itemprop="image" />
           <div>
             <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="headline">{{ $page.post.title }}</h1>
             <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
