@@ -20,13 +20,13 @@
             </g-link>
         </div>
         <div class="w-11/12 p-4 m-2 mx-auto border border-gray-300 rounded-lg shadow-md hover:shadow-xl md:w-30p">
-            <g-link to="#">
+            <g-link to="">
                 <h2 class="mb-1 text-lg font-semibold text-gray-600">Journal</h2>
                 <p class="text-sm font-normal text-gray-600">Selected snippets from my daily journal</p>
             </g-link>
         </div>
         <div class="w-11/12 p-4 m-2 mx-auto border border-gray-300 rounded-lg shadow-md hover:shadow-xl md:w-30p">
-            <g-link to="#">
+            <g-link to="">
                 <h2 class="mb-1 text-lg font-semibold text-gray-600">Learning In Public</h2>
                 <p class="text-sm font-normal text-gray-600">Daily updates on my learnings</p>
             </g-link>
