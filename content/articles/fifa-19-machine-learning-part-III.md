@@ -255,6 +255,6 @@ In the future, I will try to break it up into a much smaller code block. I guess
 
 I promise to try to be more consistent and more frequent with posts.
 
-If you have any questions, please let me know. Email is the best way to reach me. Maybe Twitter.
+If you have any questions, please let me know. Email and [Twitter](https://twitter.com/rasulkireev/status/1292631350584004608) the best way to reach me.
 
 Also, if I have a comment section by the time you read this, please don't be a stranger and leave a comment. Positive or negative, doesn't matter.
