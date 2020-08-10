@@ -131,7 +131,7 @@ module.exports = {
                 },
                 rss: {
                     enabled: true,
-                    output: '/django.xml'
+                    output: '/djangofeed/'
                 },      
                 filterNodes: (node) => (
                     node.category == "Django" && node.published == true
