@@ -5,11 +5,11 @@
         <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>
         <p class="mb-4 text-xl">
           Currently learning to build web apps, create beautiful visualizations and analyze large datasets. In constant beta mode. Trying to write about my learnings more often.
-          <g-link to="/about" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">Read More</g-link>
+          <g-link to="/about/" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">Read More</g-link>
         </p>
         <p class="mb-4 text-xl">
           Also, check out a
-          <g-link to="/favourites" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
+          <g-link to="/favourites/" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
           list of my favourite things.
           </g-link>
         </p>
@@ -33,7 +33,7 @@
         <section>
             <div class="flex items-center mb-4">
                 <h1 class="pl-1 text-xl font-semibold sm:text-2xl">Recent Posts</h1>
-                <g-link to="/articles" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
+                <g-link to="/articles/" class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center">See All</g-link>
                 <!-- <a class="inline-block p-1 px-2 ml-4 text-sm font-light text-gray-800 bg-gray-200 border-0 rounded center" href="https://fd3.netlify.com">Stats</a> -->
             </div>
             <div v-for="post in $page.posts.edges" :key="post.id">

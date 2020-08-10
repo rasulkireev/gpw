@@ -4,8 +4,6 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const tailwind = require('tailwindcss');
-
 const { GRIDSOME_WEBMENTIONS_TOKEN } = process.env;
 
 module.exports = {
@@ -26,7 +24,7 @@ module.exports = {
                 route: '/:slug',
                 template: './src/templates/Post.vue',
                 plugins: [
-                    '@gridsome/remark-prismjs',
+                    ['gridsome-plugin-remark-shiki', { skipInline: true, theme: 'min-dark' }],
                     ['@noxify/gridsome-plugin-remark-embed', {
                         'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
                     }]
@@ -71,6 +69,11 @@ module.exports = {
                 path: 'content/now/*.md',
                 typeName: 'Now',
             }
+        },
+
+        // Tailwind
+        {
+            use: "gridsome-plugin-tailwindcss",
         },
 
         // Plausible
@@ -149,24 +152,4 @@ module.exports = {
             },
         }
     ],
-    css: {
-        loaderOptions: {
-            postcss: {
-                plugins: [
-                    tailwind
-                ],
-            },
-        },
-    },
-    transformers: {
-        remark: {
-            plugins: [
-                '@gridsome/remark-prismjs',
-                ['@noxify/gridsome-plugin-remark-embed', {
-                    'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
-                }]
-            ],
-        },
-        externalLinksRel: [],
-    }
 }

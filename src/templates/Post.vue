@@ -28,8 +28,7 @@
 
       </div>
 
-        <!-- <div class="markdown-body" v-html="$page.post.content" /> -->
-        <VueRemarkContent class="markdown-body"></VueRemarkContent>
+        <VueRemarkContent class="prose-sm prose md:prose-2xl"></VueRemarkContent>
     </article>
 
 

@@ -7,26 +7,33 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0",
-    "@gridsome/cli": "^0.3.2",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@gridsome/cli": "^0.3.3",
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.5.0",
-    "@gridsome/vue-remark": "^0.2.1",
+    "@gridsome/vue-remark": "^0.2.2",
     "@microflash/gridsome-plugin-feed": "^1.0.7",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
+    "@tailwindcss/typography": "^0.2.0",
     "@zefman/gridsome-source-webmention": "^0.1.4",
     "axios": "^0.19.2",
     "d3": "^5.16.0",
-    "d3-array": "^2.4.0",
+    "d3-array": "^2.5.0",
     "d3-format": "^1.4.4",
     "d3-time": "^1.1.0",
     "global": "^4.4.0",
-    "gridsome": "^0.7.14",
+    "gridsome": "^0.7.19",
     "gridsome-plugin-plausible": "0.0.1",
+    "gridsome-plugin-remark-shiki": "^0.3.1",
     "gridsome-plugin-rss": "^1.2.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.6.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-gridsome": "^1.5.0",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "vue-eslint-parser": "^7.1.0"
+  }
 }

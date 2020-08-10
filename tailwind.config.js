@@ -5,15 +5,6 @@ module.exports = {
       './src/**/*.vue',
       './src/**/*.js',
     ],
-    whitelist: [
-      'body',
-      'html',
-      'img',
-      'a',
-      'g-image',
-      'g-image--lazy',
-      'g-image--loaded',
-    ],
   },
   theme: {
     extend: {
@@ -28,5 +19,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
