@@ -16,7 +16,7 @@ The project source code is in [this](https://github.com/rasulkireev/fifa19-data-
 ##Overview
 In this post, we go through the process of building a machine learning algorithm. I am not making it from scratch. Scikit-learn has done all the work for us. We need to think about the "business" logic and best practices of using this library.
 
-Please note, this is part 3 of our project. Please follow the links to review Part 1 and Part 2, where we talked about Data Cleaning and Exploration.
+Please note, this is part 3 of our project. Please follow the links to review [Part 1](https://rasulkireev.com/fifa-data-cleaning/) and [Part 2](https://rasulkireev.com/fifa-data-exploration/), where we talked about Data Cleaning and Exploration, respectively.
 
 ## Initial Importing
 
