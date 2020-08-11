@@ -16,8 +16,8 @@
           @submit.prevent="handleFormSubmit"
           class="flex flex-col md:flex-row">
             <input type="hidden" name="form-name" value="add-subscriber" />
-            <input type="email" name="email" v-model="formData.userEmail" placeholder="Email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:mr-2 md:h-10 focus:outline-none focus:bg-white md:w-64">
-            <input type="text" name="first_name" v-model="formData.userName" placeholder="First Name" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 md:mr-2 focus:outline-none focus:bg-white md:w-64">
+            <input type="text" name="userName" v-model="formData.userName" placeholder="First Name" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:h-10 md:mr-2 focus:outline-none focus:bg-white md:w-64">
+            <input type="email" name="userEmail" v-model="formData.userEmail" placeholder="Email" class="w-full p-1 mb-2 leading-tight text-gray-800 bg-gray-200 border border-gray-500 rounded appearance-none md:mr-2 md:h-10 focus:outline-none focus:bg-white md:w-64">
             <input type="hidden" name="tags" v-model="formData.tags" value="add-subscriber" />
             <button type="submit" name="button" class="w-full text-lg font-semibold text-center text-white no-underline bg-green-500 border border-green-500 rounded cursor-pointer md:h-10 sm:w-32">Subscribe</button>
           </form>
