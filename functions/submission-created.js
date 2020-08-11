@@ -2,7 +2,7 @@ var axios = require("axios")
 
 exports.handler = async function(event, context) {
 
-    const payload = JSON.parse(event.body).payload
+    const data = JSON.parse(event.body).payload.data
     console.log(`Payload: ${JSON.stringify(payload)}`)
     console.log(`Recieved a submission: ${payload.userName}`)
 
@@ -13,12 +13,12 @@ exports.handler = async function(event, context) {
             Authorization: `Token ${process.env.BUTTONDOWN_API}`
         },
         data: {
-            'email': payload.email,
-            ' referrer_url': payload.data.referrer,
+            'email': data.userEmail,
+            'referrer_url': data.referrer,
             'metadata': {
-                'name': payload.first_name,
+                'name': data.userName,
             },
-            'tags': payload.tags,
+            'tags': data.tags,
         },
     })
     .then(response => console.log(response))
