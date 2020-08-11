@@ -10,7 +10,7 @@ category: Projects
 description: Launching a new hobby project. I am making a curated list of products built with Django.
 ---
 
-Last week, I purchased [Ryan Kulp](https://www.ryanckulp.com/)'s course on buying, improving, and selling microbusinesses [(affiliate link)](https://www.microacquisitions.com/how-to-buy-small-companies/8ayt5). One of the reasons I bought this course was to learn another skill (bseides, data analysis and web developemnt) that could potentially become financially stable. The other reason is that I desperately wanted to see how one would purchase a business without having a ton of cash upfront. Finally, I have been following Ryan for a while now, and he is just a cool dude, with [a lot to share](https://www.ryanckulp.com/projects/).
+Last week, I purchased [Ryan Kulp](https://www.ryanckulp.com/)'s course on buying, improving, and selling microbusinesses [(affiliate link)](https://www.microacquisitions.com/how-to-buy-small-companies/8ayt5). One of the reasons I bought this course was to learn another skill (bseides, data analysis and web developemnt) he help my on a path to become financially independent. The other reason is that I desperately wanted to see how one would purchase a business without having a ton of cash upfront. Finally, I have been following Ryan for a while now, and he is just a cool dude, with [a lot to share](https://www.ryanckulp.com/projects/).
 
 This is not a post about this course, though. I will write a short review of the course once I finish it. For now, I want to share a new project I am working on and how I came up with it.
 
