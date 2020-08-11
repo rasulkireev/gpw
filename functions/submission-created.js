@@ -3,8 +3,8 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     const data = JSON.parse(event.body).payload.data
-    console.log(`Payload: ${JSON.stringify(payload)}`)
-    console.log(`Recieved a submission: ${payload.userName}`)
+    console.log(`Payload: ${JSON.stringify(data)}`)
+    console.log(`Recieved a submission: ${data.userName}`)
 
     return await axios({
         method: 'POST',
