@@ -13,3 +13,7 @@
 [[redirects]]
   from = "writings/designing-first-site"
   to = "/designing-first-site"
+
+[[redirects]]
+  from = "writings/dj-get-context"
+  to = "/django-get-context-data"
