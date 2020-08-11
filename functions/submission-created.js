@@ -14,9 +14,9 @@ exports.handler = async function(event, context) {
         },
         data: {
             'email': payload.email,
-            ' referrer_url': payload.referrer_url,
+            ' referrer_url': payload.data.referrer,
             'metadata': {
-                'name': payload.name,
+                'name': payload.first_name,
             },
             'tags': payload.tags,
         },

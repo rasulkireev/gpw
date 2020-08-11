@@ -25,8 +25,7 @@
 
     <fullWidthNewsletter
       description="Finally, consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week."
-      tags="['Home Page']"
-      referall_url="https://rasulkireev.com">
+      tags="['Home Page']">
     </fullWidthNewsletter>
 
     </div>
