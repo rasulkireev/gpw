@@ -2,8 +2,8 @@ var axios = require("axios")
 
 exports.handler = async function(event, context) {
 
-    const email = JSON.parse(event.body).payload.email
-    console.log(`Recieved a submission: ${email}`)
+    const payload = JSON.parse(event.body).payload
+    console.log(`Recieved a submission: ${payload.email}`)
 
     return await axios({
         method: 'POST',
@@ -12,7 +12,9 @@ exports.handler = async function(event, context) {
             Authorization: `Token ${process.env.BUTTONDOWN_API}`
         },
         data: {
-            'email': email,
+            'email': payload.email,
+            'notes': payload.name,
+            'tags': payload.tags,
         },
     })
     .then(response => console.log(response))
