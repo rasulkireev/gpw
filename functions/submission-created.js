@@ -3,7 +3,7 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     const payload = JSON.parse(event.body).payload
-    console.log(`Payload: ${payload}`)
+    console.log(`Payload: ${JSON.stringify(payload)}`)
     console.log(`Recieved a submission: ${payload.userName}`)
 
     return await axios({
@@ -14,8 +14,9 @@ exports.handler = async function(event, context) {
         },
         data: {
             'email': payload.email,
+            ' referrer_url': payload.referrer_url
             'metadata': {
-                'name': payload.name
+                'name': payload.name,
             },
             'tags': payload.tags,
         },
