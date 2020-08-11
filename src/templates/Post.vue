@@ -13,7 +13,7 @@
 
 
       <div class="mb-4 border-b border-gray-200 border-solid">
-        <div id="title" class="flex flex-col md:flex-row md:justify-between">
+        <div id="title" class="flex flex-col my-2 md:flex-row md:justify-between">
           <g-image class="w-16 h-auto md:w-auto md:h-16 md:order-last" :src="$page.post.icon" itemprop="image" />
           <div>
             <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="headline">{{ $page.post.title }}</h1>
