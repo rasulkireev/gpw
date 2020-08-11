@@ -11,7 +11,7 @@
         </div>
 
         <section id="letters">
-            <ul v-for="letter in newsletter.reverse()" :key="letter.id" class="list-outside">
+            <ul v-for="letter in sortedNewsletter" :key="letter.id" class="list-outside">
                 <li class="mb-2 text-lg">
                     <a class="text-blue-700 border-b-2 hover:text-blue-500 hover:border-blue-500" :href="letter.url" target="_blank">
                         {{ letter.title }}
@@ -38,6 +38,13 @@ export default {
     data () {
         return {
             newsletter: newsletterLetters,
+        }
+    },
+    computed: {
+        sortedNewsletter () {
+            return this.newsletter.sort((a, b) => {
+                return b.id - a.id
+            });
         }
     },
     components: {
