@@ -3,8 +3,7 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     const data = JSON.parse(event.body).payload.data
-    console.log(`Recieved a submission: ${data.tags}`)
-    console.log(`Type ${typeof data.tags}`)
+    console.log(`Payload: ${data}`)
 
     return await axios({
         method: 'POST',
@@ -18,9 +17,7 @@ exports.handler = async function(event, context) {
             'metadata': {
                 'name': data.userName,
             },
-            'tags': [
-                data.tags.split(', ')
-            ],
+            'tags': data.tags.split(','),
         },
     })
     .then(response => console.log(response))
