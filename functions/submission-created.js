@@ -13,7 +13,7 @@ exports.handler = async function(event, context) {
         },
         data: {
             'email': data.userEmail,
-            // 'referrer_url': data.referrer,
+            'referrer_url': data.referrer,
             // 'metadata': {
             //     'name': data.userName,
             // },
