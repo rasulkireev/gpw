@@ -17,7 +17,7 @@ exports.handler = async function(event, context) {
             'metadata': {
                 'name': data.userName,
             },
-            // 'tags': data.tags,
+            'tags': data.tags,
         },
     })
     .then(response => console.log(response))
