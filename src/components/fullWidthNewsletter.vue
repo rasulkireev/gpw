@@ -38,7 +38,7 @@ export default {
                 userEmail: "",
                 userName: "",
                 tags: this.tags,
-                metadata: JSON.stringify(this.metadata),
+                metadata: this.metadata,
             },
         }
     },
