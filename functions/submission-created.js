@@ -3,7 +3,7 @@ var axios = require("axios")
 exports.handler = async function(event, context) {
 
     const data = JSON.parse(event.body).payload.data
-    console.log(`Payload: ${data}`)
+    console.log(`Payload: ${JSON.stringify(data)}`)
 
     return await axios({
         method: 'POST',
@@ -15,7 +15,7 @@ exports.handler = async function(event, context) {
             'email': data.userEmail,
             'referrer_url': data.referrer,
             'metadata': {
-                'name': data.userName,
+                'first_name': data.userName,
             },
             'tags': data.tags.split(','),
         },
