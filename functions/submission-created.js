@@ -6,8 +6,10 @@ exports.handler = async function(event, context) {
     const data = JSON.parse(event.body).payload.data
     console.log(`Payload: ${JSON.stringify(payload)}`)
     console.log(`Metadata: ${data.metadata}`)
-    console.log(`Metadata: ${data.metadata.type}`)
-    console.log(`Metadata: ${data.metadata.title}`)
+    
+    for (const key in data.metadata) {
+        console.log(`${key}: ${data.metadata[key]}`);
+    }
 
     return await axios({
         method: 'POST',
