@@ -32,8 +32,8 @@
             </g-link>
         </div>
         <div class="w-11/12 p-4 m-2 mx-auto border border-gray-300 rounded-lg shadow-md hover:shadow-xl md:w-30p">
-            <g-link to="/resources/">
-                <h2 class="mb-1 text-lg font-semibold">Resources</h2>
+            <g-link to="/brain/">
+                <h2 class="mb-1 text-lg font-semibold">Brain</h2>
                 <p class="text-sm font-normal">Curated selection of notes from my
                     <a class="font-normal text-blue-700 hover:text-blue-600" href="https://www.buildingasecondbrain.com/">
                     Second Brain.

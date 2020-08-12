@@ -35,8 +35,8 @@ module.exports = {
             use: '@gridsome/vue-remark',
             options: {
                 typeName: 'BookNote',
-                path: 'content/notes/*.md',
-                baseDir: './content/notes',
+                path: 'content/books/*.md',
+                baseDir: './content/books',
                 route: '/book/:bookSlug',
                 template: './src/templates/BookNote.vue',
                 plugins: [
@@ -50,11 +50,11 @@ module.exports = {
         {
             use: '@gridsome/vue-remark',
             options: {
-                typeName: 'ResourceNote',
-                path: 'content/resources/**/*.md',
-                baseDir: './content/resources',
-                route: '/resource/:category/:title',
-                template: './src/templates/ResourceNote.vue',
+                typeName: 'BrainNote',
+                path: 'content/brain/**/*.md',
+                baseDir: './content/brain',
+                route: '/brain/:category/:title',
+                template: './src/templates/BrainNote.vue',
                 plugins: [
                     '@gridsome/remark-prismjs',
                     ['@noxify/gridsome-plugin-remark-embed', {

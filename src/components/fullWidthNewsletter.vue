@@ -29,7 +29,7 @@
 import axios from "axios";
 
 export default {
-    props: ['title', 'description', 'tags'],
+    props: ['title', 'description', 'tags', 'metadata'],
     
     data() {
         return {
@@ -37,6 +37,7 @@ export default {
                 userEmail: "",
                 userName: "",
                 tags: this.tags,
+                metadata: this.metadata,
             },
         }
     },

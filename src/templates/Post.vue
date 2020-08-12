@@ -42,7 +42,12 @@
     <fullWidthNewsletter
       class="my-4"
       description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time."
-      tags="['Post']">
+      v-bind:tags="['post']"
+      v-bind:metadata="{
+        'type':'post',
+        'title': $page.post.title,
+      }"
+      >
     </fullWidthNewsletter>
 
     <webMentions
