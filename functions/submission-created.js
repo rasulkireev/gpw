@@ -8,14 +8,13 @@ exports.handler = async function(event, context) {
     console.log(`Payload: ${JSON.stringify(payload)}`)
     
     const metadata = JSON.parse(data.metadata)
-    const keys = Object.keys(metadata);
-    const metadata_object = {
+    var metadata_object = {
         'first_name': data.userName,
     }
-    keys.forEach((key, index) => {
-        metadata_object.key = metadata[key]
-    });
-
+    for (const key in metadata) {
+        metadata_object[key] = metadata[key]
+    }
+      
     console.log(`Metadata object: ${JSON.stringify(metadata_object)}`)
 
     return await axios({
