@@ -17,7 +17,11 @@ exports.handler = async function(event, context) {
             'metadata': {
                 'name': data.userName,
             },
-            'tags': data.tags,
+            'tags': [
+                data.tags.forEach(function(element, index) {
+                    return element;
+                })
+            ],
         },
     })
     .then(response => console.log(response))
