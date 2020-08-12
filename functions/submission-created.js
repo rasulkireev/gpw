@@ -4,23 +4,19 @@ exports.handler = async function(event, context) {
 
     const payload = JSON.parse(event.body).payload
     const data = JSON.parse(event.body).payload.data
-    const metadata = JSON.parse(data.metadata)
+        
     console.log(`Payload: ${JSON.stringify(payload)}`)
-    console.log(`Metadata: ${metadata}`)
-    console.log(`Metadata type: ${typeof metadata}`)
     
-    console.log("looping with for")
-    for (const key in metadata) {
-        console.log(`${key}: ${metadata[key]}`);
-    }
-
-    console.log("looping with array")
+    const metadata = JSON.parse(data.metadata)
     const keys = Object.keys(metadata);
-    console.log(keys);
+    const metadata_object = {
+        'first_name': data.userName,
+    }
     keys.forEach((key, index) => {
-        console.log(`${key}: ${metadata[key]}`);
+        metadata_object.key = metadata[key]
     });
 
+    console.log(`Metadata object: ${metadata_object}`)
 
     return await axios({
         method: 'POST',
@@ -31,9 +27,7 @@ exports.handler = async function(event, context) {
         data: {
             'email': data.userEmail,
             'referrer_url': data.referrer,
-            'metadata': {
-                'first_name': data.userName,
-            },
+            'metadata': metadata_object,
             'tags': data.tags.split(','),
         },
     })
