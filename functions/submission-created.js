@@ -4,20 +4,21 @@ exports.handler = async function(event, context) {
 
     const payload = JSON.parse(event.body).payload
     const data = JSON.parse(event.body).payload.data
+    const metadata = JSON.parse(data.metadata)
     console.log(`Payload: ${JSON.stringify(payload)}`)
-    console.log(`Metadata: ${data.metadata}`)
-    console.log(`Metadata type: ${typeof data.metadata}`)
+    console.log(`Metadata: ${metadata}`)
+    console.log(`Metadata type: ${typeof metadata}`)
     
     console.log("looping with for")
-    for (const key in data.metadata) {
-        console.log(`${key}: ${data.metadata[key]}`);
+    for (const key in metadata) {
+        console.log(`${key}: ${metadata[key]}`);
     }
 
     console.log("looping with array")
-    const keys = Object.keys(data.metadata);
+    const keys = Object.keys(metadata);
     console.log(keys);
     keys.forEach((key, index) => {
-        console.log(`${key}: ${data.metadata[key]}`);
+        console.log(`${key}: ${metadata[key]}`);
     });
 
 
