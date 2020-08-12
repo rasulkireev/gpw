@@ -1,6 +1,5 @@
 <template>
-<div id="app" class="min-h-screen bg-white light-mode">
-  <div class="flex flex-col max-w-4xl px-5 mx-auto leading-relaxed">
+  <div id="app" class="flex flex-col max-w-4xl min-h-screen px-6 mx-auto leading-relaxed bg-white light-mode">
     <header class="fixed top-0 left-0 z-10 w-full bg-white h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
         <div class="flex flex-col justify-between max-w-4xl px-6 m-auto sm:flex-row md:h-24">
           <div class="flex flex-row items-center justify-between w-full h-16 md:h-24">
@@ -20,9 +19,10 @@
           </div>
             <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
               <ul class="flex flex-col md:flex-row ">
-                <li><g-link to="/about/" class="flex items-center w-full p-2 m-0 text-lg font-normal font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link></li>
-                <li><g-link to="/digital-garden/" class="flex items-center w-full p-2 m-0 text-lg font-normal font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link></li>
-                <li><g-link to="/now/" class="flex items-center w-full p-2 m-0 text-lg font-normal font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link></li>
+                <li><g-link to="/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Home</g-link></li>
+                <!-- <li><g-link to="/about/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link></li> -->
+                <!-- <li><g-link to="/digital-garden/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link></li> -->
+                <!-- <li><g-link to="/now/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link></li> -->
               </ul>
             </nav>
           </div>
@@ -43,7 +43,6 @@
         </div>
       </footer>
   </div>
-</div>
 </template>
 
 <static-query>

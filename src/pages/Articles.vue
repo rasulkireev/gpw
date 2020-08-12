@@ -41,7 +41,7 @@ query Posts {
 <script>
 export default {
   metaInfo: {
-    title: 'Digital Garden',
+    title: 'Articles',
     description: "List of articles I have written.",
     link: [
         { rel: "canonical", href:  `https://rasulkireev.com/articles` },
