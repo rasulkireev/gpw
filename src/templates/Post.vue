@@ -44,7 +44,8 @@
       description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found around the internet. No spam, ever. Unsubscribe any time."
       v-bind:tags="['post']"
       v-bind:metadata="{
-        'type':'post',
+        'type': 'post',
+        'category': $page.post.category,
         'title': $page.post.title,
       }"
       >

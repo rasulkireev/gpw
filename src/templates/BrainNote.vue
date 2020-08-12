@@ -17,6 +17,7 @@
       v-bind:tags="['brain']"
       v-bind:metadata="{
         'type': 'brain',
+        'category': $page.brainNote.category,
         'title': $page.brainNote.title,
         }"
     >
@@ -29,6 +30,7 @@
 query BrainNote ($path: String!) {
   brainNote: brainNote (path: $path) {
     title
+    category
     path
   }
 }
