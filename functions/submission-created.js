@@ -16,7 +16,7 @@ exports.handler = async function(event, context) {
         metadata_object.key = metadata[key]
     });
 
-    console.log(`Metadata object: ${metadata_object}`)
+    console.log(`Metadata object: ${JSON.stringify(metadata_object)}`)
 
     return await axios({
         method: 'POST',
