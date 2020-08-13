@@ -53,4 +53,16 @@ export const newsletterLetters = [
         title: "Tuesday Letter #9 - Web Design, Software Engineering, AI and Habit Tracking",
         date: '2020/07/21',
     },
+    {
+        id: 10,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-10-data-storytelling-gridsome/',
+        title: "Tuesday Letter #10 - Data Storytelling, Gridsome, Notes & Highlights ",
+        date: '2020/07/21',
+    },
+    {
+        id: 11,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-11-just-fucking-ship-mentions-and/',
+        title: "Tuesday Letter #11 - Just Fucking Ship, Mentions and Underappreciated Daily Actions ",
+        date: '2020/08/12',
+    },
 ]

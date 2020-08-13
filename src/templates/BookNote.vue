@@ -43,7 +43,13 @@
 
     <fullWidthNewsletter
       class="my-4"
-      description="If you enjoyed this post, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found arounf the internet.">
+      description="If you enjoyed this book review, or found it useful, please consider signing up to my newsletter. Every week, I share my thoughts on cool stuff I found arounf the internet.",
+      v-bind:tags="['book-note']"
+      v-bind:metadata="{
+        'type': 'book-note',
+        'title': $page.bookNote.title,
+        }"
+    >
     </fullWidthNewsletter>
 
   </Layout>
