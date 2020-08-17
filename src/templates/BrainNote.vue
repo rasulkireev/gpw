@@ -7,8 +7,9 @@
 
     <p class="mb-10 text-blue-700">← <g-link to="/brain/">back to posts</g-link></p>
 
-    <article>
-        <VueRemarkContent class="prose-sm prose md:prose-2xl"></VueRemarkContent>
+    <article class="prose-sm prose md:prose-2xl">
+        <h1>{{ $page.brainNote.title }}</h1>
+        <VueRemarkContent></VueRemarkContent>
     </article>
 
     <fullWidthNewsletter

@@ -9,6 +9,15 @@
         <p class="mb-3 text-xl">We also enjoy photography and are looking for subjects to improve our photography skills. If you would be interested in this please contact us. Here is our portfolio.</p>
       </section>
 
+      <div class="mb-4">
+        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://twitter.com/rasulkireev"><i class="text-3xl lab la-twitter"></i></a>
+        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://github.com/rasulkireev"><i class="text-3xl lab la-github"></i></a>
+        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://www.linkedin.com/in/rasul-kireev/"><i class="text-3xl lab la-linkedin-in"></i></a>
+        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://keybase.io/rasulkireev"><i class="text-3xl lab la-keybase"></i></a>
+        <a class="font-normal bg-transparent border-0 border-transparent social-icon u-email" rel="me" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
+      </div>
+
+
   </Layout>
 </template>
 

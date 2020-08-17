@@ -28,7 +28,7 @@
           </div>
       </header>
 
-    <div class="mt-24 mb-10">
+    <div class="mt-32 mb-10">
       <slot/>
     </div>
 

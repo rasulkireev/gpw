@@ -2,33 +2,23 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
-    <article class="mb-6 h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-      <!-- Author description -->
-      <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
-          <span itemprop="name">Rasul Kireev</span>
-          <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
-      </div>
+    <!-- Author description -->
+    <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+        <span itemprop="name">Rasul Kireev</span>
+        <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
+    </div>
 
 
-      <div class="mb-4 border-b border-gray-200 border-solid">
-        <div id="title" class="flex flex-col my-2 md:flex-row md:justify-between">
-          <g-image class="w-16 h-auto md:w-auto md:h-16 md:order-last" :src="$page.post.icon" itemprop="image" />
-          <div>
-            <h1 class="my-3 text-3xl font-semibold leading-8 p-name" itemprop="headline">{{ $page.post.title }}</h1>
-            <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
-          </div>
-        </div>
+    <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+      <h1 class="p-name" itemprop="headline">{{ $page.post.title }}</h1>
+      <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
+      <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
+      <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
+      <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
+      <p class="hidden" itemprop="publisher">Rasul Kireev</p>
 
-        <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
-        <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
-        <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
-        <p class="hidden" itemprop="publisher">Rasul Kireev</p>
-
-      </div>
-
-        <VueRemarkContent class="prose-sm prose md:prose-2xl"></VueRemarkContent>
+      <VueRemarkContent ></VueRemarkContent>
     </article>
 
 
@@ -186,5 +176,3 @@ export default {
   },
 }
 </script>
-
-<style src="../css/github-markdown.css" />
