@@ -2,35 +2,25 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/book-notes/">back to posts</g-link></p>
 
-    <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <!-- Author description -->
+    <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+        <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
+    </div>
 
-      <!-- Author description -->
-      <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
-          <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
-      </div>
-
-      <div class="mb-4 border-b border-gray-200 border-solid">
-        <div id="title" class="flex flex-col md:flex-row md:justify-between">
-          <g-image class="w-16 md:order-last" :src="$page.bookNote.cover" />
-          <div>
-            <div>
-              <h1 class="my-3 text-3xl font-semibold leading-8">
-                <span class="p-name" itemprop="name">{{ $page.bookNote.title }}</span>
-                by
-                <span>{{ $page.bookNote.author }}</span></h1>
-            </div>
-            <p id="meta" class="m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="dateCreated" :datetime="$page.bookNote.date">{{$page.bookNote.date}}</time></p>
-          </div>
-        </div>
-
+    <article class="prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <g-image class="w-16 md:order-last" :src="$page.bookNote.cover" />
+        <h1>
+          <span class="p-name" itemprop="name">{{ $page.bookNote.title }}</span>
+          by
+          <span>{{ $page.bookNote.author }}</span>
+        </h1>
+        <time class="hidden dt-published" itemprop="dateCreated" :datetime="$page.bookNote.date">{{$page.bookNote.date}}</time>
         <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.bookNote.path' itemprop="url"></a>
         <p class="hidden p-category" itemprop="about">{{ $page.bookNote.category }}</p>
         <p class="hidden p-summary" itemprop="abstract">{{ $page.bookNote.description }}</p>
 
-      </div>
-
-        <VueRemarkContent class="markdown-body"></VueRemarkContent>
+        <VueRemarkContent></VueRemarkContent>
     </article>
 
     <socialShareButtons
@@ -52,6 +42,13 @@
     >
     </fullWidthNewsletter>
 
+    <webMentions
+      :wmArray=$page.mentions
+      :title=$page.bookNote.title
+      :url='$static.metadata.siteUrl + $page.bookNote.path' 
+    />
+
+
   </Layout>
 </template>
 
@@ -63,6 +60,25 @@ query BookNote ($path: String!) {
     path
     content
     cover
+  }
+  mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
+    totalCount
+    edges {
+      node {
+        wmId
+        url
+        wmProperty
+        wmSource
+        content {
+          text
+        }
+        author {
+          name
+          photo
+          url
+        }
+      }
+    }
   }
 }
 </page-query>
@@ -83,6 +99,7 @@ query BookNote ($path: String!) {
 <script>
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
+import webMentions from "../components/webMentions"
 
 export default {
   metaInfo() {
@@ -97,8 +114,7 @@ export default {
   components: {
     socialShareButtons,
     fullWidthNewsletter,
+    webMentions,
   },
 }
 </script>
-
-<style src="../css/github-markdown.css" />

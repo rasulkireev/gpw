@@ -14,25 +14,72 @@
             </g-link>
           </p>
 
-        <DigitalGarden class="mt-10" />
+        <DigitalGarden class="my-10" />
 
       <fullWidthNewsletter
         description="Finally, consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week."
         v-bind:tags="['home']">
       </fullWidthNewsletter>
 
+      <webMentions
+        :wmArray=$page.mentions
+        title="Rasul Kireev Homepage"
+        :url='$static.metadata.siteUrl' 
+      />
+
+
     </div>
 
   </Layout>
 </template>
 
+<page-query>
+query {
+  mentions: allWebMention(filter: { wmTarget: { regex: "/" } }) {
+    totalCount
+    edges {
+      node {
+        wmId
+        url
+        wmProperty
+        wmSource
+        content {
+          text
+        }
+        author {
+          name
+          photo
+          url
+        }
+      }
+    }
+  }
+}
+</page-query>
+
+<static-query>
+  query {
+    metadata {
+      siteName
+      siteDescription
+      siteUrl
+      author
+      twitter
+    }
+  }
+</static-query>
+
+
 <script>
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import DigitalGarden from "../components/DigitalGarden"
+import webMentions from "../components/webMentions"
 
 export default {
   components: {
-    DigitalGarden
+    DigitalGarden,
+    webMentions,
+    fullWidthNewsletter
   },
 
   metaInfo: {

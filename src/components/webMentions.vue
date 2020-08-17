@@ -2,9 +2,9 @@
     <div class="my-2 font-mono md:my-10">
         <div class="pb-4 mb-6 border-b-2 border-gray-400">
             <p class="text-xl font-bold md:mb-2">
-                {{ wmArray.totalCount }} Responses
+                {{ wmArray.totalCount }} <a href="https://www.w3.org/TR/webmention/">Webmentions</a>
             </p>
-            <p class="">
+            <p>
                 Want to respond? Reply, like, reply or bookmark on <!-- Sharingbutton Twitter -->
                 <a 
                 class="text-blue-600 border-b-2 border-blue-600 hover:border-blue-500 hover:text-blue-500" 
@@ -34,10 +34,10 @@
         </div>
 
         <div v-if="wmReduce('repost-of').length > 0" class="mb-6">
-            <p class="font-semibold">{{ wmReduce("repost-of").length }} Reposts</p>
+            <p class="font-semibold">{{ wmReduce("repost-of").length }} Retweets</p>
             <div class="flex items-center my-2">
                 <a
-                :href="mention.node.author.url"
+                :href="mention.node.url"
                 v-for="mention in wmArray.edges"
                 :key="mention.node.wmId"
                 v-if="mention.node.wmProperty=='repost-of'"
