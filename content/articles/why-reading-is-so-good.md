@@ -26,3 +26,5 @@ Read. Improve. Make your life better.
 P.S. This can count as a silly reason for reading books, but I don't care. Reading is fun. When you acquire the habit of reading, you do actually start to enjoy it.
 
 Check out my [post](https://rasulkireev.com/writings/how-to-read-books-for-free) on how to get books for free, that might make it easier to acquire the habit.
+
+If you have any comments, please let me know on [twitter](https://twitter.com/rasulkireev/status/1295236499357794305).
