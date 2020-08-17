@@ -78,10 +78,10 @@
                 <div class="px-4">
                     <a 
                     :href="mention.node.author.url" 
-                    class="font-semibold">
+                    class="font-semibold text-blue-700 hover:text-blue-500">
                         {{ mention.node.author.name }}
                     </a>
-                    <p>{{ mention.node.content.text }}</p>
+                    <p>{{ mention.node.content.text }} - (<a class="text-blue-700 hover:text-blue-500" :href="mention.node.url">Link</a>)</p>
                 </div>
             </div>
         </div>
