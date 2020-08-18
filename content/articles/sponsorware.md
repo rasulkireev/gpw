@@ -19,3 +19,5 @@ I'm very intrigued by this idea and have decided to give it a go. I have applied
 I don't have a huge following my work, but I hope this post will spread. I think that this way of working is very healthy for the developer and for the community alike. I really hope this picks up.
 
 Thanks for reading, have a wonderful day!
+
+You can reply on [Twitter](https://twitter.com/rasulkireev/status/1295740529012092929). Your reply will be displayed here, also, thanks to the [webentions](https://indieweb.org/webmention).
