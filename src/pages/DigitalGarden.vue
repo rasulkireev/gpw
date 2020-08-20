@@ -20,10 +20,9 @@ export default {
     components: {
         DigitalGarden
     },
-
-    name: 'Digital Garden',
     metaInfo: {
         title: 'Digital Garden',
+        description: "Digital Garden is collection of different types of contents I produce during the day. Articles, Book Notes, Second Brain, Learning in Public, etc.",
         link: [
             { rel: 'canonical', href: `https://rasulkireev.com/digital-garden` },
         ]

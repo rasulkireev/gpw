@@ -39,8 +39,8 @@ query BookNotes {
 <script>
 export default {
   metaInfo: {
-    title: 'Digital Garden',
-    description: "List of articles I have written.",
+    title: 'Book Notes',
+    description: "Nicely formatted thoughts and notes on books I've read",
     link: [
         { rel: "canonical", href:  `https://rasulkireev.com/book-notes` },
     ],

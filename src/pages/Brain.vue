@@ -33,7 +33,13 @@ query BrainNotes {
 
 <script>
 export default {
-
+  metaInfo: {
+    title: 'Brain',
+    description: "This is what my brain looks like. Just kidding, that's the contents of my Joplin Notebook (a.k.a Second Brain)",
+    link: [
+        { rel: "canonical", href:  `https://rasulkireev.com/brain` },
+    ],
+  },
 }
 </script>
 

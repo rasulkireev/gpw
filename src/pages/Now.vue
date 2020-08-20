@@ -69,6 +69,7 @@ export default {
 
   metaInfo: {
     title: `Now - ${nowTitle}`,
+    description: "What Rasul is up to Now.",
     meta: [
       {
         key: "description",

@@ -23,9 +23,9 @@
 
 <script>
 export default {
-  name: 'About',
   metaInfo: {
     title: 'About',
+    description: "Learn about Rasul.",
     link: [
         { rel: "canonical", href:  `https://rasulkireev.com/about` },
     ],
