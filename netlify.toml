@@ -2,6 +2,9 @@
   publish = "dist"
   command = "gridsome build"
 
+[[plugins]]
+  package = "netlify-plugin-algolia-export"
+  
 [[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
