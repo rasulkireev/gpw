@@ -32,40 +32,6 @@
       <slot/>
     </div>
 
-    <ais-instant-search
-      :search-client="searchClient"
-      index-name="prod_Rasul"
-    >
-      <div class="search-panel">
-            <div class="search-panel__filters">
-              <ais-refinement-list attribute="brand" />
-            </div>
-
-            <div class="search-panel__results">
-              <div class="searchbox">
-                <ais-search-box placeholder="" />
-              </div>
-              <ais-hits>
-                <template slot="item" slot-scope="{ item }">
-                  <article>
-                    <h1>
-                      <ais-highlight :hit="item" attribute="name" />
-                    </h1>
-                    <p>
-                      <ais-highlight :hit="item" attribute="description" />
-                    </p>
-                  </article>
-                </template>
-              </ais-hits>
-
-              <div class="pagination">
-                <ais-pagination />
-              </div>
-            </div>
-          </div>
-    </ais-instant-search>
-
-
     <footer class="flex flex-col items-center justify-between w-full h-16 md:flex-row md:h-20 pin-b">
       <div class="flex flex-row">
         <a class="flex items-center pr-2 m-0 font-normal leading-tight text-center text-gray-600 border-0" href="https://rasulkireev.com/rss.xml">RSS</a>
@@ -89,41 +55,11 @@ query {
 </static-query>
 
 <script>
-import algoliasearch from 'algoliasearch/lite';
-import 'instantsearch.css/themes/satellite.css';
-
 export default {
   data() {
     return {
       isOpen: false,
-      searchClient: algoliasearch(
-        process.env.ALGOLIA_APPLICATION_ID,
-        process.env.ALGOLIA_ADMIN_KEY
-      ),
-
     }
   }
 }
 </script>
-
-<style>
-.search-panel {
-  display: flex;
-}
-.search-panel__filters {
-  flex: 1;
-}
-.search-panel__results {
-  flex: 3;
-}
-.searchbox {
-  margin-bottom: 2rem;
-}
-.ais-Hits {
-  margin-bottom: 2rem;
-}
-.pagination {
-  margin: 2rem auto;
-  text-align: center;
-}
-</style>
