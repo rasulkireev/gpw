@@ -4,7 +4,10 @@
 
 [[plugins]]
   package = "netlify-plugin-algolia-export"
-  
+
+[[plugins]]
+  package = "netlify-plugin-gridsome-cache"
+
 [[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
