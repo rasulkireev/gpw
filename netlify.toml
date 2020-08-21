@@ -9,12 +9,16 @@
   package = "netlify-plugin-gridsome-cache"
 
 [[redirects]]
-  from = "/resource/*/*"
-  to = "/brain/*/*"
+  from = "/writings/joplin"
+  to = "/joplin"
 
 [[redirects]]
-  from = "/writings/*"
-  to = "/*"
+  from = "writings/dealing-with-mild-depression"
+  to = "/dealing-with-mild-depression"
+
+[[redirects]]
+  from = "writings/designing-first-site"
+  to = "/designing-first-site"
 
 [[redirects]]
   from = "writings/dj-get-context"
