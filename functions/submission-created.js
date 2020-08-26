@@ -7,12 +7,15 @@ exports.handler = async function(event, context) {
         
     console.log(`Payload: ${JSON.stringify(payload)}`)
     
-    const metadata = JSON.parse(data.metadata)
     var metadata_object = {
         'first_name': data.userName,
     }
-    for (const key in metadata) {
-        metadata_object[key] = metadata[key]
+
+    const metadata = JSON.parse(data.metadata)
+    if (typeof variable !== 'undefined') {
+        for (const key in metadata) {
+            metadata_object[key] = metadata[key]
+        }
     }
       
     console.log(`Metadata object: ${JSON.stringify(metadata_object)}`)
