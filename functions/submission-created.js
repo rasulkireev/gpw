@@ -11,7 +11,7 @@ exports.handler = async function(event, context) {
         'first_name': data.userName,
     }
 
-    if (typeof JSON.parse(data.metadata) !== 'undefined') {
+    if (typeof data.metadata !== 'undefined') {
         const metadata = JSON.parse(data.metadata)
         for (const key in metadata) {
             metadata_object[key] = metadata[key]
