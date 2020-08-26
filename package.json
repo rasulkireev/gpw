@@ -16,6 +16,7 @@
     "@gridsome/vue-remark": "^0.2.2",
     "@microflash/gridsome-plugin-feed": "^1.0.7",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
+    "@sindresorhus/slugify": "^1.1.0",
     "@tailwindcss/typography": "^0.2.0",
     "@zefman/gridsome-source-webmention": "^0.1.4",
     "algoliasearch": "^4.4.0",
