@@ -11,8 +11,6 @@ exports.handler = async function(event, context) {
         'first_name': data.userName,
     }
 
-    console.log(`Initial Metadata object - ${JSON.stringify(metadata_object)}`)
-
     if (typeof data.metadata !== 'undefined') {
         const metadata = JSON.parse(data.metadata)
         
@@ -20,9 +18,9 @@ exports.handler = async function(event, context) {
             metadata_object[key] = metadata[key]
         }
         
-        console.log(`Metadata object: ${JSON.stringify(metadata_object)}`)
     }
-      
+    
+    console.log(`Metadata object: ${JSON.stringify(metadata_object)}`)
 
     return await axios({
         method: 'POST',
