@@ -13,10 +13,6 @@
   to = "/brain/:splat"
 
 [[redirects]]
-  from = "/brain/:topic/*"
-  to = "/brain/:splat"
-
-[[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
 
