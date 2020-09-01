@@ -53,7 +53,7 @@ module.exports = {
                 typeName: 'BrainNote',
                 path: 'content/brain/*.md',
                 baseDir: './content/brain',
-                route: '/brain/:category/:title',
+                route: '/brain/:title',
                 template: './src/templates/BrainNote.vue',
                 plugins: [
                     '@gridsome/remark-prismjs',
