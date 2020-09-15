@@ -13,6 +13,10 @@
   to = "/brain/:splat"
 
 [[redirects]]
+  from = "/brain/:category/*"
+  to = "/brain/:splat"
+
+[[redirects]]
   from = "/writings/joplin"
   to = "/joplin"
 

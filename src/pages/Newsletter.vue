@@ -4,7 +4,7 @@
             title="Tuesday Letter"
             description="In this newsletter I will share the most interesting articles and resources I've encountered during the week. 
             Additionally you might here small updated on my projects."
-            v-bind:tags="['post']"
+            v-bind:tags="['newsletter']"
             v-bind:metadata="{
                 'type': 'newsletter',
             }"
