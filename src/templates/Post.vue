@@ -2,21 +2,24 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
-    <!-- Author description -->
-    <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
-        <span itemprop="name">Rasul Kireev</span>
-        <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
-    </div>
-
-
     <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/BlogPosting">
       <h1 class="p-name" itemprop="headline">{{ $page.post.title }}</h1>
-      <p id="meta" class="hidden m-0 mr-2 text-xs text-gray-600"><time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time></p>
+      <img class="hidden" itemprop="datePublished" :src="postImage" :alt=$page.post.title>
+      <span id="meta" class="hidden m-0 mr-2 text-xs text-gray-600">
+        <time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time>
+      </span>
       <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
-      <p class="hidden p-category" itemprop="about">{{ $page.post.category }}</p>
-      <p class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</p>
-      <p class="hidden" itemprop="publisher">Rasul Kireev</p>
+      <span class="hidden p-category" itemprop="about">{{ $page.post.category }}</span>
+      <span class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</span>
+      <span class="hidden" itemprop="wordCount">{{ $page.post.wordCount }}</span>
+
+      <!-- Author description -->
+      <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+          <span itemprop="name">Rasul Kireev</span>
+          <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
+      </div>
+
 
       <VueRemarkContent ></VueRemarkContent>
     </article>
@@ -57,6 +60,7 @@ query Post ($path: String!) {
     title
     description
     category
+    wordCount
     date (format: "MMMM D, Y")
     unsplashImageID
     content
@@ -104,14 +108,17 @@ import socialShareButtons from "../components/socialShareButtons"
 import webMentions from "../components/webMentions"
 
 export default {
-  mounted() {
-        let hypothesisScript = document.createElement("script")
-        hypothesisScript.setAttribute('src', 'https://hypothes.is/embed.js')
-        document.body.appendChild(hypothesisScript)
+  created() {
+    if (this.$page) {
+      this.postImage = `https://ogi.sh?title=${this.$page.post.title}&unsplashId=${this.$page.post.unsplashImageID}`
+    }
   },
   metaInfo() {
     return {
       title: this.$page.post.title,
+      script: [
+        { src: 'https://hypothes.is/embed.js', body: true }
+      ],
       meta: [
         {
           key: "description",
@@ -133,7 +140,7 @@ export default {
         {
           key: 'og-image',
           property: 'og:image',
-          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+          content: this.postImage,
 
         },
         {
@@ -161,7 +168,7 @@ export default {
         {
           key: "twitter-image",
           name: "twitter:image",
-          content: 'https://ogi.sh?title=' + this.$page.post.title + '&unsplashId=' + this.$page.post.unsplashImageID,
+          content: this.postImage,
         },
       ],
       link: [
