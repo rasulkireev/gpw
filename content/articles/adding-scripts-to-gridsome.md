@@ -1,6 +1,7 @@
 ---
 title: Adding Scripts to Specific Pages with Gridsome / Vue
-date: 2020-06-05
+dateCreated: 2020-06-05
+dateUpdated: 2020-06-05
 published: true
 slug: gridsome-page-scripts
 icon: ./icons/source_code.svg

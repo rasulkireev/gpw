@@ -1,6 +1,7 @@
 ---
 title: Analyzing FIFA 19 data (III). Machine Learning and Prediction
-date: 2019-12-06
+dateCreated: 2019-12-06
+dateUpdated: 2019-12-06
 published: true
 slug: fifa-machine-learning
 icon: ./icons/ai_ml.svg

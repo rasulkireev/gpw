@@ -1,6 +1,7 @@
 ---
 title: Open Source
-date: 2019-08-16
+dateCreated: 2019-08-16
+dateUpdated: 2019-08-16
 published: true
 slug: open-source
 icon: ./icons/open_source.svg

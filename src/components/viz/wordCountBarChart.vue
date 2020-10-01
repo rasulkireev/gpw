@@ -12,7 +12,7 @@ query {
         totalCount
         edges {
             node {
-                date (format: "MMMM D, Y")
+                dateCreated (format: "MMMM D, Y")
                 wordCount
             }
         }
@@ -41,7 +41,7 @@ export default {
             let dataset = []
             origData.forEach(function (item) {
                 dataset.push({
-                    "date": item.node.date,
+                    "date": item.node.dateCreated,
                     "wordCount": item.node.wordCount,
                 });
             });

@@ -1,6 +1,7 @@
 ---
 title: Conference Volunteering
-date: 2020-01-09
+dateCreated: 2020-01-09
+dateUpdated: 2020-01-09
 published: true
 slug: conference-volunteering
 icon: ./icons/global-volunteering.svg

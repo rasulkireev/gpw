@@ -1,6 +1,7 @@
 ---
 title: "Joplin: open-source note-taking at its best"
-date: 2020-02-05
+dateCreated: 2020-02-05
+dateUpdated: 2020-02-05
 published: true
 slug: joplin
 icon: ./icons/joplin.jpg
@@ -143,7 +144,8 @@ That's it. That is all there is to Joplin.
 
 If you are still in search of an excellent and straightforward note-taking application, I encourage you to check out Joplin. If I have convinced you that will make me very happy. If you are a developer, I highly encourage you to join the ranks of people who help develop this tool. If you are not a developer, you can also help. Let people know (on the [forum](https://discourse.joplinapp.org/) or on [github issues](https://github.com/laurent22/joplin/issues))
 
-There are a ton more features I have yet to explore. Whenever I find anything else useful, I will update this post and will send you an update if you are subscribed.
+There are a ton more features I have yet to explore. Whenever I find anything else useful, I will updateCreated this post and will send you an update if you are subscribed.
+There are a ton more features I have yet to explore. Whenever I find anything else useful, I will updateCreated this post and will send you an update if you are subscribed.
 
 Thanks for taking the time to read this. I really appreciate your time. If you have any comments or suggestions, please [email me](mailto:me@rasulkireev.com) or comment on [twitter](https://twitter.com/rasulkireev/status/1225152107487137792).
 

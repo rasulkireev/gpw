@@ -1,6 +1,7 @@
 ---
 title: Making your first Open Source Contribution
-date: 2019-08-19
+dateCreated: 2019-08-19
+dateUpdated: 2019-08-19
 published: true
 slug: open-source-contributions
 icon: ./icons/open_source.svg

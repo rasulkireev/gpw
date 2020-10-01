@@ -34,4 +34,23 @@ module.exports = function (api) {
         }
     })
   })
+
+  api.loadSource(({ addSchemaTypes, schema }) => {
+    addSchemaTypes(`
+        type BookNote implements Node @infer {
+            wordCount: Int
+        }
+    `)
+  })
+
+  api.loadSource(({ addSchemaResolvers }) => {
+    addSchemaResolvers({
+        BookNote: {
+            wordCount: (obj, args, context, info) => {
+                return obj.content.split(' ').length;
+            }
+        }
+    })
+  })
+
 }

@@ -114,7 +114,7 @@ module.exports = {
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
-                    date: node.date,
+                    date: node.dateUpdated,
                     description: node.description,
                     link: 'https://rasulkireev.com/' + node.path,
                 })
@@ -138,7 +138,7 @@ module.exports = {
                 ),
                 nodeToFeedItem: (node) => ({
                     title: node.title,
-                    date: node.date,
+                    date: node.dateUpdated,
                     description: node.description,
                     link: 'https://rasulkireev.com/' + node.path,
                 })

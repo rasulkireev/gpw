@@ -1,11 +1,16 @@
 ---
 title: "Show Your Work"
 author: "Austin Kleon"
-description: "Great Book"
+rating: 7
 bookSlug: "show-your-work"
+intro: The book is great.
 cover: "./images/show-your-work.jpg"
-date: 2020-05-14
+dateCreated: 2020-05-14
+dateUpdated: 2020-05-14
 category: "Creativity"
+indieboundLink: https://www.indiebound.org/book/9780761178972
+tags:
+    - creativity
 ---
 
 > The world is changing at such a rapid rate that it’s turning us all into amateurs. Even for professionals, the best way to flourish is to retain an amateur’s spirit and embrace uncertainty and the unknown

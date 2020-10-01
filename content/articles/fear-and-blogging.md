@@ -1,6 +1,7 @@
 ---
 title: Fear and Blogging
-date: 2019-08-06
+dateCreated: 2019-08-06
+dateUpdated: 2019-08-06
 published: true
 slug: fear-and-blogging
 icon: ./icons/scream.svg

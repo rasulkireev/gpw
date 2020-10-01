@@ -1,6 +1,7 @@
 ---
 title: 2020 Goals
-date: 2019-12-31
+dateCreated: 2019-12-31
+dateUpdated: 2019-12-31
 published: true
 slug: 2020-goals
 icon: ./icons/2020.svg

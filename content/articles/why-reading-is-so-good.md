@@ -1,6 +1,7 @@
 ---
 title: Why Reading is so Good
-date: 2019-07-18
+dateCreated: 2019-07-18
+dateUpdated: 2019-07-18
 published: true
 slug: reading-is-good
 icon: ./icons/reading.svg

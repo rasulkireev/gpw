@@ -1,6 +1,7 @@
 ---
 title: How to Save Emails to Pocket
-date: 2020-05-30
+dateCreated: 2020-05-30
+dateUpdated: 2020-05-30
 published: true
 slug: emails-to-pocket
 icon: ./icons/email_open.svg
@@ -19,7 +20,8 @@ It allows you to save articles you encounter during the day for later. That way,
 You can make highlights in your Pocket Article. Then later review those highlights and add them to your [Second Brain](https://www.buildingasecondbrain.com/), if you have one.
 
 ### So, what's the problem?
-Now, let's say that you have signed up for a particularly useful email course, like [Ryan Kulp](https://www.ryanckulp.com/)'s [How to Validate an Idea](https://gohighbrow.com/portfolio/how-to-validate-an-idea/) or a particularly insightful newsletter like [Nat Eliason](https://www.nateliason.com/)'s [Monday Medley](https://www.nateliason.com/join) or [Arvid Kahl](https://www.arvidkahl.de/)'s [Bootstrapped Founder](https://thebootstrappedfounder.com/newsletter/). How can you save it for later if you are a little busy right now? Well, that is not a problem, since that is what Email Inbox is for.
+Now, let's say that you have signed up for a particularly useful email course, like [Ryan Kulp](https://www.ryanckulp.com/)'s [How to ValidateCreated an Idea](https://gohighbrow.com/portfolio/how-to-validate-an-idea/) or a particularly insightful newsletter like [Nat Eliason](https://www.nateliason.com/)'s [Monday Medley](https://www.nateliason.com/join) or [Arvid Kahl](https://www.arvidkahl.de/)'s [Bootstrapped Founder](https://thebootstrappedfounder.com/newsletter/). How can you save it for later if you are a little busy right now? Well, that is not a problem, since that is what Email Inbox is for.
+Now, let's say that you have signed up for a particularly useful email course, like [Ryan Kulp](https://www.ryanckulp.com/)'s [How to ValidateCreated an Idea](https://gohighbrow.com/portfolio/how-to-validate-an-idea/) or a particularly insightful newsletter like [Nat Eliason](https://www.nateliason.com/)'s [Monday Medley](https://www.nateliason.com/join) or [Arvid Kahl](https://www.arvidkahl.de/)'s [Bootstrapped Founder](https://thebootstrappedfounder.com/newsletter/). How can you save it for later if you are a little busy right now? Well, that is not a problem, since that is what Email Inbox is for.
 
 The other problem is making notes. Here, email is not that useful, as opposed to Pocket. Unfortunately, Pocket does not allow for saving emails, only webpages. This is weird, and it doesn't seem like they are planning to add that feature any time soon.
 

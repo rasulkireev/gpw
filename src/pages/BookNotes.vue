@@ -7,8 +7,8 @@
                     <div class="">
                         <p class="text-sm md:text-lg">{{ note.node.title }}</p>
                         <p class="m-0 text-xs text-gray-600">
-                          {{ note.node.description }}
-                          <time class="dt-published" itemprop="dateCreated" :datetime="note.node.date"></time>
+                          {{ note.node.intro }}
+                          <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateCreated"></time>
                         </p>
                     </div>
                 </g-link>
@@ -19,15 +19,15 @@
 
 <page-query>
 query BookNotes {
-  bookNotes: allBookNote (sortBy: "date", order: DESC) {
+  bookNotes: allBookNote (sortBy: "dateCreated", order: DESC) {
     totalCount
     edges {
       node {
         id
         title
         cover
-        description
-        date (format: "MMMM D, Y")
+        intro
+        dateCreated (format: "MMMM D, Y")
         path
       }
     }

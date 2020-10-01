@@ -1,6 +1,7 @@
 ---
 title: First Javascript Experience
-date: 2019-08-28
+dateCreated: 2019-08-28
+dateUpdated: 2019-08-28
 published: true
 slug: first-javascript-experience
 icon: ./icons/js.png

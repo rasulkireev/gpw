@@ -1,6 +1,7 @@
 ---
 title: Naruto's Influence on my Life
-date: 2019-07-19
+dateCreated: 2019-07-19
+dateUpdated: 2019-07-19
 published: true
 slug: naruto-influence
 icon: ./icons/naruto_sign.svg

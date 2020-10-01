@@ -1,6 +1,7 @@
 ---
 title: How to Read Books for Free
-date: 2019-07-17
+dateCreated: 2019-07-17
+dateUpdated: 2019-07-17
 published: true
 slug: how-to-read-books-for-free
 icon: ./icons/book.svg

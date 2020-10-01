@@ -1,6 +1,7 @@
 ---
 title: Adding a dictionary to a list of dictionaries in Python
-date: 2020-02-13
+dateCreated: 2020-02-13
+dateUpdated: 2020-02-13
 published: true
 slug: list-of-dicts
 icon: ./icons/python.svg

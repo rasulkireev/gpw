@@ -1,6 +1,7 @@
 ---
 title: How to Sell Info Products
-date: 2020-04-23
+dateCreated: 2020-04-23
+dateUpdated: 2020-04-23
 published: true
 slug: selling-info-products
 icon: ./icons/workspace.svg
@@ -88,7 +89,8 @@ These are the things you need on your Landing page:
     ![Announcement you announcement tweet](./images/announcement-tweet.png)
 
 2. **Share Progress** with your email list.
-    * Every week or so, send an update to your audience. Include a free video or a link to a live stream. 
+    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream. 
+    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream. 
     * Share before sending an email. Tweet to your audience that if they want to receive some free stuff to go ahead and signup.
     ![Free screencast Tweet](./images/free-screencast-tweet.png)
 
@@ -155,7 +157,8 @@ Works well with video courses.
 
 **5. Closing the Launch**
 * Email to notify people that this is the last email where you can buy this at this price. LAST CHANCE!
-* Don't specify a closing date in advance.
+* Don't specify a closing dateCreated in advance.
+* Don't specify a closing dateCreated in advance.
 
 
 ---
@@ -172,7 +175,8 @@ Works well with video courses.
 ### Should I pre-sell?
 **Advantages**:
 * best form of product validation
-* you'll make more money since you can talk about your product more often. With every update, for instance.
+* you'll make more money since you can talk about your product more often. With every updateCreated, for instance.
+* you'll make more money since you can talk about your product more often. With every updateCreated, for instance.
 * more motivation to finish
 
 **Disadvantages**

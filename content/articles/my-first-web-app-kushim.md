@@ -1,6 +1,7 @@
 ---
 title: Just launched my first Web App!
-date: 2019-10-29
+dateCreated: 2019-10-29
+dateUpdated: 2019-10-29
 published: true
 slug: first-web-app
 icon: ./icons/kushim.png

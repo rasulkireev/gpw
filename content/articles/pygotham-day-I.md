@@ -1,6 +1,7 @@
 ---
 title: "PyGotham 2019: Day 1"
-date: 2019-10-05
+dateCreated: 2019-10-05
+dateUpdated: 2019-10-05
 published: true
 slug: pygotham-day-one
 icon: ./icons/pygotham.png

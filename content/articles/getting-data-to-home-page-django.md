@@ -1,6 +1,7 @@
 ---
 title: Getting data to home page with Django
-date: 2020-02-20
+dateCreated: 2020-02-20
+dateUpdated: 2020-02-20
 published: true
 slug: django-get-context-data
 icon: ./icons/dj.png
@@ -28,7 +29,8 @@ You blog app contains a simple post model, with the following variables:
 class Post(MentionableMixin, models.Model):
     title = models.CharField(max_length=200)
     body = models.TextField()
-    date = models.DateTimeField()
+    dateCreated = models.DateTimeField()
+    dateCreated = models.DateTimeField()
     category = models.CharField(max_length=100)
 
     # if you are not sure what the code below does, don't worry about it.
@@ -45,7 +47,8 @@ Next, you have two views, one for a list of posts and one for the post itself.
 class PostListView(ListView):
     model = Post
     template_name = 'writings/posts/all-posts.html'
-    ordering = '-date'
+    ordering = '-dateCreated'
+    ordering = '-dateCreated'
 
 class PostDetailView(DetailView):
     model = Post
@@ -111,7 +114,8 @@ class HomePageView(TemplateView):
     # new
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['posts'] = Post.objects.filter(draft=False).order_by('-date')[0:5]
+        context['posts'] = Post.objects.filter(draft=False).order_by('-dateCreated')[0:5]
+        context['posts'] = Post.objects.filter(draft=False).order_by('-dateCreated')[0:5]
 
         return context
 ```

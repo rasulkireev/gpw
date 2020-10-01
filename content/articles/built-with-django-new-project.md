@@ -1,6 +1,7 @@
 ---
 title: New Project 'Built with Django'!
-date: 2019-12-12
+dateCreated: 2019-12-12
+dateUpdated: 2019-12-12
 published: true
 slug: builtwithdjango
 icon: ./icons/new-red.svg

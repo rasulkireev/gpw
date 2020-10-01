@@ -1,6 +1,7 @@
 ---
 title: Multiple Graphql Queries on a Single Page with Gridsome
-date: 2020-07-23
+dateCreated: 2020-07-23
+dateUpdated: 2020-07-23
 published: true
 slug: multiple-gridsome-queries
 icon: ./icons/unknown_status.png
@@ -17,7 +18,8 @@ Let's say you have the following queries:
 query Post ($path: String!) {
   post: post (path: $path) {
     title
-    date (format: "MMMM D, Y")
+    dateCreated (format: "MMMM D, Y")
+    dateCreated (format: "MMMM D, Y")
     content
     path
   }
@@ -53,7 +55,8 @@ I was going to give you all the options that I tried before making this work, bu
 query Post ($path: String!) {
   post: post (path: $path) {
     title
-    date (format: "MMMM D, Y")
+    dateCreated (format: "MMMM D, Y")
+    dateCreated (format: "MMMM D, Y")
     content
     path
   }

@@ -1,6 +1,7 @@
 ---
 title: Designing your first personal website
-date: 2020-03-18
+dateCreated: 2020-03-18
+dateUpdated: 2020-03-18
 published: true
 slug: designing-first-site
 icon: ./icons/web_design.svg
@@ -42,7 +43,8 @@ These are only the ones I can remember. I just loved the idea of having that spa
 
 > I think this is a good approach to life also. Don't try to take on too many things at once.
 
-Only add more things when you already have something to show for, and only if you know, you will keep it going. Right now, I only have the Blog and the Now page, where the latter is updated once a month. This way, I'm not pressured to do other things and can focus on something more substantial.
+Only add more things when you already have something to show for, and only if you know, you will keep it going. Right now, I only have the Blog and the Now page, where the latter is updateCreatedd once a month. This way, I'm not pressured to do other things and can focus on something more substantial.
+Only add more things when you already have something to show for, and only if you know, you will keep it going. Right now, I only have the Blog and the Now page, where the latter is updateCreatedd once a month. This way, I'm not pressured to do other things and can focus on something more substantial.
 
 In the future, I want to add a photography page, because it is something I want to become better at, and am currently learning. However, unless I am consistent with it, I won't "burden" myself by adding it to my website.
 

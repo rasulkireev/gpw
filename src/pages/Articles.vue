@@ -8,7 +8,7 @@
                         <p class="text-sm md:text-lg">{{ post.node.title }}</p>
                         <p class="m-0 text-xs text-gray-600" itemprop="headline">{{ post.node.description }}</p>
                         <div id="blog-post-info" class="hidden">
-                          <time class="dt-published" itemprop="datePublished" :datetime="post.node.date">{{post.node.date}}</time>
+                          <time class="dt-published" itemprop="datePublished" :datetime="post.node.dateCreated">{{post.node.dateCreated}}</time>
                           <span itemprop="author">Rasul Kireev</span>
                           <a href="https://rasulkireev.com" itemprop="publisher">https://rasulkireev.com</a>
                         </div> 
@@ -21,7 +21,7 @@
 
 <page-query>
 query Posts {
-  posts: allPost (sortBy: "date", order: DESC) {
+  posts: allPost (sortBy: "dateCreated", order: DESC) {
     totalCount
     edges {
       node {
@@ -29,7 +29,8 @@ query Posts {
         title
         icon
         description
-        date (format: "MMMM D, Y")
+        dateCreated (format: "MMMM D, Y")
+        dateUpdated (format: "MMMM D, Y")
         path
       }
     }

@@ -1,6 +1,7 @@
 ---
 title: My Own Personal Space
-date: 2019-08-07
+dateCreated: 2019-08-07
+dateUpdated: 2019-08-07
 published: true
 slug: personal-space
 icon: ./icons/rocket_take_off.svg

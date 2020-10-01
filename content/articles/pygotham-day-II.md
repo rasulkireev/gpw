@@ -1,6 +1,7 @@
 ---
 title: "PyGotham 2019: Day 2"
-date: 2019-10-15
+dateCreated: 2019-10-15
+dateUpdated: 2019-10-15
 published: true
 slug: pygotham-day-two
 icon: ./icons/pygotham.png
@@ -14,7 +15,8 @@ Day 2 of the PyGotham conference was on Saturday. I expected there to be way mor
 
 You can see Day 1 notes [here](pygotham-2019-day-1)
 
-_Please note: I took some pictures, but am not able to upload that as of this second. As soon as I can, I will update the post._
+_Please note: I took some pictures, but am not able to upload that as of this second. As soon as I can, I will updateCreated the post._
+_Please note: I took some pictures, but am not able to upload that as of this second. As soon as I can, I will updateCreated the post._
 
 ***
 # 1000x faster data manipulation: vectorizing with Pandas and Numpy
@@ -40,7 +42,8 @@ _Please note: I took some pictures, but am not able to upload that as of this se
 ***
 # Distributed Machine Learning with Python
 ## [Brad Miro](http://https://www.linkedin.com/in/brad-miro/) @google
-* Latest ml updates,: Gpu, Tensorflow unit
+* Latest ml updateCreateds,: Gpu, Tensorflow unit
+* Latest ml updateCreateds,: Gpu, Tensorflow unit
 * Kubeflow, marries Tensorflow and Kubernetes
 
 ***
@@ -52,7 +55,8 @@ _Please note: I took some pictures, but am not able to upload that as of this se
   * Status checks prevent branches merging without checks
   * Contributing .md for collaboration
   * Enforce approval/merge rules : codeowners.nd
-  * Using **gitflow** makes sure your branches are always up to date
+  * Using **gitflow** makes sure your branches are always up to dateCreated
+  * Using **gitflow** makes sure your branches are always up to dateCreated
     * Branches are cheap and great flexibility
   * Keep pr size as small as possible
   * More clear commit messages (talk about what and how ),

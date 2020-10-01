@@ -1,6 +1,7 @@
 ---
 title: Sponsorware is picking up
-date: 2020-08-18
+dateCreated: 2020-08-18
+dateUpdated: 2020-08-18
 published: true
 slug: sponsorware
 icon: ./icons/crowdfunding.png

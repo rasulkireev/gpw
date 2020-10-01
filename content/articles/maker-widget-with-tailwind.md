@@ -1,6 +1,7 @@
 ---
 title: Creating a Maker Widget with TailwindCSS
-date: 2019-12-17
+dateCreated: 2019-12-17
+dateUpdated: 2019-12-17
 published: true
 slug: tailwindcss-maker-widget
 icon: ./icons/tailwindcss.jpg

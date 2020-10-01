@@ -2,12 +2,19 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
-    <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/Article">
       <h1 class="p-name" itemprop="headline">{{ $page.post.title }}</h1>
-      <img class="hidden" itemprop="datePublished" :src="postImage" :alt=$page.post.title>
+      <img class="hidden" itemprop="image" :src="postImage" :alt=$page.post.title>
+      <img class="hidden" itemprop="thumbnailUrl" :src="postImage" :alt=$page.post.title>
+      
+      <!-- Timestamps -->
       <span id="meta" class="hidden m-0 mr-2 text-xs text-gray-600">
-        <time class="dt-published" itemprop="datePublished" :datetime="$page.post.date">{{$page.post.date}}</time>
+        <time class="dt-published" itemprop="datePublished" :datetime="$page.post.dateCreated">{{$page.post.dateCreated}}</time>
+        <time class="dt-published" itemprop="dateCreated" :datetime="$page.post.dateCreated">{{$page.post.dateCreated}}</time>
+        <time class="dt-modified" itemprop="dateModified" :datetime="$page.post.dateUpdated">{{$page.post.dateUpdated}}</time>
       </span>
+      
+      <!-- Article Details -->
       <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
       <span class="hidden p-category" itemprop="about">{{ $page.post.category }}</span>
       <span class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</span>
@@ -21,7 +28,7 @@
       </div>
 
 
-      <VueRemarkContent ></VueRemarkContent>
+      <VueRemarkContent itemprop="articleBody"></VueRemarkContent>
     </article>
 
 
@@ -61,7 +68,8 @@ query Post ($path: String!) {
     description
     category
     wordCount
-    date (format: "MMMM D, Y")
+    dateCreated (format: "MMMM D, Y")
+    dateUpdated (format: "MMMM D, Y")
     unsplashImageID
     content
     icon

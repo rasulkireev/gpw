@@ -1,6 +1,7 @@
 ---
 title: "My Pocket Workflow"
-date: 2020-03-22
+dateCreated: 2020-03-22
+dateUpdated: 2020-03-22
 published: true
 slug: "my-pocket-workflow"
 icon: "./icons/pocket.svg"
@@ -12,7 +13,8 @@ description: "I wanted to discuss how I use Pocket and how it integrates into th
 
 I have been slowly implementing "[Building a Second Brain](https://www.buildingasecondbrain.com/)" (BASB) technique into my personal life. I'm doing this slowly, step-by-step. For me, any past attempts to make my life more productive, with Evernote, Pocket, or other tools, have been a failure because they have been too overwhelming. More than that, I did not have a great starting point, I had to design my flow from scratch.
 
-This time around, I have [Tiago Forte](https://fortelabs.co/) and [David Perell](https://www.perell.com/), their learnings and writings have been an enormous inspiration. They both have courses that seem great and totally worth it. For me, the price point is a little out of my range (for know). Luckily, they have been putting a lot of content out there. That content is so valuable, it makes me wonder what do they offer during their course. I am preparing a consolidated list of links, articles, videos, and other types of resources that those two have put out there. Stay tuned.
+This time around, I have [Tiago Forte](https://fortelabs.co/) and [David Perell](https://www.perell.com/), their learnings and writings have been an enormous inspiration. They both have courses that seem great and totally worth it. For me, the price point is a little out of my range (for know). Luckily, they have been putting a lot of content out there. That content is so valuable, it makes me wonder what do they offer during their course. I am preparing a consolidateCreatedd list of links, articles, videos, and other types of resources that those two have put out there. Stay tuned.
+This time around, I have [Tiago Forte](https://fortelabs.co/) and [David Perell](https://www.perell.com/), their learnings and writings have been an enormous inspiration. They both have courses that seem great and totally worth it. For me, the price point is a little out of my range (for know). Luckily, they have been putting a lot of content out there. That content is so valuable, it makes me wonder what do they offer during their course. I am preparing a consolidateCreatedd list of links, articles, videos, and other types of resources that those two have put out there. Stay tuned.
 
 Today, I wanted to discuss how I use Pocket and how it integrates into the BASB flow.
 
