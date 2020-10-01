@@ -7,7 +7,7 @@
         <div class="flex flex-col items-center md:flex-row md:items-start md:space-x-6">
           <g-image class="w-32 mb-10" itemprop="image" :src="$page.bookNote.cover" />
           <div class="flex flex-col space-y-2">
-            <h1 class="h-full text-2xl font-extrabold leading-10 text-center text-gray-900 md:text-left md:text-5xl p-name" itemprop="name">
+            <h1 class="h-full text-2xl font-extrabold leading-10 text-center text-gray-900 md:text-left md:text-5xl p-name" itemprop="headline">
               {{ $page.bookNote.title }} by {{ $page.bookNote.author }}
             </h1>
             <p class="text-lg font-normal">Rating: <span class="font-bold">{{ $page.bookNote.rating }}</span>/10</p>
@@ -81,6 +81,7 @@ query BookNote ($path: String!) {
     rating
     content
     cover
+    unsplashImageID
   }
   mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
     totalCount
