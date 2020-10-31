@@ -3,17 +3,17 @@ title: Managing a Django Project with Poetry
 dateCreated: 2020-10-31
 dateUpdated: 2020-10-31
 published: true
-slug: managing-django-with-poetry
+slug: managing-Django-with-poetry
 icon: ./icons/broken_link.png
 unsplashImageID: PDxYfXVlK2M
 keywords:
  - Python
  - Django
 category: Django
-description: Poetry is a relatively new packagin and dependency manager. It makes it very easy upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive on how Poetry works and all it's features. Today I just want to focus on how to configure it for a Django project. 
+description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project. 
 ---
 
-Poetry is a relatively new packagin and dependency manager. It makes it very easy upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive on how [Poetry](https://python-poetry.org/) works and all it's features. Today I just want to focus on how to configure it for a [Django](https://www.djangoproject.com/) project. 
+Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how [Poetry](https://python-poetry.org/) works and all its features. Today I just want to focus on configuring a [Django](https://www.djangoproject.com/) project. 
 
 ## 1. Install Poetry
 
@@ -33,7 +33,7 @@ mkdir django_poetry_example && ls django_poetry_example
 poetry init
 ```
 
-You will be asked to confirm informatino about your project. You can skip through the most of it.
+You will be asked to confirm the information about your project. You can skip through most of it.
 
 ![Poetry Init Output.png](./images/poetry_init.png)
 
@@ -51,12 +51,12 @@ django-admin startproject django_poetry_example .
 
 When you need to run any python function (for example, `python manage.py createsuperuser`) you have two options.
 
-1. You can leverage `poetry run` which will run against current project's dependencies. The command will be this: `poetry run python manage.py createsuperuser`.
-2. You can activate the virtual environment with `poetry shell`. Now you can run python commands, as is. They will be run with dependencies you have installed.
+1. You can leverage `poetry run`, which will run against the current project's dependencies. The command will be this: `poetry run python manage.py createsuperuser`.
+2. You can activate the virtual environment with a `poetry shell` command. Now you can run python commands, as is. They will be run with dependencies you have installed.
 
 ## Bonus. Export dependencies to a requirements.txt
 
-If you need to have the `requirements.txt` file with all the dependencies you can run `poetry export -f requirements.txt --output requirements.txt`. If you have a configured a CI/CD job that auto deploys your project, you can add this function as a step, which will generate the updated version on each update.
+If you need to have the `requirements.txt` file with all the dependencies, you can run `poetry export -f requirements.txt --output requirements.txt`. If you have configured a CI/CD job that auto deploys your project, you can add this function as a step, which will generate the updated version on each update.
 
 ## Bonus II. Video
 
@@ -64,4 +64,4 @@ If you prefer a more visual approach, I have made a video that shows how to star
 
 https://www.youtube.com/watch?v=-c8DASfFNZM
 
-If you have any feedback, pleas let me know on [Twitter](https://twitter.com/rasulkireev/status/1322499651732385792). Your likes, retweets and replies will show up here.
+If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1322499651732385792). Your likes, retweets, and replies will show up here.
