@@ -68,11 +68,11 @@ root    ALL=(ALL:ALL) ALL
 
 then for every user that needs sudo access WITH a password:
 
-sudo adduser <user> sudo
+sudo adduser <\user> sudo
 
 and for every user that needs sudo access WITH NO password:
 
-sudo adduser <user> admin
+sudo adduser <\user> admin
 
 and finally, run this:
 

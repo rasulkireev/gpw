@@ -10,7 +10,7 @@ created_at: 1586948435900
 
 TF - [12:38]: When you are reviewing the notes you took for a book or an article, highlight the important bits with ***. That will allow for an easy search later on. 
 
-RK: Furthermore, for Tiago's double highlight (bold * highlight) we can use another set of characters. It is possibble to hightlight with \<mark>, but we are going to use a built in extension of == double equals.
+RK: Furthermore, for Tiago's double highlight (bold * highlight) we can use another set of characters. It is possibble to hightlight with \<\mark>, but we are going to use a built in extension of == double equals.
 
 
 
