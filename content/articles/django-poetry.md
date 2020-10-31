@@ -13,7 +13,7 @@ category: Django
 description: Poetry is a relatively new packagin and dependency manager. It makes it very easy upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive on how Poetry works and all it's features. Today I just want to focus on how to configure it for a Django project. 
 ---
 
-Poetry is a relatively new packagin and dependency manager. It makes it very easy upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive on how Poetry works and all it's features. Today I just want to focus on how to configure it for a Django project. 
+Poetry is a relatively new packagin and dependency manager. It makes it very easy upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive on how [Poetry](https://python-poetry.org/) works and all it's features. Today I just want to focus on how to configure it for a [Django](https://www.djangoproject.com/) project. 
 
 ## 1. Install Poetry
 
@@ -56,7 +56,7 @@ When you need to run any python function (for example, `python manage.py creates
 
 ## Bonus. Export dependencies to a requirements.txt
 
-If you need to have the `requirements.txt` file with all the dependencies you can run `poetry export -f requirements.txt --output requirements.txt`. If you have a configured a CI/CD job that auto deploys your project, you can add this function as a step, which will generate the updated version on each update.
+If you need to have the `requirements.txt` file with all the dependencies you can run `poetry export -f requirements.txt --output requirements.txt`. If you have a configured a CI/CD job that agit uto deploys your project, you can add this function as a step, which will generate the updated version on each update.
 
 ## Bonus II. Video
 
