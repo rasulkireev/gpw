@@ -56,10 +56,12 @@ When you need to run any python function (for example, `python manage.py creates
 
 ## Bonus. Export dependencies to a requirements.txt
 
-If you need to have the `requirements.txt` file with all the dependencies you can run `poetry export -f requirements.txt --output requirements.txt`. If you have a configured a CI/CD job that agit uto deploys your project, you can add this function as a step, which will generate the updated version on each update.
+If you need to have the `requirements.txt` file with all the dependencies you can run `poetry export -f requirements.txt --output requirements.txt`. If you have a configured a CI/CD job that auto deploys your project, you can add this function as a step, which will generate the updated version on each update.
 
 ## Bonus II. Video
 
 If you prefer a more visual approach, I have made a video that shows how to start a Django project with Poetry.
 
 https://www.youtube.com/watch?v=-c8DASfFNZM
+
+If you have any feedback, pleas let me know on [Twitter](https://twitter.com/rasulkireev/status/1322499651732385792). Your likes, retweets and replies will show up here.

@@ -85,6 +85,6 @@ Finally, the `div` block is there, because we told the javascript code to `getEl
 
 I think this covers it all. Everything is working for me. If you followed along, I hope it is working for you too.
 
-If you have any questinos please let me know at any of the social lin ks on the top left.
+If you have any questions please let me know at any of the social lin ks on the top left.
 
 Thanks for reading.
