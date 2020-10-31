@@ -102,7 +102,7 @@ module.exports = {
                 contentTypes: ['Post'],
                 feedOptions: {
                     title: 'Rasul Kireev',
-                    description: 'Django posts from my blog.',
+                    description: "Posts from Rasul's blog.",
                     feed_url: 'https://rasulkireev.com/rss.xml',
                     site_url: 'https://rasulkireev.com'
                 },
@@ -129,12 +129,12 @@ module.exports = {
                 feedOptions: {
                     title: 'Rasul Kireev',
                     description: 'Django posts from my blog.',
-                    feed_url: 'https://rasulkireev.com/djangofeed',
+                    feed_url: 'https://rasulkireev.com/django-rss.xml',
                     site_url: 'https://rasulkireev.com'
                 },
                 rss: {
                     enabled: true,
-                    output: '/django-posts.xml'
+                    output: '/django-rss.xml'
                 },      
                 filterNodes: (node) => (
                     node.category == "Django" && node.published == true
