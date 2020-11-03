@@ -23,3 +23,5 @@ The goal here is to introduce yourself and potentially make friends. If you are 
 Another great example is for business owners. I have had many interactions with Customer Service. Whenever I had a good experience, I have then “marked” the company as “Great” in my head. This made it more likely for me to do business with them in the future and recommending someone else does too. This is because that company didn’t want to take anything from me (more money, for example). Rather, they were looking to provide me with help and relief. For that reason, I was more likely to buy more and recommend my friends more, also. This is what the goal of the business, get more sales. This “Be awesome to your customers and good things follow.” thought comes from the book [Traction](https://amzn.to/2TQFowG) by [Gabriel Weinberg](https://ye.gg/).
 
 You can get the things you want, as a person, or business, while staying nice. The mindset one needs to keep is to produce more than consume.
+
+If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1323583172316221441). Your likes, retweets, and replies will show up here.
