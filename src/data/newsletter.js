@@ -83,4 +83,40 @@ export const newsletterLetters = [
         title: "Tuesday Letter #14 - Vagabonding, CS and some History",
         date: '2020/09/01',
     },
+    {
+        id: 15,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-15-dates-adventure/',
+        title: "Tuesday Letter #15 - Dates & Adventure",
+        date: '2020/09/08',
+    },
+    {
+        id: 16,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-16-habit-building-public/',
+        title: "Tuesday Letter #16 - Habit Building, Public Portfolios and Storytelling",
+        date: '2020/09/15',
+    },
+    {
+        id: 17,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-17-self-education-changelogs-and/',
+        title: "Tuesday Letter #17 - Self Education, Changelogs and Templates",
+        date: '2020/09/22',
+    },
+    {
+        id: 18,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-18-human-population-screencasting/',
+        title: "Tuesday Letter #18 - Human Population, Screencasting Advice, and Retirement",
+        date: '2020/09/29',
+    },
+    {
+        id: 19,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-19-pragmatic-thinking/',
+        title: "Tuesday Letter #19 - Pragmatic Thinking, Zettelkasting, and Partnerships",
+        date: '2020/10/21',
+    },
+    {
+        id: 20,
+        url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-20-start-small-be-nice/',
+        title: "Tuesday Letter #20 - Start Small, Be Nice, and Proofreading Tips",
+        date: '2020/10/29',
+    }
 ]
