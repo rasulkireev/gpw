@@ -117,4 +117,4 @@ If you prefer a more visual approach, I've made a video that shows how to migrat
 
 https://www.youtube.com/watch?v=k0GwrwC5uuo
 
-If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1322499651732385792). Your likes, retweets, and replies will show up here.
+If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1329393168840871936). Your likes, retweets, and replies will show up here.
