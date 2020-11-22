@@ -1,3 +1,6 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+
 module.exports = {
   purge: {
     content: [
@@ -6,8 +9,12 @@ module.exports = {
       './src/**/*.js',
     ],
   },
+  darkMode: false,
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
       inset: {
         '0': 0,
         '1/3': '33%',

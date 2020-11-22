@@ -4,6 +4,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 import InstantSearch from 'vue-instantsearch';
+import "tailwindcss/tailwind.css"
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -13,6 +14,11 @@ export default function (Vue, { router, head, isClient }) {
   const description = "My peronal page to document my life journey."
   const baseUrl = "https://rasulkireev.com/"
   const siteTitle = "Rasul Kireev | Personal Website"
+
+  head.link.push({
+    rel: "stylesheet",
+    href: "https://rsms.me/inter/inter.css"
+  });
 
   head.link.push({
     rel: 'me',
