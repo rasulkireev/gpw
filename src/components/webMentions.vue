@@ -17,7 +17,7 @@
         
         <div v-if="wmReduce('like-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("like-of").length }} Likes</p>
-            <div class="flex items-center my-2">
+            <div class="flex grid items-center grid-cols-9 gap-2 my-2 md:grid-cols-12">
                 <a 
                 :href="mention.node.author.url"
                 v-for="mention in wmArray.edges"
@@ -35,7 +35,7 @@
 
         <div v-if="wmReduce('repost-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("repost-of").length }} Retweets</p>
-            <div class="flex items-center my-2">
+            <div class="flex grid items-center grid-cols-9 gap-2 my-2 md:grid-cols-12">
                 <a
                 :href="mention.node.url"
                 v-for="mention in wmArray.edges"
@@ -69,6 +69,7 @@
             <div 
             class="flex items-center p-4 my-2 bg-gray-200 rounded" 
             v-for="mention in wmArray.edges"
+            :key="mention.node.wmId"
             v-if="mention.node.wmProperty=='in-reply-to'"
             >
                 <g-image
@@ -91,6 +92,7 @@
             <div 
             class="flex items-center p-4 my-2 bg-gray-200 rounded" 
             v-for="mention in wmArray.edges"
+            :key="mention.node.wmId"
             v-if="mention.node.wmProperty=='mention-of'"
             >
                 <div class="px-4">

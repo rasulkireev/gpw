@@ -1,34 +1,8 @@
 <template>
   <div id="app" class="flex flex-col max-w-4xl min-h-screen px-6 mx-auto leading-relaxed bg-white light-mode">
-    <header class="fixed top-0 left-0 z-10 w-full bg-white h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <div class="flex flex-col justify-between max-w-4xl px-6 m-auto sm:flex-row md:h-24">
-          <div class="flex flex-row items-center justify-between w-full h-16 md:h-24">
-            <div class="brand">
-              <g-link to="/" class="flex flex-row items-center border-0 hover:bg-transparent u-url">
-                <img class="w-8 h-8 mx-auto mr-2 rounded-lg shadow u-photo" src="https://avatars.githubusercontent.com/u/8257474">
-                <span class="block text-xl font-semibold no-underline p-name u-url">Rasul Kireev</span>
-              </g-link>
-            </div>
-            <button class="sm:hidden" @click="isOpen = !isOpen" type="button">
-              <svg viewBox="0 0 100 50" width="30" height="30">
-                <rect width="80" height="10"></rect>
-                <rect y="20" width="80" height="10"></rect>
-                <rect y="40" width="80" height="10"></rect>
-              </svg>
-            </button>
-          </div>
-            <nav v-bind:class="isOpen ? 'block' : 'hidden'" class="justify-end flex-1 mt-0 mb-2 sm:flex sm:mx-0 sm:items-center sm:flex-row">
-              <ul class="flex flex-col md:flex-row ">
-                <li><g-link to="/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Home</g-link></li>
-                <!-- <li><g-link to="/about/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">About</g-link></li> -->
-                <!-- <li><g-link to="/digital-garden/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Garden</g-link></li> -->
-                <!-- <li><g-link to="/now/" class="flex items-center w-full p-2 m-0 text-lg font-semibold leading-tight text-left text-blue-500 border-0 rounded hover:bg-gray-300 text-copy-link sm:w-auto sm:text-center">Now</g-link></li> -->
-              </ul>
-            </nav>
-          </div>
-      </header>
-
-    <div class="mt-32 mb-10">
+    <Navbar />
+    
+    <div class="my-10">
       <slot/>
     </div>
 
@@ -55,11 +29,16 @@ query {
 </static-query>
 
 <script>
+import Navbar from "../components/Navbar"
+
 export default {
-  data() {
-    return {
-      isOpen: false,
-    }
-  }
+  data: () => ({
+    navIsOpen: false,
+    writingsIsOpen: false,
+  }),
+
+  components: {
+    Navbar
+  },
 }
 </script>

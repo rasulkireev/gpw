@@ -14,7 +14,7 @@
         </g-link>
       </p>
 
-      <DigitalGarden class="my-10" />
+      <!-- <DigitalGarden class="my-10" /> -->
 
       <fullWidthNewsletter
         description="Finally, consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week."
@@ -25,11 +25,11 @@
       >
       </fullWidthNewsletter>
 
-      <webMentions
+      <!-- <webMentions
         :wmArray=$page.mentions
         title="Rasul Kireev Homepage"
         :url='$static.metadata.siteUrl' 
-      />
+      /> -->
 
 
     </div>
