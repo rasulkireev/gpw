@@ -34,6 +34,22 @@ module.exports = {
         {
             use: '@gridsome/vue-remark',
             options: {
+                typeName: 'Tutorial',
+                path: 'content/tutorials/*.md',
+                baseDir: './content/tutorials',
+                route: '/:slug',
+                template: './src/templates/Tutorial.vue',
+                plugins: [
+                    ['gridsome-plugin-remark-shiki', { skipInline: true, theme: 'min-dark' }],
+                    ['@noxify/gridsome-plugin-remark-embed', {
+                        'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
+                    }]
+                ],
+            },
+        },
+        {
+            use: '@gridsome/vue-remark',
+            options: {
                 typeName: 'BookNote',
                 path: 'content/books/*.md',
                 baseDir: './content/books',

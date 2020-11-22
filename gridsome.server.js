@@ -25,12 +25,25 @@ module.exports = function (api) {
     `)
   })
 
+  api.loadSource(({ addSchemaTypes, schema }) => {
+    addSchemaTypes(`
+        type Tutorial implements Node @infer {
+            wordCount: Int
+        }
+    `)
+  })
+
   api.loadSource(({ addSchemaResolvers }) => {
     addSchemaResolvers({
         Post: {
             wordCount: (obj, args, context, info) => {
                 return obj.content.split(' ').length;
             }
+        },
+        Tutorial: {
+          wordCount: (obj, args, context, info) => {
+              return obj.content.split(' ').length;
+          }
         }
     })
   })
