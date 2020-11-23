@@ -32,6 +32,7 @@
     "gridsome-plugin-remark-shiki": "^0.3.1",
     "gridsome-plugin-rss": "^1.2.0",
     "instantsearch.css": "^7.4.3",
+    "netlify-plugin-algolia-export": "^1.0.2",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "vue-instantsearch": "^3.2.0"
