@@ -42,10 +42,10 @@ query Tutorials {
 <script>
 export default {
   metaInfo: {
-    title: 'Articles',
-    description: "List of articles I have written.",
+    title: 'Tutorials',
+    description: "List of tutorials I have written.",
     link: [
-        { rel: "canonical", href:  `https://rasulkireev.com/articles` },
+        { rel: "canonical", href:  `https://rasulkireev.com/tutorials` },
     ],
   },
 }

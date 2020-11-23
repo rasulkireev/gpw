@@ -5,8 +5,12 @@
     <div class="flex justify-between h-20">
       <div class="flex">
         <div class="flex items-center flex-shrink-0">
-          <img class="block w-auto h-8 lg:hidden" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
-          <img class="hidden w-auto h-12 lg:block" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
+          <g-link to="/">
+            <img class="block w-auto h-8 lg:hidden" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
+          </g-link>
+          <g-link to="/">
+            <img class="hidden w-auto h-12 lg:block" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
+          </g-link>
         </div>
       </div>
       <div class="flex items-center">
@@ -69,13 +73,13 @@
   <div :class="isOpen ? 'block' : 'hidden'">
     <div class="pt-2 pb-3 space-y-1">
       <g-link to="/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Home</g-link>
+      <g-link to="/about/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">About</g-link>
       <g-link to="/articles/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Articles</g-link>
-      <g-link to="/tutorials/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Tutorials</g-link>
       <g-link to="/book-notes/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Book Notes</g-link>
       <g-link to="/brain/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Brain</g-link>
+      <g-link to="/tutorials/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Tutorials</g-link>
       <g-link to="/newsletter/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Newsletter</g-link>
       <g-link to="/now/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">Now</g-link>
-      <g-link to="/about/" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300">About</g-link>
     </div>
   </div>
 </nav>

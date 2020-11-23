@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
+    <p class="mb-10 text-blue-700">← <g-link to="/tutorials/">back to tutorials</g-link></p>
 
     <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/Article">
       <h1 class="p-name" itemprop="headline">{{ $page.tutorial.title }}</h1>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="mx-auto mb-10 text-xl">
+    <div class="flex flex-col mx-auto mb-10 space-y-6 text-xl">
       <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>
       <p class="mb-4 text-xl">
         Welcome to my Personal Website / Digital Garden.
@@ -25,11 +25,11 @@
       >
       </fullWidthNewsletter>
 
-      <!-- <webMentions
+      <webMentions
         :wmArray=$page.mentions
         title="Rasul Kireev Homepage"
         :url='$static.metadata.siteUrl' 
-      /> -->
+      />
 
 
     </div>
