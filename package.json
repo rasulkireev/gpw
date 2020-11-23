@@ -7,7 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
     "@gridsome/cli": "^0.3.3",
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/remark-prismjs": "^0.3.0",
