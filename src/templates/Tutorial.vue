@@ -2,7 +2,7 @@
   <Layout>
     <p class="mb-10 text-blue-700">← <g-link to="/tutorials/">back to tutorials</g-link></p>
 
-    <article class="mb-6 prose-sm prose md:prose-2xl h-entry" itemscope itemtype="http://schema.org/Article">
+    <article class="mb-6 prose lg:prose-xl h-entry" itemscope itemtype="http://schema.org/Article">
       <h1 class="p-name" itemprop="headline">{{ $page.tutorial.title }}</h1>
       <img class="hidden" itemprop="image" :src="tutorialImage" :alt=$page.tutorial.title>
       <img class="hidden" itemprop="thumbnailUrl" :src="tutorialImage" :alt=$page.tutorial.title>

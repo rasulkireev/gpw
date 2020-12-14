@@ -17,17 +17,17 @@
         
         <div v-if="wmReduce('like-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("like-of").length }} Likes</p>
-            <div class="flex grid items-center grid-cols-9 gap-2 my-2 md:grid-cols-12">
+            <div class="flex flex-wrap items-center">
                 <a 
                 :href="mention.node.author.url"
                 v-for="mention in wmArray.edges"
                 :key="mention.node.wmId"
                 v-if="mention.node.wmProperty=='like-of'"
-                class="mr-1"
+                class="p-1 mr-1"
                 >
                     <g-image
                         :src="mention.node.author.photo" 
-                        class="inline w-10 rounded-full" 
+                        class="inline w-10 h-10 rounded-full" 
                     />
                 </a>
             </div>
@@ -35,17 +35,17 @@
 
         <div v-if="wmReduce('repost-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("repost-of").length }} Retweets</p>
-            <div class="flex grid items-center grid-cols-9 gap-2 my-2 md:grid-cols-12">
+            <div class="flex flex-wrap items-center">
                 <a
                 :href="mention.node.url"
                 v-for="mention in wmArray.edges"
                 :key="mention.node.wmId"
                 v-if="mention.node.wmProperty=='repost-of'"
-                class="mr-1"
+                class="p-1 mr-1"
                 >
                     <g-image
                         :src="mention.node.author.photo" 
-                        class="inline w-10 rounded-full" 
+                        class="inline w-10 h-10 rounded-full" 
                     />
                 </a>
             </div>
@@ -59,7 +59,7 @@
                     :key="mention.node.wmId"
                     v-if="mention.node.wmProperty=='bookmark-of'"
                     :src="mention.node.author.photo" 
-                    class="inline w-10 rounded-full" 
+                    class="inline w-10 h-10 rounded-full" 
                 />
             </div>
         </div>
@@ -74,7 +74,7 @@
             >
                 <g-image
                     :src="mention.node.author.photo" 
-                    class="inline w-10 rounded-full" 
+                    class="inline w-10 h-10 rounded-full" 
                 />
                 <div class="px-4">
                     <a 

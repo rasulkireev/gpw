@@ -37,7 +37,7 @@
         </div>
 
 
-        <VueRemarkContent class="prose-sm prose md:prose-2xl" itemprop="articleBody"></VueRemarkContent>
+        <VueRemarkContent class="prose lg:prose-xl" itemprop="articleBody"></VueRemarkContent>
     </article>
 
     <socialShareButtons
