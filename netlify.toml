@@ -2,8 +2,8 @@
   publish = "dist"
   command = "gridsome build"
 
-[[plugins]]
-  package = "netlify-plugin-algolia-export"
+# [[plugins]]
+#  package = "netlify-plugin-algolia-export"
 
 [[plugins]]
   package = "netlify-plugin-gridsome-cache"
