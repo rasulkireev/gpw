@@ -55,9 +55,61 @@ import fullWidthNewsletter from "../components/fullWidthNewsletter"
 
 export default {
   metaInfo() {
-    return {
-      title: this.$page.brainNote.title,
-    }
+      return {
+          title: this.$page.brainNote.title,
+          script: [
+            { src: 'https://hypothes.is/embed.js', body: true }
+          ],
+          meta: [
+            {
+              key: "description",
+              name: 'description',
+              content: `Rasul's Notes on ${this.$page.brainNote.title}`
+            },
+
+            // open-graph tags
+            {
+              key: "og-title",
+              property: 'og:title',
+              content: this.$page.brainNote.title
+            },
+            {
+              key: 'og-description',
+              property: 'og:description',
+              content: `Rasul's Notes on ${this.$page.brainNote.title}`
+            },
+            {
+              key: "og-url",
+              property: 'og:url',
+              content: this.$static.metadata.siteUrl + this.$page.brainNote.path
+            },
+
+            // twitter card
+            {
+              key: "twitter-card",
+              name: 'twitter:card',
+              content:'summary'
+            },
+            {
+              key: "twitter-title",
+              name: 'twitter:title',
+              content: this.$page.brainNote.title
+            },
+            {
+              key: "twitter-description",
+              name: 'twitter:description',
+              content: `Rasul's Notes on ${this.$page.brainNote.title}`
+            },
+            {
+              key: "twitter-site",
+              name: 'twitter:site',
+              content: `@rasulkireev`
+            }
+          ],
+          link: [
+              { rel: "canonical", href: `https://rasulkireev.com${this.$page.brainNote.path}` },
+          ],
+        }
   },
   components: {
     fullWidthNewsletter,
