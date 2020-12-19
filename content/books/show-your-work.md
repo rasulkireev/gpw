@@ -116,3 +116,5 @@ Just keep going. It may be hard sometime, you might get demotivated, anything ca
 
 
 "The minute you learn something, turn around and teach it to others. Share your reading list. Point to helpful reference materials. Create some tutorials and post them online. Use pictures, words, and video. Take people step-by-step through part of your process. As blogger Kathy Sierra says, “Make people better at something they want to be better at.” Teaching people doesn’t subtract value from what you do, it actually adds to it. When you teach someone how to do your work, you are, in effect, generating more interest in your work. People feel closer to your work because you’re letting them in on what you know."
+
+If you have any comments or feedback, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1340323684372934656) or [on HackerNews](https://news.ycombinator.com/item?id=25478102).

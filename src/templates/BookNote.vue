@@ -126,7 +126,7 @@ import webMentions from "../components/webMentions"
 export default {
   created() {
     if (this.$page) {
-      this.bookNoteImage = `https://ogi.sh?title=Rasul's%20Notes%20on%20${this.$page.bookNote.title}&unsplashId=${this.$page.bookNote.unsplashImageID}`
+      this.bookNoteImage = `https://ogi.sh?title=Rasul's%20Notes%20on%20${this.$page.bookNote.title}%20by%20${this.$page.bookNote.author}&unsplashId=${this.$page.bookNote.unsplashImageID}`
     }
   },
   metaInfo() {
