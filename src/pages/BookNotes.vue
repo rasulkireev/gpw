@@ -2,14 +2,19 @@
     <Layout>
         <section>
             <div v-for="note in $page.bookNotes.edges" :key="note.id" class="mb-1">
-                <g-link :to="note.node.path" class="flex flex-row items-center p-1 text-xl text-gray-900 border-0 rounded-lg hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                    <g-image :src="note.node.cover" class="self-start inline w-16 h-16 p-2 mr-4 align-middle" />
-                    <div class="">
-                        <p class="text-sm md:text-lg">{{ note.node.title }}</p>
-                        <p class="m-0 text-xs text-gray-600">
-                          {{ note.node.intro }}
-                          <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateCreated"></time>
-                        </p>
+                <g-link :to="note.node.path" class="flex flex-col items-center p-3 space-x-0 space-y-2 text-xl text-gray-900 border-0 rounded-lg md:space-x-4 md:space-x-0 md:flex-row hover:bg-gray-200" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                    <g-image :src="note.node.cover" class="self-start inline w-24 h-auto align-middle md:pt-3" />
+                    <div class="md:flex-col md:space-y-2 md:flex">
+                      <div class="flex flex-col space-y-2">
+                          <p class="text-xl font-semibold md:text-2xl">{{ note.node.title }}</p>
+                          <p class="text-sm text-gray-600">
+                            <span>Rating: {{ note.node.rating }}/10</span>
+                            <span class="ml-2">Date Read: <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateCreated">{{ note.node.dateCreated }}</time></span>
+                          </p>
+                          <p class="m-0 text-base text-gray-800">
+                            {{ note.node.intro }}
+                          </p>
+                      </div>
                     </div>
                 </g-link>
             </div>
@@ -27,6 +32,7 @@ query BookNotes {
         title
         cover
         intro
+        rating
         dateCreated (format: "MMMM D, Y")
         path
       }
