@@ -110,12 +110,11 @@ module.exports = {
                 }
             }
         },
-
-        // General RSS
+        // General RSS for all content
         {
             use: '@microflash/gridsome-plugin-feed',
             options: {
-                contentTypes: ['Post'],
+                contentTypes: ['Post', 'Tutorial', 'BookNote'],
                 feedOptions: {
                     title: 'Rasul Kireev',
                     description: "Posts from Rasul's blog.",
@@ -137,11 +136,11 @@ module.exports = {
                 })
             }
         },        
-        // Django RSS, need to add filter
+        // RSS for Django Tutorials only 
         {
             use: '@microflash/gridsome-plugin-feed',
             options: {
-                contentTypes: ['Post'],
+                contentTypes: ['Tutorial'],
                 feedOptions: {
                     title: 'Rasul Kireev',
                     description: 'Django posts from my blog.',
