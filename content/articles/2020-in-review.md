@@ -1,7 +1,7 @@
 ---
 title: 2020 in Review
-dateCreated: 2021-01-11
-dateUpdated: 2021-01-11
+dateCreated: 2021-02-18
+dateUpdated: 2021-02-18
 published: true
 slug: "2020"
 icon: ./icons/2020.png
