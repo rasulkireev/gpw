@@ -96,3 +96,5 @@ Failed. Migrating to 2021.
 - [Anne-Laure Le Cunff](https://nesslabs.com/annual-review-2020)
 - [Nat Eliason](https://www.nateliason.com/blog/2020-review)
 - [David Perell](https://perell.com/essay/coolest-things-i-learned-in-2020/)
+
+If you have any comments or feednack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1362784454838738946) or [on HackerNews](https://news.ycombinator.com/item?id=26194096).

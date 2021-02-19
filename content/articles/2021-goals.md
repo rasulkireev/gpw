@@ -78,7 +78,7 @@ So the following is the exercise of me going through my 2021 goals and categoriz
   - Shopify app with Django
 - contribute to open source
   - Gridsome plugin
-  - pocket OAuth2.0 API to Django-allauth
+  - Pocket/Todoist OAuth2.0 API to Django-Allauth
   - plugin for [Joplin](https://joplinapp.org) to export to markdown
 - progress in learning Italian, using Anki
 - increase typing speed
@@ -88,3 +88,5 @@ So the following is the exercise of me going through my 2021 goals and categoriz
 I have started a spreadsheet to track some of the goals here (that are possible to track). Hope to see a lot of progress on most of them. There are a lot of goals, but most of them I'd say doable. Now just need to prioritize and start grinding.
 
 Will reflect next year, maybe mid-year also.
+
+If you have any comments or feedack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1362785148387917824) or [on HackerNews](https://news.ycombinator.com/item?id=26194039).
