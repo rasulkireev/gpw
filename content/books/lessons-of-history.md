@@ -5,6 +5,7 @@ rating: 10
 bookSlug: "lessons-of-history"
 intro: "The Lessons of History is a fantastic book, the best one I read in 2020. It is undervalued. While people talk about recent bestsellers this gem is waiting to be read. Any person can gain valuable insight and knowledge from this book."
 cover: "./images/lessons-of-history.jpg"
+dateRead: 2020-12-20
 dateCreated: 2021-03-15
 dateUpdated: 2021-03-15
 category: "History"

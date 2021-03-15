@@ -11,7 +11,7 @@
               {{ $page.bookNote.title }} by {{ $page.bookNote.author }}
             </h1>
             <p class="text-lg font-normal">Rating: <span class="font-bold">{{ $page.bookNote.rating }}</span>/10</p>
-            <p class="text-lg font-normal">Date Read: <span class="font-bold">{{ $page.bookNote.dateCreated }}</span></p>
+            <p class="text-lg font-normal">Date Read: <span class="font-bold">{{ $page.bookNote.dateRead }}</span></p>
             <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.indieboundLink">Buy on IndieBound</a>
           </div>
         </div>
@@ -75,6 +75,7 @@ query BookNote ($path: String!) {
     title
     author
     path
+    dateRead (format: "MMMM D, Y")
     dateCreated (format: "MMMM D, Y")
     dateUpdated (format: "MMMM D, Y")
     wordCount

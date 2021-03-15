@@ -9,7 +9,7 @@
                           <p class="text-xl font-semibold md:text-2xl">{{ note.node.title }}</p>
                           <p class="text-sm text-gray-600">
                             <span>Rating: {{ note.node.rating }}/10</span>
-                            <span class="ml-2">Date Read: <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateCreated">{{ note.node.dateCreated }}</time></span>
+                            <span class="ml-2">Date Read: <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateRead">{{ note.node.dateRead }}</time></span>
                           </p>
                           <p class="m-0 text-base text-gray-800">
                             {{ note.node.intro }}
@@ -33,6 +33,7 @@ query BookNotes {
         cover
         intro
         rating
+        dateRead (format: "MMMM D, Y")
         dateCreated (format: "MMMM D, Y")
         path
       }

@@ -5,6 +5,7 @@ rating: 7
 bookSlug: "show-your-work"
 intro: "This is a good, solid read. I wouldn't call it life changing for me, more life upkeeping. For some people it can be life changing though. In this book, Austin argues that we should all share our work. He will share a lot of useful advice for doing work in public. Austin is very convincing. If you never considered sharing your work, by the end of this books, you will be convinced."
 cover: "./images/show-your-work.jpg"
+dateRead: 2020-05-14
 dateCreated: 2020-05-14
 dateUpdated: 2021-03-13
 category: "Creativity"
