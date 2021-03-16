@@ -23,7 +23,18 @@ module.exports = {
       width: {
         '30p': '30%',
       },
-    },
+      typography: {
+        DEFAULT: {
+          css: {
+            pre: false,
+            code: false,
+            'pre code': false,
+            'code::before': false,
+            'code::after': false
+          }
+        }
+      }      
+    }
   },
   variants: {},
   plugins: [
