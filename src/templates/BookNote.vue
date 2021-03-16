@@ -32,7 +32,10 @@
         
         <!-- Author description -->
         <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
+            <a class="p-author h-card" rel="author" href="https://rasulkireev.com">
+              <span itemprop="givenName">Rasul</span> 
+              <span itemprop='familyName'>Kireev</span>
+            </a>
             <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
         </div>
 

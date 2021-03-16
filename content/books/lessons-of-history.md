@@ -1,6 +1,6 @@
 ---
 title: "The Lessons of History"
-author: "Will & Ariel Durant"
+author: "Will and Ariel Durant"
 rating: 10
 bookSlug: "lessons-of-history"
 intro: "The Lessons of History is a fantastic book, the best one I read in 2020. It is undervalued. While people talk about recent bestsellers this gem is waiting to be read. Any person can gain valuable insight and knowledge from this book."
@@ -11,7 +11,7 @@ dateUpdated: 2021-03-15
 category: "History"
 indieboundLink: https://www.indiebound.org/book/9781439149959
 amazonLink: https://amzn.to/3eDfKaj
-unsplashImageID: 7okkFhxrxNw
+unsplashImageID: jKU2NneZAbI
 tags:
     - History
 ---
@@ -307,4 +307,7 @@ If progress is real despite our whining, it is not because we are  born any heal
 The historian will not mourn because he can see no meaning in human existence except that which man puts into it; let it be our pride that we ourselves may put meaning into our lives, and sometimes a significance that transcends death. If a man is fortunate he will, before he dies, gather up as much as he can of his civilized heritage and transmit it to his children. And to his final breath he will be grateful for this inexhaustible legacy, knowing that it is our nourishing mother and our lasting life.
 
 
+## End Note
+
+If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1371646873723883523) or [HackerNews](https://news.ycombinator.com/item?id=26466363).
 
