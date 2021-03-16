@@ -5,6 +5,9 @@
 import DefaultLayout from '~/layouts/Default.vue';
 import InstantSearch from 'vue-instantsearch';
 import "tailwindcss/tailwind.css"
+// import 'prismjs/themes/prism.css'
+require("gridsome-plugin-remark-prismjs-all/themes/night-owl.css");
+
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

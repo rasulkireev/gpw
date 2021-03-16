@@ -43,7 +43,9 @@ module.exports = {
                     ['gridsome-plugin-remark-shiki', { skipInline: true, theme: 'min-dark' }],
                     ['@noxify/gridsome-plugin-remark-embed', {
                         'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
-                    }]
+                    }],
+                    ['gridsome-plugin-remark-prismjs-all'],
+                    // ['@gridsome/remark-prismjs']
                 ],
             },
         },

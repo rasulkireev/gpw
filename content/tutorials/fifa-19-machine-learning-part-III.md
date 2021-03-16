@@ -43,7 +43,7 @@ Before we begin any further exploration or analysis, we need to create a test se
 
 This step helps us get the correct proportions of data from each Overall skill bin when we are splitting the dataset.
 
-```pyhton
+```python
 # Create a column that categorizes Overall Skills level into bins.
 
 custom_bins = [i for i in range(45,100,5)]
