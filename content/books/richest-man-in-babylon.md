@@ -144,5 +144,5 @@ Where the determination is, the way can be found
 
 
 ## End Note
-If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter]() or [HackerNews]().
+If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1392876920686227464) or [HackerNews](https://news.ycombinator.com/item?id=27143913).
 
