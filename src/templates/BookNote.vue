@@ -12,7 +12,12 @@
             </h1>
             <p class="text-lg font-normal">Rating: <span class="font-bold">{{ $page.bookNote.rating }}</span>/10</p>
             <p class="text-lg font-normal">Date Read: <span class="font-bold">{{ $page.bookNote.dateRead }}</span></p>
-            <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.indieboundLink">Buy on IndieBound</a>
+            <p>
+              Buy on
+              <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.indieboundLink">IndieBound</a>
+              |
+              <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.amazonLink">Amazon (affiliate link)</a>
+            </p>
           </div>
         </div>
         
@@ -86,6 +91,8 @@ query BookNote ($path: String!) {
     content
     cover
     unsplashImageID
+    indieboundLink
+    amazonLink
   }
   mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
     totalCount
