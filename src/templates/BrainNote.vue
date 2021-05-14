@@ -1,10 +1,5 @@
 <template>
   <Layout>
-
-    <div class="p-2 mb-4 bg-red-400 border-l-4 border-red-800 rounded">
-      <p class="text-lg text-red-800">This page is still under construction.</p>
-    </div>
-
     <p class="mb-10 text-blue-700">← <g-link to="/brain/">back to posts</g-link></p>
 
     <article class="prose lg:prose-xl">

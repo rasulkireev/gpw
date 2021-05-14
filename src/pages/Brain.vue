@@ -1,25 +1,43 @@
 <template>
   <Layout>  
-
-      <ul class="flex flex-row flex-wrap">
-        <li 
+      <h2 class="mb-2 ml-1 text-xl font-bold">Select a Category</h2>
+      <div class="flex flex-row flex-wrap">
+        <a 
+        v-on:click="unfilterNotes(unfilteredNotes)"
+        class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300">
+          All
+        </a>
+        <a 
           v-for="(category, index) in categories" 
-          :Key="index"
-          class="p-2 m-1 rounded shadow"
+          :key="index"
+          v-on:click="filterNotes(unfilteredNotes, category)"
+          class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300"
         >
-          <a class="">{{ category }}</a>
+          {{ category }}
+        </a>
+      </div>
+
+      <ul class="mx-1 border divide-y divide-gray-200 rounded">
+        <li v-for="note in filteredNotes" :key="note.id" class="relative px-4 py-5 bg-white hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
+          <g-link :to="note.node.path">
+            <div class="flex justify-between space-x-3">
+              <div class="flex-1 min-w-0">
+                <a href="#" class="block focus:outline-none">
+                  <span class="absolute inset-0" aria-hidden="true"></span>
+                  <p class="text-sm font-medium text-gray-900 truncate">{{ note.node.title }}</p>
+                </a>
+              </div>
+            </div>
+            <div class="mt-1">
+              <p class="text-sm text-gray-600 line-clamp-2">
+                {{ note.node.content }}
+              </p>
+            </div>
+          </g-link>
         </li>
       </ul>
 
 
-      <!-- <div v-for="note in $page.brainNotes.edges" :key="note.id" class="mb-1">
-        <g-link :to="note.node.path" class="flex flex-row items-center p-1 text-xl text-gray-900 border-0 rounded-lg hover:bg-gray-200">
-          <div class="">
-            <p class="text-sm md:text-lg">{{ note.node.title }}</p>
-            <p class="m-0 text-xs text-gray-600">{{ note.node.category }}</p>
-          </div>
-        </g-link>
-      </div> -->
   </Layout>
 </template>
 
@@ -33,6 +51,8 @@ query BrainNotes {
         title
         category
         path
+        content
+        created_at
       }
     }
   }
@@ -41,35 +61,44 @@ query BrainNotes {
 
 <script>
 export default {
-  data () {
-    return {
-        selectedCategory: "",
-        categories: Array,
-    }
-  },
-
-  computed: {
-    load() {
-        const dataset = this.$page.brainNotes.edges
-
-        let allCategories = []
-        dataset.forEach(function (item) {
-            allCategories.push(item.node.category);
-        });
-
-        let uniqueCategories = [...new Set(allCategories)];
-        console.log(uniqueCategories)
-        
-        this.categories = uniqueCategories
-    },
-  },
-  
   metaInfo: {
     title: 'Brain',
     description: "This is what my brain looks like. Just kidding, that's the contents of my Joplin Notebook (a.k.a Second Brain)",
     link: [
         { rel: "canonical", href:  `https://rasulkireev.com/brain` },
     ],
+  },
+
+  data () {
+    return {
+        selectedCategory: "",
+        categories: Array,
+        unfilteredNotes: Array,
+        filteredNotes: Array
+    }
+  },
+
+  created() {
+    const allNotes = this.$page.brainNotes.edges
+    this.unfilteredNotes = allNotes
+    this.filteredNotes = allNotes
+
+    let allCategories = []
+    allNotes.forEach(function (item) {
+        allCategories.push(item.node.category);
+    });
+
+    let uniqueCategories = [...new Set(allCategories)];
+    this.categories = uniqueCategories 
+  },
+
+  methods: {
+    filterNotes: function (unfilteredNotes, selectedCategory) {
+      this.filteredNotes = unfilteredNotes.filter(note => note.node.category === selectedCategory)
+    },
+    unfilterNotes: function (unfilteredNotes) {
+      this.filteredNotes = unfilteredNotes
+    }
   },
 }
 </script>
