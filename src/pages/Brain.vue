@@ -17,8 +17,13 @@
         </a>
       </div>
 
-      <ul class="mx-1 border divide-y divide-gray-200 rounded">
-        <li v-for="note in filteredNotes" :key="note.id" class="relative px-4 py-5 bg-white hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
+      <div class="mx-1 my-2 border divide-y divide-gray-200 rounded">
+        <div v-if="selectedCategory" class="px-4 py-5 sm:px-6">
+          <h3 class="text-lg font-medium leading-6 text-gray-900">
+            {{ selectedCategory }}
+          </h3>
+        </div>
+        <div v-for="note in filteredNotes" :key="note.id" class="relative px-4 py-5 bg-white hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
           <g-link :to="note.node.path">
             <div class="flex justify-between space-x-3">
               <div class="flex-1 min-w-0">
@@ -34,8 +39,8 @@
               </p>
             </div>
           </g-link>
-        </li>
-      </ul>
+        </div>
+      </div>
 
 
   </Layout>
@@ -94,9 +99,11 @@ export default {
 
   methods: {
     filterNotes: function (unfilteredNotes, selectedCategory) {
+      this.selectedCategory = selectedCategory
       this.filteredNotes = unfilteredNotes.filter(note => note.node.category === selectedCategory)
     },
     unfilterNotes: function (unfilteredNotes) {
+      this.selectedCategory = "All"
       this.filteredNotes = unfilteredNotes
     }
   },
