@@ -1,14 +1,14 @@
 <template>
-  <Layout>  
+  <Layout>
       <h2 class="mb-2 ml-1 text-xl font-bold">Select a Category</h2>
       <div class="flex flex-row flex-wrap">
-        <a 
+        <a
         v-on:click="unfilterNotes(unfilteredNotes)"
         class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300">
           All
         </a>
-        <a 
-          v-for="(category, index) in categories" 
+        <a
+          v-for="(category, index) in categories"
           :key="index"
           v-on:click="filterNotes(unfilteredNotes, category)"
           class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300"
@@ -23,7 +23,11 @@
             {{ selectedCategory }}
           </h3>
         </div>
-        <div v-for="note in filteredNotes" :key="note.id" class="relative px-4 py-5 bg-white hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600">
+        <div
+          v-for="note in filteredNotes"
+          :key="note.id"
+          class="relative px-4 py-5 bg-white hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600"
+        >
           <g-link :to="note.node.path">
             <div class="flex justify-between space-x-3">
               <div class="flex-1 min-w-0">
@@ -94,7 +98,7 @@ export default {
     });
 
     let uniqueCategories = [...new Set(allCategories)];
-    this.categories = uniqueCategories 
+    this.categories = uniqueCategories
   },
 
   methods: {
