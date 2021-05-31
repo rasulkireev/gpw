@@ -1,6 +1,7 @@
 <template>
   <Layout>
       <h2 class="mb-2 ml-1 text-xl font-bold">Select a Category</h2>
+
       <div class="flex flex-row flex-wrap">
         <a
         v-on:click="unfilterNotes(unfilteredNotes)"
