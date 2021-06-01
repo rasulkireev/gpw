@@ -6,10 +6,10 @@
       <div class="flex">
         <div class="flex items-center flex-shrink-0">
           <g-link to="/">
-            <img class="block w-auto h-8 lg:hidden" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
+            <g-image class="block w-auto h-8 lg:hidden" src="~/assets/images/logo.png" alt="Rasul Kireev" />
           </g-link>
           <g-link to="/">
-            <img class="hidden w-auto h-12 lg:block" src="https://avatars.githubusercontent.com/u/8257474" alt="Rasul Kireev">
+            <g-image class="hidden w-auto h-12 lg:block" src="~/assets/images/logo.png" alt="Rasul Kireev" />
           </g-link>
         </div>
       </div>

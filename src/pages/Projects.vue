@@ -3,16 +3,16 @@
     <div class="relative overflow-hidden bg-white">
       <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="mx-auto text-lg max-w-prose">
-        <div class="text-lg max-w-prose">
-          <h1 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">Projects</h1>
-        </div>
-          <p class="mt-8 text-xl leading-8 text-gray-500">
+          <div class="text-lg max-w-prose">
+            <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Projects</h1>
+          </div>
+          <p class="mt-8 text-xl leading-8 text-gray-900">
             I love to work on small and fun projects in my free time. These projects are the
             <a href="https://www.nateliason.com/blog/self-education" target="_blank">perfect vehicle for learning</a>.
             In addition to learning, these projects help me find like-minded people online.
           </p>
         </div>
-        <div class="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
+        <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Current</h2>
           <ul>
             <li>
@@ -32,7 +32,7 @@
             </li>
           </ul>
         </div>
-        <div class="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
+        <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Past</h2>
           <ul>
             <li><a href="https://kushim.herokuapp.com" target="_blank">Kushim</a> is an Open Source Life Management Tool.</li>

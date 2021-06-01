@@ -1,23 +1,39 @@
 <template>
   <Layout>
     <div class="flex flex-col mx-auto mb-10 space-y-6 text-xl">
-      <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>
+      <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey</h1>
       <p class="mb-4 text-xl">
-        Welcome to my Personal Website / Digital Garden.
-        Currently learning to build web apps, create beautiful visualizations and analyze large datasets. In constant beta mode. Trying to write about my learnings more often.
-        <!-- <g-link to="/about/" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">Read More</g-link> -->
-      </p>
-      <p class="mb-4 text-xl">
-        Also, check out a
-        <g-link to="/favourites/" class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600">
-        list of my favourite things.
-        </g-link>
+        Welcome to my Digital Garden.
       </p>
 
-      <!-- <DigitalGarden class="my-10" /> -->
+      <p>
+        My name is Rasul, I'm a Software Engineer at Guy Carpenter. I like to
+        <g-link
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+          to="/book-notes/"
+        >read</g-link>,
+        <g-link
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+          to="/articles/"
+        >write</g-link>,
+        <g-link
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+          to="/brain/"
+        >take notes</g-link>,
+        and do a lot of
+        <g-link
+          to="/projects/"
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+        >other things</g-link>.
+        You can read more about me,
+        <g-link
+          to="/about/"
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+        >here</g-link>.
+      </p>
 
       <fullWidthNewsletter
-        description="Finally, consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week."
+        description="Consider signing up for my personal newsletter. I will share the most interesting articles and resources I've encountered during the week."
         v-bind:tags="['home']"
         v-bind:metadata="{
           'type': 'home',
@@ -28,7 +44,7 @@
       <webMentions
         :wmArray=$page.mentions
         title="Rasul Kireev Homepage"
-        :url='$static.metadata.siteUrl' 
+        :url='$static.metadata.siteUrl'
       />
 
 

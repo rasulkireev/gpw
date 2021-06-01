@@ -3,10 +3,12 @@
 
     <div class="relative overflow-hidden bg-white">
       <div class="relative px-4 sm:px-6 lg:px-8">
-        <div class="text-lg max-w-prose">
-          <h1 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">About Me</h1>
+        <div class="mx-auto text-lg max-w-prose">
+          <div class="text-lg max-w-prose">
+            <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">About Me</h1>
+          </div>
         </div>
-        <div class="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
+        <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <p>My name is Rasul, I'm currently a Software Engineer at Guy Carpenter where I help with</p>
           <ul>
             <li>designing and deploying modern data lake and related tooling on Azure</li>
