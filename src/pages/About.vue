@@ -1,22 +1,36 @@
 <template>
   <Layout>
 
-      <section class="mb-4">
-        <h1 class="mb-4 text-2xl font-semibold border-b-2 border-gray-200">About</h1>
-        <p class="mb-3 text-xl">I started this website as a place to document everything I learn while on my path to become a Data Scientist and an Indie maker and generally a good person. I am trying to make a habit of writing about everything I learn.</p>
-        <p class="mb-3 text-xl">My current goal is to find an entry level job in the Data Science field. I also want to make a useful product/app that would be useful to people but would also create an additional independent income stream, to support my family, financially.</p>
-        <p class="mb-3 text-xl">When I am not applying to jobs, connecting with people, or creating things, I enjoy spending time with my wife, Tania. We like to walk, travel, discover new places among other many things.</p>
-        <p class="mb-3 text-xl">We also enjoy photography and are looking for subjects to improve our photography skills. If you would be interested in this please contact us. Here is our portfolio.</p>
-      </section>
-
-      <div class="mb-4">
-        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://twitter.com/rasulkireev"><i class="text-3xl lab la-twitter"></i></a>
-        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://github.com/rasulkireev"><i class="text-3xl lab la-github"></i></a>
-        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://www.linkedin.com/in/rasul-kireev/"><i class="text-3xl lab la-linkedin-in"></i></a>
-        <a class="font-normal bg-transparent border-0 border-transparent social-icon" rel="me" href="https://keybase.io/rasulkireev"><i class="text-3xl lab la-keybase"></i></a>
-        <a class="font-normal bg-transparent border-0 border-transparent social-icon u-email" rel="me" href="mailto:me@rasulkireev.com"><i class="text-3xl las la-at"></i></a>
+    <div class="relative overflow-hidden bg-white">
+      <div class="relative px-4 sm:px-6 lg:px-8">
+        <div class="text-lg max-w-prose">
+          <h1 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">About Me</h1>
+        </div>
+        <div class="mx-auto mt-6 prose prose-lg text-gray-500 prose-indigo">
+          <p>My name is Rasul, I'm currently a Software Engineer at Guy Carpenter where I help with</p>
+          <ul>
+            <li>designing and deploying modern data lake and related tooling on Azure</li>
+            <li>developing Django/React applications with K8S deployment</li>
+            <li>modeling datasets for easy consumption by the rest of the organization via BI tools</li>
+          </ul>
+          <p>
+            In my free time, I love to do more web dev. More specifically, I like to develop small and fun projects that help
+            me learn new technologies. You can see a list of my projects here on <a href="https://rasulkireev/projects">my website</a>.
+          </p>
+          <p>
+            As a programmer, I learned to love writing. I try to write regularly, be it <a href="https://rasulkireev.com/tutorials/">
+            tech tutorials</a> or about <a href="https://rasulkireev.com/articles/">any other topic</a>. An extension of written
+            tech tutorials was to start making videos. For that, you can check
+            <a href="https://www.youtube.com/channel/UC-r4_CjDp4n4O-36rnUe8gg">my Youtube channel</a>.
+          </p>
+          <p>
+            I like to experiment a lot. Trying something new is a passion of mine. Some of my recent successes were with
+            brewing Kombucha, fermenting different foods, and baking bread. On the failure side of things, I can't keep
+            a plant alive for more than a week.
+          </p>
+        </div>
       </div>
-
+    </div>
 
   </Layout>
 </template>
