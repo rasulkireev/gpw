@@ -4,8 +4,9 @@
 
       <div class="flex flex-row flex-wrap">
         <a
-        v-on:click="unfilterNotes(unfilteredNotes)"
-        class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300">
+          v-on:click="unfilterNotes(unfilteredNotes)"
+          class="p-2 m-1 text-xs bg-white rounded shadow md:text-lg hover:bg-pink-300"
+        >
           All
         </a>
         <a
@@ -114,7 +115,3 @@ export default {
   },
 }
 </script>
-
-<style>
-
-</style>
