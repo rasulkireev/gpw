@@ -6,19 +6,19 @@
             </p>
             <p>
                 Want to respond? Reply, like, reply or bookmark on <!-- Sharingbutton Twitter -->
-                <a 
-                class="text-blue-600 border-b-2 border-blue-600 hover:border-blue-500 hover:text-blue-500" 
-                :href='"https://twitter.com/intent/tweet/?text=" + title + "&amp;url="+url' target="_blank" rel="noopener" aria-label="Twitter">
+                <a
+                class="text-blue-600 border-b-2 border-blue-600 hover:border-blue-500 hover:text-blue-500"
+                :href='"https://twitter.com/intent/tweet/?text=" + title + " by @rasulkireev&amp;url="+url' target="_blank" rel="noopener" aria-label="Twitter">
                 Twitter
                 </a>
                 :)
             </p>
         </div>
-        
+
         <div v-if="wmReduce('like-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("like-of").length }} Likes</p>
             <div class="flex flex-wrap items-center">
-                <a 
+                <a
                 :href="mention.node.author.url"
                 v-for="mention in wmArray.edges"
                 :key="mention.node.wmId"
@@ -26,8 +26,8 @@
                 class="p-1 mr-1"
                 >
                     <g-image
-                        :src="mention.node.author.photo" 
-                        class="inline w-10 h-10 rounded-full" 
+                        :src="mention.node.author.photo"
+                        class="inline w-10 h-10 rounded-full"
                     />
                 </a>
             </div>
@@ -44,8 +44,8 @@
                 class="p-1 mr-1"
                 >
                     <g-image
-                        :src="mention.node.author.photo" 
-                        class="inline w-10 h-10 rounded-full" 
+                        :src="mention.node.author.photo"
+                        class="inline w-10 h-10 rounded-full"
                     />
                 </a>
             </div>
@@ -58,27 +58,27 @@
                     v-for="mention in wmArray.edges"
                     :key="mention.node.wmId"
                     v-if="mention.node.wmProperty=='bookmark-of'"
-                    :src="mention.node.author.photo" 
-                    class="inline w-10 h-10 rounded-full" 
+                    :src="mention.node.author.photo"
+                    class="inline w-10 h-10 rounded-full"
                 />
             </div>
         </div>
 
         <div v-if="wmReduce('in-reply-to').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("in-reply-to").length }} Replies</p>
-            <div 
-            class="flex items-center p-4 my-2 bg-gray-200 rounded" 
+            <div
+            class="flex items-center p-4 my-2 bg-gray-200 rounded"
             v-for="mention in wmArray.edges"
             :key="mention.node.wmId"
             v-if="mention.node.wmProperty=='in-reply-to'"
             >
                 <g-image
-                    :src="mention.node.author.photo" 
-                    class="inline w-10 h-10 rounded-full" 
+                    :src="mention.node.author.photo"
+                    class="inline w-10 h-10 rounded-full"
                 />
                 <div class="px-4">
-                    <a 
-                    :href="mention.node.author.url" 
+                    <a
+                    :href="mention.node.author.url"
                     class="font-semibold text-blue-700 hover:text-blue-500">
                         {{ mention.node.author.name }}
                     </a>
@@ -89,15 +89,15 @@
 
         <div v-if="wmReduce('mention-of').length > 0" class="mb-6">
             <p class="font-semibold">{{ wmReduce("mention-of").length }} Mentions</p>
-            <div 
-            class="flex items-center p-4 my-2 bg-gray-200 rounded" 
+            <div
+            class="flex items-center p-4 my-2 bg-gray-200 rounded"
             v-for="mention in wmArray.edges"
             :key="mention.node.wmId"
             v-if="mention.node.wmProperty=='mention-of'"
             >
                 <div class="px-4">
-                    <a 
-                    :href="mention.node.url" 
+                    <a
+                    :href="mention.node.url"
                     class="text-blue-700 hover:text-blue-500"
                     target="_blank">
                         {{ mention.node.url }}
