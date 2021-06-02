@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <div class="flex flex-col mx-auto mb-10 space-y-6 text-xl">
-      <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey</h1>
+      <h1 class="mt-0 mb-4 text-4xl font-bold md:mb-6 md:text-5xl">Hey, I'm Rasul</h1>
       <p class="mb-4 text-xl">
-        Welcome to my Digital Garden.
+        I'm a Software Engineer. This website is my Digital Garden, a collections of things I've learnt and created over the years.
       </p>
 
       <p>
-        My name is Rasul, I'm a Software Engineer at Guy Carpenter. I like to
+        I like to
         <g-link
           class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
           to="/book-notes/"
@@ -16,6 +16,10 @@
           class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
           to="/articles/"
         >write</g-link>,
+        <g-link
+          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
+          to="/tutorials/"
+        >code</g-link>,
         <g-link
           class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
           to="/brain/"
