@@ -118,5 +118,35 @@ export const newsletterLetters = [
         url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-20-start-small-be-nice/',
         title: "Tuesday Letter #20 - Start Small, Be Nice, and Proofreading Tips",
         date: '2020/10/29',
-    }
+    },
+    {
+      id: 21,
+      url: "https://buttondown.email/rasulkireev/archive/tuesday-letter-21-custom-magazines-reading-guides/",
+      title: "Tuesday Letter #21 - Custom Magazines, Reading Guides and Side Projects",
+      date: '12/08/2020',
+    },
+    {
+      id: 22,
+      url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-22-living-with-intention-learning/',
+      title: "Tuesday Letter #22 - Living with Intention, Learning Chess and Django, and Short Books",
+      date: '12/15/2020',
+    },
+    {
+      id: 23,
+      url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-23-being-nice-virtual-networking/',
+      title: "Tuesday Letter #23 - Being Nice, Virtual Networking and Life after COVID",
+      date: '04/27/2021',
+    },
+    {
+      id: 24,
+      url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-24-indie-publishing-new-project/',
+      title: "Tuesday Letter #24 - Indie Publishing, New Project and Laughter",
+      date: '05/11/2021',
+    },
+    {
+      id: 25,
+      url: 'https://buttondown.email/rasulkireev/archive/tuesday-letter-25-economical-writing-building-an/',
+      title: "Tuesday Letter #25 - Economical Writing, Building an Audience and Programming Tips",
+      date: '05/18/2021',
+    },
 ]
