@@ -6,7 +6,10 @@ published: true
 slug: how-to-read-books-for-free
 icon: ./icons/book.svg
 unsplashImageID: ./images/reading-on-kindle.jpg
-keywords: [books, free, reading]
+keywords:
+- books
+- free
+- reading
 category: Reading
 description: "I'm sharing a couple ways to find reading material online"
 ---
@@ -25,7 +28,7 @@ So, what I propose, is that you use my guide to download a book for free and onc
 If you are more or less sufficient with computer use, here is just a list of super-duper-mega cool resources that you can use to download books for free. You don’t need to read the rest of this guide.
 
 
-* Libgen [1](http://libgen.is) [2](http://libgen.io)
+* [Libgen](http://libgen.rs)
 * [Gen Lib](http://gen.lib.rus.ec/)
 * [B-Ok](https://b-ok.org/)
 * [Sci-Hub](http://sci-hub.io/)
