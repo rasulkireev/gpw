@@ -20,10 +20,6 @@
           class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
           to="/tutorials/"
         >code</g-link>,
-        <g-link
-          class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
-          to="/brain/"
-        >take notes</g-link>,
         and do a lot of
         <g-link
           to="/projects/"
@@ -96,12 +92,10 @@ query {
 
 <script>
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
-import DigitalGarden from "../components/DigitalGarden"
 import webMentions from "../components/webMentions"
 
 export default {
   components: {
-    DigitalGarden,
     webMentions,
     fullWidthNewsletter,
   },

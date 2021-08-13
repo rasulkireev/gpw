@@ -24,7 +24,7 @@
 
 <page-query>
 query BookNotes {
-  bookNotes: allBookNote (sortBy: "dateCreated", order: DESC) {
+  bookNotes: allBookNote (sortBy: "rating", order: DESC) {
     totalCount
     edges {
       node {

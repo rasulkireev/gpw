@@ -66,22 +66,6 @@ module.exports = {
             },
         },
         {
-            use: '@gridsome/vue-remark',
-            options: {
-                typeName: 'BrainNote',
-                path: 'content/brain/*.md',
-                baseDir: './content/brain',
-                route: '/brain/:category/:title',
-                template: './src/templates/BrainNote.vue',
-                plugins: [
-                    '@gridsome/remark-prismjs',
-                    ['@noxify/gridsome-plugin-remark-embed', {
-                        'enabledProviders' : ['Youtube', 'Twitter', 'Gist'],
-                    }]
-                ],
-            },
-        },
-        {
             use: '@gridsome/source-filesystem',
             options: {
                 path: 'content/now/*.md',
@@ -126,7 +110,7 @@ module.exports = {
                 rss: {
                     enabled: true,
                     output: '/rss.xml'
-                },      
+                },
                 filterNodes: (node) => (
                     node.published == true
                 ),
@@ -137,8 +121,8 @@ module.exports = {
                     link: 'https://rasulkireev.com/' + node.path,
                 })
             }
-        },        
-        // RSS for Django Tutorials only 
+        },
+        // RSS for Django Tutorials only
         {
             use: '@microflash/gridsome-plugin-feed',
             options: {
@@ -152,7 +136,7 @@ module.exports = {
                 rss: {
                     enabled: true,
                     output: '/django-rss.xml'
-                },      
+                },
                 filterNodes: (node) => (
                     node.category == "Django" && node.published == true
                 ),

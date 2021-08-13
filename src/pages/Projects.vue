@@ -28,7 +28,7 @@
             </li>
             <li>
               <a href="https://github.com/rasulkireev/awesome-basb" target="_blank">Awesome BASB</a> a collection of
-              Awesome "Building a Secind Brain" resources.
+              Awesome "Building a Second Brain" resources.
             </li>
           </ul>
         </div>
