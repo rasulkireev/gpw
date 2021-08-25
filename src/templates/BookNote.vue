@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <VueRemarkContent class="prose lg:prose-xl" itemprop="articleBody"></VueRemarkContent>
+      <VueRemarkContent class="prose lg:prose-xl"></VueRemarkContent>
     </article>
 
     <socialShareButtons
@@ -142,6 +142,7 @@ export default {
                 "headline": this.title,
                 "about": this.$page.bookNote.category,
                 "abstract": this.$page.bookNote.description,
+                "articleBody": this.$page.bookNote.content,
                 "image": this.$page.bookNote.cover,
                 "thumbnailUrl": this.$page.bookNote.cover,
                 "dateCreated": this.$page.bookNote.dateCreated,

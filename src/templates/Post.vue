@@ -3,37 +3,13 @@
     <p class="mb-10 text-blue-700">← <g-link to="/articles/">back to posts</g-link></p>
 
     <article class="mb-6 prose lg:prose-xl h-entry" itemscope itemtype="http://schema.org/Article">
-      <h1 class="p-name" itemprop="headline">{{ $page.post.title }}</h1>
-      <img class="hidden" itemprop="image" :src="postImage" :alt=$page.post.title>
-      <img class="hidden" itemprop="thumbnailUrl" :src="postImage" :alt=$page.post.title>
-      
-      <!-- Timestamps -->
-      <span id="meta" class="hidden m-0 mr-2 text-xs text-gray-600">
-        <time class="dt-published" itemprop="datePublished" :datetime="$page.post.dateCreated">{{$page.post.dateCreated}}</time>
-        <time class="dt-published" itemprop="dateCreated" :datetime="$page.post.dateCreated">{{$page.post.dateCreated}}</time>
-        <time class="dt-modified" itemprop="dateModified" :datetime="$page.post.dateUpdated">{{$page.post.dateUpdated}}</time>
-      </span>
-      
-      <!-- Article Details -->
-      <a class="hidden u-url" :href='$static.metadata.siteUrl + $page.post.path' itemprop="url"></a>
-      <span class="hidden p-category" itemprop="about">{{ $page.post.category }}</span>
-      <span class="hidden p-summary" itemprop="abstract">{{ $page.post.description }}</span>
-      <span class="hidden" itemprop="wordCount">{{ $page.post.wordCount }}</span>
-
-      <!-- Author description -->
-      <div class="hidden" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <a class="p-author h-card" rel="author" href="https://rasulkireev.com"><span itemprop="givenName">Rasul</span> <span itemprop='familyName'>Kireev</span></a>
-          <span itemprop="name">Rasul Kireev</span>
-          <img src="../../src/assets/images/my_photo.jpg" class="u-photo" height="200px" itemprop="image" />
-      </div>
-
-
-      <VueRemarkContent itemprop="articleBody"></VueRemarkContent>
+      <h1>{{ $page.post.title }}</h1>
+      <VueRemarkContent></VueRemarkContent>
     </article>
 
     <socialShareButtons
       :title=$page.post.title
-      :url='$static.metadata.siteUrl + $page.post.path'
+      :url='this.url'
       :text=$page.post.description
       class="lg:top-1/3 lg:left-0 lg:m-0 lg:fixed">
     </socialShareButtons>
@@ -53,7 +29,7 @@
     <webMentions
       :wmArray=$page.mentions
       :title=$page.post.title
-      :url='$static.metadata.siteUrl + $page.post.path' 
+      :url='this.url'
     />
 
 
@@ -61,39 +37,39 @@
 </template>
 
 <page-query>
-query Post ($path: String!) {
-  post: post (path: $path) {
-    title
-    description
-    category
-    wordCount
-    dateCreated (format: "MMMM D, Y")
-    dateUpdated (format: "MMMM D, Y")
-    unsplashImageID
-    content
-    icon
-    path
-  }
-  mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
-    totalCount
-    edges {
-      node {
-        wmId
-        url
-        wmProperty
-        wmSource
-        content {
-          text
-        }
-        author {
-          name
-          photo
+  query Post ($path: String!) {
+    post: post (path: $path) {
+      title
+      description
+      category
+      wordCount
+      dateCreated (format: "MMMM D, Y")
+      dateUpdated (format: "MMMM D, Y")
+      unsplashImageID
+      content
+      icon
+      path
+    }
+    mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
+      totalCount
+      edges {
+        node {
+          wmId
           url
+          wmProperty
+          wmSource
+          content {
+            text
+          }
+          author {
+            name
+            photo
+            url
+          }
         }
       }
     }
   }
-}
 </page-query>
 
 <static-query>
@@ -115,71 +91,68 @@ import socialShareButtons from "../components/socialShareButtons"
 import webMentions from "../components/webMentions"
 
 export default {
+  data() {
+    return {
+      postImage: "",
+      title: "",
+      description: "",
+      url: ""
+    }
+  },
   created() {
     if (this.$page) {
-      this.postImage = `https://ogi.sh?title=${this.$page.post.title}&unsplashId=${this.$page.post.unsplashImageID}`
+      this.title = this.$page.post.title
+      this.postImage = `https://ogi.sh?title=${this.title}&unsplashId=${this.$page.post.unsplashImageID}`
+      this.description = this.$page.post.description
+      this.url = `${this.$static.metadata.siteUrl}${this.$page.post.path}`
     }
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
+      title: this.title,
       script: [
-        { src: 'https://hypothes.is/embed.js', body: true }
+        { src: 'https://hypothes.is/embed.js', body: true },
+        {
+          type: 'application/ld+json',
+          body: true,
+          json: {
+            "@context": "http://schema.org/",
+            "@type": "BlogPosting",
+            "author": {
+              "@type": "Person",
+              "name": "Rasul Kireev",
+              "image": "../../src/assets/images/my_photo.jpg"
+            },
+            "headline": this.title,
+            "about": this.$page.post.category,
+            "abstract": this.$page.post.description,
+            "articleBody": this.$page.post.content,
+            "image": this.postImage,
+            "thumbnailUrl": this.postImage,
+            "dateCreated": this.$page.post.dateCreated,
+            "datePublished": this.$page.post.datePublished,
+            "dateModified": this.$page.post.dateUpdated,
+            "wordCount": this.$page.post.wordCount,
+          }
+        }
       ],
       meta: [
-        {
-          key: "description",
-          name: 'description',
-          content: this.$page.post.description
-        },
+        { key: "description", name: 'description', content: this.description },
 
         // open-graph tags
-        {
-          key: "og-title",
-          property: 'og:title',
-          content: this.$page.post.title
-        },
-        {
-          key: 'og-description',
-          property: 'og:description',
-          content: this.$page.post.description
-        },
-        {
-          key: 'og-image',
-          property: 'og:image',
-          content: this.postImage,
-
-        },
-        {
-          key: "og-url",
-          property: 'og:url',
-          content: this.$static.metadata.siteUrl + this.$page.post.path
-        },
+        { key: "og-title", property: 'og:title', content: this.title },
+        { key: 'og-description', property: 'og:description', content: this.description },
+        { key: 'og-image', property: 'og:image', content: this.postImage },
+        { key: "og-url", property: 'og:url', content: this.url },
 
         // twitter card
-        {
-          key: "twitter-card",
-          name: 'twitter:card',
-          content:'summary_large_image'
-        },
-        {
-          key: "twitter-title",
-          name: 'twitter:title',
-          content: this.$page.post.title
-        },
-        {
-          key: "twitter-description",
-          name: 'twitter:description',
-          content: this.$page.post.description
-        },
-        {
-          key: "twitter-image",
-          name: "twitter:image",
-          content: this.postImage,
-        },
+        { key: "twitter-card", name: 'twitter:card', content:'summary_large_image' },
+        { key: "twitter-title", name: 'twitter:title', content: this.title },
+        { key: "twitter-description", name: 'twitter:description', content: this.description },
+        { key: "twitter-image", name: "twitter:image", content: this.postImage },
       ],
       link: [
-          { rel: "canonical", href:  this.$static.metadata.siteUrl + this.$page.post.path },
+          { rel: "canonical", href:  this.url },
       ],
     }
   },
