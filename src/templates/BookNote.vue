@@ -156,14 +156,14 @@ export default {
 
             // open-graph tags
             { key: "og-title", property: 'og:title', content: this.title},
-            { key: 'og-description', property: 'og:description', content: `${this.title}`},
+            { key: 'og-description', property: 'og:description', content: `${this.$page.bookNote.description}`},
             { key: 'og-image', property: 'og:image', content: this.bookNoteImage },
             { key: "og-url", property: 'og:url', content: this.url },
 
             // twitter card
             { key: "twitter-card", name: 'twitter:card', content:'summary_large_image'},
             { key: "twitter-title", name: 'twitter:title', content: this.title },
-            { key: "twitter-description", name: 'twitter:description', content: `${this.title}`},
+            { key: "twitter-description", name: 'twitter:description', content: `${this.$page.bookNote.description}`},
             { key: "twitter-image", name: "twitter:image", content: this.bookNoteImage },
           ],
           link: [
