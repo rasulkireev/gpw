@@ -6,7 +6,7 @@ published: true
 slug: custom-user-model-mid-project-django
 icon: ./icons/bird.png
 unsplashImageID: FiMvNM44-IE
-keywords: 
+keywords:
     - django
     - python
     - database
@@ -18,9 +18,9 @@ description: Whenever you building a site with Django that will have user authen
 
 Whenever you are building a site with [Django](https://www.djangoproject.com) that will have user authentication, it is recommended to create a [Custom User Model](https://docs.djangoproject.com/en/dev/topics/auth/customizing/) before the first migration. Sometimes you forget to do that. In this case, you have to follow a strict procedure, which I'll show you in the post.
 
-This was [Issue was discussed at length](https://code.djangoproject.com/ticket/25313) by the Django community. There is now a consensus about the best and the least painful way to do that. I'd like to take that discussion and summarize it into a set of actionable steps. 
+This was [Issue was discussed at length](https://code.djangoproject.com/ticket/25313) by the Django community. There is now a consensus about the best and the least painful way to do that. I'd like to take that discussion and summarize it into a set of actionable steps.
 
-### 1. Create the `users` app 
+### 1. Create the `users` app
 
 Make sure you are inside your project directory.
 ```bash
@@ -57,7 +57,7 @@ admin.site.register(CustomUser, CustomUserAdmin)
 
 ### 2. Update `settings.py` file
 * In `settings.py` add to `INSTALLED_APPS` (`"users.apps.UsersConfig",`)
-* Add `AUTH_USER_MODEL = 'users.CustomUser'` to the bottom.
+* Add a `AUTH_USER_MODEL = 'users.CustomUser'` line to the bottom of the `setting.py` file.
 
 ### 3. Replace User imports
 In your project code, replace all imports of the Django User model:
@@ -66,11 +66,11 @@ from django.contrib.auth.models import User
 ```
 with the new, custom one:
 ```
-from Accounts.models import User
+from users.models import User
 ```
 
 ### 4. Delete Old Migrations
-Run the following to commands in your terminal, from the root of your project:
+Run the following two commands in your terminal, from the root of your project:
 
 1. `find . -path "*/migrations/*.py" -not -name "__init__.py" -delete`
 2. `find . -path "*/migrations/*.pyc" -delete`
