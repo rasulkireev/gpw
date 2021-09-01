@@ -8,6 +8,7 @@ icon: ./icons/open_source.svg
 unsplashImageID: R-HXWCbCBGU
 keywords: [opensource]
 category: Open Source
+type: article
 description: My thoughts on the Open Source community and the culture behind it.
 ---
 

@@ -8,6 +8,7 @@ icon: ./icons/reading.svg
 unsplashImageID: XqXJJhK-c08
 keywords: [reading]
 category: Reading
+type: article
 description: Couple of thought about reading and its benefits.
 ---
 

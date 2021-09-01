@@ -8,6 +8,7 @@ icon: ./icons/email_open.svg
 unsplashImageID: 3Mhgvrk4tjM
 keywords: [email, pocket]
 category: Productivity
+type: article
 description: In this post I share how I save email to my 'Pocket' so that I can make notes on them. This is very useful for various email courses or other email with valuable content.
 ---
 

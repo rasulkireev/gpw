@@ -6,11 +6,12 @@ published: true
 slug: get-what-you-want-nicely
 icon: ./icons/helping_hand.png
 unsplashImageID: 9VpI3gQ1iUo
-keywords: 
+keywords:
   - life
   - success
   - tutorial
 category: Life
+type: article
 description: As a general rule in life, you should provide more value to society than you consume. This should be, at the very least, your goal.
 ---
 

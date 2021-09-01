@@ -8,6 +8,7 @@ icon: ./icons/naruto_sign.svg
 unsplashImageID: lYHdizx3Aww
 keywords: [anime, naruto]
 category: Personal
+type: article
 description: A few thoughts about my favorite anime and pieces of artwork in general. Mainly, how it impacted my life.
 ---
 

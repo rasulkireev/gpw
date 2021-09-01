@@ -8,6 +8,7 @@ icon: ./icons/scream.svg
 unsplashImageID: Pe4gh8a8mBY
 keywords: [blogging, fear]
 category: Personal
+type: article
 description: Few thoughts on fears of sharing.
 ---
 
