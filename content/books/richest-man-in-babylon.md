@@ -9,6 +9,7 @@ dateRead: 2021-04-05
 dateCreated: 2021-05-11
 dateUpdated: 2021-05-11
 category: "Wealth"
+type: book
 indieboundLink: https://www.indiebound.org/book/9780451205360
 amazonLink: https://amzn.to/3hl9eWW
 unsplashImageID: JF08o_YLrd4
@@ -20,7 +21,7 @@ tags:
 
 ## My Thoughts
 
-Before I read this book I was not sure what to expect. So, this summary for someone in a similar position. 
+Before I read this book I was not sure what to expect. So, this summary for someone in a similar position.
 
 "The Richest Man In Babylon" is a collection of short and educational stories. These stories tell you about people living in ancient Babylon. Each story teaches you a small lesson on how to make progress towards financial stability.
 
@@ -118,10 +119,10 @@ Good luck can be enticed by accepting opportunity. “Those eager to grasp oppor
 
 ### The Five Laws of Gold
 
-1. Gold cometh gladly and in increasing quantity to any man who will put by not less than one-tenth of his earngs to create an estate for his future and that of his family. 
-2. Gold laboreth diligently and contentedly for the wise owner who finds for it profitable employment, multiplying even as the flocks of the field. 
-3. Gold clingeth to the protection of the cautious owner who invests it under the advice of men wise in its handling. 
-4. Gold slippeth away from the man who invests it in businesses or purposes with which he is not familiar or which are not approved by those skilled in its keep. 
+1. Gold cometh gladly and in increasing quantity to any man who will put by not less than one-tenth of his earngs to create an estate for his future and that of his family.
+2. Gold laboreth diligently and contentedly for the wise owner who finds for it profitable employment, multiplying even as the flocks of the field.
+3. Gold clingeth to the protection of the cautious owner who invests it under the advice of men wise in its handling.
+4. Gold slippeth away from the man who invests it in businesses or purposes with which he is not familiar or which are not approved by those skilled in its keep.
 5. Gold flees the man who would force it to impossible earnings or who followeth the alluring advice of tricksters and schemers or who trusts it to his own inexperience and romantic desires in investment.
 
 “Wealth that stayeth to give enjoyment and satisfaction to its owner comes gradually, because it is a child born of knowledge and persistent purpose.
@@ -145,4 +146,3 @@ Where the determination is, the way can be found
 
 ## End Note
 If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1392876920686227464) or [HackerNews](https://news.ycombinator.com/item?id=27143913).
-

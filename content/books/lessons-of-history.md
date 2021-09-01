@@ -9,6 +9,7 @@ dateRead: 2020-12-20
 dateCreated: 2021-03-15
 dateUpdated: 2021-03-15
 category: "History"
+type: book
 indieboundLink: https://www.indiebound.org/book/9781439149959
 amazonLink: https://amzn.to/3eDfKaj
 unsplashImageID: jKU2NneZAbI
@@ -237,9 +238,9 @@ if war continues to absorb and dominate it, or if the itch to rule the world req
 
 War is one of the constants of history, and has not diminished with civilization or democracy. In the last 3,421 years of recorded history only 268 have seen no war.
 
-**Note:** 
-- What are those years? 
-- Is this legit info, cause there is always some kind of war? 
+**Note:**
+- What are those years?
+- Is this legit info, cause there is always some kind of war?
 - What scale of war is the author talking about ?
 
 
@@ -310,4 +311,3 @@ The historian will not mourn because he can see no meaning in human existence ex
 ## End Note
 
 If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1371646873723883523) or [HackerNews](https://news.ycombinator.com/item?id=26466363).
-
