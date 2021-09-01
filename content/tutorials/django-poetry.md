@@ -10,10 +10,11 @@ keywords:
  - Python
  - Django
 category: Django
-description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project. 
+type: Tutorial
+description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project.
 ---
 
-Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how [Poetry](https://python-poetry.org/) works and all its features. Today I just want to focus on configuring a [Django](https://www.djangoproject.com/) project. 
+Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how [Poetry](https://python-poetry.org/) works and all its features. Today I just want to focus on configuring a [Django](https://www.djangoproject.com/) project.
 
 ## 1. Install Poetry
 
@@ -39,7 +40,7 @@ You will be asked to confirm the information about your project. You can skip th
 
 ## 4. Add the Necessary Dependencies
 
-Run `poetry add django`. Poetry will add `django` to the `pyproject.toml` file under the dependencies section. A virtual environment will also be created for you. 
+Run `poetry add django`. Poetry will add `django` to the `pyproject.toml` file under the dependencies section. A virtual environment will also be created for you.
 
 ## 5. Start you Django Project
 

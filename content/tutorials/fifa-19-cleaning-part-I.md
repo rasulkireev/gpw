@@ -8,6 +8,7 @@ icon: ./icons/football.svg
 unsplashImageID: eCktzGjC-iU
 keywords: [jupyter, pandas, numpy]
 category: Data Analysis
+type: Tutorial
 description: My first start-to-end Data Science project. I am going to be looking at FIFA 19 player database. In this part I talk about Data Cleaning.
 ---
 

@@ -8,6 +8,7 @@ icon: ./icons/plotly.png
 unsplashImageID: mcSDtbWXUZU
 keywords: [opensource, plotly, pandas]
 category: Data Visualization
+type: Tutorial
 description: My thoughts on the Open Source community and the culture behind it.
 ---
 

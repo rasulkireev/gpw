@@ -8,13 +8,14 @@ icon: ./icons/unknown_status.png
 unsplashImageID: xVQ7j3G7FSU
 keywords: [gridsome, graphql, html]
 category: Gridsome
+type: Tutorial
 description: Ever wonder how include multiple queries on the same page, when using Gridsome? Well, this is how.
 ---
 
 Let's say you have the following queries:
 
 ```javascript
-// query details about the current blog post 
+// query details about the current blog post
 query Post ($path: String!) {
   post: post (path: $path) {
     title
@@ -84,7 +85,7 @@ Then you can access these queries like this:
 ```html
 <div>{{ $page.post.title }}</div>
 
-<div 
+<div
 v-for="mention in $page.mentions.edges"
 :key="mention.node.wmId"
 >

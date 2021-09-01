@@ -45,7 +45,26 @@
         :wmArray=$page.mentions
         title="Rasul Kireev Homepage"
         :url='$static.metadata.siteUrl'
+        showReplies=false
+        showMentions=false
       />
+
+      <t-modal
+        header="Title of the modal"
+      >
+        Content of the modal.
+        <template v-slot:footer>
+          <div class="flex justify-between">
+            <t-button type="button">
+              Cancel
+            </t-button>
+            <t-button type="button">
+              Ok
+            </t-button>
+          </div>
+        </template>
+      </t-modal>
+
 
 
     </div>
