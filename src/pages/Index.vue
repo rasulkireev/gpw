@@ -45,9 +45,9 @@
         :wmArray=$page.mentions
         title="Rasul Kireev Homepage"
         :url='$static.metadata.siteUrl'
+        showReplies=false
+        showMentions=false
       />
-
-
     </div>
 
   </Layout>

@@ -7,6 +7,7 @@ module.exports = {
       './src/**/*.html',
       './src/**/*.vue',
       './src/**/*.js',
+      'node_modules/vue-tailwind/dist/*.js',
     ],
   },
   darkMode: false,
@@ -33,12 +34,18 @@ module.exports = {
             'code::after': false
           }
         }
-      }      
+      }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      opacity: ['disabled'],
+      cursor: ['disabled'],
+    },
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/forms'),
   ],
 }

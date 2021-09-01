@@ -4,15 +4,39 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 import InstantSearch from 'vue-instantsearch';
+import VueTailwind from 'vue-tailwind'
 import "tailwindcss/tailwind.css"
 // import 'prismjs/themes/prism.css'
+
+import {
+  TModal
+} from 'vue-tailwind/dist/components';
+
 require("gridsome-plugin-remark-prismjs-all/themes/night-owl.css");
+
+
 
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.use(InstantSearch)
+
+  const components = {
+
+  }
+  Vue.use(VueTailwind, components)
+
+  const settings = {
+    't-modal': {
+      component: TModal,
+      props: {
+        classes: 'border-2 block w-full rounded text-gray-800'
+      }
+    },
+  }
+  Vue.use(VueTailwind, settings)
+
 
   const description = "My peronal page to document my life journey."
   const baseUrl = "https://rasulkireev.com/"

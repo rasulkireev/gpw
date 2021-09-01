@@ -11,6 +11,7 @@ keywords:
 - free
 - reading
 category: Reading
+type: article
 description: "I'm sharing a couple ways to find reading material online"
 ---
 

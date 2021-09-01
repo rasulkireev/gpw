@@ -6,12 +6,13 @@ published: true
 slug: 2021-goals
 icon: ./icons/goal.png
 unsplashImageID: 6M_Wiwi1LQQ
-keywords: 
+keywords:
 - 2021
 - goals
 - habits
 - review
 category: Personal
+type: article
 description: In this post I want to publicly list all my 2021 goals. This will help keep me accountable.
 ---
 

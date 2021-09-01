@@ -8,6 +8,7 @@ icon: ./icons/source_code.svg
 unsplashImageID: YOqOgFI5fKI
 keywords: [scripts, gridsome, vue]
 category: Javascript
+type: Tutorial
 description: How do I add script tag to specific pages only? In this post I show how I integrated hypothes.is only on my article pages.
 ---
 

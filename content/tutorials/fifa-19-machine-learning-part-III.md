@@ -8,6 +8,7 @@ icon: ./icons/ai_ml.svg
 unsplashImageID: n6B49lTx7NM
 keywords: [datascience, machinelearning, fifa, numpy, pandas, python, scikitlearn]
 category: Data Science
+type: Tutorial
 description: In this post we are going to apply some basic machine learning on our clean dataset. We are going to focus on using Scikit Learn
 ---
 

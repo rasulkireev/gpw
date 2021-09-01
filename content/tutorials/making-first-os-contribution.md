@@ -8,6 +8,7 @@ icon: ./icons/open_source.svg
 unsplashImageID: R-HXWCbCBGU
 keywords: [opensource, contribution, github, git]
 category: Open Source
+type: Tutorial
 description: Making your first open source contribution. There is nothing to be scared about! We'll got through this together.
 ---
 

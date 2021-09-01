@@ -8,6 +8,7 @@ icon: ./icons/straitjacket.svg
 unsplashImageID: Pv5WeEyxMWU
 keywords: [depression, psychology, selfhelp]
 category: Personal
+type: article
 description: "In this post, I wanted to share some of my reflections on the depressive state that I went through. I'd like to share some of my thoughts that were running through my head and what helped me get over."
 ---
 

@@ -8,12 +8,13 @@ icon: ./icons/2020.svg
 unsplashImageID: aQfhbxailCs
 keywords: [2020, goals, habits, review]
 category: Personal
+type: article
 description: It is important to set some goals for the future year too. This is my attmept to capture my goals.
 ---
 
-I just finished writing the "[2019 in Review](https://rasulkireev.com/writings/2019-in-review) " post, where I went over the things that I made happen in 2019. It felt great, I recommend everyone do it. 
+I just finished writing the "[2019 in Review](https://rasulkireev.com/writings/2019-in-review) " post, where I went over the things that I made happen in 2019. It felt great, I recommend everyone do it.
 
-While writing the post, I kept thinking, "ok, I need to do this in 2020". I think it is a good idea to write down some goals for 2020. Not to always look at them to make sure you accomplish them. Instead, to give you some point of comparison at the end of next year. When I'm writing 2020 in Review, I will be able to see what was important to me at the end of 2019 and what changed during the next year. 
+While writing the post, I kept thinking, "ok, I need to do this in 2020". I think it is a good idea to write down some goals for 2020. Not to always look at them to make sure you accomplish them. Instead, to give you some point of comparison at the end of next year. When I'm writing 2020 in Review, I will be able to see what was important to me at the end of 2019 and what changed during the next year.
 
 So, without further ado, here are a few small goals I have for 2020.
 
@@ -68,7 +69,7 @@ I think achieving this will make a massive difference in my life.
 It doesn't matter if it just 1 dollar. It is crucial to start. It could be through some consulting, or from a photo shoot, or from one of my web apps. As long as it makes some money.
 
 ## 6. Become more sociable
-Meet 50 new people. Meeting fellow Indiehackers is the first thing that comes to mind. However, there are a plethora of other people to meet. Django developers, Data Analysts, and Scientists. 
+Meet 50 new people. Meeting fellow Indiehackers is the first thing that comes to mind. However, there are a plethora of other people to meet. Django developers, Data Analysts, and Scientists.
 
 With Tanya, we could meet people at board game meetups or photographers meetups, perhaps.
 

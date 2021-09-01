@@ -16,6 +16,7 @@
     "@microflash/gridsome-plugin-feed": "^1.0.7",
     "@noxify/gridsome-plugin-remark-embed": "^1.2.1",
     "@sindresorhus/slugify": "^1.1.0",
+    "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/line-clamp": "^0.2.0",
     "@tailwindcss/typography": "^0.3.1",
     "@zefman/gridsome-source-webmention": "^0.1.4",
@@ -32,7 +33,8 @@
     "gridsome-plugin-remark-shiki": "^0.3.1",
     "gridsome-plugin-rss": "^1.2.0",
     "instantsearch.css": "^7.4.3",
-    "vue-instantsearch": "^3.2.0"
+    "vue-instantsearch": "^3.2.0",
+    "vue-tailwind": "^2.4.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",

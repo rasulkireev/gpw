@@ -8,6 +8,7 @@ icon: ./icons/rocket_take_off.svg
 unsplashImageID: tH7eYi6p23s
 keywords: [personalspace, website, blog]
 category: "Personal"
+type: article
 description: My Own Personal Space. So Cool.
 ---
 

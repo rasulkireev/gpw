@@ -9,6 +9,7 @@ dateRead: 2020-05-14
 dateCreated: 2020-05-14
 dateUpdated: 2021-03-13
 category: "Creativity"
+type: book
 indieboundLink: https://www.indiebound.org/book/9780761178972
 amazonLink: https://amzn.to/30HsqEC
 unsplashImageID: 7okkFhxrxNw
@@ -20,7 +21,7 @@ tags:
 
 ## My Thoughts
 
-This is a good, solid read. I wouldn't call it life-changing for me, more life up-keeping. For some people, it can be life-changing though. 
+This is a good, solid read. I wouldn't call it life-changing for me, more life up-keeping. For some people, it can be life-changing though.
 
 In this book, Austin argues that we should all share our work. He will share a lot of useful advice for doing work in public. Austin is very convincing. If you never considered sharing your work, this book will change your mind.
 
@@ -52,7 +53,7 @@ All those things you collect in life, don't hoard them. Share them with the worl
 
 Your work does not happen in a vacuum. The work that you produce is always some form of other people's work. Each day you get inspired, you consume other people's work. If you use this work to produce something bigger, tell people about it.
 
-> If you share the work of others, you have to make sure that the creators of that work get proper credit. 
+> If you share the work of others, you have to make sure that the creators of that work get proper credit.
 
 ### 5. Tell Good Stories.
 

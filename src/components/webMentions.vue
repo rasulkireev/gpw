@@ -15,7 +15,7 @@
             </p>
         </div>
 
-        <div v-if="wmReduce('like-of').length > 0" class="mb-6">
+        <div v-if="wmReduce('like-of').length > 0 && showLikes == true" class="mb-6">
             <p class="font-semibold">{{ wmReduce("like-of").length }} Likes</p>
             <div class="flex flex-wrap items-center">
                 <a
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div v-if="wmReduce('repost-of').length > 0" class="mb-6">
+        <div v-if="wmReduce('repost-of').length > 0 && showRetweets == true" class="mb-6">
             <p class="font-semibold">{{ wmReduce("repost-of").length }} Retweets</p>
             <div class="flex flex-wrap items-center">
                 <a
@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div v-if="wmReduce('bookmark-of').length > 0" class="mb-6">
+        <div v-if="wmReduce('bookmark-of').length > 0 && showBookmarks == true " class="mb-6">
             <p class="font-semibold">{{ wmReduce("bookmark-of").length }} Bookmarks</p>
             <div class="my-2">
                 <g-image
@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div v-if="wmReduce('in-reply-to').length > 0" class="mb-6">
+        <div v-if="wmReduce('in-reply-to').length > 0 && showReplies == true" class="mb-6">
             <p class="font-semibold">{{ wmReduce("in-reply-to").length }} Replies</p>
             <div
             class="flex items-center p-4 my-2 bg-gray-200 rounded"
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div v-if="wmReduce('mention-of').length > 0" class="mb-6">
+        <div v-if="wmReduce('mention-of').length > 0 && showMentions == true" class="mb-6">
             <p class="font-semibold">{{ wmReduce("mention-of").length }} Mentions</p>
             <div
             class="flex items-center p-4 my-2 bg-gray-200 rounded"
@@ -113,7 +113,31 @@
 
 <script>
 export default {
-    props: ['wmArray','title','url'],
+    props: {
+      wmArray: Object,
+      title: String,
+      url: String,
+      showMentions: {
+        type: Boolean,
+        default: true
+      },
+      showReplies: {
+        type: Boolean,
+        default: true
+      },
+      showLikes: {
+        type: Boolean,
+        default: true
+      },
+      showRetweets: {
+        type: Boolean,
+        default: true
+      },
+      showBookmarks: {
+        type: Boolean,
+        default: true
+      }
+    },
     methods: {
         wmReduce: function (wmPropertyName) {
             let reducedArray = this.wmArray.edges.filter(

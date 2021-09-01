@@ -9,6 +9,7 @@ dateRead: 2021-04-25
 dateCreated: 2021-08-24
 dateUpdated: 2021-08-24
 category: "Buddhism"
+type: book
 indieboundLink: https://www.indiebound.org/book/9781439195468
 amazonLink: https://amzn.to/3DcrRoE
 unsplashImageID: xE0b_dSVf7A

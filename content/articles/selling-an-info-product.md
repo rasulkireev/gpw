@@ -8,12 +8,13 @@ icon: ./icons/workspace.svg
 unsplashImageID: Hb6uWq0i4MI
 keywords: [microconf, talk, infoproduct, course, book]
 category: Entrepreneurship
+type: article
 description: "These are the notes I took and lessons I learned when listening Adam Wathan's Presentation at Microconf. In his talk, 'Nailing your first launch', he talks about the steps necessary for a successful product launch."
 ---
 
-MicroConf founder Rob Walling recently made an announcement. All previous MicroConf talks are now in public access. This is incredible. You can access all talks on their [Youtube Channel](https://www.youtube.com/channel/UCHoBKQDRkJcOY2BO47q5Ruw). 
+MicroConf founder Rob Walling recently made an announcement. All previous MicroConf talks are now in public access. This is incredible. You can access all talks on their [Youtube Channel](https://www.youtube.com/channel/UCHoBKQDRkJcOY2BO47q5Ruw).
 
-> It seems very weird to me that there are only 2.6k subscribers as of 4/22/2020. 
+> It seems very weird to me that there are only 2.6k subscribers as of 4/22/2020.
 
 There is a ton of incredible content to go through.
 
@@ -52,7 +53,7 @@ Tips on coming up with ideas for an info product:
 * What are **you** excite about, that other people might be excited about.
 * What did you have to figure out yourself but was helpful to learn?
     * Can you make it easier for others to learn this?
-    
+
 ## Step 3. Test your Idea
 
 1. Do "tip tweets" for the subject you plan to produce.
@@ -83,19 +84,19 @@ These are the things you need on your Landing page:
 
 ## Step 5. Build an Email List
 
-1. Tell your audience about your launch. 
+1. Tell your audience about your launch.
     * Tell them you have a landing page where they can sign up.
     * Announce that you are about to announce your landing page.
     ![Announcement you announcement tweet](./images/announcement-tweet.png)
 
 2. **Share Progress** with your email list.
-    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream. 
-    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream. 
+    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream.
+    * Every week or so, send an updateCreated to your audience. Include a free video or a link to a live stream.
     * Share before sending an email. Tweet to your audience that if they want to receive some free stuff to go ahead and signup.
     ![Free screencast Tweet](./images/free-screencast-tweet.png)
 
 3. Repurpose Content.
-    * Taking a chapter from the book and massaging it into a blog post. 
+    * Taking a chapter from the book and massaging it into a blog post.
     * Add a signup form to that post.
 
 ## Step 6. Getting it finished

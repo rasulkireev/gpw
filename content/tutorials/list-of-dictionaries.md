@@ -8,6 +8,7 @@ icon: ./icons/python.svg
 unsplashImageID: ./images/reading-on-kindle.jpg
 keywords: [webscraping, dictionaries, python, webscraping]
 category: Python
+type: Tutorial
 description: I have encountered a problem where I was not able to append a dictionary to a list. In this post, I will explore this issue and show how to bypass that.
 ---
 

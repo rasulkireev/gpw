@@ -9,6 +9,7 @@ dateRead: 2020-12-25
 dateCreated: 2021-05-18
 dateUpdated: 2021-05-18
 category: "Writing"
+type: book
 indieboundLink: https://www.indiebound.org/book/9780226448077
 amazonLink: https://amzn.to/3v3NliT
 unsplashImageID: OQMZwNd3ThU
@@ -261,4 +262,3 @@ Another plague is this-ism. These bad writers think this reader needs repeated r
 ## End Note
 
 If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1398244265948495872), [HackerNews](https://news.ycombinator.com/item?id=27314205).
-
