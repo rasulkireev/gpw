@@ -22,9 +22,11 @@ In this tutorial, we will create an Ethereum token on the Polygon Network from s
 
 By the end of this tutorial, you will have a personal token on a real Polygon network and hopefully a better understanding of how everything works on the Ethereum network.
 
-One thing to keep in mind is that the Python library we will be using today is meant for development and testing only. This means that it is not meant to be used for production and users should be interacting with code that includes brownie. However, that doesn't mean your token isn't "real". It is very real and can be used as any other token. Mainly you can just transfer it to someone else. At this stage, there isn't a ton of utility behind it, since it will be created in isolation.
+One thing to keep in mind is that the Python library we will be using today is meant for development and testing only. This means that the code we will write today is not meant to be used for production and users should not be interacting with it. However, that doesn't mean your token isn't "real". It is very real and can be used as any other token. Mainly you can just transfer it to someone else. At this stage, there isn't a ton of utility behind it, since it will be created in isolation.
 
-I have decided to call my token razzle-dazzle for unimportant reasons. Even though it doesn't matter too much, but I encourage you to come up with a fun, short name that will be somewhat personal to you. My code is going to be available at my [github repo](https://github.com/rasulkireev/razzle-dazzle). If you have questions feel free to create an issue in that repo.
+I have decided to call my token razzle-dazzle for unimportant reasons. Even though it doesn't matter too much, but I encourage you to come up with a fun, short name that will be somewhat personal to you.
+
+If at any point you are lost or having trouble following, you can also use my [Github repo](https://github.com/rasulkireev/razzle-dazzle) where I host this code. If you have any questions, feel free to create an issue in that repo.
 
 
 ## 1. Prerequisites
