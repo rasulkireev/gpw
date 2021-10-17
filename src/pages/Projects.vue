@@ -15,26 +15,16 @@
         <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Current</h2>
           <ul>
-            <li>
-              <a href="https://otbches.org" target="_blank">OTBChess</a> - Community for people who like to play chess in real life.
-            </li>
-            <li>
-              <a href="https://builtwithdjango.com" target="_blank">Built with Django</a> was built to highlight all things Django,
-              mainly projects and makers.
-            </li>
-            <li>
-              <a href="https://github.com/rasulkireev/joplin-parse" target="_blank">Joplin Parse</a>
-              is a Python library that helps you parse your Joplin notes in a format that can be used in a static site builder.
-            </li>
-            <li>
-              <a href="https://github.com/rasulkireev/awesome-basb" target="_blank">Awesome BASB</a> a collection of
-              Awesome "Building a Second Brain" resources.
-            </li>
+            <li> <a href="https://otbchess.org" target="_blank">OTBChess</a> - Community for people who like to play chess in real life. </li>
+            <li> <a href="https://builtwithdjango.com" target="_blank">Built with Django</a> was built to highlight all things Django, mainly projects and makers. </li>
+            <li><a href="https://opensea.io/collection/cistercian-date-club" target="_blank">Cistercian Date Club</a> is an NFT collection that allows you to own a piece of history by owning a unique date.</li>
+            <li> <a href="https://github.com/rasulkireev/awesome-basb" target="_blank">Awesome BASB</a> a collection of Awesome "Building a Second Brain" resources. </li>
           </ul>
         </div>
         <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Past</h2>
           <ul>
+            <li> <a href="https://github.com/rasulkireev/joplin-parse" target="_blank">Joplin Parse</a> is a Python library that helps you parse your Joplin notes in a format that can be used in a static site builder. </li>
             <li><a href="https://kushim.herokuapp.com" target="_blank">Kushim</a> is an Open Source Life Management Tool.</li>
             <li><a href="https://tolstoy-newsletter.herokuapp.com" target="_blank">Tolstoy Newsletter</a> is an automated newsletter that sends you a quote from Tolstoy Calendar every day.</li>
           </ul>
