@@ -3,7 +3,7 @@ title: Creating Ethereum Tokens with Python
 dateCreated: 2021-09-01
 dateUpdated: 2021-09-01
 published: true
-slug: creating-ehtereum-token-with-python
+slug: creating-ethereum-token-with-python
 icon: ./icons/ethereum.png
 unsplashImageID: uNXmhzcQjxg
 keywords:
