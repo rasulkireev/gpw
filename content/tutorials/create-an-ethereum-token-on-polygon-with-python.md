@@ -245,7 +245,7 @@ Let's quickly go over what is happening on the last line.
 
 We should be ready to deploy our token!!!.
 
-### c. Deploying our Token.
+### c. Deploying our Token
 
 Well, we are almost done. First, we will deploy to the test network. To do that use the following command (in your terminal):
 
@@ -278,7 +278,7 @@ poetry run brownie run token.py --network polygon-main
 
 You will have to repeat the same process as before.
 
-### d. Seeing you Tokens in your wallet.
+### d. Seeing you Tokens in your wallet
 
 The last thing to check if everything worked is to check if the tokens are in your wallet. To do that we can head over to the Metamask extension and import the token.
 
