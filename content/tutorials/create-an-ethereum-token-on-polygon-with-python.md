@@ -1,5 +1,5 @@
 ---
-title: Creating Ethereum Tokens with Python
+title: How to create an Ethereum Token with Python (ERC20)
 dateCreated: 2021-09-01
 dateUpdated: 2021-09-01
 published: true
