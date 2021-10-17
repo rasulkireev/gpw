@@ -301,4 +301,4 @@ But don't get disappointed. The whole point of this tutorial was to show you how
 
 Thanks for taking the time to read this tutorial. Hope you have a great day and a great crypto learning journey.
 
-If you have any comments or feedback, please leave them [on Twitter]() or [on HackerNews]().****
+If you have any comments or feedback, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1449808313533837312) or [on HackerNews](https://news.ycombinator.com/item?id=28898711).
