@@ -15,7 +15,7 @@ keywords:
   - vyper
 category: Ethereum
 type: Tutorial
-description: In this tutorial, we will create an Ethereum token on the Polygon Network from scratch. To create our token we will use Python and Python-like programming languages. By the end of this tutorial, you will have a personal token on a real Polygon network and hopefully a better understanding of how everything works on the Ethereum network.
+description: This tutorial teaches you how to create/develop your own Ethereum token (ERC20) with Python on Polygon Network.
 ---
 
 In this tutorial, we will create an Ethereum token on the Polygon Network from scratch. To create our token we will use Python and Python-like programming languages ([Brownie](https://eth-brownie.readthedocs.io/en/stable/toctree.html) and [Vyper](https://vyper.readthedocs.io/en/latest/), we will learn more about them later).
