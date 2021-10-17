@@ -298,3 +298,5 @@ As mentioned in the beginning, this token is a real deal and you can do all the 
 But don't get disappointed. The whole point of this tutorial was to show you how easy it is to develop and test your Crypto ideas using python and brownie. If you spend some time learning vyper or solidity to develop smart contracts, you will be able to easily test your ideas with the eth-brownie library.
 
 Thanks for taking the time to read this tutorial. Hope you have a great day and a great crypto learning journey.
+
+If you have any comments or feedback, please leave them [on Twitter]() or [on HackerNews]().
