@@ -162,4 +162,4 @@ I'm not saying this book is unique in the sense that we get to hear stories (the
 
 ## End Note
 
-If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](), [HackerNews]().
+If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1451565242140536838), [HackerNews](https://news.ycombinator.com/item?id=28959445).
