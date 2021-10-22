@@ -58,6 +58,7 @@
       title
       author
       path
+      intro
       dateRead (format: "MMMM D, Y")
       dateCreated (format: "MMMM D, Y")
       dateUpdated (format: "MMMM D, Y")
@@ -153,18 +154,18 @@ export default {
             }
           ],
           meta: [
-            { key: "description", name: 'description', content: `${this.title}` },
+            { key: "description", name: 'description', content: `${this.intro}` },
 
             // open-graph tags
             { key: "og-title", property: 'og:title', content: this.title},
-            { key: 'og-description', property: 'og:description', content: `${this.$page.bookNote.description}`},
+            { key: 'og-description', property: 'og:description', content: `${this.$page.bookNote.intro}`},
             { key: 'og-image', property: 'og:image', content: this.bookNoteImage },
             { key: "og-url", property: 'og:url', content: this.url },
 
             // twitter card
             { key: "twitter-card", name: 'twitter:card', content:'summary_large_image'},
             { key: "twitter-title", name: 'twitter:title', content: this.title },
-            { key: "twitter-description", name: 'twitter:description', content: `${this.$page.bookNote.description}`},
+            { key: "twitter-description", name: 'twitter:description', content: `${this.$page.bookNote.intro}`},
             { key: "twitter-image", name: "twitter:image", content: this.bookNoteImage },
           ],
           link: [
