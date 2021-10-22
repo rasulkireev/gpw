@@ -119,7 +119,7 @@ export default {
   created() {
     if (this.$page) {
       this.title = `Rasul's notes on ${this.$page.bookNote.title}`
-      this.bookNoteImage = `https://ogi.sh?title=Rasul's%20Notes%20on%20${this.title}%20by%20${this.$page.bookNote.author}&unsplashId=${this.$page.bookNote.unsplashImageID}`
+      this.bookNoteImage = `https://ogi.sh?title=${this.title}%20by%20${this.$page.bookNote.author}&unsplashId=${this.$page.bookNote.unsplashImageID}`
       this.url = `${this.$static.metadata.siteUrl}${this.$page.bookNote.path}`
     }
   },

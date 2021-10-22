@@ -12,7 +12,7 @@ category: "Learning"
 type: book
 indieboundLink: https://www.indiebound.org/book/9780743277464
 amazonLink: https://amzn.to/3GcKREH
-unsplashImageID: g-fm27_BRyQ
+unsplashImageID: nEbMedmVwgw
 tags:
     - Biography
     - Chess
