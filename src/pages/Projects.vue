@@ -25,8 +25,12 @@
           <h2>Past</h2>
           <ul>
             <li> <a href="https://github.com/rasulkireev/joplin-parse" target="_blank">Joplin Parse</a> is a Python library that helps you parse your Joplin notes in a format that can be used in a static site builder. </li>
-            <li><a href="https://kushim.herokuapp.com" target="_blank">Kushim</a> is an Open Source Life Management Tool.</li>
+            <li><a href="https://github.com/rasulkireev/kushim" target="_blank">Kushim</a> is an Open Source Life Management Tool I built as my first Django SaaS. This project didn't "get anywhere", but I learnt a ton! Still use some of the code I've written back then.</li>
             <li><a href="https://tolstoy-newsletter.herokuapp.com" target="_blank">Tolstoy Newsletter</a> is an automated newsletter that sends you a quote from Tolstoy Calendar every day.</li>
+            <li><span>Shop for Dev</span> was a small shopify store where people could buy merchendise from popular open source projects, Ruby on Rails, for example. I always asked for permission to use the logos and shared profits with creators. Too bad, we didn't make a single sale.</li>
+            <li><span>OSAR Journal</span>. Second website I built (with Wordpress). The idea was to use Ray Dalio's believability principle on Research Papers. Essentially the idea is to open source all the research papers and let people vote on the best. Didn't work out.</li>
+            <li><span>Your Guides to Life</span>is the first website I've built (with Wordpress) after reading the 4 Hour Workweek. I wanted to write cool and interesting guides for different areas of life and charge people to read this. Not enough traffic and any Wordpress plugin costed big $$$, so decided to drop and focus on learning coding.</li>
+
           </ul>
         </div>
       </div>

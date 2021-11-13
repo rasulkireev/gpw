@@ -17,7 +17,7 @@
           </ul>
           <p>
             In my free time, I love to do more web dev. More specifically, I like to develop small and fun projects that help
-            me learn new technologies. You can see a list of my projects here on <a href="https://rasulkireev/projects">my website</a>.
+            me learn new technologies. You can see a list of my projects <a href="https://rasulkireev/projects">here</a>.
           </p>
           <p>
             As a programmer, I learned to love writing. I try to write regularly, be it <a href="https://rasulkireev.com/tutorials/">
@@ -30,6 +30,18 @@
             brewing Kombucha, fermenting different foods, and baking bread. On the failure side of things, I can't keep
             a plant alive for more than a week.
           </p>
+        </div>
+        <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
+          <div class="flex flex-row space-x-2">
+            <a class="text-5xl" href="https://twitter.com/rasulkireev"><i class="text-blue-600 lab la-twitter"></i></a>
+            <a class="text-5xl" href="https://github.com/rasulkireev"><i class="text-black lab la-github"></i></a>
+            <a class="text-5xl" href="mailto:kireevr1996@gmail.com"><i class="text-black las la-envelope"></i></a>
+            <a class="text-5xl" href="https://www.producthunt.com/@rasul_kireev"><i class="text-red-700 lab la-product-hunt"></i></a>
+            <a class="text-5xl" href="https://stackexchange.com/users/7977534/rasul-kireev"><i class="text-blue-500 lab la-stack-exchange"></i></a>
+            <a class="text-5xl" href="https://angel.co/u/rasul-kireev"><i class="text-black lab la-angellist"></i></a>
+            <a class="text-5xl" href="https://www.goodreads.com/user/show/37986483-rasul-kireev"><i class="text-yellow-800 lab la-goodreads-g"></i></a>
+            <a class="text-5xl" href="https://www.goodreads.com/user/show/37986483-rasul-kireev"><i class="text-yellow-500 lab la-hacker-news"></i></a>
+          </div>
         </div>
       </div>
     </div>
