@@ -11,6 +11,9 @@ dateCreated: 2021-10-22
 dateUpdated: 2021-10-22
 category: "Learning"
 type: book
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780743277464
 amazonLink: https://amzn.to/3GcKREH
 unsplashImageID: nEbMedmVwgw

@@ -10,6 +10,9 @@ dateCreated: 2021-05-18
 dateUpdated: 2021-05-18
 category: "Writing"
 type: book
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780226448077
 amazonLink: https://amzn.to/3v3NliT
 unsplashImageID: OQMZwNd3ThU

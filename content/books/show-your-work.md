@@ -10,6 +10,9 @@ dateCreated: 2020-05-14
 dateUpdated: 2021-03-13
 category: "Creativity"
 type: book
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780761178972
 amazonLink: https://amzn.to/30HsqEC
 unsplashImageID: 7okkFhxrxNw

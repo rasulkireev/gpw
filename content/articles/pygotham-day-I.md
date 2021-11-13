@@ -9,6 +9,9 @@ unsplashImageID: uf2nnANWa8Q
 keywords: [conference, networking, pygotham, talks]
 category: Conferences
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: First Day of my first conference. I tried to make good notes during the talks I attended.
 ---
 
@@ -153,6 +156,9 @@ So, without further ado, here are the notes I've taken during the first day of t
 ```python
 #pep 484type hints
 Def Foo(type: str)  -> str
+twitterLink: ""
+hnLink: ""
+redditLink: ""
   Return
 ```
 * With mypy linters work better

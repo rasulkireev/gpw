@@ -9,6 +9,9 @@ unsplashImageID: xVQ7j3G7FSU
 keywords: [gridsome, graphql, html]
 category: Gridsome
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Ever wonder how include multiple queries on the same page, when using Gridsome? Well, this is how.
 ---
 

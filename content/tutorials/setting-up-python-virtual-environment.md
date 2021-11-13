@@ -9,6 +9,9 @@ unsplashImageID: TkEPQPWr2sY
 keywords: [virtualenvironment, python, django, project, venv]
 category: Python
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: How to set up a virtual environment for your Django Project, or any other Python project, for that matter.
 ---
 

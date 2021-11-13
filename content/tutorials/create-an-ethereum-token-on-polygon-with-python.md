@@ -15,6 +15,9 @@ keywords:
   - vyper
 category: Ethereum
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: This tutorial teaches you how to create/develop your own Ethereum token (ERC20) with Python on Polygon Network.
 ---
 

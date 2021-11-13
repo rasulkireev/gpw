@@ -9,6 +9,9 @@ unsplashImageID: Q1p7bh3SHj8
 keywords: [django, context, tutorial]
 category: Django
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: In this post I show how to use get_context_data(). You might need it to display 'latest posts' on your 'home page'.
 ---
 

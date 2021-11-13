@@ -9,6 +9,9 @@ unsplashImageID: "zMRLZh40kms"
 keywords: [joplin, productivity]
 category: "Productivity"
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: "I wanted to discuss how I use Pocket and how it integrates into the BASB flow."
 ---
 

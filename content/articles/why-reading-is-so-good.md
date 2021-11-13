@@ -9,6 +9,9 @@ unsplashImageID: XqXJJhK-c08
 keywords: [reading]
 category: Reading
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Couple of thought about reading and its benefits.
 ---
 

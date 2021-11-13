@@ -9,6 +9,9 @@ unsplashImageID: gVtJgTyi2iI
 keywords: [joplin, notetaking, opensource, productivity]
 category: Productivity
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: I use Joplin to take note. I use it for my personal life and for my projects. This post explains why you should use it too.
 ---
 

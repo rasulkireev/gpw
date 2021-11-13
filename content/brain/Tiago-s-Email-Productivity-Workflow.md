@@ -33,6 +33,9 @@ Let’s turn back the tide and strip email down to its original function, the on
 When you’re able to One-Touch emails at a rate of one every few seconds, having multiple inboxes only multiplies the effort. It’s weird — once your email workflow gains economies of scale, you actually benefit from greater volume.
 
 Settings > Inbox tab > set Inbox type: to Default > uncheck all Categories: except for Primary
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 
 ---
 
@@ -43,11 +46,11 @@ Your email inbox is someone else’s To Do list.
 
 ---
 
-Every conceivable email you receive can be handled by just 4 downstream systems: 
+Every conceivable email you receive can be handled by just 4 downstream systems:
 * a digital calendar (G Calendar)
 * a task manager (Todoist)
 		There are a lot of benefits to using a digital task manager, but for One-Touch purposes, there is one single most important feature: the program’s ability to capture and link back to email-based tasks.
-		
+
 * a reference app (Joplin)
 * a read later app. (Pocket)
 
@@ -56,5 +59,3 @@ Every conceivable email you receive can be handled by just 4 downstream systems:
 ---
 
 That is our real goal — lowering our reactivity is an end in itself, because anything that forces you to react controls you.
-
-    

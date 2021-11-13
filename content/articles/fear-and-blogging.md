@@ -9,6 +9,9 @@ unsplashImageID: Pe4gh8a8mBY
 keywords: [blogging, fear]
 category: Personal
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Few thoughts on fears of sharing.
 ---
 

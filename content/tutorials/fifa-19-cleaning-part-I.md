@@ -9,6 +9,9 @@ unsplashImageID: eCktzGjC-iU
 keywords: [jupyter, pandas, numpy]
 category: Data Analysis
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: My first start-to-end Data Science project. I am going to be looking at FIFA 19 player database. In this part I talk about Data Cleaning.
 ---
 
@@ -127,6 +130,9 @@ df['Height'] = (df['feet']*12+df['inch'])*2.54
 
 #### Body Type
 There are generally 3 body type: Lean, Normal and Stocky. There are exceptions, however. More specifically, several players have bosy type of their own, for example Messi, Cristiano Ronaldo and Akinfenwa. Those are outliers and I have decided to use my own judgement when assigning new values to them. Since ther was a row with Body Weight of an unknown type we will simply remove it from data, that shouldn't affect results.
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 
 ```python
 df.loc[df['Body Type'] == "Lean", 'Body Type'] = 1

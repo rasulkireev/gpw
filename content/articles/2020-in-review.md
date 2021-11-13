@@ -12,7 +12,10 @@ keywords:
   - goals
 category: Personal
 type: article
-description: This is my attempt to review everything that I made happen, and that happened to me in 2019. It is crucial to remind yourself of the things you regularly did. Writing this post was very gratifying.
+twitterLink: "https://twitter.com/rasulkireev/status/1362784454838738946"
+hnLink: "https://news.ycombinator.com/item?id=26194096"
+redditLink: ""
+description: This is my attempt to review everything that I made happen, and that happened to me in 2020. It is crucial to remind yourself of the things you regularly did. Writing this post was very gratifying.
 ---
 
 

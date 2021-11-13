@@ -9,6 +9,9 @@ unsplashImageID: fDV3geJ2HwM
 keywords: [virtualenvironment, jupyter]
 category: Python
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: If you are using a virtual environment, you might have ome issues with Jupyter Notebook. In this post we go through proper Jupyter Setup with venv.
 ---
 

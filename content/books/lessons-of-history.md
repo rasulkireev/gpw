@@ -10,6 +10,9 @@ dateCreated: 2021-03-15
 dateUpdated: 2021-03-15
 category: "History"
 type: book
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9781439149959
 amazonLink: https://amzn.to/3eDfKaj
 unsplashImageID: jKU2NneZAbI

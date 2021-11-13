@@ -9,6 +9,9 @@ unsplashImageID: DtDlVpy-vvQ
 keywords: [personalwebsite, webdesign, css, html]
 category: Design
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: When I started developing my personal website I\'ve had some difficulties. In this post I try to share what you should do to avoid those.
 ---
 

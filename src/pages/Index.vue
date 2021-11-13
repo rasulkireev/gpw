@@ -38,10 +38,11 @@
             <a class="text-5xl" href="https://github.com/rasulkireev"><i class="text-black lab la-github"></i></a>
             <a class="text-5xl" href="mailto:kireevr1996@gmail.com"><i class="text-black las la-envelope"></i></a>
             <a class="text-5xl" href="https://www.producthunt.com/@rasul_kireev"><i class="text-red-700 lab la-product-hunt"></i></a>
+            <a class="text-5xl" href="https://www.reddit.com/user/rasulkireev"><i class="text-red-500 lab la-reddit"></i></a>
             <a class="text-5xl" href="https://stackexchange.com/users/7977534/rasul-kireev"><i class="text-blue-500 lab la-stack-exchange"></i></a>
             <a class="text-5xl" href="https://angel.co/u/rasul-kireev"><i class="text-black lab la-angellist"></i></a>
             <a class="text-5xl" href="https://www.goodreads.com/user/show/37986483-rasul-kireev"><i class="text-yellow-800 lab la-goodreads-g"></i></a>
-            <a class="text-5xl" href="https://www.goodreads.com/user/show/37986483-rasul-kireev"><i class="text-yellow-500 lab la-hacker-news"></i></a>
+            <a class="text-5xl" href="https://news.ycombinator.com/user?id=rasulkireev"><i class="text-yellow-500 lab la-hacker-news"></i></a>
           </div>
         </div>
 

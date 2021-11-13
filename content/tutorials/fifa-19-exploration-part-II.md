@@ -9,6 +9,9 @@ unsplashImageID: mcSDtbWXUZU
 keywords: [opensource, plotly, pandas]
 category: Data Visualization
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: My thoughts on the Open Source community and the culture behind it.
 ---
 

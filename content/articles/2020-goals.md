@@ -9,6 +9,9 @@ unsplashImageID: aQfhbxailCs
 keywords: [2020, goals, habits, review]
 category: Personal
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: It is important to set some goals for the future year too. This is my attmept to capture my goals.
 ---
 

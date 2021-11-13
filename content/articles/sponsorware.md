@@ -9,6 +9,9 @@ unsplashImageID: 8I423fRMwjM
 keywords: [open-source, code, earning, bootstrapping]
 category: Open-Source
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Caleb Porzio introduced me to the idea of Sponsorware. I am picking it up. I hope more people will to. In this post I tell you what Sponsorware is and why I think it is the future of open-source.
 ---
 

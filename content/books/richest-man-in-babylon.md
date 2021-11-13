@@ -10,6 +10,9 @@ dateCreated: 2021-05-11
 dateUpdated: 2021-05-11
 category: "Wealth"
 type: book
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780451205360
 amazonLink: https://amzn.to/3hl9eWW
 unsplashImageID: JF08o_YLrd4

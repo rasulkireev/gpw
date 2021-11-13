@@ -12,6 +12,9 @@ keywords:
   - tutorial
 category: Life
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: As a general rule in life, you should provide more value to society than you consume. This should be, at the very least, your goal.
 ---
 

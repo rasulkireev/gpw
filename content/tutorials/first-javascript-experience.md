@@ -9,6 +9,9 @@ unsplashImageID: O99bWwDMBa8
 keywords: [webapp, javascript, html]
 category: Javascript
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Sharing my first epxerience with Javascript. Had to add some action to my new web app.
 ---
 

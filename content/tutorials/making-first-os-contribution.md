@@ -9,6 +9,9 @@ unsplashImageID: R-HXWCbCBGU
 keywords: [opensource, contribution, github, git]
 category: Open Source
 type: Tutorial
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: Making your first open source contribution. There is nothing to be scared about! We'll got through this together.
 ---
 

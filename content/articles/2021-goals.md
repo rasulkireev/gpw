@@ -13,6 +13,9 @@ keywords:
 - review
 category: Personal
 type: article
+twitterLink: ""
+hnLink: ""
+redditLink: ""
 description: In this post I want to publicly list all my 2021 goals. This will help keep me accountable.
 ---
 
