@@ -9,7 +9,7 @@ unsplashImageID: Hb6uWq0i4MI
 keywords: [microconf, talk, infoproduct, course, book]
 category: Entrepreneurship
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1253306975762472961"
 hnLink: ""
 redditLink: ""
 description: "These are the notes I took and lessons I learned when listening Adam Wathan's Presentation at Microconf. In his talk, 'Nailing your first launch', he talks about the steps necessary for a successful product launch."
@@ -192,5 +192,3 @@ Works well with video courses.
 * [Nailing Your First Launch - MicroConf Presentation](https://www.youtube.com/watch?v=ajrDxZRpP9M)
 * [The Book Launch that let me quit my job - Adam's Post](https://adamwathan.me/the-book-launch-that-let-me-quit-my-job/)
 * [Tools for selling your product online - Adam's List](https://gist.github.com/adamwathan/30dc4230ac575cfa3425b39ca11ea859)
-
-If you have any comments or feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1253306975762472961). Thanks for reading, and have a wonderful day!

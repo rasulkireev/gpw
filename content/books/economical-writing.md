@@ -10,8 +10,8 @@ dateCreated: 2021-05-18
 dateUpdated: 2021-05-18
 category: "Writing"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1398244265948495872"
+hnLink: "https://news.ycombinator.com/item?id=27314205"
 redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780226448077
 amazonLink: https://amzn.to/3v3NliT
@@ -261,7 +261,3 @@ If you use “quotation marks" all the time when not actually "quoting" someone,
 ### 30 Avoid This, That, These, Those
 
 Another plague is this-ism. These bad writers think this reader needs repeated reminders that it is this idea, not that one, which is being discussed. Circle the “this" and “these" in your draft: you'll be surprised at their number. The "this" points the reader back to the thing referred to, for no good reason. No writer wants her reader to look back, for looking back is looking away, interrupting the forward flow and leaving the reader looking for her place.
-
-## End Note
-
-If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1398244265948495872), [HackerNews](https://news.ycombinator.com/item?id=27314205).

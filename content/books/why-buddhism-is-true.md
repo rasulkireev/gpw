@@ -10,8 +10,8 @@ dateCreated: 2021-08-24
 dateUpdated: 2021-08-24
 category: "Buddhism"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1430357928809275394"
+hnLink: "https://news.ycombinator.com/item?id=28297460"
 redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9781439195468
 amazonLink: https://amzn.to/3DcrRoE
@@ -120,7 +120,3 @@ Despite saying this was mostly water, I did make a few notes. You will notice th
 - You can see why the Buddha emphasized how fluid, how impermanent, the various parts of the mind are, and why he considered this flux relevant to the not-self argument; if the self is supposed to be some unchanging essence, it’s pretty hard to imagine where exactly that self would be amid the ongoing transitions from state of mind to state of mind.
 - In one study, men who watched part of a scary film (The Silence of the Lambs) and were then shown photos of men from a different ethnic group rated their facial expressions as much angrier than did men who hadn’t seen a scary film.
 - this tendency to exaggerate the hostility of certain kinds of strangers could keep you from having a constructively friendly interaction with someone of a different ethnicity.
-
-## End Note
-
-If you have any comments or feedback, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1430357928809275394) or [on HackerNews](https://news.ycombinator.com/item?id=28297460).

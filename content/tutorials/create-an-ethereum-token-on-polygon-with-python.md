@@ -15,8 +15,8 @@ keywords:
   - vyper
 category: Ethereum
 type: Tutorial
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1449808313533837312"
+hnLink: "https://news.ycombinator.com/item?id=28898711"
 redditLink: ""
 description: This tutorial teaches you how to create/develop your own Ethereum token (ERC20) with Python on Polygon Network.
 ---
@@ -30,7 +30,6 @@ One thing to keep in mind is that the Python library we will be using today is m
 I have decided to call my token razzle-dazzle for unimportant reasons. Even though it doesn't matter too much, but I encourage you to come up with a fun, short name that will be somewhat personal to you.
 
 If at any point you are lost or having trouble following, you can also use my [Github repo](https://github.com/rasulkireev/razzle-dazzle) where I host this code. If you have any questions, feel free to create an issue in that repo.
-
 
 ## 1. Prerequisites
 
@@ -303,5 +302,3 @@ As mentioned in the beginning, this token is a real deal and you can do all the 
 But don't get disappointed. The whole point of this tutorial was to show you how easy it is to develop and test your Crypto ideas using python and brownie. If you spend some time learning vyper or solidity to develop smart contracts, you will be able to easily test your ideas with the eth-brownie library.
 
 Thanks for taking the time to read this tutorial. Hope you have a great day and a great crypto learning journey.
-
-If you have any comments or feedback, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1449808313533837312) or [on HackerNews](https://news.ycombinator.com/item?id=28898711).

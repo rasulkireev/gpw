@@ -14,7 +14,7 @@ keywords:
     - migration
 category: Django
 type: Tutorial
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1329393168840871936"
 hnLink: ""
 redditLink: ""
 description: Whenever you building a site with Django that will have user authentication, it is recommended to create a Custom User Model, before the first migration. Sometimes you forget to do that. In this case you have to follow a strict procedure, which I'll show you in the post.
@@ -120,5 +120,3 @@ This should be it. If you went through each step sequentially, your app should b
 If you prefer a more visual approach, I've made a video that shows how to migrate to a Custom User Model mid-project.
 
 https://www.youtube.com/watch?v=k0GwrwC5uuo
-
-If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1329393168840871936). Your likes, retweets, and replies will show up here.

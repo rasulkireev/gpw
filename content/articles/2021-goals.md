@@ -13,8 +13,8 @@ keywords:
 - review
 category: Personal
 type: article
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1362785148387917824"
+hnLink: "https://news.ycombinator.com/item?id=26194039"
 redditLink: ""
 description: In this post I want to publicly list all my 2021 goals. This will help keep me accountable.
 ---
@@ -92,5 +92,3 @@ So the following is the exercise of me going through my 2021 goals and categoriz
 I have started a spreadsheet to track some of the goals here (that are possible to track). Hope to see a lot of progress on most of them. There are a lot of goals, but most of them I'd say doable. Now just need to prioritize and start grinding.
 
 Will reflect next year, maybe mid-year also.
-
-If you have any comments or feedack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1362785148387917824) or [on HackerNews](https://news.ycombinator.com/item?id=26194039).

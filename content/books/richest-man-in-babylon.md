@@ -10,8 +10,8 @@ dateCreated: 2021-05-11
 dateUpdated: 2021-05-11
 category: "Wealth"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1392876920686227464"
+hnLink: "https://news.ycombinator.com/item?id=27143913"
 redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780451205360
 amazonLink: https://amzn.to/3hl9eWW
@@ -144,8 +144,4 @@ If you desire to help thy friend, do so in a way that will not bring thy friend�
 
 soul of a free man looks at life as a series of problems to be solved and solves them, while the soul of a slave whines, ‘What can I do who am but a slave?’
 
-Where the determination is, the way can be found
-
-
-## End Note
-If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1392876920686227464) or [HackerNews](https://news.ycombinator.com/item?id=27143913).
+Where the determination is, the way can be found.

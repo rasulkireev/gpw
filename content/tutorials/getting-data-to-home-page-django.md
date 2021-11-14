@@ -9,7 +9,7 @@ unsplashImageID: Q1p7bh3SHj8
 keywords: [django, context, tutorial]
 category: Django
 type: Tutorial
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1230974745644060678"
 hnLink: ""
 redditLink: ""
 description: In this post I show how to use get_context_data(). You might need it to display 'latest posts' on your 'home page'.
@@ -141,7 +141,5 @@ You will now get the list of all the posts.
 Before I used a very complicated method to achieve the same result, I honestly don't even want to tell anyone about it. This is a much more straight forward, much more elegant solution. It requires much less additional code written.
 
 One thing I felt when I was writing this post is a worry that people are reading this need more context. I think I will end writing a "Definitive guide to start a Django project." That way, in the future, I can always refer to the structure that already exists, as opposed to starting fresh every single time.
-
-If you agree, please let me [know](https://twitter.com/rasulkireev/status/1230974745644060678). If you disagree, still, please let me know. If you have any questions, please let me know.
 
 I hope this was helpful. Thanks for reading.

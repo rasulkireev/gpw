@@ -9,7 +9,7 @@ unsplashImageID: n6B49lTx7NM
 keywords: [datascience, machinelearning, fifa, numpy, pandas, python, scikitlearn]
 category: Data Science
 type: Tutorial
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1292631350584004608"
 hnLink: ""
 redditLink: ""
 description: In this post we are going to apply some basic machine learning on our clean dataset. We are going to focus on using Scikit Learn
@@ -259,7 +259,3 @@ This post took me waaay to long to write. Also, I had big blocks of time in betw
 In the future, I will try to break it up into a much smaller code block. I guess it was a little too ambitious to write a "form start to finish" post as my first post. Well, I am happy I wrote. I am so glad it is now behind me, and I can move on with some other things.
 
 I promise to try to be more consistent and more frequent with posts.
-
-If you have any questions, please let me know. Email and [Twitter](https://twitter.com/rasulkireev/status/1292631350584004608) the best way to reach me.
-
-Also, if I have a comment section by the time you read this, please don't be a stranger and leave a comment. Positive or negative, doesn't matter.

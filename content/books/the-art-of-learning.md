@@ -11,8 +11,8 @@ dateCreated: 2021-10-22
 dateUpdated: 2021-10-22
 category: "Learning"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1451565242140536838"
+hnLink: "https://news.ycombinator.com/item?id=28959445"
 redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780743277464
 amazonLink: https://amzn.to/3GcKREH
@@ -162,7 +162,3 @@ I'm not saying this book is unique in the sense that we get to hear stories (the
 
 #### CHAPTER 20 TAIWAN
 - Tactics come easy once principles are in the blood.
-
-## End Note
-
-If you enjoyed this book review, consider sharing it :) If you have any comments or suggestion please let me know on [Twitter](https://twitter.com/rasulkireev/status/1451565242140536838), [HackerNews](https://news.ycombinator.com/item?id=28959445).

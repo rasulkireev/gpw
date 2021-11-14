@@ -9,7 +9,7 @@ unsplashImageID: ./images/reading-on-kindle.jpg
 keywords: [webscraping, dictionaries, python, webscraping]
 category: Python
 type: Tutorial
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1228083171092238337"
 hnLink: ""
 redditLink: ""
 description: I have encountered a problem where I was not able to append a dictionary to a list. In this post, I will explore this issue and show how to bypass that.
@@ -110,5 +110,3 @@ You will need to save a "copy" of the current dictionary, rather than a referenc
     data.append(day_dict) # Replace this line with the next one
     data.append(day_dict.copy())
 ```
-
-If need any help, have any question or comments please let me know at my [email](mailto:me@rasulkireev.com) or on [this twitter post](https://twitter.com/rasulkireev/status/1228083171092238337). Hope this was helpful. Thanks for reading.

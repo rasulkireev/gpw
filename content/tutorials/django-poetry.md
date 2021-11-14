@@ -11,7 +11,7 @@ keywords:
  - Django
 category: Django
 type: Tutorial
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1322499651732385792"
 hnLink: ""
 redditLink: ""
 description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project.
@@ -67,5 +67,3 @@ If you need to have the `requirements.txt` file with all the dependencies, you c
 If you prefer a more visual approach, I have made a video that shows how to start a Django project with Poetry.
 
 https://www.youtube.com/watch?v=-c8DASfFNZM
-
-If you have any feedback, please let me know on [Twitter](https://twitter.com/rasulkireev/status/1322499651732385792). Your likes, retweets, and replies will show up here.

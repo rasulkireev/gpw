@@ -10,8 +10,8 @@ dateCreated: 2020-05-14
 dateUpdated: 2021-03-13
 category: "Creativity"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1340323684372934656"
+hnLink: "https://news.ycombinator.com/item?id=25478102"
 redditLink: ""
 indieboundLink: https://www.indiebound.org/book/9780761178972
 amazonLink: https://amzn.to/30HsqEC
@@ -111,5 +111,3 @@ Just keep going. It may be hard sometimes, you might get demotivated, anything c
 “The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” —Annie Dillard
 
 "The minute you learn something, turn around, and teach it to others. Share your reading list. Point to helpful reference materials. Create some tutorials and post them online. Use pictures, words, and video. Take people step-by-step through part of your process. As blogger Kathy Sierra says, “Make people better at something they want to be better at.” Teaching people doesn’t subtract value from what you do, it actually adds to it. When you teach someone how to do your work, you are, in effect, generating more interest in your work. People feel closer to your work because you’re letting them in on what you know."
-
-If you have any comments or feedback, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1340323684372934656) or [on HackerNews](https://news.ycombinator.com/item?id=25478102).

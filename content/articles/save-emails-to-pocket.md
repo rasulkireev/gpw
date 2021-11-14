@@ -9,8 +9,8 @@ unsplashImageID: 3Mhgvrk4tjM
 keywords: [email, pocket]
 category: Productivity
 type: article
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1268912329263022082"
+hnLink: "https://news.ycombinator.com/item?id=23428962"
 redditLink: ""
 description: In this post I share how I save email to my 'Pocket' so that I can make notes on them. This is very useful for various email courses or other email with valuable content.
 ---
@@ -32,5 +32,3 @@ The other problem is making notes. Here, email is not that useful, as opposed to
 Do not worry, though, there is an insultingly easy solution for this. [Publish this email](https://www.publishthis.email/) lets you create a web page in seconds. The service is entirely free! All you got to do is send you an email to page@publishthis.email and wait for a reply. That's it. They usually reply within seconds. In that reply, you get a link to a web page with the contents of the email. Now, you can simply press "add to pocket," and you are done.
 
 Now you have a nice centralized location for all the written words you consume during the day!
-
-If you have any comments or feednack, please leave them [on Twitter](https://twitter.com/rasulkireev/status/1268912329263022082) or [on HackerNews](https://news.ycombinator.com/item?id=23428962).

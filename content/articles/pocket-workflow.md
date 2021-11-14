@@ -9,7 +9,7 @@ unsplashImageID: "zMRLZh40kms"
 keywords: [joplin, productivity]
 category: "Productivity"
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1241842478564749314"
 hnLink: ""
 redditLink: ""
 description: "I wanted to discuss how I use Pocket and how it integrates into the BASB flow."
@@ -43,5 +43,3 @@ After I am done transferring highlights, I assign that post a "Joplined" tag (to
 This is not some sort of revolutionary method of note-taking. This is a simple flow I ended up using to make sure that my Pocket articles are not mixed together, and it is easy to navigate.
 
 I think this is the best way of using tags. I never found the use of assigning tasks like "productivity," "writing," or something like that. There is a search button for that.
-
-I hope this was useful. If you have any thoughts or comments, please let me know [here](https://twitter.com/rasulkireev/status/1241842478564749314) :) Thanks in advance.

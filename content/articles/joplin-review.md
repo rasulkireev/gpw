@@ -9,7 +9,7 @@ unsplashImageID: gVtJgTyi2iI
 keywords: [joplin, notetaking, opensource, productivity]
 category: Productivity
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1225152107487137792"
 hnLink: ""
 redditLink: ""
 description: I use Joplin to take note. I use it for my personal life and for my projects. This post explains why you should use it too.
@@ -150,7 +150,5 @@ If you are still in search of an excellent and straightforward note-taking appli
 
 There are a ton more features I have yet to explore. Whenever I find anything else useful, I will updateCreated this post and will send you an update if you are subscribed.
 There are a ton more features I have yet to explore. Whenever I find anything else useful, I will updateCreated this post and will send you an update if you are subscribed.
-
-Thanks for taking the time to read this. I really appreciate your time. If you have any comments or suggestions, please [email me](mailto:me@rasulkireev.com) or comment on [twitter](https://twitter.com/rasulkireev/status/1225152107487137792).
 
 Have a great day.

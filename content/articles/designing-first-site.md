@@ -9,7 +9,7 @@ unsplashImageID: DtDlVpy-vvQ
 keywords: [personalwebsite, webdesign, css, html]
 category: Design
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1240339394319527936"
 hnLink: ""
 redditLink: ""
 description: When I started developing my personal website I\'ve had some difficulties. In this post I try to share what you should do to avoid those.
@@ -75,4 +75,4 @@ I hope this was at least a little bit useful. Actually, I hope this made at leas
 
 If you have any questions or comments, feel free to shoot me a message at one of the links on the about page.
 
-Thanks for reading. If you have any comments please let me know on [Twitter](https://twitter.com/rasulkireev/status/1240339394319527936)
+Thanks for reading.
