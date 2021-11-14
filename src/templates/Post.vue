@@ -26,40 +26,11 @@
       >
     </fullWidthNewsletter>
 
-    <div class="mt-6 text-gray-900">
-      <p class="mb-2 text-xl font-semibold text-gray-800">Discuss on</p>
-      <div class="flex flex-row space-x-2">
-        <a
-          v-if=$page.post.twitterLink
-          class="flex flex-row items-center px-3 py-2 space-x-2 bg-blue-500 rounded-lg hover:bg-blue-700"
-          :href=$page.post.twitterLink
-          target="_blank"
-        >
-          <i class="text-3xl text-white lab la-twitter"></i>
-          <span class="text-lg font-semibold text-white">Twitter</span>
-        </a>
-
-        <a
-          v-if=$page.post.hnLink
-          class="flex flex-row items-center px-3 space-x-2 bg-yellow-600 rounded-lg hover:bg-yellow-700"
-          :href=$page.post.hnLink
-          target="_blank"
-        >
-          <i class="text-3xl text-white lab la-hacker-news"></i>
-          <span class="text-lg font-semibold text-white">HackerNews</span>
-        </a>
-
-        <a
-          v-if=$page.post.redditLink
-          class="flex flex-row items-center px-3 space-x-2 bg-red-600 rounded-lg hover:bg-red-700"
-          :href=$page.post.redditLink
-          target="_blank"
-        >
-          <i class="text-3xl text-white lab la-reddit"></i>
-          <span class="text-lg font-semibold text-white">Reddit</span>
-        </a>
-      </div>
-    </div>
+    <discussOn
+      :twitterLink=$page.post.twitterLink
+      :hnLink=$page.post.hnLink
+      :redditLink=$page.post.redditLink
+    />
 
     <webMentions
       :wmArray=$page.mentions
@@ -127,6 +98,7 @@
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 import webMentions from "../components/webMentions"
+import discussOn from "../components/discussOn"
 
 export default {
   data() {
@@ -198,6 +170,7 @@ export default {
     socialShareButtons,
     fullWidthNewsletter,
     webMentions,
+    discussOn
   },
 }
 </script>

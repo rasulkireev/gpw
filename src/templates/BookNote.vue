@@ -42,6 +42,13 @@
     >
     </fullWidthNewsletter>
 
+    <discussOn
+      :twitterLink=$page.bookNote.twitterLink
+      :hnLink=$page.bookNote.hnLink
+      :redditLink=$page.bookNote.redditLink
+    />
+
+
     <webMentions
       :wmArray=$page.mentions
       :title='this.title'
@@ -69,6 +76,9 @@
       unsplashImageID
       indieboundLink
       amazonLink
+      twitterLink
+      hnLink
+      redditLink
     }
     mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
       totalCount
@@ -108,6 +118,7 @@
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 import webMentions from "../components/webMentions"
+import discussOn from "../components/discussOn"
 
 export default {
   data() {
@@ -178,6 +189,7 @@ export default {
     socialShareButtons,
     fullWidthNewsletter,
     webMentions,
+    discussOn,
   },
 }
 </script>

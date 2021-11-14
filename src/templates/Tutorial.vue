@@ -26,6 +26,13 @@
       >
     </fullWidthNewsletter>
 
+    <discussOn
+      :twitterLink=$page.tutorial.twitterLink
+      :hnLink=$page.tutorial.hnLink
+      :redditLink=$page.tutorial.redditLink
+    />
+
+
     <webMentions
       :wmArray=$page.mentions
       :title=$page.tutorial.title
@@ -49,6 +56,9 @@
       content
       icon
       path
+      twitterLink
+      hnLink
+      redditLink
     }
     mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
       totalCount
@@ -89,6 +99,7 @@
 import fullWidthNewsletter from "../components/fullWidthNewsletter"
 import socialShareButtons from "../components/socialShareButtons"
 import webMentions from "../components/webMentions"
+import discussOn from "../components/discussOn"
 
 export default {
   data() {
@@ -160,6 +171,7 @@ export default {
     socialShareButtons,
     fullWidthNewsletter,
     webMentions,
+    discussOn,
   },
 }
 </script>

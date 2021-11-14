@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4 mb-6 border-2 border-green-300 rounded">
+    <div class="p-4 my-4 border-2 border-green-300 rounded">
         <h2 class="text-2xl font-semibold">{{ title }}</h2>
         <p class="mb-2 text-xl">
           {{ description }}
@@ -31,7 +31,7 @@ import axios from "axios";
 
 export default {
     props: ['title', 'description', 'tags', 'metadata'],
-    
+
     data() {
         return {
             formData: {
@@ -44,13 +44,13 @@ export default {
     },
 
     methods: {
-        encode(data) {  
+        encode(data) {
             const formData = new FormData();
-            
+
             for (const key of Object.keys(data)) {
                 formData.append(key, data[key]);
             }
-            
+
             return formData;
         },
 
@@ -60,7 +60,7 @@ export default {
             };
 
             axios.post(
-                location.href, 
+                location.href,
                 this.encode({
                     'form-name': e.target.getAttribute("name"),
                     ...this.formData,
