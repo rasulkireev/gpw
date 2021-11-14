@@ -49,9 +49,6 @@
       :indiehackersLink=$page.bookNote.indiehackersLink
     />
 
-    <div>{{$page.bookNote.indiehackersLink}}</div>
-
-
     <webMentions
       :wmArray=$page.mentions
       :title='this.title'
