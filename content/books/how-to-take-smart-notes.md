@@ -10,9 +10,10 @@ dateCreated: 2021-11-13
 dateUpdated: 2021-11-13
 category: "Writing"
 type: book
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1459952137849430022"
+hnLink: "https://news.ycombinator.com/item?id=29219286"
 redditLink: ""
+indiehackersLink: ""
 indieboundLink: https://www.indiebound.org/book/9781542866507
 amazonLink: https://amzn.to/30ipIZq
 unsplashImageID: kt6fQoFlY4E

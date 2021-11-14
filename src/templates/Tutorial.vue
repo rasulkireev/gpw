@@ -30,6 +30,7 @@
       :twitterLink=$page.tutorial.twitterLink
       :hnLink=$page.tutorial.hnLink
       :redditLink=$page.tutorial.redditLink
+      :indiehackersLink=$page.tutorial.indiehackersLink
     />
 
 
@@ -59,6 +60,7 @@
       twitterLink
       hnLink
       redditLink
+      indiehackersLink
     }
     mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
       totalCount

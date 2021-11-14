@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: This is my attempt to review everything that I made happen, and that happened to me in 2019. It is crucial to remind yourself of the things you regularly did. Writing this post was very gratifying.
 ---
 

@@ -12,6 +12,7 @@ type: Tutorial
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: My thoughts on the Open Source community and the culture behind it.
 ---
 

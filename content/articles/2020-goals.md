@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: It is important to set some goals for the future year too. This is my attmept to capture my goals.
 ---
 

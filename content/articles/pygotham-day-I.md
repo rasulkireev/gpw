@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: First Day of my first conference. I tried to make good notes during the talks I attended.
 ---
 
@@ -159,6 +160,7 @@ Def Foo(type: str)  -> str
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
   Return
 ```
 * With mypy linters work better

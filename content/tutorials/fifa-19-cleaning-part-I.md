@@ -12,6 +12,7 @@ type: Tutorial
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: My first start-to-end Data Science project. I am going to be looking at FIFA 19 player database. In this part I talk about Data Cleaning.
 ---
 
@@ -133,6 +134,7 @@ There are generally 3 body type: Lean, Normal and Stocky. There are exceptions, 
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 
 ```python
 df.loc[df['Body Type'] == "Lean", 'Body Type'] = 1

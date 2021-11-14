@@ -36,6 +36,7 @@ Settings > Inbox tab > set Inbox type: to Default > uncheck all Categories: exce
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 
 ---
 

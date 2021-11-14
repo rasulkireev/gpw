@@ -12,6 +12,7 @@ type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1295236499357794305"
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: Couple of thought about reading and its benefits.
 ---
 

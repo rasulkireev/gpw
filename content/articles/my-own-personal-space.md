@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: My Own Personal Space. So Cool.
 ---
 

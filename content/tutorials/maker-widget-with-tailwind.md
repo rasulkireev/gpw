@@ -12,6 +12,7 @@ type: Tutorial
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: In this post we are making a simple Maker Widget with TailwindCSS.
 ---
 

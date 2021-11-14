@@ -1,5 +1,5 @@
 <template>
-    <div v-if="twitterLink || hnLink || redditLink" class="my-4 text-gray-900">
+    <div v-if="twitterLink || hnLink || redditLink || indiehackersLink" class="my-4 text-gray-900">
       <p class="mb-2 text-xl font-semibold text-gray-800">Discuss on</p>
       <div class="flex flex-row space-x-2">
         <a
@@ -31,6 +31,17 @@
           <i class="text-3xl text-white lab la-reddit"></i>
           <span class="text-lg font-semibold text-white">Reddit</span>
         </a>
+
+        <a
+          v-if=indiehackersLink
+          class="flex flex-row items-center px-3 space-x-2 bg-blue-900 rounded-lg hover:bg-blue-700"
+          :href=indiehackersLink
+          target="_blank"
+        >
+          <!-- <i class="text-3xl text-white lab la-reddit"></i> -->
+          <span class="text-lg font-semibold text-white">Indiehackers</span>
+        </a>
+
       </div>
     </div>
 </template>
@@ -40,7 +51,8 @@ export default {
   props: {
     twitterLink: String,
     hnLink: String,
-    redditLink: String
+    redditLink: String,
+    indiehackersLink: String,
   }
 }
 </script>

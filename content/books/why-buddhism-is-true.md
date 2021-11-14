@@ -13,6 +13,7 @@ type: book
 twitterLink: "https://twitter.com/rasulkireev/status/1430357928809275394"
 hnLink: "https://news.ycombinator.com/item?id=28297460"
 redditLink: ""
+indiehackersLink: ""
 indieboundLink: https://www.indiebound.org/book/9781439195468
 amazonLink: https://amzn.to/3DcrRoE
 unsplashImageID: xE0b_dSVf7A

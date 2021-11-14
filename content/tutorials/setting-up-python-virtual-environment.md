@@ -12,6 +12,7 @@ type: Tutorial
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: How to set up a virtual environment for your Django Project, or any other Python project, for that matter.
 ---
 

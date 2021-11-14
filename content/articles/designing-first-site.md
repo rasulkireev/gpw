@@ -12,6 +12,7 @@ type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1240339394319527936"
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: When I started developing my personal website I\'ve had some difficulties. In this post I try to share what you should do to avoid those.
 ---
 

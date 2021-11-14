@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: Launching a new hobby project. I am making a curated list of products built with Django.
 ---
 

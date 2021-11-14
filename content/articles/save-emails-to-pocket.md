@@ -12,6 +12,7 @@ type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1268912329263022082"
 hnLink: "https://news.ycombinator.com/item?id=23428962"
 redditLink: ""
+indiehackersLink: ""
 description: In this post I share how I save email to my 'Pocket' so that I can make notes on them. This is very useful for various email courses or other email with valuable content.
 ---
 

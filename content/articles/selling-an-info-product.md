@@ -12,6 +12,7 @@ type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1253306975762472961"
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: "These are the notes I took and lessons I learned when listening Adam Wathan's Presentation at Microconf. In his talk, 'Nailing your first launch', he talks about the steps necessary for a successful product launch."
 ---
 

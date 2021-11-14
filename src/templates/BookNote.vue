@@ -46,7 +46,10 @@
       :twitterLink=$page.bookNote.twitterLink
       :hnLink=$page.bookNote.hnLink
       :redditLink=$page.bookNote.redditLink
+      :indiehackersLink=$page.bookNote.indiehackersLink
     />
+
+    <div>{{$page.bookNote.indiehackersLink}}</div>
 
 
     <webMentions
@@ -79,6 +82,7 @@
       twitterLink
       hnLink
       redditLink
+      indiehackersLink
     }
     mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
       totalCount

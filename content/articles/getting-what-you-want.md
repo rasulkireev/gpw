@@ -15,6 +15,7 @@ type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1323583172316221441"
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: As a general rule in life, you should provide more value to society than you consume. This should be, at the very least, your goal.
 ---
 

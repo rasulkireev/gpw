@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: Second Day of my first conference ever. I tried to make good notes during the talks I attended.
 ---
 

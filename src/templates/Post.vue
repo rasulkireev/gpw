@@ -30,6 +30,7 @@
       :twitterLink=$page.post.twitterLink
       :hnLink=$page.post.hnLink
       :redditLink=$page.post.redditLink
+      :indiehackersLink=$page.post.indiehackersLink
     />
 
     <webMentions
@@ -58,6 +59,7 @@
       twitterLink
       hnLink
       redditLink
+      indiehackersLink
     }
     mentions: allWebMention (filter: { wmTarget: { regex: $path } }) {
       totalCount

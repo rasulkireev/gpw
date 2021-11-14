@@ -12,6 +12,7 @@ type: article
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: "In this post, I wanted to share some of my reflections on the depressive state that I went through. I'd like to share some of my thoughts that were running through my head and what helped me get over."
 ---
 

@@ -139,6 +139,7 @@ Def Foo(type: str)  -> str
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
   Return
 ```
 * With mypy linters work better

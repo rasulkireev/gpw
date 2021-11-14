@@ -14,6 +14,7 @@ type: book
 twitterLink: "https://twitter.com/rasulkireev/status/1451565242140536838"
 hnLink: "https://news.ycombinator.com/item?id=28959445"
 redditLink: ""
+indiehackersLink: "https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-art-of-learning-97312da72e"
 indieboundLink: https://www.indiebound.org/book/9780743277464
 amazonLink: https://amzn.to/3GcKREH
 unsplashImageID: nEbMedmVwgw

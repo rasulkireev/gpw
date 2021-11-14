@@ -14,6 +14,7 @@ type: Tutorial
 twitterLink: "https://twitter.com/rasulkireev/status/1322499651732385792"
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project.
 ---
 

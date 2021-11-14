@@ -12,6 +12,7 @@ type: Tutorial
 twitterLink: ""
 hnLink: ""
 redditLink: ""
+indiehackersLink: ""
 description: Making your first open source contribution. There is nothing to be scared about! We'll got through this together.
 ---
 
