@@ -12,10 +12,9 @@
           <p class="text-lg font-normal">Rating: <span class="font-bold">{{ $page.bookNote.rating }}</span>/10</p>
           <p class="text-lg font-normal">Date Read: <span class="font-bold">{{ $page.bookNote.dateRead }}</span></p>
           <p>
-            Buy on
-            <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.indieboundLink">IndieBound</a>
-            |
-            <a class="text-lg font-normal text-blue-600 hover:text-blue-800" :href="$page.bookNote.amazonLink">Amazon (affiliate link)</a>
+            <a class="text-lg font-normal text-blue-600 hover:text-blue-800" v-if="$page.bookNote.notAffiliateLink" :href="$page.bookNote.notAffiliateLink">Non Affiliate Link</a>
+            <span v-if="$page.bookNote.notAffiliateLink && $page.bookNote.affiliateLink">|</span>
+            <a class="text-lg font-normal text-blue-600 hover:text-blue-800" v-if="$page.bookNote.affiliateLink" :href="$page.bookNote.affiliateLink">Affiliate Link</a>
           </p>
         </div>
       </div>
@@ -74,8 +73,8 @@
       content
       cover
       unsplashImageID
-      indieboundLink
-      amazonLink
+      notAffiliateLink
+      affiliateLink
       twitterLink
       hnLink
       redditLink

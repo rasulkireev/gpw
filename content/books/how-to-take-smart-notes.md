@@ -14,8 +14,9 @@ twitterLink: "https://twitter.com/rasulkireev/status/1459952137849430022"
 hnLink: "https://news.ycombinator.com/item?id=29219286"
 redditLink: ""
 indiehackersLink: ""
-indieboundLink: https://www.indiebound.org/book/9781542866507
-amazonLink: https://amzn.to/30ipIZq
+notAffiliateLink: https://www.indiebound.org/book/9781542866507
+affiliateLink: https://amzn.to/30ipIZq
+hasSummaries: n
 unsplashImageID: kt6fQoFlY4E
 tags:
     - Nonfiction

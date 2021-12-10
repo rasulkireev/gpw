@@ -14,8 +14,9 @@ twitterLink: "https://twitter.com/rasulkireev/status/1340323684372934656"
 hnLink: "https://news.ycombinator.com/item?id=25478102"
 redditLink: ""
 indiehackersLink: ""
-indieboundLink: https://www.indiebound.org/book/9780761178972
-amazonLink: https://amzn.to/30HsqEC
+notAffiliateLink: https://www.indiebound.org/book/9780761178972
+affiliateLink: https://amzn.to/30HsqEC
+hasSummaries: n
 unsplashImageID: 7okkFhxrxNw
 tags:
     - Creativity
