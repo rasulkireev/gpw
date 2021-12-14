@@ -1,10 +1,10 @@
 <template>
-    <div v-if="twitterLink || hnLink || redditLink || indiehackersLink" class="my-4 text-gray-900">
+    <div v-if="twitterLink || hnLink || redditLink || indiehackersLink" class="my-4 text-gray-900 flex-root">
       <p class="mb-2 text-xl font-semibold text-gray-800">Discuss on</p>
-      <div class="flex flex-row space-x-2">
+      <div class="flex flex-row flex-wrap -m-2">
         <a
           v-if=twitterLink
-          class="flex flex-row items-center px-3 py-2 space-x-2 bg-blue-500 rounded-lg hover:bg-blue-700"
+          class="flex flex-row items-center px-3 py-2 m-2 space-x-2 bg-blue-500 rounded-lg hover:bg-blue-700"
           :href=twitterLink
           target="_blank"
         >
@@ -14,7 +14,7 @@
 
         <a
           v-if=hnLink
-          class="flex flex-row items-center px-3 space-x-2 bg-yellow-600 rounded-lg hover:bg-yellow-700"
+          class="flex flex-row items-center px-3 py-2 m-2 space-x-2 bg-yellow-600 rounded-lg hover:bg-yellow-700"
           :href=hnLink
           target="_blank"
         >
@@ -24,7 +24,7 @@
 
         <a
           v-if=redditLink
-          class="flex flex-row items-center px-3 space-x-2 bg-red-600 rounded-lg hover:bg-red-700"
+          class="flex flex-row items-center px-3 py-2 m-2 space-x-2 bg-red-600 rounded-lg hover:bg-red-700"
           :href=redditLink
           target="_blank"
         >
@@ -34,7 +34,7 @@
 
         <a
           v-if=indiehackersLink
-          class="flex flex-row items-center px-3 space-x-2 bg-blue-900 rounded-lg hover:bg-blue-700"
+          class="flex flex-row items-center px-3 py-2 m-2 space-x-2 bg-blue-900 rounded-lg hover:bg-blue-700"
           :href=indiehackersLink
           target="_blank"
         >
