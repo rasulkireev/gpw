@@ -11,10 +11,10 @@ dateCreated: 2021-12-14
 dateUpdated: 2021-12-14
 category: "Language"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1470830291069464587
+hnLink: https://news.ycombinator.com/item?id=29555634
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/rgebb8/top_lessons_and_thoughts_from_fluent_forever/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-fluent-forever-4e5f419c85
 notAffiliateLink: https://fluent-forever.com/book/
 affiliateLink: https://amzn.to/3GFI1rt
 hasSummaries: y
