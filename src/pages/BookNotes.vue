@@ -6,7 +6,7 @@
                     <g-image :src="note.node.cover" class="self-start inline w-24 h-auto align-middle md:pt-3" />
                     <div class="md:flex-col md:space-y-2 md:flex">
                       <div class="flex flex-col space-y-2">
-                          <p class="text-xl font-semibold md:text-2xl">{{ note.node.title }}</p>
+                          <p class="text-xl font-semibold md:text-2xl">{{ note.node.title }} by {{ note.node.author }}</p>
                           <p class="text-sm text-gray-600">
                             <span>Rating: {{ note.node.rating }}/10</span>
                             <span class="ml-2">Date Read: <time class="dt-published" itemprop="dateCreated" :datetime="note.node.dateRead">{{ note.node.dateRead }}</time></span>
@@ -30,6 +30,7 @@ query BookNotes {
       node {
         id
         title
+        author
         cover
         intro
         rating

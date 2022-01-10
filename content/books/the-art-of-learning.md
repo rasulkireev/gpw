@@ -6,7 +6,7 @@ rating: 9
 bookSlug: the-art-of-learning-book-review
 intro: "In this book the reader is taken on a journey of learning, improving, and personal growth. Josh is an incredible human, who achieved great success in different fields all thanks to his ability to learn. In this book, we get to see stories from his life as he tells them and see what is it that makes a great learner."
 cover: "./images/the-art-of-learning.jpg"
-dateRead: 2020-09-15
+dateRead: 2021-09-15
 dateCreated: 2021-10-22
 dateUpdated: 2021-10-22
 category: "Learning"
