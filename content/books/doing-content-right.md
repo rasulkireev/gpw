@@ -6,7 +6,7 @@ rating: 8
 bookSlug: doing-content-right-book-review
 intro: "Steph is taking you on a journey from figuring out what you can write about all the way to earning money from it."
 cover: "./images/doing-content-right.jpg"
-dateRead: 2020-12-02
+dateRead: 2021-12-02
 dateCreated: 2021-12-04
 dateUpdated: 2021-12-04
 category: "Content"
