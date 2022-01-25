@@ -11,10 +11,10 @@ dateCreated: 2022-01-25
 dateUpdated: 2022-01-25
 category: "Classics"
 type: book
-twitterLink: ""
-hnLink: ""
-redditLink: ""
-indiehackersLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1486060943268323333"
+hnLink: "https://news.ycombinator.com/item?id=30076910"
+redditLink: "https://www.reddit.com/r/BettermentBookClub/comments/scm2ue/top_lessons_and_thoughts_from_platos_apology/"
+indiehackersLink: "https://www.indiehackers.com/post/top-lessons-and-thoughts-from-platos-apology-46a3dc56d8"
 notAffiliateLink: http://classics.mit.edu/Plato/apology.html
 affiliateLink: https://amzn.to/3qYYdii
 hasSummaries: n
@@ -33,24 +33,24 @@ tags:
 
 The Apology is Plato's record of the speech given by Socrates in court as he tries to defend himself in 399BCE against the accusations of "corrupting the young, and by not believing in the gods in whom the city believes".
 
-The are three parts to this work (Spoiler Alert).
+There are three parts to this work (Spoiler Alert).
 
 1. Socrates defends himself against accusations.
 2. Socrates argues for various punishments after the jury finds Socrates guilty.
-3. Socrates last words after the jury condemns Socrates to death.
+3. Socrates' last words after the jury condemns Socrates to death.
 
 
 ## My Thoughts
 
-These are 3 very different "scenes". And we get to see Socrates in each one of them. It is fascinating to see wha arguments Socrates comes up with and how he presents them to the public. It is very ispiring to see how a man handles himself when sentenced to death.
+These are 3 very different "scenes". And we get to see Socrates in each one of them. It is fascinating to see what arguments Socrates comes up with and how he presents them to the public. It is very inspiring to see how a man handles himself when sentenced to death.
 
-For me, this work has highest ratio of notes to words (ie. how many notes I took compared with the size of the work).
+For me, this work has the highest ratio of notes to words (ie. how many notes I took compared with the size of the work).
 
 Here are some life lessons that I have picked up from this work:
 - You should always show humility by assuming that you don't know something. If you always assume that you know everything, you can't really learn anything new.
 - We only fear death because we know nothing about it. In fact, death is the ultimate test to "we fear what we don't know" since it is likely we will never find out what happens after death.
 - Start by trying to improve yourself, not others.
-- "Good men" don't spend much time thinking on how to avoid death, but rather they think about doing good deeds. That's all that matters.
+- "Good men" don't spend much time thinking about how to avoid death, but rather they think about doing good deeds. That's all that matters.
 
 Some interesting stats:
 ![Top Words Used in Apology by Plato](./images/apology-top-words.jpg)
