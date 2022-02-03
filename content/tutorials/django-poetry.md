@@ -1,7 +1,7 @@
 ---
 title: Managing a Django Project with Poetry
 dateCreated: 2020-10-31
-dateUpdated: 2020-10-31
+dateUpdated: 2022-02-03
 published: true
 slug: managing-Django-with-poetry
 icon: ./icons/broken_link.png
@@ -17,6 +17,8 @@ redditLink: ""
 indiehackersLink: ""
 description: Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to PyPI, manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how Poetry works and all its features. Today I just want to focus on how to configure it for a Django project.
 ---
+
+Update (02/03/2022): I wrote an [updated guide on how to create a django project with poetry](https://builtwithdjango.com/blog/basic-django-setup) for the builtwithdjango site. It focuses on creating a project with poetry. In the future I will also write a guide on how to migrate a project to poetry.
 
 Poetry is relatively new packaging and dependency manager. It makes it very easy to upload libraries to [PyPI](https://pypi.org/), manage dependencies visually, and has a couple of handy features. Today, I'm not going to do a deep dive into how [Poetry](https://python-poetry.org/) works and all its features. Today I just want to focus on configuring a [Django](https://www.djangoproject.com/) project.
 
