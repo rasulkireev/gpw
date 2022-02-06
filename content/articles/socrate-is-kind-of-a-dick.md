@@ -12,9 +12,9 @@ keywords:
 - Philosophy
 category: Philosphy
 type: article
-twitterLink: ""
-hnLink: ""
-redditLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1490460746186121216"
+hnLink: "https://news.ycombinator.com/item?id=30237969"
+redditLink: "https://www.reddit.com/r/ClassicalEducation/comments/smaf36/socrates_is_kind_of_a_dck/"
 indiehackersLink: ""
 description: In this post, I want to share my opinion on Socrates' style of conversation and argumentation, and why I think he is being a little bit of a dick.
 ---
