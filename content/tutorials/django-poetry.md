@@ -1,7 +1,7 @@
 ---
 title: Managing a Django Project with Poetry
 dateCreated: 2020-10-31
-dateUpdated: 2022-02-03
+dateUpdated: 2022-02-22
 published: true
 slug: managing-Django-with-poetry
 icon: ./icons/broken_link.png
@@ -31,7 +31,7 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 ## 2. Create a Directory for you Django Project
 
 ```bash
-mkdir django_poetry_example && ls django_poetry_example
+mkdir django_poetry_example && cd django_poetry_example
 ```
 
 ## 3. Initiate a Poetry Project
@@ -42,16 +42,47 @@ poetry init
 
 You will be asked to confirm the information about your project. You can skip through most of it.
 
-![Poetry Init Output.png](./images/poetry_init.png)
+```
+This command will guide you through creating your pyproject.toml config.
+
+Package name [django_poetry_example]:
+Version [0.1.0]:
+Description []:
+Author [Rasul Kireev <rasul.kireev@guycarp.com>, n to skip]:
+License []:
+Compatible Python versions [^3.7]:
+
+Would you like to define your main dependencies interactively? (yes/no) [yes] no
+Would you like to define your development dependencies interactively? (yes/no) [yes] no
+Generated file
+
+[tool.poetry]
+name = "django_poetry_example"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+Do you confirm generation? (yes/no) [yes]
+```
 
 ## 4. Add the Necessary Dependencies
 
-Run `poetry add django`. Poetry will add `django` to the `pyproject.toml` file under the dependencies section. A virtual environment will also be created for you.
+Run `poetry add django` in your terminal. Poetry will add `django` to the `pyproject.toml` file under the dependencies section. A virtual environment will also be created for you.
 
 ## 5. Start you Django Project
 
 ```
-django-admin startproject django_poetry_example .
+poetry run django-admin startproject django_poetry_example .
 ```
 
 ## 6. Working on your Django Project
@@ -60,6 +91,8 @@ When you need to run any python function (for example, `python manage.py creates
 
 1. You can leverage `poetry run`, which will run against the current project's dependencies. The command will be this: `poetry run python manage.py createsuperuser`.
 2. You can activate the virtual environment with a `poetry shell` command. Now you can run python commands, as is. They will be run with dependencies you have installed.
+
+I prefer the first method, for an explicit approach.
 
 ## Bonus. Export dependencies to a requirements.txt
 
