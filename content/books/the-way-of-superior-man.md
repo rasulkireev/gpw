@@ -11,9 +11,9 @@ dateCreated: 2022-06-04
 dateUpdated: 2022-06-04
 category: "Self-Help"
 type: book
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1533267693838733312"
 hnLink: ""
-redditLink: ""
+redditLink: "https://www.reddit.com/r/BettermentBookClub/comments/v53i3n/top_lessons_and_thoughts_from_the_superior_man/"
 indiehackersLink: ""
 notAffiliateLink: https://www.indiebound.org/book/9781622038329
 affiliateLink: https://amzn.to/3MwyeH7
@@ -29,30 +29,30 @@ tags:
 
 ## Summary
 
-Here are some useful tidbits I learnt from this book, that stuck with me the most:
+Here are some useful tidbits I learned from this book, that stuck with me the most:
 
-- Somtimes our woman can act as a proxy to he real world. If your SO is giving you trouble with something you think is unfair, think about the universe, it won't care what's fair and what's not. You just have to learn to deal with it.
-- Our significant others (the feminine) improve better from appreciation instead of criticism. If you want your lady to do something more of, you got to complement her on that action, however small.
+- Sometimes our women can act as a proxy for the real world. If your SO is giving you trouble with something you think is unfair, think about the universe, it won't care what's fair and what's not. You just have to learn to deal with it.
+- Our significant others (the feminine) improve better from appreciation instead of criticism. If you want your lady to do something more, you got to compliment her on that action, however small.
 - Men must have a goal in life to work their ass off towards.
 - As time went by, relationships between man and woman have equalized (which can and is a good thing), but that can dull out some emotions as well. Do not forget to show your passion to your significant other, as people would in the old days.
-- You should not be dependent on opinions of others, whomever they may be: father, boss, wife, etc.
-- Be confident and brave enough to admit your fears. Your partially define you. And they define the most useful parts. By knowing your fears you can make decisions accordingly and improve your life greatly.
+- You should not be dependent on the opinions of others, whoever they may be father, boss, wife, etc.
+- Be confident and brave enough to admit your fears. They partially define you. And they define the most useful parts. By knowing your fears you can make decisions accordingly and improve your life greatly.
 - You need to be able to receive criticism from your friends well. And be able to give similar criticism to your friends when they need it. Make sure you make friends with people who can do both.
 - If your lady has a problem she shares with you, don't analyze it or try to solve it. Just hear her out and offer your support and love, that's all she needs.
 - Try "leading" more often. Instead of asking "what do you want to watch? or Where do you want to go tonight? Pick something that you both are likely to enjoy and go with it. If you got it wrong no worries, it's not a life or death situation.
 - Try to guess/understand what she wants/needs and give/do that for her. (8 options here 😆)
 - Often her feminine feelings will be a much better basis for a decision than your masculine analysis. So, encourage her to feel into the situation and trust her feelings.
-- You need to have good friends or as author puts it: "A man rediscovers and fine tunes his purpose in solitude, in challenging situations, and in the company of other men who won’t settle for his bullshit."
+- You need to have good friends or as the author puts it: "A man rediscovers and fine-tunes his purpose in solitude, in challenging situations, and in the company of other men who won’t settle for his bullshit."
 
 You can see more in the [highlights](#highlights) section.
 
 ## My Thoughts
 
-I have read it a while back and have forgotten my exact feelings about this book. I do remember being feel quite motivated and relieved. This book provides men with a path to being good. Good to their women, good to themselves and good towards the world. It gives you advice and direction your should be looking towards, but all the biggest decisions in life you still get to decide for yourself.
+I read it a while back and have forgotten my exact feelings about this book. I do remember feeling quite motivated and relieved. This book provides men with a path to being good. Good to their women, good to themselves, and good towards the world. It gives you advice and direction you should be looking towards, but in all the biggest decisions in life, you still get to decide for yourself.
 
 As you can see from the score I gave this book, I would certainly not consider reading this book a waste of time. I would certainly recommend it to my friends.
 
-It would be interesting to re-read this book in a few years time, as it would give a very different impression and advice as you go along your life's journey. Eve nthe same advice can apply differently during different stages in life.
+It would be interesting to re-read this book in a few years, as it would give a very different impression and advice as you go along your life's journey. Even the same advice can apply differently during different stages in life.
 
 ## Highlights
 
