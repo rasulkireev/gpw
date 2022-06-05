@@ -14,7 +14,7 @@ type: book
 twitterLink: "https://twitter.com/rasulkireev/status/1533267693838733312"
 hnLink: ""
 redditLink: "https://www.reddit.com/r/BettermentBookClub/comments/v53i3n/top_lessons_and_thoughts_from_the_superior_man/"
-indiehackersLink: ""
+indiehackersLink: "https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-superior-man-8b14ab672b"
 notAffiliateLink: https://www.indiebound.org/book/9781622038329
 affiliateLink: https://amzn.to/3MwyeH7
 hasSummaries: n
