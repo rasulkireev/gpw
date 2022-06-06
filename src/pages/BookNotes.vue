@@ -1,14 +1,14 @@
 <template>
     <Layout>
         <section>
-            <div class="flex flex-col mx-auto mb-10 space-y-6 text-xl">
-              <p class="mb-4 text-xl">
+            <div class="flex flex-col mx-auto mb-4 space-y-4 text-lg">
+              <p class="text-lg">
                   These book notes were heavily influenced by <a
                         class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
-                        to="https://sive.rs/book"
+                        href="https://sive.rs/book"
                       >Derek Sivers</a> and <a
                         class="text-lg font-semibold text-blue-700 border-b-2 border-blue-200 hover:bg-blue-200 hover:border-blue-600"
-                        to="https://www.nateliason.com/notes"
+                        href="https://www.nateliason.com/notes"
                       >Nat Eliason</a>.
               </p>
             </div>

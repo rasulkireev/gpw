@@ -151,8 +151,8 @@ module.exports = {
         {
             use: '@zefman/gridsome-source-webmention',
             options: {
-              domain: 'rasulkireev.com', // Your webmention domain
-              token: GRIDSOME_WEBMENTIONS_TOKEN, // Your secret webmention token
+              domain: 'rasulkireev.com',
+              token: GRIDSOME_WEBMENTIONS_TOKEN,
             },
         }
     ],
