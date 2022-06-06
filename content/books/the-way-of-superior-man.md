@@ -12,7 +12,7 @@ dateUpdated: 2022-06-04
 category: "Self-Help"
 type: book
 twitterLink: "https://twitter.com/rasulkireev/status/1533267693838733312"
-hnLink: ""
+hnLink: "https://news.ycombinator.com/item?id=31640879"
 redditLink: "https://www.reddit.com/r/BettermentBookClub/comments/v53i3n/top_lessons_and_thoughts_from_the_superior_man/"
 indiehackersLink: "https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-superior-man-8b14ab672b"
 notAffiliateLink: https://www.indiebound.org/book/9781622038329
