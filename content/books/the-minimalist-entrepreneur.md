@@ -29,25 +29,25 @@ tags:
 
 ## Summary
 
-These are some of key points that I have picked from reading this book. By no means it is an exhaustive list of things that this book has to offer. For more insigys check out the [highlights](#highlights) section. For even more insights, just buy and read the book, it's awesome.
+These are some of the key points that I have picked from reading this book. By no means it is an exhaustive list of things that this book has to offer. For more insights check out the [highlights](#highlights) section. For even more insights, just buy and read the book, it's awesome.
 
-- Profitability should be your first concern when creating a business. You might be tempted to give your product/service for freee or below the cost at first to attract custoimers, but if your idea is worth anything, customers will come regardless of the price.
-- Do not try to create the next Facebook or Google. Keep your idea simple and start with minimal amount of features. You plan and ideas will change a million times as you go along.
-- Participating/contributing in communities around you is a great way to find business ideas. By participating and being your true self you will start to see people's problems, maybe even your own problems. That't where the best ideas are.
+- Profitability should be your first concern when creating a business. You might be tempted to give your product/service for free or below the cost at first to attract customers, but if your idea is worth anything, customers will come regardless of the price.
+- Do not try to create the next Facebook or Google. Keep your idea simple and start with a minimal amount of features. Your plan and ideas will change a million times as you go along.
+- Participating/contributing in communities around you is a great way to find business ideas. By participating and being your true self you will start to see people's problems, maybe even your own problems. That's where the best ideas are.
 - If you ever feel like you don't belong or don't know something, understand that this is normal and everyone feels that from time to time. What you have to do is to learn from mistakes and continue working.
 - Launch is only for when you have confirmed that your business idea works and not to test if it works. In other words, you should launch only after you have a considerable amount of customers.
-- Don't dismiss you friends and family, they can be your first customers/supporters.
-- In the beginning the best marketing will take time, not your money. Forget about ads, and focus on social outreach (blogging, Twitter, Youtube, etc.)
-- Also consider doing a newsletter. Each subscriber is worth a lot more that a follower. Give away some sort of content for free to increase subscribers.
+- Don't dismiss your friends and family, they can be your first customers/supporters.
+- In the beginning, the best marketing will take time, not money. Forget about ads, and focus on social outreach (blogging, Twitter, Youtube, etc.)
+- Also consider doing a newsletter. Each subscriber is worth a lot more than a follower. Give away some sort of content for free to increase subscribers.
 - You don't have to go the VC route, you can raise from your community directly.
 
 ## My Thoughts
 
-This is my favorite book on the topic of entrepreneurhip. I may be biased as I have been following Sahil for a while now. Even, with that bias, I think anyone who wants to make money with his/her own business should give this book a read.
+This is my favorite book on the topic of entrepreneurship. I may be biased as I have been following Sahil for a while now. Even, with that bias, I think anyone who wants to make money with his/her own business should give this book a read.
 
-Sahil, takes you on a journey from coming up with an idea all the way to creating a culture you want to work in. He discusses the topics of marketing, profitability, planning, sourcing first customers and more.
+Sahil takes you on a journey from coming up with an idea all the way to creating a culture you want to work in. He discusses the topics of marketing, profitability, planning, sourcing first customers, and more.
 
-It doesn't matter what stage you are at, whether just trying to find an idea to work on, or already have a profitable company, you will surely learn something new from Sahil.
+It doesn't matter what stage you are at, whether just trying to find an idea to work on, or already having a profitable company, you will surely learn something new from Sahil.
 
 ## Highlights
 
