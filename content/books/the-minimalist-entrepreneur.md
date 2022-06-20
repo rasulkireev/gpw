@@ -11,14 +11,14 @@ dateCreated: 2022-06-18
 dateUpdated: 2022-06-18
 category: "Business"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1538688933373956096
+hnLink: https://news.ycombinator.com/item?id=31805131
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/vg9c6b/top_lessons_and_thoughts_from_the_minimalist/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-minimalist-entrepreneur-946f342e22
 notAffiliateLink: https://www.indiebound.org/book/9780593192399
 affiliateLink: https://amzn.to/3beq60F
 hasSummaries: n
-unsplashImageID: hHCw3V0jg_w
+unsplashImageID: XHW7j8-jXww
 tags:
     - Business
     - Entrepreneirship
