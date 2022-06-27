@@ -11,10 +11,10 @@ dateCreated: 2022-06-26
 dateUpdated: 2022-06-26
 category: "Education"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1541425209932013568
+hnLink: https://news.ycombinator.com/item?id=31894742
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/vlwc4e/top_lessons_and_thoughts_from_the_great/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-great-conversation-0a69c65857
 notAffiliateLink: https://www.indiebound.org/book/9781014363824
 affiliateLink: https://amzn.to/3HS0tPn
 hasSummaries: n
@@ -22,6 +22,8 @@ unsplashImageID: 96DW4Pow3qI
 tags:
     - Education
     - Philosophy
+    - Knowledge
+    - Democracy
 ---
 
 ## Summary
@@ -47,9 +49,9 @@ This book has been written in 1952, and with that in mind it is incredible how m
 
 I don't think it makes too much sense to read this book in a vacuum, but only if you are planning to read the series. You surely be convinced that spending the time to read this challenging books is worth your time and effort.
 
-Apart from convincing you to approach the series they will do a great job of telling you how to approach it (there are multiple approaches). The approach I have decided to follow is a 10 Year Reading Plan, which slowly gets you into the minds of the Greatest People in our history. Convinently, they have sorted these works by the level of difficulty, and so as you follow along you will get more and more accustomed to authors and topics. And by the end of this series you will be able to tackle any works that your heart and brain desire.
+Apart from convincing you to approach the series they will do a great job of telling you how to approach it (there are multiple approaches). The approach I have decided to follow is a 10 Year Reading Plan, which slowly gets you into the minds of the Greatest People in our history. Conveniently, they have sorted these works by the level of difficulty, and so as you follow along you will get more and more accustomed to authors and topics. And by the end of this series you will be able to tackle any works that your heart and brain desire.
 
-By reading these books you can take part in the Great Conversation between those authors. While reading you will find them referring to each other and being influenced by each other. Their thoughts and opinions are built on top of their predecessors. Stading on the shoulders of giants.
+By reading these books you can take part in the Great Conversation between those authors. While reading you will find them referring to each other and being influenced by each other. Their thoughts and opinions are built on top of their predecessors. Standing on the shoulders of giants.
 
 ## Highlights
 
