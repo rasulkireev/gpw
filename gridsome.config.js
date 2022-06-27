@@ -148,6 +148,28 @@ module.exports = {
                 })
             }
         },
+        // Library.json https://tomcritchlow.com/2020/04/15/library-json/
+        {
+            use: '@microflash/gridsome-plugin-feed',
+            options: {
+                contentTypes: ['BookNote'],
+                feedOptions: {
+                    title: 'Rasul Kireev Library',
+                    description: "Books Rasul have read.",
+                    feed_url: 'https://rasulkireev.com/library.json',
+                    site_url: 'https://rasulkireev.com'
+                },
+                json: {
+                  enabled: true,
+                  output: '/library.json'
+                },
+                nodeToFeedItem: (node) => ({
+                    title: node.title,
+                    date: node.dateUpdated,
+                    link: 'https://rasulkireev.com/' + node.bookSlug,
+                })
+            }
+        },
         {
             use: '@zefman/gridsome-source-webmention',
             options: {
