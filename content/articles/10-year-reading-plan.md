@@ -9,7 +9,7 @@ unsplashImageID: YLSwjSy7stw
 keywords: ["reading", "classics", "great books"]
 category: Reading
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1545283595039920128"
 hnLink: ""
 redditLink: ""
 indiehackersLink: ""
