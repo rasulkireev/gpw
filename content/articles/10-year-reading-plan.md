@@ -17,48 +17,40 @@ description: I'm starting a 10 Year Reading Plan proposed by Robert Hutchins and
 ---
 import foldableParagraph from '~/components/foldableParagraph.vue'
 
-<foldableParagraph>
 
-  I'm starting a 10 Year Reading Plan proposed in the [1st Volume (The Great Conversation)](/the-great-conversation/) of the "Great Books of the Western World" series.
+I'm starting a 10 Year Reading Plan proposed in the [1st Volume (The Great Conversation)](/the-great-conversation/) of the "Great Books of the Western World" series.
 
-  This plan is great because it is designed to help increase your chances of consuming and understanding classic works that might feel difficult at first (Aristotle, Thomas Acquinas, Hegel, and others).
+This plan is great because it is designed to help increase your chances of consuming and understanding classic works that might feel difficult at first (Aristotle, Thomas Acquinas, Hegel, and others).
 
-  > [Texts] get more difficult from year to year in two ways. The selections get longer, and they deal with more difficult subject matters.
+> [Texts] get more difficult from year to year in two ways. The selections get longer, and they deal with more difficult subject matters.
 
-  See the reading plan with links [below](#reading-list).
+See the reading plan with links [below](#reading-list).
 
-  Right now I'm reading in isolation, but would love to find a group of people who would join me on this journey. I think the best thing one can do to improve understanding is to discuss it with others. If you would like to join me, email me (me at domain of this site).
+Right now I'm reading in isolation, but would love to find a group of people who would join me on this journey. I think the best thing one can do to improve understanding is to discuss it with others. If you would like to join me, email me (me at domain of this site).
 
-  This is an ongoing project / post, so feel free to follow along and join me at whatever stage of the journey you are at. Would love to talk to similar minded people.
-
-</foldableParagraph>
-
+This is an ongoing project / post, so feel free to follow along and join me at whatever stage of the journey you are at. Would love to talk to similar minded people.
 
 ## Great Books
 
-<foldableParagraph>
+About 4 year ago I was reading Mortimer Adler's book "[How to Read a Book](https://www.goodreads.com/book/show/567610.How_to_Read_a_Book?from_search=true&from_srp=true&qid=SEJLp8bb3B&rank=1)", since I wanted to greatly improve how I read. I read a good chunk of the book, but found it a little to dry, so I "dropped" it. Reading it, was not a waste of time, as I learnt quite a bit of things about Analytical reading and reading in general. However, one of the biggest gifts this book has given me is [a list of Recommended Books](https://bathtubbulletin.com/mortimer-adlers-reading-list/) that would go well with the type of reading that Mortimer talked about in the book.
 
-  About 4 year ago I was reading Mortimer Adler's book "[How to Read a Book](https://www.goodreads.com/book/show/567610.How_to_Read_a_Book?from_search=true&from_srp=true&qid=SEJLp8bb3B&rank=1)", since I wanted to greatly improve how I read. I read a good chunk of the book, but found it a little to dry, so I "dropped" it. Reading it, was not a waste of time, as I learnt quite a bit of things about Analytical reading and reading in general. However, one of the biggest gifts this book has given me is [a list of Recommended Books](https://bathtubbulletin.com/mortimer-adlers-reading-list/) that would go well with the type of reading that Mortimer talked about in the book.
+This list intrigued me. I thought that it would be very cool to finish such a list, as if some world secret would open up to me. Obviously I don't think that, but I still do think that books from that list could change someone's life for sure.
 
-  This list intrigued me. I thought that it would be very cool to finish such a list, as if some world secret would open up to me. Obviously I don't think that, but I still do think that books from that list could change someone's life for sure.
+At the time I thought that most of the books were a little difficult for me, to which Mortimer agreed:
 
-  At the time I thought that most of the books were a little difficult for me, to which Mortimer agreed:
+> All of these books are over most people’s heads—sufficiently so, at any rate, to force most readers to stretch their minds to understand and appreciate them.
 
-  > All of these books are over most people’s heads—sufficiently so, at any rate, to force most readers to stretch their minds to understand and appreciate them.
+So I kind of the left the list for some time.
 
-  So I kind of the left the list for some time.
+Fast forward 3 years, after reading a lot of (**newer**) books, and not making many notes, I decided to change my approach. I started to read more thoughtfully. I started to make more highlights, more annotation, more side notes, using various mediums (Kindle, Book Stickies, Journal, etc.). I also synced all these mediumd into [Readwise](https://readwise.io/) and slowly loading all the notes to my [Zettelkasten](/how-to-take-smart-notes/) using [Obsidian](https://obsidian.md/).
 
-  Fast forward 3 years, after reading a lot of (**newer**) books, and not making many notes, I decided to change my approach. I started to read more thoughtfully. I started to make more highlights, more annotation, more side notes, using various mediums (Kindle, Book Stickies, Journal, etc.). I also synced all these mediumd into [Readwise](https://readwise.io/) and slowly loading all the notes to my [Zettelkasten](/how-to-take-smart-notes/) using [Obsidian](https://obsidian.md/).
+I started learning and remebering more from the books I read. Then earlier this year I somehow ran into the book series called the "[Great Books of the Western World](https://en.wikipedia.org/wiki/Great_Books_of_the_Western_World)". I started looking at the contents and realised it is very similar to the one that Mortimer Adler compiled. To my surprise he compiled that one too, with a team from University of Chicago.
 
-  I started learning and remebering more from the books I read. Then earlier this year I somehow ran into the book series called the "[Great Books of the Western World](https://en.wikipedia.org/wiki/Great_Books_of_the_Western_World)". I started looking at the contents and realised it is very similar to the one that Mortimer Adler compiled. To my surprise he compiled that one too, with a team from University of Chicago.
+I thought I'm ready to start reading the old books, the Great Books. I mostly read books on Kindle, but for this, I really wanted to read physical books from the actualy Encyclopædia Britannica publishing. I found the full set printed in 1971 on Ebay for $80, plus $70 for delivery.
 
-  I thought I'm ready to start reading the old books, the Great Books. I mostly read books on Kindle, but for this, I really wanted to read physical books from the actualy Encyclopædia Britannica publishing. I found the full set printed in 1971 on Ebay for $80, plus $70 for delivery.
+![Great Books. Just can't avoid sharing this beautiful collection](./images/great-books.jpeg)
 
-  ![Great Books. Just can't avoid sharing this beautiful collection](./images/great-books.jpeg)
-
-  When I received them, I was in shock. Some of them felt like they were never opened. That is to say condition of most of them was superb. Now I just have to start reading.
-
-</foldableParagraph>
+When I received them, I was in shock. Some of them felt like they were never opened. That is to say condition of most of them was superb. Now I just have to start reading.
 
 ## Reading List
 
