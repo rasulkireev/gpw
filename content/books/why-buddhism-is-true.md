@@ -1,9 +1,9 @@
 ---
 title: "Why Buddhism is True"
 author: "Robert Wright"
-rating: 5
+rating: 4
 bookSlug: "why-buddhism-is-true"
-intro: "Why Buddhism is True feels a little to watery, however I can't judge it fully since I haven't finished it. The reason I did was that after Chapter 7 I wasn't getting any new information."
+intro: "Why Buddhism is True feels a little too watery, however I can't judge it fully since I haven't finished it. The reason I did was that after Chapter 7 I wasn't getting any new information, it felt like 7 chapters of the same thing."
 cover: "./images/why-buddhism-is-true.jpg"
 dateRead: 2021-04-25
 dateCreated: 2021-08-24
