@@ -11,7 +11,7 @@ category: Reading
 type: article
 twitterLink: "https://twitter.com/rasulkireev/status/1545283595039920128"
 hnLink: ""
-redditLink: ""
+redditLink: "https://www.reddit.com/r/books/comments/vub7k6/10_years_of_great_books/"
 indiehackersLink: ""
 description: I'm starting a 10 Year Reading Plan proposed by Robert Hutchins and Mortimer Adler in their book "The Great Conversation". You should join me so that we can learn together better.
 ---
