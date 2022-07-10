@@ -359,7 +359,7 @@ Where possible I'll be adding links to onnline resources where you can read them
       - The First Part of King Henry IV
       - The Second Part of King Henry IV
       - The Life of King Henry V
-  13. Harvy: On the Generation of Animals [Introduction—Exercise 62]
+  13. Harvey: On the Generation of Animals [Introduction—Exercise 62]
   14. Cervantes: Don Quixote [Part II]
   15. Kant: Critique of Judgement [Critique of Teleological Judgement]
   16. Boswell: The Life of Samuel Johnson
