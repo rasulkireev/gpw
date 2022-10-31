@@ -11,10 +11,10 @@ dateCreated: 2022-08-16
 dateUpdated: 2022-08-16
 category: "Productivity"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1587096265183137793
+hnLink: https://news.ycombinator.com/item?id=33406667
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/yieiqa/top_lessons_and_thoughts_from_building_a_second/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-building-a-second-brain-bb1b6eb08f
 notAffiliateLink: https://www.indiebound.org/book/9781982167387
 affiliateLink: https://amzn.to/3QvhRNs
 hasSummaries: n
