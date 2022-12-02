@@ -11,8 +11,8 @@ keywords:
   - "advice"
 category: Self-Improvement
 type: article
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1598747802309361664"
+hnLink: "https://news.ycombinator.com/item?id=33834730"
 redditLink: ""
 indiehackersLink: ""
 description: I think that most advice online is bad. You shouldn't listen to anyone but yourself. Here is why...
