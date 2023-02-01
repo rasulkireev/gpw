@@ -71,7 +71,7 @@ export default {
             .catch(error => console.log(error))
             .then(document.getElementById("myForm").innerHTML = `
                 <div class="w-full p-2 text-lg text-gray-700 bg-green-100 border border-green-700 rounded">
-                    Thank you! I received your submission.
+                    Thank for subscribing! You should receive an email soon.
                 </div>
             `)
         }
