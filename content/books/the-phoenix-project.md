@@ -11,10 +11,10 @@ dateCreated: 2022-03-04
 dateUpdated: 2022-03-04
 category: "Programming"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1632083802628472833
+hnLink: https://news.ycombinator.com/item?id=35023111
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/11i96iv/top_lessons_and_thoughts_from_the_phoenix_project/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-phoenix-project-aca493bd15
 notAffiliateLink: https://www.indiebound.org/book/9781942788294
 affiliateLink: https://amzn.to/3yiHBF3
 hasSummaries: n
