@@ -78,11 +78,6 @@ module.exports = {
             use: "gridsome-plugin-tailwindcss",
         },
 
-        // Plausible
-        {
-            use: 'gridsome-plugin-plausible'
-        },
-
         // Sitemap
         {
             use: '@gridsome/plugin-sitemap',

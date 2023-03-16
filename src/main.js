@@ -153,4 +153,10 @@ export default function (Vue, { router, head, isClient }) {
     property: "twitter:image",
     content: "https://avatars.githubusercontent.com/u/8257474"
   })
+
+  head.script.push({
+    'src': "https://plausible.rasulkireev.com/js/script.js",
+    'defer': true,
+    'data-domain': "rasulkireev.com"
+  })
 }
