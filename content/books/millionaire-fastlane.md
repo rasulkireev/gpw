@@ -11,10 +11,10 @@ dateCreated: 2023-03-17
 dateUpdated: 2023-03-17
 category: "Finance"
 type: book
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1636888586908835840
+hnLink: https://news.ycombinator.com/item?id=35204757
+redditLink: https://www.reddit.com/r/BettermentBookClub/comments/11u9ez4/top_lessons_and_thoughts_from_the_millionaire/
+indiehackersLink: https://www.indiehackers.com/post/top-lessons-and-thoughts-from-the-millionaire-fastlane-43abc2ad8d
 notAffiliateLink: https://www.indiebound.org/book/9780984358106
 affiliateLink: https://amzn.to/42j1wSe
 hasSummaries: n
