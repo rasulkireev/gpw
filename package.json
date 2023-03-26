@@ -22,7 +22,7 @@
     "@zefman/gridsome-source-webmention": "^0.1.4",
     "algoliasearch": "^4.4.0",
     "axios": "^0.19.2",
-    "d3": "^5.16.0",
+    "d3": "^7.8.3",
     "d3-array": "^2.5.0",
     "d3-format": "^1.4.4",
     "d3-time": "^1.1.0",
