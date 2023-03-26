@@ -1,7 +1,7 @@
 ---
 title: Get a Newsletter
-dateCreated: 2023-03-18
-dateUpdated: 2023-03-18
+dateCreated: 2023-03-26
+dateUpdated: 2023-03-26
 published: true
 slug: get-a-newsletter
 icon: ./icons/envelope.png
@@ -13,10 +13,10 @@ keywords:
   - Online Friends
 category: Writing
 type: article
-twitterLink:
-hnLink:
-redditLink:
-indiehackersLink:
+twitterLink: https://twitter.com/rasulkireev/status/1640112288760754176
+hnLink: https://news.ycombinator.com/item?id=35320116
+redditLink: https://www.reddit.com/r/Newsletters/comments/1231gem/you_should_get_a_newsletter/
+indiehackersLink: https://www.indiehackers.com/post/you-should-get-a-newsletter-b80fac5701
 description: You really need to get a newsletter it is the best way to keep up with your online friends.
 ---
 
