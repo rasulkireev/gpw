@@ -6,6 +6,8 @@ published: true
 slug: designing-first-site
 icon: ./icons/web_design.svg
 unsplashImageID: DtDlVpy-vvQ
+aiImage:
+aiPrompt:
 keywords: [personalwebsite, webdesign, css, html]
 category: Design
 type: article

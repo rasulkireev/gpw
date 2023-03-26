@@ -6,6 +6,8 @@ published: true
 slug: 10-years-of-great-books
 icon: ./icons/reading.png
 unsplashImageID: YLSwjSy7stw
+aiImage:
+aiPrompt:
 keywords: ["reading", "classics", "great books"]
 category: Reading
 type: article

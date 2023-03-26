@@ -6,6 +6,8 @@ published: true
 slug: 2019-in-review
 icon: ./icons/2019_year.svg
 unsplashImageID: BFBAmGePnpU
+aiImage:
+aiPrompt:
 keywords: [2019, journal, review]
 category: Personal
 type: article

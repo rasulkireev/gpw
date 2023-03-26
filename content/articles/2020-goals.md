@@ -6,6 +6,8 @@ published: true
 slug: 2020-goals
 icon: ./icons/2020.svg
 unsplashImageID: aQfhbxailCs
+aiImage:
+aiPrompt:
 keywords: [2020, goals, habits, review]
 category: Personal
 type: article

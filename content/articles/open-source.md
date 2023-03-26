@@ -6,6 +6,8 @@ published: true
 slug: open-source
 icon: ./icons/open_source.svg
 unsplashImageID: R-HXWCbCBGU
+aiImage:
+aiPrompt:
 keywords: [opensource]
 category: Open Source
 type: article

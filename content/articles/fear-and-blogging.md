@@ -6,6 +6,8 @@ published: true
 slug: fear-and-blogging
 icon: ./icons/scream.svg
 unsplashImageID: Pe4gh8a8mBY
+aiImage:
+aiPrompt:
 keywords: [blogging, fear]
 category: Personal
 type: article

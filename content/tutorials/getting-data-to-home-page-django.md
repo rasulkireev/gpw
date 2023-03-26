@@ -6,6 +6,8 @@ published: true
 slug: django-get-context-data
 icon: ./icons/dj.png
 unsplashImageID: Q1p7bh3SHj8
+aiImage:
+aiPrompt:
 keywords: [django, context, tutorial]
 category: Django
 type: Tutorial

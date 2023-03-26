@@ -6,6 +6,8 @@ published: true
 slug: personal-space
 icon: ./icons/rocket_take_off.svg
 unsplashImageID: tH7eYi6p23s
+aiImage:
+aiPrompt:
 keywords: [personalspace, website, blog]
 category: "Personal"
 type: article

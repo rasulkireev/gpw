@@ -6,6 +6,8 @@ published: true
 slug: creating-ethereum-token-with-python
 icon: ./icons/ethereum.png
 unsplashImageID: 0bO235Rhqec
+aiImage:
+aiPrompt:
 keywords:
   - blockchain
   - ethereum

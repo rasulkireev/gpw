@@ -6,6 +6,8 @@ published: true
 slug: dealing-with-mild-depression
 icon: ./icons/straitjacket.svg
 unsplashImageID: Pv5WeEyxMWU
+aiImage:
+aiPrompt:
 keywords: [depression, psychology, selfhelp]
 category: Personal
 type: article

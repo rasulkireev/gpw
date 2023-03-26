@@ -6,6 +6,8 @@ published: true
 slug: 2022-goals
 icon: ./icons/soccer_goal.png
 unsplashImageID: YtLAiN5YJ-8
+aiImage:
+aiPrompt:
 keywords:
 - 2022
 - goals

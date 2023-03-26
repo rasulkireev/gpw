@@ -19,6 +19,8 @@ notAffiliateLink: http://classics.mit.edu/Plato/apology.html
 affiliateLink: https://amzn.to/3qYYdii
 hasSummaries: n
 unsplashImageID: nSpj-Z12lX0
+aiImage:
+aiPrompt:
 tags:
     - Philosophy
     - Death

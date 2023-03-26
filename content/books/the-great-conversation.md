@@ -19,6 +19,8 @@ notAffiliateLink: https://www.indiebound.org/book/9781014363824
 affiliateLink: https://amzn.to/3HS0tPn
 hasSummaries: n
 unsplashImageID: 96DW4Pow3qI
+aiImage:
+aiPrompt:
 tags:
     - Education
     - Philosophy

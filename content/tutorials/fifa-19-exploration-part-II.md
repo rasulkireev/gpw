@@ -6,6 +6,8 @@ published: true
 slug: fifa-data-exploration
 icon: ./icons/plotly.png
 unsplashImageID: mcSDtbWXUZU
+aiImage:
+aiPrompt:
 keywords: [opensource, plotly, pandas]
 category: Data Visualization
 type: Tutorial

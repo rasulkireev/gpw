@@ -18,6 +18,8 @@ notAffiliateLink: https://www.indiebound.org/book/9780226448077
 affiliateLink: https://amzn.to/3v3NliT
 hasSummaries: n
 unsplashImageID: OQMZwNd3ThU
+aiImage:
+aiPrompt:
 tags:
     - Writing
     - Economics

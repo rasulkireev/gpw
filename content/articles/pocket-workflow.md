@@ -6,6 +6,8 @@ published: true
 slug: "my-pocket-workflow"
 icon: "./icons/pocket.svg"
 unsplashImageID: "zMRLZh40kms"
+aiImage:
+aiPrompt:
 keywords: [joplin, productivity]
 category: "Productivity"
 type: article

@@ -6,6 +6,8 @@ published: true
 slug: pygotham-day-two
 icon: ./icons/pygotham.png
 unsplashImageID: uf2nnANWa8Q
+aiImage:
+aiPrompt:
 keywords: [conference, networking, pygotham, talks]
 category: Conferences
 type: article

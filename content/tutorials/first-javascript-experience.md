@@ -6,6 +6,8 @@ published: true
 slug: first-javascript-experience
 icon: ./icons/js.png
 unsplashImageID: O99bWwDMBa8
+aiImage:
+aiPrompt:
 keywords: [webapp, javascript, html]
 category: Javascript
 type: Tutorial

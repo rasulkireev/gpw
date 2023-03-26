@@ -18,6 +18,8 @@ notAffiliateLink: https://www.indiebound.org/book/9780761178972
 affiliateLink: https://amzn.to/30HsqEC
 hasSummaries: n
 unsplashImageID: 7okkFhxrxNw
+aiImage:
+aiPrompt:
 tags:
     - Creativity
     - Work in Public

@@ -18,6 +18,8 @@ notAffiliateLink: https://www.indiebound.org/book/9781439195468
 affiliateLink: https://amzn.to/3DcrRoE
 hasSummaries: n
 unsplashImageID: xE0b_dSVf7A
+aiImage:
+aiPrompt:
 tags:
   - "Buddhism"
   - "Psychology"

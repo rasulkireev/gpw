@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@vue/runtime-dom": "^3.2.47",
     "autoprefixer": "^9.8.6",
     "eslint": "^7.6.0",
     "eslint-plugin-gridsome": "^1.5.0",

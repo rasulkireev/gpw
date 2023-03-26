@@ -6,6 +6,8 @@ published: true
 slug: naruto-influence
 icon: ./icons/naruto_sign.svg
 unsplashImageID: lYHdizx3Aww
+aiImage:
+aiPrompt:
 keywords: [anime, naruto]
 category: Personal
 type: article

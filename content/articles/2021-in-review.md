@@ -6,6 +6,8 @@ published: true
 slug: "2021-in-review"
 icon: ./icons/review.png
 unsplashImageID: EcgyryGygeE
+aiImage:
+aiPrompt:
 keywords:
   - review
   - personal

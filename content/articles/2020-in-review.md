@@ -6,6 +6,8 @@ published: true
 slug: "2020"
 icon: ./icons/2020.png
 unsplashImageID: CjdsgW4cVSU
+aiImage:
+aiPrompt:
 keywords:
   - review
   - personal

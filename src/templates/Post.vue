@@ -7,6 +7,13 @@
       <VueRemarkContent></VueRemarkContent>
     </article>
 
+    <div class="flex flex-col items-center mb-10 space-y-0">
+      <g-image class="block w-auto p-0 m-0 rounded" :src="$page.post.aiImage" :alt="altText" />
+      <span class="text-sm text-gray-500 font-italic">
+        {{ $page.post.aiPrompt }}
+      </span>
+    </div>
+
     <socialShareButtons
       :title=$page.post.title
       :url='this.url'
@@ -53,6 +60,8 @@
       dateCreated (format: "MMMM D, Y")
       dateUpdated (format: "MMMM D, Y")
       unsplashImageID
+      aiImage
+      aiPrompt
       content
       icon
       path
@@ -114,7 +123,19 @@ export default {
   created() {
     if (this.$page) {
       this.title = this.$page.post.title
-      this.postImage = `https://ogi.sh?title=${this.title}&unsplashId=${this.$page.post.unsplashImageID}`
+      this.postImage = `https://ogi.sh/article?title=${this.title}&eyebrow=${this.$page.post.dateUpdated}`;
+
+      if (this.$page.post.description) {
+        this.postImage += `&subtitle=${this.$page.post.description}`;
+      }
+
+      if (this.$page.post.aiImage) {
+        this.altText = `MidJourney generated image for '${this.$page.post.title}' post`;
+        this.postImage += `&imageUrl=${this.$static.metadata.siteUrl}${this.$page.post.aiImage.src}`;
+      } else if (this.$page.post.unsplashImageID) {
+        this.postImage += `&unsplashId=${this.$page.post.unsplashImageID}`;
+      }
+
       this.description = this.$page.post.description
       this.url = `${this.$static.metadata.siteUrl}${this.$page.post.path}`
     }

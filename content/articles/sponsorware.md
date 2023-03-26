@@ -6,6 +6,8 @@ published: true
 slug: sponsorware
 icon: ./icons/crowdfunding.png
 unsplashImageID: 8I423fRMwjM
+aiImage:
+aiPrompt:
 keywords: [open-source, code, earning, bootstrapping]
 category: Open-Source
 type: article

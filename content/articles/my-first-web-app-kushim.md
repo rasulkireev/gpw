@@ -6,6 +6,8 @@ published: true
 slug: first-web-app
 icon: ./icons/kushim.png
 unsplashImageID: woWf_VJ7dNs
+aiImage:
+aiPrompt:
 keywords: [webapp, django, saas]
 category: Projects
 type: article

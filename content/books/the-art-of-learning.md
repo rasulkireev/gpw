@@ -19,6 +19,8 @@ notAffiliateLink: https://www.indiebound.org/book/9780743277464
 affiliateLink: https://amzn.to/3GcKREH
 hasSummaries: n
 unsplashImageID: nEbMedmVwgw
+aiImage:
+aiPrompt:
 tags:
     - Biography
     - Chess

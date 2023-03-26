@@ -19,6 +19,8 @@ notAffiliateLink: https://stephsmithio.gumroad.com/l/doing-content-right
 affiliateLink:
 hasSummaries: n
 unsplashImageID: NDLLFxTELrU
+aiImage:
+aiPrompt:
 tags:
     - Blogging
     - Writing

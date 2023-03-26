@@ -6,6 +6,8 @@ published: true
 slug: selling-info-products
 icon: ./icons/workspace.svg
 unsplashImageID: Hb6uWq0i4MI
+aiImage:
+aiPrompt:
 keywords: [microconf, talk, infoproduct, course, book]
 category: Entrepreneurship
 type: article

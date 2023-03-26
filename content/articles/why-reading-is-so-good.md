@@ -6,6 +6,8 @@ published: true
 slug: reading-is-good
 icon: ./icons/reading.svg
 unsplashImageID: XqXJJhK-c08
+aiImage:
+aiPrompt:
 keywords: [reading]
 category: Reading
 type: article
