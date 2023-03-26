@@ -7,7 +7,7 @@
       <VueRemarkContent></VueRemarkContent>
     </article>
 
-    <div class="flex flex-col items-center mb-10 space-y-0">
+    <div class="flex flex-col items-center mb-10 space-y-0" v-if="$page.post.aiImage">
       <g-image class="block w-auto p-0 m-0 rounded" :src="$page.post.aiImage" :alt="altText" />
       <span class="text-sm text-gray-500 font-italic">
         {{ $page.post.aiPrompt }}
