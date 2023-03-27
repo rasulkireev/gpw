@@ -63,3 +63,4 @@ Here is a list of free tools you can use (however, in my opinion [Buttondown](ht
 - [TinyLetter](https://tinyletter.com/)
 - [Substack](https://substack.com/)
 - [ListMonk](https://listmonk.app/)
+- [Beehiiv](https://www.beehiiv.com/)
