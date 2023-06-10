@@ -155,7 +155,7 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   head.script.push({
-    'src': "https://plausible.rasulkireev.com/js/script.js",
+    'src': "http://plausible.cr.lvtd.dev/js/script.js",
     'defer': true,
     'data-domain': "rasulkireev.com"
   })
