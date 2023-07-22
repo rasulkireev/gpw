@@ -6,7 +6,7 @@ published: true
 slug: get-a-newsletter
 icon: ./icons/envelope.png
 unsplashImageID: GjFbKfI874o
-aiImage:  ./images/a_smiling_boy_from_Pixars_Coco.png
+aiImage: ./images/a_smiling_boy_from_Pixars_Coco.png
 aiPrompt: a smiling boy from Pixar's Coco is sitting next to a pile of envelopes that he is putting letters into --v 5 --ar 2:1
 keywords:
   - Newsletter
