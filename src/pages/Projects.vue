@@ -15,15 +15,18 @@
         <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Current</h2>
           <ul>
-            <li> <a href="https://otbchess.org" target="_blank">OTBChess</a> - Community for people who like to play chess in real life. </li>
             <li> <a href="https://builtwithdjango.com" target="_blank">Built with Django</a> was built to highlight all things Django, mainly projects and makers. </li>
-            <li><a href="https://opensea.io/collection/cistercian-date-club" target="_blank">Cistercian Date Club</a> is an NFT collection that allows you to own a piece of history by owning a unique date.</li>
-            <li> <a href="https://github.com/rasulkireev/awesome-basb" target="_blank">Awesome BASB</a> a collection of Awesome "Building a Second Brain" resources. </li>
+            <li> <a href="https://gettalentleads.com" target="_blank">Talent Leads</a> helps startups find the Best Talent. </li>
+            <li> <a href="https://levreview.com" target="_blank">LevReview</a> was built to help local businesses get better reviews on Google. </li>
+            <li> <a href="https://gettjalerts.com" target="_blank">TJ Alerts</a> helps you stay on top of new jobs in the tech market. </li>
           </ul>
         </div>
         <div class="mx-auto mt-6 prose prose-lg text-gray-900 prose-indigo">
           <h2>Past</h2>
           <ul>
+            <li> <a href="https://github.com/rasulkireev/awesome-basb" target="_blank">Awesome BASB</a> a collection of Awesome "Building a Second Brain" resources. </li>
+            <li><a href="https://opensea.io/collection/cistercian-date-club" target="_blank">Cistercian Date Club</a> is an NFT collection that allows you to own a piece of history by owning a unique date.</li>
+            <li> <a href="https://otbchess.org" target="_blank">OTBChess</a> - Community for people who like to play chess in real life. </li>
             <li> <a href="https://github.com/rasulkireev/joplin-parse" target="_blank">Joplin Parse</a> is a Python library that helps you parse your Joplin notes in a format that can be used in a static site builder. </li>
             <li><a href="https://github.com/rasulkireev/kushim" target="_blank">Kushim</a> is an Open Source Life Management Tool I built as my first Django SaaS. This project didn't "get anywhere", but I learnt a ton! Still use some of the code I've written back then.</li>
             <li><a href="https://tolstoy-newsletter.herokuapp.com" target="_blank">Tolstoy Newsletter</a> is an automated newsletter that sends you a quote from Tolstoy Calendar every day.</li>
