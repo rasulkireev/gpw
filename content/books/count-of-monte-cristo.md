@@ -37,6 +37,10 @@ There is not much to summarize. This is a story of wrongful imprisonment and a d
 
 I don't have any learning from the book. This is something that I just enjoyed reading. At times it was a little slow, but other parts compensated with an extremely interesting plot twists and stories.
 
+- Is revenge a justified means of achieving justice or does it perpetuate a cycle of violence and destruction?
+- Analyze the transformations undergone by the main characters, particularly Edmond Dantès, as they navigate through their journey. How does one's understanding of self change over time? Is it possible to maintain one's true identity in the face of adversity?
+
+
 ## Highlights
 
 - Believe me, when a woman loves a man, you do not win her heart by crossing swords with him. (Location 1065)
