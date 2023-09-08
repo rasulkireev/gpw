@@ -12,7 +12,7 @@ keywords: [Balance, Spectrum, Life, Personal Growth, Focus]
 category: Personal
 type: article
 twitterLink: ""
-hnLink: ""
+hnLink: "https://news.ycombinator.com/item?id=37433553"
 redditLink: ""
 indiehackersLink: ""
 description: It pays to approach your life with the golden balance in mind.
