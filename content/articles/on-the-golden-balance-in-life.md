@@ -11,10 +11,10 @@ aiPrompt: a cratoon image of a boy doing tightrope walking on a golden rope betw
 keywords: [Balance, Spectrum, Life, Personal Growth, Focus]
 category: Personal
 type: article
-twitterLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1700146715771224255"
 hnLink: "https://news.ycombinator.com/item?id=37433553"
 redditLink: ""
-indiehackersLink: ""
+indiehackersLink: "https://www.indiehackers.com/post/on-the-golden-balance-in-life-053072ff37"
 description: It pays to approach your life with the golden balance in mind.
 ---
 
