@@ -11,8 +11,8 @@ aiPrompt: you are the problem --v 5.2 --ar 2:1
 keywords: ["Self-Reflection", "Psychology"]
 category: Self-Reflection
 type: article
-twitterLink: ""
-hnLink: ""
+twitterLink: "https://twitter.com/rasulkireev/status/1706627716546470313"
+hnLink: "https://news.ycombinator.com/item?id=37657547"
 redditLink: ""
 indiehackersLink: ""
 description: We always blame the other person for being hard to deal with, but it is likely that you are the problem.
