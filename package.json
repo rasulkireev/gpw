@@ -42,7 +42,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-gridsome": "^1.6.2",
     "gridsome-plugin-tailwindcss": "^3.0.1",
-    "postcss": "^7.0.39",
+    "postcss": "^8.4.31",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue-eslint-parser": "^7.11.0"
   }
